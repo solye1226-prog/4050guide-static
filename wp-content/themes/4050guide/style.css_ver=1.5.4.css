@@ -86,6 +86,9 @@ a{color:inherit}
 .guide-quick-links a{display:block;padding:14px 15px;background:#fff;border:1px solid #dbe4f0;border-radius:8px;color:var(--navy);text-decoration:none;font-weight:850;line-height:1.45}
 .guide-quick-links a:hover{border-color:#c7d7ef;color:var(--accent);background:#f8fbff}
 .guide-quick-links span{display:block;margin-bottom:4px;color:var(--accent);font-size:12px;font-weight:900}
+@media (max-width:1100px){
+  .guide-focus-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 .study-board{background:#fff;border:1px solid var(--line);border-radius:8px;padding:28px}
 .study-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .study-guide-card{position:relative;display:flex;flex-direction:column;min-height:230px;padding:22px;background:#f8fbff;border:1px solid #dbeafe;border-radius:8px;text-decoration:none;color:var(--text);overflow:hidden;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
@@ -313,8 +316,12 @@ a{color:inherit}
   .hero{padding:58px 16px 48px}
   .hero p{font-size:16px}
   .feature-band,.cats,.grid,.situation-grid{grid-template-columns:1fr}
-  .topic-grid,.tool-grid,.data-tools,.live-grid,.official-data-grid,.archive-grid,.source-grid,.series-grid,.guide-showcase,.guide-quick-links,.study-guide-grid{grid-template-columns:1fr}
+  .topic-grid,.tool-grid,.data-tools,.live-grid,.official-data-grid,.archive-grid,.source-grid,.series-grid,.guide-showcase,.guide-focus-list,.guide-quick-links,.study-guide-grid{grid-template-columns:1fr}
   .guide-lead-card{grid-template-columns:1fr;min-height:0}
+  .guide-library{padding:20px}
+  .guide-lead-card{padding:20px}
+  .guide-lead-card h3{font-size:22px}
+  .guide-focus-card{min-height:0}
   .guide-lead-panel{display:none}
   .exam-card-grid{grid-template-columns:1fr}
   .exam-schedule-board .exam-card-grid{grid-template-columns:1fr}
