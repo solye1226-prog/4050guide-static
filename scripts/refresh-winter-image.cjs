@@ -1,0 +1,13 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const asset = '/assets/energy-voucher-winter-2026.webp';
+const template = path.join(__dirname, 'home-template.html');
+fs.writeFileSync(template, fs.readFileSync(template, 'utf8').replace('/wp-content/uploads/2026/06/energy-voucher-parent-check-2026-cardnews.png', asset));
+const file = path.join(root, '2026-여름-에너지바우처-부모님-대신-확인할-것', 'index.html');
+let html = fs.readFileSync(file, 'utf8');
+html = html.replace(/<img\b[^>]*energy-voucher-parent-check[^>]*>/, `<img width="1200" height="750" src="${asset}" alt="겨울 에너지바우처의 대상 조건과 요금차감, 카드 사용을 설명하는 AI 제작 카드뉴스" decoding="async" fetchpriority="high">`);
+html = html.replace(/"image":"https:\/\/4050guide.co.kr\/wp-content\/uploads\/2026\/06\/energy-voucher-parent-check[^\"]*"/, `"image":"https://4050guide.co.kr${asset}"`);
+html = html.replace('<span class="status-badge">여름 지원금</span>', '<span class="status-badge">겨울 난방비</span>');
+fs.writeFileSync(file, html);
+console.log('Updated winter illustration and article badge');
