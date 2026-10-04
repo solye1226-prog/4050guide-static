@@ -1,6 +1,6 @@
 .home{background:#fff;color:#242c2b}
 .home-main{padding-bottom:32px}
-.home-main *{letter-spacing:0}
+.home-main *{letter-spacing:0;word-break:keep-all;overflow-wrap:anywhere}
 .home-main h1,.home-main h2,.home-main h3{color:#242c2b;overflow-wrap:anywhere}
 .home-masthead{padding:38px 0 28px;border-bottom:1px solid #dce4e0}
 .home-eyebrow{margin:0 0 6px;color:#25705b;font-size:13px;font-weight:800}
@@ -61,3 +61,4 @@
  .home-directory-grid{grid-template-columns:1fr 1fr;gap:22px}.home-directory-grid>div:last-child{grid-column:1/-1}
 }
 @media(prefers-reduced-motion:reduce){.home-main *{scroll-behavior:auto}}
+@media(max-width:360px){.home-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
