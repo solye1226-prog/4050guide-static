@@ -2,7 +2,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require('playwright');
 const root=path.resolve(__dirname,'..');
-const date='2026-10-06';
+const date=process.env.PUBLISH_DATE||new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date());
+if(!/^\d{4}-\d{2}-\d{2}$/.test(date))throw new Error('PUBLISH_DATE must be YYYY-MM-DD');
+const displayDate=value=>value.split('-').map((n,i)=>Number(n)+['년','월','일'][i]).join(' ');
 const data=require(path.resolve(__dirname,process.argv[2]||'editorial-refresh-data.cjs'));
 const escape=text=>String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 async function run() {
@@ -14,6 +16,7 @@ async function run() {
   data.forEach(g=>titleMap.set('/'+g.slug+'/',g.title));
   const changedTitles=[];
   for(const [i,g] of data.entries()) {
+   const verifiedDate=g.verifiedAt||date;
    const file=path.join(root,g.slug,'index.html');
    const exists=fs.existsSync(file);
    if(!exists&&!g.image)throw new Error('Missing new illustration '+g.slug);
@@ -28,9 +31,9 @@ async function run() {
    const retainedHero=preserved.hero.replace(/<span\b[^>]*>[\s\S]*?<\/span>/g,'').replace(/\balt=""/,`alt="${escape(g.label+' 설명용 이미지')}"`).replace(/[\t ]+(?=\r?$)/gm,'');
    const hero=g.image?`<figure class="detail-hero-image"><img width="1200" height="750" src="${escape(g.image)}" alt="${escape(g.imageAlt||g.title+' 설명용 AI 카드뉴스')}" fetchpriority="high" decoding="async"><figcaption class="editorial-image-caption">AI 제작 설명용 이미지 · 공식 안내문이나 실제 이용자 후기가 아닙니다.</figcaption></figure>`:retainedHero;
    const faq='<h2>자주 묻는 질문</h2>'+g.faq.map(([q,a])=>`<h3>${escape(q)}</h3><p>${escape(a)}</p>`).join('\n');
-   const sources='<section class="editorial-sources"><h2>공식 자료와 확인일</h2><p>2026년 10월 6일 확인한 자료와 편집자의 준비 제안을 구분해 정리했습니다. 개인별 계약·지원 자격·처리 결과는 해당 기관에서 확인하세요.</p><ul>'+g.sources.map(([title,href])=>`<li><a href="${escape(href)}" target="_blank" rel="noopener noreferrer">${escape(title)}</a></li>`).join('')+'</ul></section>';
+   const sources='<section class="editorial-sources"><h2>공식 자료와 확인일</h2><p>'+displayDate(verifiedDate)+' 확인한 자료와 편집자의 준비 제안을 구분해 정리했습니다. 개인별 계약·지원 자격·처리 결과는 해당 기관에서 확인하세요.</p><ul>'+g.sources.map(([title,href])=>`<li><a href="${escape(href)}" target="_blank" rel="noopener noreferrer">${escape(title)}</a></li>`).join('')+'</ul></section>';
    const related='<section class="guide-related-posts"><h2>다음 단계로 읽을 글</h2><ul>'+g.related.map(slug=>{const title=titleMap.get('/'+slug+'/');if(!title)throw new Error('Missing related title '+slug);return `<li><a href="/${slug}/">${escape(title)}</a></li>`}).join('')+'</ul></section>';
-   const content=`<main class="main"><div class="wrap"><article class="detail-layout"><div class="detail-main">${hero}<header class="detail-title"><span class="tag">${escape(g.label)}</span><h1>${escape(g.title)}</h1><p>${escape(g.intro)}</p><p class="editorial-byline">4050가이드 편집 · ${exists?'내용 확인':'발행'} ${date} · <a href="/정보-출처-및-면책-안내/">작성 기준</a></p></header><div class="content detail-content">${g.body}${exists&&g.keepFigures!==false?preserved.figures:''}${faq}${sources}${related}</div></div><aside class="detail-side" aria-label="핵심 정보"><div class="info-panel"><h2>핵심 정보</h2><dl><div><dt>분야</dt><dd>${escape(g.label)}</dd></div><div><dt>확인할 것</dt><dd>${escape(g.check||'조건·비용·실제 안내 비교')}</dd></div><div><dt>출처</dt><dd>${escape(g.sources[0][0])}</dd></div><div><dt>업데이트</dt><dd>2026년 10월 6일</dd></div></dl><a class="panel-button" href="${escape(g.sources[0][1])}" target="_blank" rel="noopener noreferrer">공식 안내 확인</a><a class="panel-subbutton" href="/category/${g.category}/">관련 글 더 보기</a></div></aside></article></div></main>`;
+   const content=`<main class="main"><div class="wrap"><article class="detail-layout"><div class="detail-main">${hero}<header class="detail-title"><span class="tag">${escape(g.label)}</span><h1>${escape(g.title)}</h1><p>${escape(g.intro)}</p><p class="editorial-byline">4050가이드 편집 · ${exists?'내용 확인':'발행'} ${date} · <a href="/정보-출처-및-면책-안내/">작성 기준</a></p></header><div class="content detail-content">${g.body}${exists&&g.keepFigures!==false?preserved.figures:''}${faq}${sources}${related}</div></div><aside class="detail-side" aria-label="핵심 정보"><div class="info-panel"><h2>핵심 정보</h2><dl><div><dt>분야</dt><dd>${escape(g.label)}</dd></div><div><dt>확인할 것</dt><dd>${escape(g.check||'조건·비용·실제 안내 비교')}</dd></div><div><dt>출처</dt><dd>${escape(g.sources[0][0])}</dd></div><div><dt>업데이트</dt><dd>${displayDate(date)}</dd></div></dl><a class="panel-button" href="${escape(g.sources[0][1])}" target="_blank" rel="noopener noreferrer">공식 안내 확인</a><a class="panel-subbutton" href="/category/${g.category}/">관련 글 더 보기</a></div></aside></article></div></main>`;
    let html=old.replace(/<main\b[\s\S]*?<\/main>/,content).replace(/<link\b[^>]*href="\/assets\/editorial.css"[^>]*>\s*/g,'');
    html=html.replace(/<title>[\s\S]*?<\/title>/,`<title>${escape(g.title)} - 4050가이드</title>`);
    html=html.replace(/(<meta[^>]*(?:name|property)="(?:description|og:description|twitter:description)"[^>]*content=")[^"]*(")/g,(_,a,b)=>a+escape(g.description)+b);

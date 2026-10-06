@@ -4,7 +4,8 @@ const path=require('node:path');
 const http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const fresh=require('./new-posts-20261006.cjs');
+const newest=require('./practical-posts-20261006.cjs');
+const fresh=[...require('./new-posts-20261006.cjs'),...newest];
 const guides=require('./editorial-refresh-data.cjs');
 const followup=require('./editorial-followup-data.cjs');
 const remote=process.env.TEST_ORIGIN;
@@ -33,8 +34,17 @@ async function run(){
     await page.locator('.detail-hero-image img').evaluate(img=>img.decode());
     assert.ok(await page.locator('.detail-content').innerText().then(s=>s.length>1600),post.slug+' substantive body');
     assert.equal(await page.locator('.detail-content h2').filter({hasText:'자주 묻는 질문'}).count(),1);
-    assert.equal(await page.locator('.guide-related-posts').count(),1);
-    assert.equal(await page.locator('.editorial-sources').count(),1);
+   assert.equal(await page.locator('.guide-related-posts').count(),1);
+   assert.equal(await page.locator('.editorial-sources').count(),1);
+   if(newest.includes(post)){
+    assert.ok(await page.locator('.detail-content').innerText().then(s=>s.length>=1800));
+    assert.equal(await page.locator('.detail-content h3').count(),3);
+    assert.equal(await page.locator('.detail-main img').count(),1);
+    assert.equal(await page.locator('.detail-hero-image img').getAttribute('width'),'1200');
+    assert.equal(await page.locator('.detail-hero-image img').getAttribute('height'),'750');
+    assert.ok(await page.locator('.editorial-sources').innerText().then(s=>s.includes('2026년 10월 6일')));
+    assert.equal(await page.locator('.detail-side').innerText().then(s=>s.includes(post.check)),true);
+   }
     if(followup.includes(post)){
      assert.equal(await page.locator('.detail-main img').count(),1,post.slug+' keep topic image only');
      assert.equal(await page.locator('.detail-hero-image .status-badge').count(),0);
@@ -50,6 +60,7 @@ async function run(){
     if(width===1280){const main=await page.locator('.detail-main').boundingBox(),side=await page.locator('.detail-side').boundingBox();assert.ok(side.x>=main.x+main.width-1,post.slug+' sidebar right');}
    }
    await page.goto(origin+'/');assert.equal(await page.locator('.home-recent-list li').count(),10);
+   for(const post of newest)assert.equal(await page.locator(`.home-recent-list a[href="/${post.slug}/"]`).count(),1);
    assert.equal(await page.locator('.home-hubs a').count(),4);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'home '+width);
    for(const category of new Set(fresh.map(p=>p.category))){
@@ -62,7 +73,7 @@ async function run(){
   const sitemap=await page.request.get(origin+'/sitemap.xml');const xml=await sitemap.text();for(const p of fresh)assert.ok(xml.includes('https://4050guide.co.kr/'+p.slug+'/'));
   assert.deepEqual(errors,[]);
   const output=path.resolve(root,'..','editorial-qa-20261006');fs.mkdirSync(output,{recursive:true});
-  for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+fresh[0].slug+'/');await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
+  for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+newest[0].slug+'/');await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
   for(const width of [1280,390]){
    await page.setViewportSize({width,height:900});
    for(const post of [followup[0],followup[3],followup[9]]){
@@ -71,7 +82,7 @@ async function run(){
    }
   }
   const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(origin+'/'+fresh[0].slug+'/');assert.equal(await staticPage.locator('h1').innerText(),fresh[0].title);await nojs.close();
-  console.log('PASS: 25 articles, 3 viewports, desktop sidebars, topic images, four hubs, home/categories, sitemap, schema and no-JS content');
+  console.log('PASS: 35 articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
  }finally{await browser.close();if(!remote)await new Promise(r=>server.close(r));}
 }
 run().catch(e=>{console.error(e);process.exitCode=1});
