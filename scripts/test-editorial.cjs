@@ -6,6 +6,7 @@ const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
 const fresh=require('./new-posts-20261006.cjs');
 const guides=require('./editorial-refresh-data.cjs');
+const followup=require('./editorial-followup-data.cjs');
 const remote=process.env.TEST_ORIGIN;
 const server=http.createServer((req,res)=>{
  let file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
@@ -24,7 +25,7 @@ async function run(){
   await page.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
   for(const width of [1280,390,320]){
    await page.setViewportSize({width,height:900});
-   for(const post of [...guides,...fresh]){
+   for(const post of [...guides,...fresh,...followup]){
     const response=await page.goto(origin+'/'+post.slug+'/');assert.equal(response.status(),200,post.slug);
     assert.equal(await page.locator('h1').innerText(),post.title);
     assert.equal(await page.locator('link[rel=canonical]').count(),1);
@@ -34,6 +35,14 @@ async function run(){
     assert.equal(await page.locator('.detail-content h2').filter({hasText:'자주 묻는 질문'}).count(),1);
     assert.equal(await page.locator('.guide-related-posts').count(),1);
     assert.equal(await page.locator('.editorial-sources').count(),1);
+    if(followup.includes(post)){
+     assert.equal(await page.locator('.detail-main img').count(),1,post.slug+' keep topic image only');
+     assert.equal(await page.locator('.detail-hero-image .status-badge').count(),0);
+     assert.ok(await page.locator('.detail-hero-image img').getAttribute('alt'));
+     const body=await page.locator('.detail-content').innerText();
+     assert.ok(!/4050 세대도 준비하기 늦지|확인해야 할 기본 조건/.test(body),post.slug+' remove template filler');
+     assert.ok(!post.title.includes(':'));
+    }
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,post.slug+' '+width+' overflow');
     const schema=await page.locator('script[type="application/ld+json"]').evaluateAll(ss=>ss.map(s=>JSON.parse(s.textContent)).find(s=>s['@type']==='BlogPosting'));
     assert.equal(schema.dateModified,'2026-10-06');assert.equal(schema.headline,post.title);
@@ -41,6 +50,7 @@ async function run(){
     if(width===1280){const main=await page.locator('.detail-main').boundingBox(),side=await page.locator('.detail-side').boundingBox();assert.ok(side.x>=main.x+main.width-1,post.slug+' sidebar right');}
    }
    await page.goto(origin+'/');assert.equal(await page.locator('.home-recent-list li').count(),10);
+   assert.equal(await page.locator('.home-hubs a').count(),4);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'home '+width);
    for(const category of new Set(fresh.map(p=>p.category))){
     await page.goto(origin+'/category/'+category+'/');
@@ -53,8 +63,15 @@ async function run(){
   assert.deepEqual(errors,[]);
   const output=path.resolve(root,'..','editorial-qa-20261006');fs.mkdirSync(output,{recursive:true});
   for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+fresh[0].slug+'/');await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
+  for(const width of [1280,390]){
+   await page.setViewportSize({width,height:900});
+   for(const post of [followup[0],followup[3],followup[9]]){
+    await page.goto(origin+'/'+post.slug+'/');
+    await page.screenshot({path:path.join(output,post.slug+'-'+width+'.png')});
+   }
+  }
   const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(origin+'/'+fresh[0].slug+'/');assert.equal(await staticPage.locator('h1').innerText(),fresh[0].title);await nojs.close();
-  console.log('PASS: 15 articles, 3 viewports, desktop sidebars, ten images, home/categories, sitemap, schema and no-JS content');
+  console.log('PASS: 25 articles, 3 viewports, desktop sidebars, topic images, four hubs, home/categories, sitemap, schema and no-JS content');
  }finally{await browser.close();if(!remote)await new Promise(r=>server.close(r));}
 }
 run().catch(e=>{console.error(e);process.exitCode=1});
