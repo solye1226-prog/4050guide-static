@@ -16,6 +16,7 @@ async function run() {
   data.forEach(g=>titleMap.set('/'+g.slug+'/',g.title));
   const changedTitles=[];
   for(const [i,g] of data.entries()) {
+   if(g.publishedAt&&!/^\d{4}-\d{2}-\d{2}$/.test(g.publishedAt))throw new Error('publishedAt must be YYYY-MM-DD');
    const verifiedDate=g.verifiedAt||date;
    const file=path.join(root,g.slug,'index.html');
    const exists=fs.existsSync(file);
@@ -43,7 +44,8 @@ async function run() {
    html=html.replace(/<link\b[^>]*rel="canonical"[^>]*>\s*/g,'').replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g,'');
    html=html.replace(/<link\b[^>]*(?:wp-json|xmlrpc|rss\+xml)[^>]*>\s*/g,'').replace(/<meta\b[^>]*name="generator"[^>]*>\s*/g,'');
    const schema={'@context':'https://schema.org','@type':'BlogPosting',headline:g.title,description:g.description,dateModified:date,image:new URL(image,url).href,author:{'@type':'Organization',name:'4050가이드',url:'https://4050guide.co.kr/소개/'},publisher:{'@type':'Organization',name:'4050가이드'},mainEntityOfPage:url,inLanguage:'ko-KR'};
-   if(!exists)schema.datePublished=date;
+   if(g.publishedAt)schema.datePublished=g.publishedAt;
+   else if(!exists)schema.datePublished=date;
    else if(preserved.datePublished)schema.datePublished=preserved.datePublished;
    html=html.replace('</head>',`<link rel="canonical" href="${url}">\n<link rel="stylesheet" href="/assets/editorial.css">\n<script type="application/ld+json">${JSON.stringify(schema)}</script>\n</head>`);
    fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html);

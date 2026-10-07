@@ -37,7 +37,7 @@ async function run() {
         if (!fs.existsSync(file)) broken.push({page:item.file, href:a.href, text:a.text});
       }
     }
-    const report = {date:'2026-10-06',pages:parsed.length,posts:posts.map(({anchors,...p})=>p),broken,summary:{articles:posts.length,brokenLinks:broken.length,shortHubPages:posts.filter(p=>p.chars<1200).length,genericPages:posts.filter(p=>p.generic).length,duplicateCanonicalPages:parsed.filter(p=>p.canonical.length>1).length,articlesWithoutBodySources:posts.filter(p=>p.sources===0).length}};
+    const report = {date:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date()),pages:parsed.length,posts:posts.map(({anchors,...p})=>p),broken,summary:{articles:posts.length,brokenLinks:broken.length,shortHubPages:posts.filter(p=>p.chars<1200).length,genericPages:posts.filter(p=>p.generic).length,duplicateCanonicalPages:parsed.filter(p=>p.canonical.length>1).length,articlesWithoutBodySources:posts.filter(p=>p.sources===0).length}};
     fs.writeFileSync(path.join(root,'scripts','content-audit.json'),JSON.stringify(report,null,2)+'\n');
     console.log(JSON.stringify(report.summary));
     console.log('SHORT',JSON.stringify(posts.filter(p=>p.chars<1200).map(p=>({file:p.file,title:p.title,chars:p.chars}))));
