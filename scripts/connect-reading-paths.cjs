@@ -24,7 +24,7 @@ for(const entry of fs.readdirSync(root,{withFileTypes:true})) {
  let html=fs.readFileSync(file,'utf8');
  if(!html.includes('editorial-archive-note')) {
   html=html.replace(/(<div class="content detail-content">)/,'$1<p class="editorial-archive-note">이 글에는 당시의 신청기간이나 시험 회차 안내가 포함되어 있습니다. 2026년 10월 이후의 접수 가능 여부는 연결된 공식 공고에서 확인하세요. 지난 일정을 현재 접수기간으로 적용하지 마세요.</p>');
-  if(!html.includes('/assets/editorial.css'))html=html.replace('</head>','<link rel="stylesheet" href="/assets/editorial.css">\n</head>');
+  if(!html.includes('/assets/editorial.css'))html=html.replace('</head>','<link rel="stylesheet" href="/assets/editorial.css?v=20261008-2">\n</head>');
   fs.writeFileSync(file,html);dated++;
  }
 }

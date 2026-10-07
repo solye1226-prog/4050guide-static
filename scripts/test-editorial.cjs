@@ -48,6 +48,8 @@ async function run(){
    for(const post of [...guides,...fresh,...followup]){
     const response=await page.goto(origin+'/'+post.slug+'/');assert.equal(response.status(),200,post.slug);
     assert.equal(await page.locator('h1').innerText(),post.title);
+    assert.equal(await page.locator('link[rel="stylesheet"][href^="/assets/editorial.css"]').count(),1);
+    assert.equal(await page.locator('link[rel="stylesheet"][href^="/assets/editorial.css"]').getAttribute('href'),'/assets/editorial.css?v=20261008-2');
     assert.equal(await page.locator('link[rel=canonical]').count(),1);
     assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://4050guide.co.kr/'+post.slug+'/');
     await page.locator('.detail-hero-image img').evaluate(img=>img.decode());

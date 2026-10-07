@@ -8,7 +8,7 @@
     license: ['Q-Net', 'https://www.q-net.or.kr/'],
   };
   let indexPromise;
-  const loadIndex = () => indexPromise ||= fetch('/assets/search-index.json').then(response => {
+  const loadIndex = () => indexPromise ||= fetch('/assets/search-index.json', { cache: 'no-store' }).then(response => {
     if (!response.ok) throw new Error('Search index unavailable');
     return response.json();
   });

@@ -35,7 +35,7 @@ async function run() {
    const sources='<section class="editorial-sources"><h2>공식 자료와 확인일</h2><p>'+displayDate(verifiedDate)+' 확인한 자료와 편집자의 준비 제안을 구분해 정리했습니다. 개인별 계약·지원 자격·처리 결과는 해당 기관에서 확인하세요.</p><ul>'+g.sources.map(([title,href])=>`<li><a href="${escape(href)}" target="_blank" rel="noopener noreferrer">${escape(title)}</a></li>`).join('')+'</ul></section>';
    const related='<section class="guide-related-posts"><h2>다음 단계로 읽을 글</h2><ul>'+g.related.map(slug=>{const title=titleMap.get('/'+slug+'/');if(!title)throw new Error('Missing related title '+slug);return `<li><a href="/${slug}/">${escape(title)}</a></li>`}).join('')+'</ul></section>';
    const content=`<main class="main"><div class="wrap"><article class="detail-layout"><div class="detail-main">${hero}<header class="detail-title"><span class="tag">${escape(g.label)}</span><h1>${escape(g.title)}</h1><p>${escape(g.intro)}</p><p class="editorial-byline">4050가이드 편집 · ${exists?'내용 확인':'발행'} ${date} · <a href="/정보-출처-및-면책-안내/">작성 기준</a></p></header><div class="content detail-content">${g.body}${exists&&g.keepFigures!==false?preserved.figures:''}${faq}${sources}${related}</div></div><aside class="detail-side" aria-label="핵심 정보"><div class="info-panel"><h2>핵심 정보</h2><dl><div><dt>분야</dt><dd>${escape(g.label)}</dd></div><div><dt>확인할 것</dt><dd>${escape(g.check||'조건·비용·실제 안내 비교')}</dd></div><div><dt>출처</dt><dd>${escape(g.sources[0][0])}</dd></div><div><dt>업데이트</dt><dd>${displayDate(date)}</dd></div></dl><a class="panel-button" href="${escape(g.sources[0][1])}" target="_blank" rel="noopener noreferrer">공식 안내 확인</a><a class="panel-subbutton" href="/category/${g.category}/">관련 글 더 보기</a></div></aside></article></div></main>`;
-   let html=old.replace(/<main\b[\s\S]*?<\/main>/,content).replace(/<link\b[^>]*href="\/assets\/editorial.css"[^>]*>\s*/g,'');
+   let html=old.replace(/<main\b[\s\S]*?<\/main>/,content).replace(/<link\b[^>]*href="\/assets\/editorial\.css(?:\?[^\"]*)?"[^>]*>\s*/g,'');
    html=html.replace(/<title>[\s\S]*?<\/title>/,`<title>${escape(g.title)} - 4050가이드</title>`);
    html=html.replace(/(<meta[^>]*(?:name|property)="(?:description|og:description|twitter:description)"[^>]*content=")[^"]*(")/g,(_,a,b)=>a+escape(g.description)+b);
    html=html.replace(/(<meta[^>]*(?:name|property)="(?:og:title|twitter:title)"[^>]*content=")[^"]*(")/g,(_,a,b)=>a+escape(g.title)+b);
@@ -47,7 +47,7 @@ async function run() {
    if(g.publishedAt)schema.datePublished=g.publishedAt;
    else if(!exists)schema.datePublished=date;
    else if(preserved.datePublished)schema.datePublished=preserved.datePublished;
-   html=html.replace('</head>',`<link rel="canonical" href="${url}">\n<link rel="stylesheet" href="/assets/editorial.css">\n<script type="application/ld+json">${JSON.stringify(schema)}</script>\n</head>`);
+   html=html.replace('</head>',`<link rel="canonical" href="${url}">\n<link rel="stylesheet" href="/assets/editorial.css?v=20261008-2">\n<script type="application/ld+json">${JSON.stringify(schema)}</script>\n</head>`);
    fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html);
    console.log(`${exists?'UPDATED':'CREATED'} ${i+1}/${data.length} ${g.slug}`);
   }

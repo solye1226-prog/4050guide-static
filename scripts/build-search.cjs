@@ -64,8 +64,8 @@ async function build() {
         if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
         let html = fs.readFileSync(file, 'utf8');
         html = html.replace(/30분 단위 갱신/g, '공식 자료 저장본');
-        if (!html.includes('src="/assets/search.js"')) {
-          html = html.replace('</head>', '<link rel="stylesheet" href="/assets/search.css">\n<script defer src="/assets/search.js"></script>\n</head>');
+        if (!/src="\/assets\/search\.js(?:\?[^\"]*)?"/.test(html)) {
+          html = html.replace('</head>', '<link rel="stylesheet" href="/assets/search.css">\n<script defer src="/assets/search.js?v=20261008-2"></script>\n</head>');
         }
         html = html.replace(/href="index\.html_(welfare_q|benefit_q|license_q)=([^"]+)\.html"/g,
           (_, parameter, keyword) => `href="?${parameter}=${encodeURIComponent(keyword)}"`);
