@@ -4,8 +4,9 @@ const path=require('node:path');
 const http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const newest=require('./practical-posts-20261006.cjs');
-const fresh=[...require('./new-posts-20261006.cjs'),...newest];
+const newest=require('./posts-20261007.cjs');
+const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs')];
+const fresh=[...previous,...newest];
 const guides=require('./editorial-refresh-data.cjs');
 const followup=require('./editorial-followup-data.cjs');
 const remote=process.env.TEST_ORIGIN;
@@ -42,7 +43,7 @@ async function run(){
     assert.equal(await page.locator('.detail-main img').count(),1);
     assert.equal(await page.locator('.detail-hero-image img').getAttribute('width'),'1200');
     assert.equal(await page.locator('.detail-hero-image img').getAttribute('height'),'750');
-    assert.ok(await page.locator('.editorial-sources').innerText().then(s=>s.includes('2026년 10월 6일')));
+    assert.ok(await page.locator('.editorial-sources').innerText().then(s=>s.includes(post.verifiedAt.replace(/^(\d{4})-(\d{2})-(\d{2})$/,(_,y,m,d)=>`${Number(y)}년 ${Number(m)}월 ${Number(d)}일`))));
     assert.equal(await page.locator('.detail-side').innerText().then(s=>s.includes(post.check)),true);
    }
     if(followup.includes(post)){
@@ -55,8 +56,8 @@ async function run(){
     }
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,post.slug+' '+width+' overflow');
     const schema=await page.locator('script[type="application/ld+json"]').evaluateAll(ss=>ss.map(s=>JSON.parse(s.textContent)).find(s=>s['@type']==='BlogPosting'));
-    assert.equal(schema.dateModified,'2026-10-06');assert.equal(schema.headline,post.title);
-    if(fresh.includes(post)){assert.equal(schema.datePublished,'2026-10-06');assert.ok(!post.title.includes(':'));}
+    assert.equal(schema.dateModified,post.verifiedAt||'2026-10-06');assert.equal(schema.headline,post.title);
+    if(fresh.includes(post)){assert.equal(schema.datePublished,post.verifiedAt||'2026-10-06');assert.ok(!post.title.includes(':'));}
     if(width===1280){const main=await page.locator('.detail-main').boundingBox(),side=await page.locator('.detail-side').boundingBox();assert.ok(side.x>=main.x+main.width-1,post.slug+' sidebar right');}
    }
    await page.goto(origin+'/');assert.equal(await page.locator('.home-recent-list li').count(),10);
@@ -72,7 +73,7 @@ async function run(){
   for(const post of fresh){const r=await page.request.get(origin+post.image);assert.equal(r.status(),200);assert.ok((await r.body()).length<200000);}
   const sitemap=await page.request.get(origin+'/sitemap.xml');const xml=await sitemap.text();for(const p of fresh)assert.ok(xml.includes('https://4050guide.co.kr/'+p.slug+'/'));
   assert.deepEqual(errors,[]);
-  const output=path.resolve(root,'..','editorial-qa-20261006');fs.mkdirSync(output,{recursive:true});
+  const output=path.resolve(root,'..','editorial-qa-20261007');fs.mkdirSync(output,{recursive:true});
   for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+newest[0].slug+'/');await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
   for(const width of [1280,390]){
    await page.setViewportSize({width,height:900});
@@ -82,7 +83,7 @@ async function run(){
    }
   }
   const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(origin+'/'+fresh[0].slug+'/');assert.equal(await staticPage.locator('h1').innerText(),fresh[0].title);await nojs.close();
-  console.log('PASS: 35 articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
+  console.log('PASS: 45 articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
  }finally{await browser.close();if(!remote)await new Promise(r=>server.close(r));}
 }
 run().catch(e=>{console.error(e);process.exitCode=1});

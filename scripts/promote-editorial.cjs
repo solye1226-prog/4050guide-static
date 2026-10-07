@@ -3,7 +3,7 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const dataset=process.argv[2];
 const posts=require(dataset?path.resolve(__dirname,dataset):'./new-posts-20261006.cjs');
-const batch=dataset?'practical-posts':'recent-posts';
+const batch=dataset?path.basename(dataset,'.cjs').replace(/[^a-z0-9-]/gi,'-'):'recent-posts';
 const date=posts[0].verifiedAt||'2026-10-06';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 const marker=(name,body)=>`<!-- ${name}:start -->\n${body}\n<!-- ${name}:end -->`;
