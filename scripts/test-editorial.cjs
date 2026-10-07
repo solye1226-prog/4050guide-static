@@ -4,9 +4,9 @@ const path=require('node:path');
 const http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const newest=require('./cert-posts-20261008.cjs');
-const featured=require('./cert-promote-20261008-b.cjs');
-const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs'),...require('./posts-20261007.cjs'),...require('./posts-20261007-approved.cjs'),...require('./cert-posts-20261007.cjs')];
+const newest=require('./cert3-posts-20261008.cjs');
+const featured=require('./cert3-posts-20261008-b.cjs');
+const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs'),...require('./posts-20261007.cjs'),...require('./posts-20261007-approved.cjs'),...require('./cert-posts-20261007.cjs'),...require('./cert-posts-20261008.cjs')];
 const fresh=[...previous,...newest];
 const guides=require('./editorial-refresh-data.cjs');
 const followup=require('./editorial-followup-data.cjs');
@@ -22,12 +22,17 @@ const server=http.createServer((req,res)=>{
 async function run(){
  assert.equal(newest.length,20);
  assert.equal(new Set(newest.map(p=>p.slug)).size,20);
+ const sourceMap=require('./cert3-source-map-20261008.cjs');
  for(const post of newest){
   assert.ok(post.body.replace(/<[^>]*>/g,'').length>=2000,post.slug+' original pre-FAQ body');
   assert.ok(!post.title.includes(':'));
   assert.equal(post.faq.length,3);
   assert.equal(post.related.length,3);
   assert.ok(post.sources.every(([,url])=>url.startsWith('https://')));
+  const official=sourceMap.find(row=>row.slug===post.slug);
+  assert.ok(official,post.slug+' official qualification mapping');
+  assert.equal(new URL(post.sources[0][1]).searchParams.get('jmCd'),official.code);
+  assert.ok(post.sources[0][0].includes(official.name),post.slug+' exact source qualification name');
  }
  if(!remote)await new Promise(r=>server.listen(0,'127.0.0.1',r));
  const origin=remote||`http://127.0.0.1:${server.address().port}`;
@@ -35,6 +40,9 @@ async function run(){
  try{
   const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
+  await page.goto(origin+'/굴착기운전기능사-지게차-차이/');
+  assert.equal(await page.locator('.editorial-sources a[href*="jmCd=7875"]').count(),1,'forklift source is forklift, not crane');
+  assert.equal(await page.locator('.editorial-sources a[href*="jmCd=7861"]').count(),0);
   for(const width of [1280,390,320]){
    await page.setViewportSize({width,height:900});
    for(const post of [...guides,...fresh,...followup]){
@@ -54,6 +62,7 @@ async function run(){
    assert.equal(await page.locator('.guide-related-posts').count(),1);
    assert.equal(await page.locator('.editorial-sources').count(),1);
    if(newest.includes(post)){
+    assert.equal(await page.locator('.detail-title h1').evaluate(el=>getComputedStyle(el).textWrap),'balance');
     assert.ok(await page.locator('.detail-content').innerText().then(s=>s.length>=1800));
     assert.equal(await page.locator('.detail-content h3').count(),3);
     assert.equal(await page.locator('.detail-main img').count(),1);
@@ -105,11 +114,11 @@ async function run(){
   for(const href of links){const r=await page.request.get(origin+href);assert.equal(r.status(),200,'internal link '+href);}
   const sitemap=await page.request.get(origin+'/sitemap.xml');const xml=await sitemap.text();for(const p of fresh)assert.ok(xml.includes('https://4050guide.co.kr/'+p.slug+'/'));
   assert.deepEqual(errors,[]);
-  const output=path.resolve(root,'..','cert20-qa-20261008'+(remote?'-live':''));fs.mkdirSync(output,{recursive:true});
+  const output=path.resolve(root,'..','cert3-qa-20261008'+(remote?'-live':''));fs.mkdirSync(output,{recursive:true});
   for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+newest[0].slug+'/');await page.locator('.detail-hero-image img').evaluate(img=>img.decode());await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
   for(const width of [1280,390]){
    await page.setViewportSize({width,height:900});
-   for(const post of [newest[12],newest[15],newest[19],followup[0],followup[3],followup[9]]){
+   for(const post of [newest[12],newest[15],newest[17],newest[19],followup[0],followup[3],followup[9]]){
     await page.goto(origin+'/'+post.slug+'/');
     await page.locator('.detail-hero-image img').evaluate(img=>img.decode());
     await page.screenshot({path:path.join(output,post.slug+'-'+width+'.png')});
