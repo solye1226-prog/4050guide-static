@@ -4,8 +4,8 @@ const path=require('node:path');
 const http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const newest=require('./posts-20261007.cjs');
-const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs')];
+const newest=require('./posts-20261007-approved.cjs');
+const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs'),...require('./posts-20261007.cjs')];
 const fresh=[...previous,...newest];
 const guides=require('./editorial-refresh-data.cjs');
 const followup=require('./editorial-followup-data.cjs');
@@ -83,7 +83,7 @@ async function run(){
    }
   }
   const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(origin+'/'+fresh[0].slug+'/');assert.equal(await staticPage.locator('h1').innerText(),fresh[0].title);await nojs.close();
-  console.log('PASS: 45 articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
+  console.log('PASS: 55 articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
  }finally{await browser.close();if(!remote)await new Promise(r=>server.close(r));}
 }
 run().catch(e=>{console.error(e);process.exitCode=1});
