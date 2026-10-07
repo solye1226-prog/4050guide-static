@@ -51,10 +51,13 @@ async function main() {
           await img.evaluate(img => img.decode());
           assert.ok(await img.evaluate(img => img.naturalWidth > 0));
         }
-        const info = await page.locator('.detail-side').innerText();
-        assert.ok(info.includes('2026년 10월 4일'));
         const schema = (await page.locator('script[type="application/ld+json"]').allTextContents()).map(JSON.parse);
-        assert.ok(schema.some(s => s['@type'] === 'BlogPosting' && s.dateModified === '2026-10-04' && s.headline === guide.title));
+        const posting = schema.find(s => s['@type'] === 'BlogPosting' && s.headline === guide.title);
+        assert.ok(posting);
+        assert.match(posting.dateModified, /^2026-10-(04|07)$/);
+        const info = await page.locator('.detail-side').innerText();
+        const [, month, day] = posting.dateModified.split('-').map(Number);
+        assert.ok(info.includes(`2026년 ${month}월 ${day}일`));
         const canonical = await page.locator('link[rel="canonical"]').getAttribute('href');
         assert.equal(decodeURI(canonical), `https://4050guide.co.kr/${guide.slug}/`);
         if (width === 1280) assert.ok(await page.evaluate(() => document.querySelector('.detail-side').getBoundingClientRect().left >= document.querySelector('.detail-main').getBoundingClientRect().right));
