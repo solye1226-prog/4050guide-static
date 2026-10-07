@@ -4,8 +4,9 @@ const path=require('node:path');
 const http=require('node:http');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const newest=require('./cert-posts-20261007.cjs');
-const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs'),...require('./posts-20261007.cjs'),...require('./posts-20261007-approved.cjs')];
+const newest=require('./cert-posts-20261008.cjs');
+const featured=require('./cert-promote-20261008-b.cjs');
+const previous=[...require('./new-posts-20261006.cjs'),...require('./practical-posts-20261006.cjs'),...require('./posts-20261007.cjs'),...require('./posts-20261007-approved.cjs'),...require('./cert-posts-20261007.cjs')];
 const fresh=[...previous,...newest];
 const guides=require('./editorial-refresh-data.cjs');
 const followup=require('./editorial-followup-data.cjs');
@@ -19,6 +20,15 @@ const server=http.createServer((req,res)=>{
  res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(res);
 });
 async function run(){
+ assert.equal(newest.length,20);
+ assert.equal(new Set(newest.map(p=>p.slug)).size,20);
+ for(const post of newest){
+  assert.ok(post.body.replace(/<[^>]*>/g,'').length>=2000,post.slug+' original pre-FAQ body');
+  assert.ok(!post.title.includes(':'));
+  assert.equal(post.faq.length,3);
+  assert.equal(post.related.length,3);
+  assert.ok(post.sources.every(([,url])=>url.startsWith('https://')));
+ }
  if(!remote)await new Promise(r=>server.listen(0,'127.0.0.1',r));
  const origin=remote||`http://127.0.0.1:${server.address().port}`;
  const browser=await chromium.launch();
@@ -33,6 +43,12 @@ async function run(){
     assert.equal(await page.locator('link[rel=canonical]').count(),1);
     assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://4050guide.co.kr/'+post.slug+'/');
     await page.locator('.detail-hero-image img').evaluate(img=>img.decode());
+    if(await page.locator('.editorial-image-caption').count()){
+     const figure=await page.locator('.detail-hero-image').boundingBox();
+     const caption=await page.locator('.editorial-image-caption').boundingBox();
+     assert.ok(caption.y+caption.height<=figure.y+figure.height+1,post.slug+' caption is not clipped');
+     assert.equal(await page.locator('.detail-hero-image img').evaluate(img=>getComputedStyle(img).objectFit),'contain');
+    }
     assert.ok(await page.locator('.detail-content').innerText().then(s=>s.length>1600),post.slug+' substantive body');
     assert.equal(await page.locator('.detail-content h2').filter({hasText:'자주 묻는 질문'}).count(),1);
    assert.equal(await page.locator('.guide-related-posts').count(),1);
@@ -65,7 +81,7 @@ async function run(){
     if(width===1280){const main=await page.locator('.detail-main').boundingBox(),side=await page.locator('.detail-side').boundingBox();assert.ok(side.x>=main.x+main.width-1,post.slug+' sidebar right');}
    }
    await page.goto(origin+'/');assert.equal(await page.locator('.home-recent-list li').count(),10);
-   for(const post of newest)assert.equal(await page.locator(`.home-recent-list a[href="/${post.slug}/"]`).count(),1);
+   for(const post of featured)assert.equal(await page.locator(`.home-recent-list a[href="/${post.slug}/"]`).count(),1);
    assert.equal(await page.locator('.home-hubs a').count(),4);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'home '+width);
    for(const category of new Set(fresh.map(p=>p.category))){
@@ -89,16 +105,19 @@ async function run(){
   for(const href of links){const r=await page.request.get(origin+href);assert.equal(r.status(),200,'internal link '+href);}
   const sitemap=await page.request.get(origin+'/sitemap.xml');const xml=await sitemap.text();for(const p of fresh)assert.ok(xml.includes('https://4050guide.co.kr/'+p.slug+'/'));
   assert.deepEqual(errors,[]);
-  const output=path.resolve(root,'..','cert-qa-20261008'+(remote?'-live':''));fs.mkdirSync(output,{recursive:true});
-  for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+newest[0].slug+'/');await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
+  const output=path.resolve(root,'..','cert20-qa-20261008'+(remote?'-live':''));fs.mkdirSync(output,{recursive:true});
+  for(const width of [1280,390]){await page.setViewportSize({width,height:900});await page.goto(origin+'/'+newest[0].slug+'/');await page.locator('.detail-hero-image img').evaluate(img=>img.decode());await page.screenshot({path:path.join(output,'article-'+width+'.png'),fullPage:true});await page.goto(origin+'/');await page.screenshot({path:path.join(output,'home-'+width+'.png'),fullPage:true});}
   for(const width of [1280,390]){
    await page.setViewportSize({width,height:900});
-   for(const post of [followup[0],followup[3],followup[9]]){
+   for(const post of [newest[12],newest[15],newest[19],followup[0],followup[3],followup[9]]){
     await page.goto(origin+'/'+post.slug+'/');
+    await page.locator('.detail-hero-image img').evaluate(img=>img.decode());
     await page.screenshot({path:path.join(output,post.slug+'-'+width+'.png')});
    }
   }
-  const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(origin+'/'+fresh[0].slug+'/');assert.equal(await staticPage.locator('h1').innerText(),fresh[0].title);await nojs.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false});const staticPage=await nojs.newPage();
+  for(const post of newest){await staticPage.goto(origin+'/'+post.slug+'/');assert.equal(await staticPage.locator('h1').innerText(),post.title);assert.equal(await staticPage.locator('.detail-content h3').count(),3);}
+  await nojs.close();
   console.log('PASS: '+[...guides,...fresh,...followup].length+' articles, 3 viewports, ten newest home links, old/new category cards, topic images, FAQs, sitemap, schema and no-JS content');
  }finally{await browser.close();if(!remote)await new Promise(r=>server.close(r));}
 }
