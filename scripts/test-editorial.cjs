@@ -95,7 +95,7 @@ async function run(){
   const search=await searchResponse.json();const urls=search.posts.map(p=>decodeURI(p.url));
   assert.equal(new Set(urls).size,urls.length,'search index duplicate URLs');
   for(const post of newest)assert.equal(urls.filter(url=>url==='/'+post.slug+'/').length,1);
-  const oldSearch=JSON.parse(require('node:child_process').execFileSync('git',['show','HEAD:assets/search-index.json'],{cwd:root,encoding:'utf8'}));
+  const oldSearch=JSON.parse(require('node:child_process').execFileSync('git',['show','HEAD:assets/search-index.json'],{cwd:root,encoding:'utf8',maxBuffer:16*1024*1024}));
   for(const post of oldSearch.posts)assert.ok(urls.includes(decodeURI(post.url)),'retained '+post.url);
   const links=new Set();
   for(const post of newest){
