@@ -5,10 +5,10 @@
   Content-Type: text/plain; charset=utf-8
 
 /assets/editorial.css
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: no-cache, must-revalidate
 
 /assets/search.js
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: no-cache, must-revalidate
 
 /assets/search-index.json
   Cache-Control: public, max-age=0, must-revalidate
