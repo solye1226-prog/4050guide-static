@@ -299,6 +299,33 @@ function updatePrivacy() {
   return changed;
 }
 
+function cleanInternalIndexLinks() {
+  let filesChanged = 0;
+  let linksChanged = 0;
+  const walk = directory => {
+    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+      if (entry.name.startsWith('.') || entry.name === 'node_modules' || entry.name === 'scripts') continue;
+      const item = path.join(directory, entry.name);
+      if (entry.isDirectory()) walk(item);
+      if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
+      const old = fs.readFileSync(item, 'utf8');
+      const relative = path.relative(root, item).replaceAll('\\', '/');
+      const base = new URL(relative, `${origin}/`);
+      const html = old.replace(/href=(["'])([^"']*index\.html(?:[?#][^"']*)?)\1/gi, (all, quote, href) => {
+        let url;
+        try { url = new URL(href, base); } catch { return all; }
+        if (!['4050guide.co.kr', 'www.4050guide.co.kr'].includes(url.hostname) || !url.pathname.endsWith('/index.html')) return all;
+        linksChanged += 1;
+        const clean = url.pathname.slice(0, -'index.html'.length) + url.search + url.hash;
+        return `href=${quote}${clean}${quote}`;
+      });
+      if (html !== old) { fs.writeFileSync(item, html); filesChanged += 1; }
+    }
+  };
+  walk(root);
+  return { filesChanged, linksChanged };
+}
+
 function rebuildSitemap() {
   const oldXml = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
   const oldDates = new Map([...oldXml.matchAll(/<url>[\s\S]*?<loc>(.*?)<\/loc>[\s\S]*?<lastmod>(.*?)<\/lastmod>[\s\S]*?<\/url>/g)].map(match => [match[1], match[2]]));
@@ -333,5 +360,6 @@ function rebuildSitemap() {
 const canonicalFixes = repairCanonicals();
 const articlesChanged = updateArticles();
 const privacyChanged = updatePrivacy();
+const indexLinksCleaned = cleanInternalIndexLinks();
 const sitemapUrls = rebuildSitemap();
-console.log(JSON.stringify({ canonicalFixes, articlesChanged, privacyChanged, sitemapUrls }, null, 2));
+console.log(JSON.stringify({ canonicalFixes, articlesChanged, privacyChanged, indexLinksCleaned, sitemapUrls }, null, 2));
