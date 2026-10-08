@@ -1,0 +1,31 @@
+module.exports={
+ generatedAt:'2026-10-08',
+ tool:'OpenAI built-in image generation tool',
+ model:'Tool does not expose a selectable or verifiable model identifier',
+ sourceDirectory:'C:/Users/kch41/.codex/generated_images/019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7',
+ output:'1200x750 WebP, contain on white, quality 78, under 200KB each',
+ promptTemplate:'Editorial card-news cover image for a Korean midlife career guide article about the named qualification. Photorealistic 3:2 landscape still life of the topic-specific equipment and materials. Crisp daylight, restrained charcoal, blue and yellow accents, left-side negative space. No people, text, letters, numbers, logos, watermarks, official seals or exam claims.',
+ visualReview:'Sampled first, middle and final generated originals for framing and subject. All output files have valid dimensions and remain illustrative rather than official exam imagery.',
+ images:[
+  ['pastry','exec-266d35e3-ccf7-456c-99c0-7f1b3858eefe.png','pastry workstation and ingredients'],
+  ['bread','exec-6bac9dc6-6a85-4f82-80f7-4999a64def04.png','dough and baked loaves'],
+  ['western','exec-1622c2bd-5106-457c-aa35-241dc9f6fd1c.png','Western cooking tools and plate'],
+  ['chinese','exec-14caf5a5-9b0d-402d-a721-8792706d7f88.png','wok and prepared ingredients'],
+  ['japanese','exec-85d80baa-8641-44af-9ad9-18fe0b23cedb.png','Japanese cooking preparation'],
+  ['bartending','exec-a70998e3-39c7-459a-8a20-ecbe3d8ddcd0.png','shaker, jigger and drinks'],
+  ['laundry','exec-26b6fc11-8fe4-4b7d-b52f-1036167ec24e.png','fabric swatches and care tools'],
+  ['barber','exec-3c7e59de-0b11-4566-9bcc-b888d245e220.png','barber chair and tools'],
+  ['makeup','exec-7b23e0fe-12f5-43eb-a891-d45f50428ecc.png','makeup brushes and palette'],
+  ['environment','exec-45293e3a-3b18-4d30-b52f-71430ce8f48c.png','environmental laboratory equipment'],
+  ['printing3d','exec-5fd5a2b2-1a26-4f3c-b1af-7eee3d924d1c.png','3D printer and printed shapes'],
+  ['webdesign','exec-d78bf623-e1e5-4050-ac05-7056e1c033ad.png','web design workstation'],
+  ['graphics','exec-f465dab9-01b1-4cd4-bc18-580094761a97.png','graphic layout workstation'],
+  ['publishing','exec-14988f91-c8a1-4ab0-9840-948640c70af6.png','typesetting and page proofs'],
+  ['photography','exec-8809d008-31b0-4361-9acd-352ba57184b1.png','camera and studio lighting'],
+  ['press','exec-140936d9-012a-4048-81b7-a7c4bd8f0f4c.png','printing press and paper'],
+  ['formwork','exec-53436bb1-4e86-4211-a75e-ee9fa38bf11a.png','timber formwork and safety gear'],
+  ['rebar','exec-588ac2e8-e044-4b5e-bae5-25a6119667ad.png','steel reinforcement and drawing'],
+  ['plaster','exec-6aa42f30-bcd3-4f87-8c15-beb59f64da03.png','plaster trowels and wall finish'],
+  ['window','exec-7db78dea-1909-450f-a239-89946c885777.png','metal window frame components']
+ ].map(([name,source,subject])=>({name,source,subject,output:`assets/cert4-${name}-20261008.webp`}))
+};
