@@ -48,6 +48,16 @@ async function run() {
         oldCount+=parsed.length;
         for(const card of parsed) if(card.key&&!cards.has(card.key)) cards.set(card.key,card.html);
       }
+      const missingMemberships={'50대-재취업-가능한-직종':'rejob','국가기술자격-문제집-고르는-법':'license','기초연금-탈락-이유':'welfare'};
+      for(const [slug,group] of Object.entries(missingMemberships)) {
+        if(group!==category.name||cards.has('/'+slug+'/'))continue;
+        const post=posts.find(p=>decodeURI(p.url)==='/'+slug+'/');
+        if(!post)throw new Error('Missing canonical article '+slug);
+        const html=fs.readFileSync(path.join(root,slug,'index.html'),'utf8');
+        const image=await page.evaluate(({html,url})=>{const d=new DOMParser().parseFromString(html,'text/html');const img=d.querySelector('.detail-hero-image img');return img?new URL(img.getAttribute('src'),url).pathname:'';},{html,url:origin+'/'+slug+'/'});
+        const tag={license:'자격증',rejob:'재취업',welfare:'부모님 복지'}[group];
+        cards.set('/'+slug+'/',`<article class="post-card photo-card"><a class="post-thumb" href="/${slug}/" aria-label="${esc(post.title)}"><img src="${image}" alt="${esc(post.title)} 설명 이미지" width="1024" height="576" loading="lazy" decoding="async"></a><div class="post-card-body"><span class="tag">${tag}</span><h2><a href="/${slug}/">${esc(post.title)}</a></h2><p>${esc(post.description)}</p><a class="more" href="/${slug}/">자세히 보기</a></div></article>`);
+      }
       const unique=[...cards.values()],size=Math.ceil(unique.length/routes.length);
       for(let i=0;i<routes.length;i++) {
         const file=routes[i],html=fs.readFileSync(file,'utf8');
@@ -109,12 +119,16 @@ async function run() {
       html=html.replace(/<aside class="detail-side"[\s\S]*?<\/aside>/,block=>{for(const [a,b] of changes)block=block.replaceAll(a,b);return block;});
       if(slug.startsWith('2026년-상시'))html=html.replace('국민내일배움카드 훈련과정으로도 많이 검색되는 종목','국민내일배움카드 훈련과정을 검색할 때 확인해 볼 종목');
       html=html.replace('이전 경력과 연결될수록 전직 가능성이 높아집니다.','이전 경력과 연결되는 업무가 있는지 먼저 비교해보세요. 이는 편집자의 준비 제안이며, 취업 가능성을 보장하는 통계나 공식 요건이 아닙니다.');
+      html=html.replace(/("dateModified"\s*:\s*")[^"]+"/g,'$12026-10-19"')
+        .replace(/(내용 확인 )\d{4}-\d{2}-\d{2}/g,'$12026-10-19')
+        .replace(/(<dt>업데이트<\/dt>\s*<dd>)[^<]+/g,'$12026년 10월 19일');
       write(file,html);report.sidebars.push(slug);
     }
     const reportFile=path.join(__dirname,'site-quality-result-20261019.json');
     if(fs.existsSync(reportFile)) {
       const previousReport=JSON.parse(fs.readFileSync(reportFile,'utf8'));
       report.images=[...new Map([...(previousReport.images||[]),...report.images].map(image=>[image.source,image])).values()];
+      report.links+=(previousReport.links||0);
     }
     fs.writeFileSync(reportFile,JSON.stringify(report,null,2)+'\n');
     console.log(JSON.stringify(report,null,2));

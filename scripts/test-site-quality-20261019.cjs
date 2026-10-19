@@ -34,6 +34,7 @@ async function run(){
    assert.equal(decodeURI(actual.pathname),decodeURI(expected.pathname),from);
    assert.equal(actual.searchParams.toString(),expected.searchParams.toString(),from+' query');
   }
+  const categoryCoverage=new Set();
   for(const cat of report.categories){
    const urls=[];
    for(let n=1;n<=cat.pages;n++){
@@ -42,7 +43,9 @@ async function run(){
    }
    assert.equal(urls.length,new Set(urls).size,'Duplicate category article '+cat.category);
    assert.equal(urls.length,cat.unique,'Category membership retained '+cat.category);
+   for(const url of urls)categoryCoverage.add(url);
   }
+  for(const post of require('../assets/search-index.json').posts)assert.ok(categoryCoverage.has(decodeURI(post.url)),'Article missing from categories '+decodeURI(post.url));
   for(const [route,count] of [['/복지서비스-검색/?welfare_q=긴급복지',8],['/국가자격-검색/?license_q=지게차',1]]){
    await page.goto(origin+route);
    await page.getByRole('heading',{name:`저장된 공식 자료 ${count}건`,exact:true}).waitFor();

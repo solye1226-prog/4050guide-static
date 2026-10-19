@@ -8,20 +8,20 @@
     },
     {
       "category": "license",
-      "before": 111,
-      "unique": 110,
+      "before": 110,
+      "unique": 111,
       "pages": 4
     },
     {
       "category": "money",
-      "before": 26,
+      "before": 25,
       "unique": 25,
       "pages": 2
     },
     {
       "category": "rejob",
-      "before": 28,
-      "unique": 27,
+      "before": 27,
+      "unique": 28,
       "pages": 2
     },
     {
@@ -33,7 +33,7 @@
     {
       "category": "welfare",
       "before": 17,
-      "unique": 17,
+      "unique": 18,
       "pages": 1
     }
   ],
