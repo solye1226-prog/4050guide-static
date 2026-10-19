@@ -1,0 +1,3198 @@
+{
+  "date": "2026-10-19",
+  "summary": {
+    "reviewed": 220,
+    "active": 208,
+    "rewritten": 102,
+    "merged": 12,
+    "remainingOriginalReviewIssues": 0,
+    "repeatedSectionsRemovedFrom": 55,
+    "removedBlocks": 521
+  },
+  "latestTwentyRepeatedLongSentenceShare": {
+    "before": {
+      "minimum": 0.5861830742659758,
+      "maximum": 0.6873268698060941,
+      "definition": "Character share of sentences >=30 chars appearing verbatim in at least ten of the latest twenty articles; own editorial diagnostic, not a Google metric."
+    },
+    "after": {
+      "minimum": 0,
+      "maximum": 0,
+      "definition": "Character share of sentences >=30 chars appearing verbatim in at least ten of the latest twenty articles; own editorial diagnostic, not a Google metric."
+    }
+  },
+  "posts": [
+    {
+      "slug": "2026-근로-자녀장려금-6월-1일-전후-확인할-것",
+      "previousTitle": "2026 근로·자녀장려금 6월 1일 전후 확인할 것: 신청, 기한 후 신청, 지급일",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "Still calls the August 27 payment future and advises applying within the now-closed regular period."
+        },
+        {
+          "code": "title_gap",
+          "detail": "Late-application reduction is only described as possible; current actionable conditions are in the stronger sibling."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026-근로-자녀장려금-6월-1일-전후-확인할-것/",
+      "currentTitle": "2026 근로·자녀장려금 정기신청 마감 후 접수·심사 확인 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "f575e7d05391e2ea2d56528d626d8acd233202cff075f3b6210b7118241f42dc"
+    },
+    {
+      "slug": "2026-여름-에너지바우처-부모님-대신-확인할-것",
+      "previousTitle": "2026 에너지바우처 신청기간과 겨울 사용방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/2026-여름-에너지바우처-부모님-대신-확인할-것/",
+      "currentTitle": "2026 에너지바우처 신청기간과 겨울 사용방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "f87aeafac3ee7a969721b6401b58986db226cf4ce7ecbaccb1870969db2ff7f6"
+    },
+    {
+      "slug": "2026-중장년-경력지원제-신청방법",
+      "previousTitle": "2026 중장년 경력지원제 신청조건과 참여방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/2026-중장년-경력지원제-신청방법/",
+      "currentTitle": "2026 중장년 경력지원제 신청조건과 참여방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "1b9310db4c3a1f5d0a7addbbad338da7897691cc6924f76608ade48e3221e8b2"
+    },
+    {
+      "slug": "2026년-6월-4050-정부지원금-복지-신청-체크리스트",
+      "previousTitle": "2026년 6월 4050 정부지원금·복지 신청 체크리스트",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "June 1 deadline and energy-voucher announcement speculation remain the main checklist."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026년-6월-4050-정부지원금-복지-신청-체크리스트/",
+      "currentTitle": "4050 정부지원금·복지 신청 누락 점검표 소득 감소·난방·부모님 돌봄",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "c4f57647a52d89c2316229f0cf1256d5f21eb34653c777d14dd24c19a1bbe52a"
+    },
+    {
+      "slug": "2026년-6월-중장년-재취업-지원제도-확인할-것",
+      "previousTitle": "2026년 6월 중장년 재취업 지원제도 확인할 것: 상담, 교육, 구직등록",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "Core only repeats job registration, center counseling and training discovery."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026년-6월-중장년-재취업-지원제도-확인할-것/",
+      "currentTitle": "중장년 재취업 지원제도 선택 순서 재직·퇴직·훈련 단계별",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "1f0a82e0dd5f474b587bc1458e48181c1866b7a67b7afebd0861d6179d57e0c0"
+    },
+    {
+      "slug": "2026년-기능사-남은-시험일정",
+      "previousTitle": "2026년 기능사 남은 시험일정: 전기·조리·시설관리 준비자용 4050 가이드",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "Recommends choosing rounds 3/4 for new study although listed written registrations closed by August."
+        },
+        {
+          "code": "scope",
+          "detail": "Separate already-qualified practical candidates from readers starting now; do not imply an open registration route."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026년-기능사-남은-시험일정/",
+      "currentTitle": "2026년 기능사 남은 시험일정 10월 19일 이후 실기와 빈자리 접수",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "1d4429f31cf8d7283057cbf622956edc40282758e7523bccb5c1c6b148ab09db"
+    },
+    {
+      "slug": "2026년-기사-산업기사-남은-시험일정",
+      "previousTitle": "2026년 기사·산업기사 남은 시험일정: 제2회·제3회 준비 가능성 비교",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "Recommends starting with round 3 and July written registration as if still ahead."
+        },
+        {
+          "code": "title_gap",
+          "detail": "Explain what October readers can actually do versus the next published annual plan."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026년-기사-산업기사-남은-시험일정/",
+      "currentTitle": "2026년 기사·산업기사 남은 시험일정 3회 실기와 10월 19일 마감",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "4ccb37de5cc555caa89b31c7e98f3f66eb54adaf83f0fe7a7f0997b1437d1664"
+    },
+    {
+      "slug": "2026년-남은-국가기술자격-시험일정",
+      "previousTitle": "2026년 남은 국가기술자격 시험일정: 4050이 지금 준비할 수 있는 회차 정리",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "Table calls June/July registration rounds remaining and recommends them for people starting now."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/2026년-남은-국가기술자격-시험일정/",
+      "currentTitle": "2026년 남은 국가기술자격 시험일정 10월 19일 접수 가능성과 시험 구분",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "65d509db0b3b26bf01dd2993a9991d0eb9da6d3282f15e3e429f3c31da1df663"
+    },
+    {
+      "slug": "2026년-상시검정-자격증-14종목",
+      "previousTitle": "2026년 상시검정 자격증 14종목: 지게차·한식조리처럼 일정 선택이 쉬운 종목",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/2026년-상시검정-자격증-14종목/",
+      "currentTitle": "2026년 상시검정 자격증 14종목: 지게차·한식조리처럼 일정 선택이 쉬운 종목",
+      "sourceCheckDate": null,
+      "htmlSha256": "1af08cdd8a755a95f0f6ba875b046aa9f6bf55f0dfdbb4f55a7ec12df9b85bbf"
+    },
+    {
+      "slug": "2026년-하반기-국비지원-훈련과정-찾는-법",
+      "previousTitle": "2026년 하반기 국비지원 훈련과정 찾는 법: 6월부터 비교할 항목",
+      "previousIssues": [
+        {
+          "code": "stale_action",
+          "detail": "Still tells readers to begin comparing from June."
+        },
+        {
+          "code": "overlap",
+          "detail": "No distinct second-half intake examples or application route."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/국비지원-훈련과정-선택-가이드/",
+      "currentTitle": "국비지원 훈련과정 선택방법 시간표 실습 비용 취업연계 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e66329ea93cffbd8474030d09d6c378fe4bc5b620f7b1476de92311a3a5c38d3"
+    },
+    {
+      "slug": "3d프린터운용기능사-실기-장비-선택",
+      "previousTitle": "3D프린터운용기능사 실기 장비와 과정 선택",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/3d프린터운용기능사-실기-장비-선택/",
+      "currentTitle": "3D프린터운용기능사 실기 출력 기회와 비용",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "be79a36fc54bc3893cbfc07e710e26457f5f309c5e769a3792780ec283ba226a"
+    },
+    {
+      "slug": "3톤-미만-지게차-교육-면허-발급",
+      "previousTitle": "3톤 미만 지게차 교육과 면허 발급 기능사와 다른 점",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/3톤-미만-지게차-교육-면허-발급/",
+      "currentTitle": "3톤 미만 지게차 교육과 면허 발급 기능사와 다른 점",
+      "sourceCheckDate": null,
+      "htmlSha256": "cdcbab1e0216eb48aaa0b27488d30b21fd585e2d5c25629877d18b1dd9e275a5"
+    },
+    {
+      "slug": "4050-국민내일배움카드-자비부담금-확인법",
+      "previousTitle": "4050 국민내일배움카드 자비부담금 확인법: 같은 과정도 비용이 다른 이유",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "No distinct worked comparison that justifies two near-identical self-payment posts."
+        },
+        {
+          "code": "legacy_navigation",
+          "detail": "Directions still start at HRD-Net while current service guide uses Work24."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/4050-국민내일배움카드-자비부담금-확인법/",
+      "currentTitle": "국민내일배움카드 자비부담금 확인법 고용24 조회와 실제 결제금액",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "667f447858a557009292d059fc556583f8600fc245e807fe10a29c4982b0058f"
+    },
+    {
+      "slug": "4050-국비지원-과정-수료-후-할-일",
+      "previousTitle": "4050 국비지원 과정 수료 후 할 일: 자격증보다 취업 연결이 먼저",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Show one training-to-resume bullet and application follow-up record; weekly labels mostly repeat generic actions."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/4050-국비지원-과정-수료-후-할-일/",
+      "currentTitle": "4050 국비지원 과정 수료 후 할 일 수료 기록을 입사지원으로 바꾸기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "a68956117cc028c04a4a423a6c619ce40c1f6cf8809242a80cda286f168e0425"
+    },
+    {
+      "slug": "4050-면접-준비법",
+      "previousTitle": "4050 면접 준비법: 경력은 많은데 나이가 걱정될 때",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No worked one-minute answer or before/after example for career change and employment gaps."
+        },
+        {
+          "code": "framing",
+          "detail": "Age and younger-manager advice should not read as a universal need to accept lower status."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/4050-면접-준비법/",
+      "currentTitle": "4050 면접 준비법 지원 공고 하나로 답변과 질문 만들기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "78dc9264e434d1bbc47c9761d122ffd515633884eded455d31c028e5500bf4b6"
+    },
+    {
+      "slug": "4050-보험-리모델링-체크리스트",
+      "previousTitle": "4050 보험 리모델링 체크리스트 해지 전 보장과 갱신 조건 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/4050-보험-리모델링-체크리스트/",
+      "currentTitle": "4050 보험 리모델링 체크리스트 해지 전 보장과 갱신 조건 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "21cbffb7290f9cc7a430468ba9d468ec39763da57cb4f74c64f7755a4b750101"
+    },
+    {
+      "slug": "4050-생활경제-점검표",
+      "previousTitle": "4050 생활경제 점검표 보험 대출 연금과 퇴직 후 생활비 정리",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/4050-생활경제-점검표/",
+      "currentTitle": "4050 생활경제 점검표 보험 대출 연금과 퇴직 후 생활비 정리",
+      "sourceCheckDate": null,
+      "htmlSha256": "c196403e650dd34e85baccf5d607d7990bf340cc744cc75cd4ef8865cb4e2945"
+    },
+    {
+      "slug": "4050-자격증-로드맵",
+      "previousTitle": "4050 자격증 로드맵 취업처 시험일정 국비훈련을 정하는 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/4050-자격증-로드맵/",
+      "currentTitle": "4050 자격증 로드맵 취업처 시험일정 국비훈련을 정하는 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "670845d4f3043663fad4e4b5de6e27a3865a370e915df71ac7e6c4105426e626"
+    },
+    {
+      "slug": "4050-자격증-준비기간-잡는-법",
+      "previousTitle": "4050 자격증 준비기간 잡는 법: 시험일정, 실기, 생활패턴까지 계산",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add a worked weekly-hours plan, practice booking and retry buffer; current calculation table contains no calculation."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/4050-자격증-준비기간-잡는-법/",
+      "currentTitle": "4050 자격증 준비기간 잡는 법 접수와 실습에서 역산하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "0730724deecb29e9a0a82c5debb515a1b4aa2975424955c01b5930b4099ae53b"
+    },
+    {
+      "slug": "4050-재취업-자격증-고르는-기준",
+      "previousTitle": "4050 재취업 자격증 고르는 기준: 취득 쉬운 자격보다 일자리 연결이 먼저",
+      "previousIssues": [],
+      "action": "repeated-sections-removed",
+      "target": "https://4050guide.co.kr/4050-재취업-자격증-고르는-기준/",
+      "currentTitle": "4050 재취업 자격증 고르는 기준: 취득 쉬운 자격보다 일자리 연결이 먼저",
+      "sourceCheckDate": null,
+      "htmlSha256": "f91ddb3780aac5bf6d391c5aee158d8800cc4b8f61be4c711d9dcb5df6997a21"
+    },
+    {
+      "slug": "50대-남자-재취업-자격증-추천",
+      "previousTitle": "50대 남자 재취업 자격증 추천: 시설관리·경비·운전 중 먼저 볼 기준",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Frequently compared qualifications and demand are not supported by dated local vacancies or statistics."
+        },
+        {
+          "code": "repetition",
+          "detail": "Two FAQ sections repeat the same selection advice."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/50대-남자-재취업-자격증-추천/",
+      "currentTitle": "50대 남성 재취업 자격증은 현장 전환 조건부터 대조하세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "46f277ba18df1653dc41e5df5352890c8a2fe5227e2076c84b5637b3cce6f8bb"
+    },
+    {
+      "slug": "50대-시설관리-채용공고-근무조건",
+      "previousTitle": "50대 시설관리 취업 채용공고에서 확인할 근무조건 7가지",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/50대-시설관리-채용공고-근무조건/",
+      "currentTitle": "50대 시설관리 취업 채용공고에서 확인할 근무조건 7가지",
+      "sourceCheckDate": null,
+      "htmlSha256": "ac10c2dbed5261c16545169f473d960f70d845029639101a5e3f20a5a273885a"
+    },
+    {
+      "slug": "50대-여성-재취업-자격증-추천",
+      "previousTitle": "50대 여성 재취업 자격증 추천: 현실적으로 준비할 만한 분야",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Claims common local vacancies and frequently discussed qualifications without dated evidence."
+        },
+        {
+          "code": "scope",
+          "detail": "Separate private organizing certificates and life-support-worker courses from legally required credentials."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/50대-여성-재취업-자격증-추천/",
+      "currentTitle": "50대 여성 재취업 자격증은 돌봄과 병행할 시간표부터 맞추세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "6c77da2a9a240c72e8c74027c99d39307423173ad2a368e31926e7e3de7539b1"
+    },
+    {
+      "slug": "50대-재취업-가능한-직종",
+      "previousTitle": "50대 재취업 가능한 직종 경력과 근무조건으로 비교하는 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/50대-재취업-가능한-직종/",
+      "currentTitle": "50대 재취업 가능한 직종 경력과 근무조건으로 비교하는 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "5931fd980d2ebc2f0da939b1e0de48d1425696be7fa7733c6f01fe5e17ff92d5"
+    },
+    {
+      "slug": "50대-재취업-경력기술서-작성법",
+      "previousTitle": "50대 재취업 경력기술서 예시와 직무 전환 작성법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/50대-재취업-경력기술서-작성법/",
+      "currentTitle": "50대 재취업 경력기술서 예시와 직무 전환 작성법",
+      "sourceCheckDate": null,
+      "htmlSha256": "65dcedd248db73a4e20568f202f6bb70f66e0f58e8099467b743c3757cf2ff81"
+    },
+    {
+      "slug": "50대-재취업-현실",
+      "previousTitle": "50대 재취업 현실: 자격증보다 먼저 확인할 일자리 조건",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Steady security demand and common job fields lack dated regional examples."
+        },
+        {
+          "code": "repetition",
+          "detail": "Q&A and a second FAQ restate the same cautions."
+        },
+        {
+          "code": "navigation_self_link",
+          "detail": "Related-reading navigation includes this article itself.",
+          "evidence": [
+            {
+              "text": "50대 재취업 현실",
+              "href": "https://4050guide.co.kr/50대-재취업-현실/"
+            }
+          ]
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/50대-재취업-현실/",
+      "currentTitle": "50대 재취업이 막히면 지원 조건과 경력 설명을 나눠 고치세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "3146e472469cc4c1654690c4e1f17402c63a0baece3233d547aceda2ec2e409d"
+    },
+    {
+      "slug": "50대가-내일배움카드로-많이-찾는-자격증",
+      "previousTitle": "50대가 내일배움카드로 많이 찾는 자격증: 취업 연결성 기준으로 보기",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No evidence that the named courses are most sought by people in their 50s."
+        },
+        {
+          "code": "scope",
+          "detail": "Social-worker and private-course mentions need course-level funding verification."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/50대가-내일배움카드로-많이-찾는-자격증/",
+      "currentTitle": "50대 내일배움카드 자격증은 목표 공고와 훈련 내용을 맞춰 고르세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ecb1375fcf7aeed0793a0e4e090e8a9091d221fccde7481125d6a59b3bc48fe3"
+    },
+    {
+      "slug": "Q-Net-월간시험일정-보는-법",
+      "previousTitle": "Q-Net 월간시험일정 보는 법: 이번 달 접수 가능한 자격증 확인하기",
+      "previousIssues": [
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Long final confirmation section repeats sitewide advice rather than monthly-calendar troubleshooting."
+        },
+        {
+          "code": "navigation",
+          "detail": "Related reading still prioritizes expired remaining-round recommendations."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/Q-Net-월간시험일정-보는-법/",
+      "currentTitle": "Q-Net 월간시험일정 보는 법 접수·시험·발표를 나누는 실제 예시",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "fd680e597ac1ea73dd2a6120826d301a88382c9a0b0692e6808a00e96c7659d3"
+    },
+    {
+      "slug": "가구제작기능사-목공예-실기-차이",
+      "previousTitle": "가구제작기능사와 목공예 실기 준비 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/가구제작기능사-목공예-실기-차이/",
+      "currentTitle": "가구제작기능사와 목공예 실기 준비 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "8a5a9e4533ed3d9113313010ce006e6750220f24e2e704483b51b05f8636fd2d"
+    },
+    {
+      "slug": "가스기능사-에너지관리기능사-차이",
+      "previousTitle": "가스기능사와 에너지관리기능사 시설관리 준비 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/가스기능사-에너지관리기능사-차이/",
+      "currentTitle": "가스기능사와 에너지관리기능사 시설관리 준비 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "7dc7c238cb9f8df3b8b902581e6904eda9e0d23dd529b2740214a50ef2612335"
+    },
+    {
+      "slug": "가족인-요양보호사-부모님-돌봄-인정조건",
+      "previousTitle": "가족인 요양보호사가 부모님을 돌볼 때 인정조건과 급여시간",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/가족인-요양보호사-부모님-돌봄-인정조건/",
+      "currentTitle": "가족인 요양보호사가 부모님을 돌볼 때 인정조건과 급여시간",
+      "sourceCheckDate": null,
+      "htmlSha256": "cefaf4dd41cf052ec7e0baa451177c99976377ea0d103254487339372e50a704"
+    },
+    {
+      "slug": "간호간병통합서비스-병원-찾기-입원비용",
+      "previousTitle": "간호간병통합서비스 병원 찾기와 입원 전 비용 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Links go to a 2023 explainer and fee rules rather than the official provider search with usable filters."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Add the current hospital directory and distinguish its update date from real-time bed availability."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/간호간병통합서비스-병원-찾기-입원비용/",
+      "currentTitle": "간호간병통합서비스 병원 찾기 운영병동 확인과 입원비 계산",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "24bf8985a5afaaf66a9eb9a917f5dab05a08669fe8dfd2717b33a066cb85b2c7"
+    },
+    {
+      "slug": "거푸집기능사-실기-도면-안전",
+      "previousTitle": "거푸집기능사 실기 도면과 안전한 연습",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/거푸집기능사-실기-도면-안전/",
+      "currentTitle": "거푸집기능사 실기 도면과 부재표 준비",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "831a4a4afe5bf12ac6ee5ea0965302c5c1816c00d53805893b8d18eba8cb8934"
+    },
+    {
+      "slug": "건강보험-본인부담상한제-환급금-신청",
+      "previousTitle": "건강보험 본인부담상한제 환급금 조회와 신청방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/건강보험-본인부담상한제-환급금-신청/",
+      "currentTitle": "건강보험 본인부담상한제 환급금 조회와 신청방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "378e5c393e7589244245234d143d7a30f575a538a3fb7f1aaffc21a347ee1e91"
+    },
+    {
+      "slug": "건강보험-피부양자-탈락-기준-4050-체크",
+      "previousTitle": "건강보험 피부양자 탈락 기준 4050 체크: 부모님과 퇴직자 모두 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Lists income, property and business status without thresholds, valuation bases or key exceptions."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "NHIS homepage cannot support the promised disqualification criteria."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/건강보험-피부양자-탈락-기준-4050-체크/",
+      "currentTitle": "건강보험 피부양자 소득과 재산 기준",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "79d29c132fa4c77cc2702f1df6b9b7e03c4be6eb1df8b8cc7edadc3835d1d4f3"
+    },
+    {
+      "slug": "건설업-기초안전보건교육-신청-이수증-재발급",
+      "previousTitle": "건설업 기초안전보건교육 신청과 이수증 재발급 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/건설업-기초안전보건교육-신청-이수증-재발급/",
+      "currentTitle": "건설업 기초안전보건교육 신청과 이수증 재발급 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "57bb0c045d49156af451aa064d8a4bced70593018109435a714486060a404ce3"
+    },
+    {
+      "slug": "건축도장기능사-4050-실기-공부법",
+      "previousTitle": "건축도장기능사 4050 실기 공부법: 손기술과 시간 배분이 합격을 가릅니다",
+      "previousIssues": [
+        {
+          "code": "scope",
+          "detail": "Says practical-centered rather than clearly stating the examination structure."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Generic problem-book advice, six-week schedule and FAQs do not address painting-specific tasks."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Replace Q-Net homepage-only citation with subject/public-task guidance."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/건축도장기능사-4050-실기-공부법/",
+      "currentTitle": "건축도장기능사 실기 요구사항과 작업 기록",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "b0dc1354257431df230137a3ed4a37cbbcf7b9965e4d99eb8abdad30926cbee2"
+    },
+    {
+      "slug": "건축도장기능사-4050-준비방법",
+      "previousTitle": "건축도장기능사 4050 준비방법: 실기형 자격증 선택 전 볼 것",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No concrete test structure, duration or official task requirements."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/건축도장기능사-4050-준비방법/",
+      "currentTitle": "건축도장기능사 준비 전 실습과 작업환경 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ec751c71a4ad149131220067282dbb55310c685f9e1a1cce4a2461e96ec28168"
+    },
+    {
+      "slug": "건축목공기능사-실기-준비물-안전",
+      "previousTitle": "건축목공기능사 실기 준비물과 안전한 연습",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/건축목공기능사-실기-준비물-안전/",
+      "currentTitle": "건축목공기능사 실기 준비물과 안전한 연습",
+      "sourceCheckDate": null,
+      "htmlSha256": "a2c36bf26df170e30910e5d9c086c50127786db6484bcf31c58e53a298770153"
+    },
+    {
+      "slug": "경력단절-후-재취업-시작법",
+      "previousTitle": "경력단절 후 재취업 시작법: 40대·50대가 첫 주에 할 일",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Show how one existing skill becomes a vacancy requirement and truthful resume line; current plan is a list of actions."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/경력단절-후-재취업-시작법/",
+      "currentTitle": "경력단절 후 재취업 시작법 첫 주에 복귀 조건부터 정하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "22e6a410ac7028ae88e6d09a24e9650d950b91e47b404ae6e1fb6c23b63391ae"
+    },
+    {
+      "slug": "경비원-신임교육-4050-준비방법",
+      "previousTitle": "경비원 신임교육 4050 준비방법: 일반경비원 취업 전 확인할 것",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No concrete course hours, exemption categories, designated-provider check or completion-document process."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Police and employment homepages do not identify the applicable training notice."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/경비원-신임교육-4050-준비방법/",
+      "currentTitle": "일반경비원 신임교육 준비방법 24시간 교육·면제·이수증 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ecef48eaee187a55a9463b347e57ca1c467cd120484f7c2925b5fc11d7e727c4"
+    },
+    {
+      "slug": "경비원-신임교육-4050-준비법",
+      "previousTitle": "경비원 신임교육 4050 준비법: 교육 전 확인할 서류와 근무 형태",
+      "previousIssues": [
+        {
+          "code": "scope",
+          "detail": "Weeks of past-paper and practical practice, problem-book FAQs and Q-Net warnings do not fit this training route."
+        },
+        {
+          "code": "overlap",
+          "detail": "Preserve unique enrollment preparation only; build one complete guide with the sibling."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/경비원-신임교육-4050-준비방법/",
+      "currentTitle": "일반경비원 신임교육 준비방법 24시간 교육·면제·이수증 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ecef48eaee187a55a9463b347e57ca1c467cd120484f7c2925b5fc11d7e727c4"
+    },
+    {
+      "slug": "경비원-월급-현실",
+      "previousTitle": "경비원 월급 현실: 50대가 지원 전 확인해야 할 근무표와 급여 구조",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No dated salary evidence or fully specified worked schedule-to-pay comparison."
+        },
+        {
+          "code": "repetition",
+          "detail": "Two FAQ blocks restate high-pay-versus-conditions cautions."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Employment homepage is not evidence of a realistic salary range."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/경비원-월급-현실/",
+      "currentTitle": "경비원 월급은 휴게를 뺀 근로시간과 야간가산을 나눠 계산하세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "219af4f31fbcc07bf33a86348ac01ace2a501d274f13f47dff8a10e1bfbc9eb9"
+    },
+    {
+      "slug": "경비원-취업-전-확인할-것",
+      "previousTitle": "경비원 취업 전 확인할 것: 일반경비원 신임교육과 근무 형태",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "Repeats shifts, breaks, commuting and education checks without a distinct worked vacancy comparison."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/경비원-취업-전-확인할-것/",
+      "currentTitle": "경비원 취업 전 확인할 것 근무표·휴게·고용주 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "c21573f533fb34472da0d19b008b74899c33402ee0c88139fb8202cb9c3a983a"
+    },
+    {
+      "slug": "고용24-구직등록-방법",
+      "previousTitle": "고용24 구직등록 방법: 재취업 준비 첫 단계",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Missing verified menu path, submission/completion state, validity or renewal checks and error recovery."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Homepage alone does not document the workflow."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/고용24-구직등록-방법/",
+      "currentTitle": "고용24 구직등록 방법 이력서 저장 뒤 신청 완료 확인까지",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "10f73cc5a75063051514467ad5e74bc1616c23384c4ad0e9ac95a70fbeb9101b"
+    },
+    {
+      "slug": "공인중개사-4050-1차-2차-공부선택",
+      "previousTitle": "공인중개사 4050 초보 1차와 동차 준비 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/공인중개사-4050-1차-2차-공부선택/",
+      "currentTitle": "공인중개사 4050 초보 1차와 동차 준비 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "121013bfa5801f0968abad83e3768028f790bdf6e9c2d948745119509380fda6"
+    },
+    {
+      "slug": "공조냉동기계기능사-4050-공부법",
+      "previousTitle": "공조냉동기계기능사 4050 공부법: 설비 용어와 도면을 먼저 익히세요",
+      "previousIssues": [
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Generic six-week plan and independent-study FAQs replace a subject-specific progression."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Needs actual Q-Net subject, current practical format and applicable criteria rather than homepage only."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/공조냉동기계기능사-4050-공부법/",
+      "currentTitle": "공조냉동기계기능사 필답과 동관작업 공부법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "f430c7251eeee76d2e561d7106d56d7d2a3d95990e7fe4f911bc9a4de6198380"
+    },
+    {
+      "slug": "공조냉동기계기능사-4050-준비-전-확인할-것",
+      "previousTitle": "공조냉동기계기능사 4050 준비 전 확인할 것: 시설관리와 연결되는 자격",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "Only repeats facilities jobs, practice access and comparison with electrical/fire credentials."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/공조냉동기계기능사-4050-준비-전-확인할-것/",
+      "currentTitle": "공조냉동기계기능사 준비 전 필답과 동관작업 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "05d403639f33e6514e1a522f46bc7b4fb1b4001e0aacfde3cf3b143535120817"
+    },
+    {
+      "slug": "과정평가형-검정형-자격증-차이",
+      "previousTitle": "과정평가형과 검정형 자격증 취득 방법 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/과정평가형-검정형-자격증-차이/",
+      "currentTitle": "과정평가형과 검정형 자격증 취득 방법 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "4cfcf57674e6d93020eaecf4815a0b15b8bb7dabdc3a6d114741c3084bb71e27"
+    },
+    {
+      "slug": "국가기술자격-문제집-고르는-법",
+      "previousTitle": "국가기술자격 문제집 고르는 법: 4050이 볼 5가지 기준",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "At least five years of past questions is treated as a general requirement despite exam changes and question-bank limits."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Shared 30-day study content distracts from selecting an appropriate book."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/국가기술자격-문제집-고르는-법/",
+      "currentTitle": "국가기술자격 문제집 고르는 법 출제기준과 샘플 해설 대조",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "bf3eef34eacc982028096a60beb1539ee6e85deb18e85f946a5ea9cbc1e4fca6"
+    },
+    {
+      "slug": "국가기술자격-상장형-수첩형-발급",
+      "previousTitle": "국가기술자격 상장형과 수첩형 발급 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국가기술자격-상장형-수첩형-발급/",
+      "currentTitle": "국가기술자격 상장형과 수첩형 발급 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "4874befaa882b62953d562ea945adc987e99b0f5c8f0ef67fee63974ab226c0b"
+    },
+    {
+      "slug": "국가기술자격-시험-편의제공-신청",
+      "previousTitle": "국가기술자격 시험 편의제공 신청 전 확인사항",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국가기술자격-시험-편의제공-신청/",
+      "currentTitle": "국가기술자격 시험 편의제공 신청 전 확인사항",
+      "sourceCheckDate": null,
+      "htmlSha256": "5e77838f7c3cd93bd437cd35207806f9c7b7c84551e240718212772ec7f4808a"
+    },
+    {
+      "slug": "국민내일배움카드-사용처-찾는-법",
+      "previousTitle": "국민내일배움카드 사용처 찾는 법 지원 과정과 실제 비용 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민내일배움카드-사용처-찾는-법/",
+      "currentTitle": "국민내일배움카드 사용처 찾는 법 지원 과정과 실제 비용 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "41137ebbd33615858d5bca48564911cd559b03599c74106fa92086320abbcad8"
+    },
+    {
+      "slug": "국민내일배움카드-신청-안-되는-경우",
+      "previousTitle": "국민내일배움카드 신청 안 되는 경우: 나이보다 중요한 탈락 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Missing exact current excluded categories, income/age thresholds and status-change evidence."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Replace homepages with the current issuance exclusions and rejection-resolution instructions."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/국민내일배움카드-신청-안-되는-경우/",
+      "currentTitle": "국민내일배움카드 신청 안 되는 경우 제외 대상과 신청 오류 구분",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "aabbe5c60b2bd83cd99f8774e72c41bf602da37da9d94994e55cbd0e57fc8492"
+    },
+    {
+      "slug": "국민내일배움카드-신청방법-2026",
+      "previousTitle": "국민내일배움카드 신청방법 2026 지원금과 사용처",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민내일배움카드-신청방법-2026/",
+      "currentTitle": "국민내일배움카드 신청방법 2026 지원금과 사용처",
+      "sourceCheckDate": null,
+      "htmlSha256": "f64c71a8f903647d5969614ed59b059fdc80eb615757e0bca23da2eca5d8d07a"
+    },
+    {
+      "slug": "국민내일배움카드-자비부담금-확인방법",
+      "previousTitle": "국민내일배움카드 자비부담금 확인방법: 4050이 놓치기 쉬운 비용",
+      "previousIssues": [
+        {
+          "code": "legacy_navigation",
+          "detail": "Summary and source list still lead with HRD-Net rather than the current Work24 path."
+        },
+        {
+          "code": "title_gap",
+          "detail": "No concrete current field sequence or labeled example distinguishing total fee, subsidy and actual payment."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/4050-국민내일배움카드-자비부담금-확인법/",
+      "currentTitle": "국민내일배움카드 자비부담금 확인법 고용24 조회와 실제 결제금액",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "667f447858a557009292d059fc556583f8600fc245e807fe10a29c4982b0058f"
+    },
+    {
+      "slug": "국민연금-납부예외-실업크레딧-차이",
+      "previousTitle": "퇴직 후 국민연금 납부예외와 실업크레딧 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민연금-납부예외-실업크레딧-차이/",
+      "currentTitle": "퇴직 후 국민연금 납부예외와 실업크레딧 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "f8dc3572f8ce026fc50e220d67dba8431055f541ceea4cfae092c6f3fd4ee79a"
+    },
+    {
+      "slug": "국민연금-예상연금액-조회-수령나이",
+      "previousTitle": "국민연금 예상연금액 조회와 수령나이 확인방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민연금-예상연금액-조회-수령나이/",
+      "currentTitle": "국민연금 예상연금액 조회와 수령나이 확인방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "de37fd5cfe99ca521a40a44df6a9175135dddd775a74abd212178bb016f7cf95"
+    },
+    {
+      "slug": "국민연금-임의계속가입-신청조건-보험료",
+      "previousTitle": "국민연금 임의계속가입 신청조건과 보험료 확인방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민연금-임의계속가입-신청조건-보험료/",
+      "currentTitle": "국민연금 임의계속가입 신청조건과 보험료 확인방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "da007c237c43b1ae0f98a042de7f2a3423db8481acb7c3096439580662dcf3b3"
+    },
+    {
+      "slug": "국민연금-조기수령-전-확인할-것",
+      "previousTitle": "국민연금 조기수령 전 확인할 것: 감액과 건강보험 영향까지",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No birth-cohort ages, eligibility duration, monthly/annual reduction arithmetic or income-related suspension explanation."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Homepages do not support the promised health-insurance interaction."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/국민연금-조기수령-전-확인할-것/",
+      "currentTitle": "국민연금 조기수령 감액과 소득 기준",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "3739f425d90498fc3795ca9e0bb6873544cdd4c177f170e867820e7719f73705"
+    },
+    {
+      "slug": "국민연금-추납-신청-비용-확인",
+      "previousTitle": "국민연금 추납 신청 전 비용과 가입기간 확인하는 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민연금-추납-신청-비용-확인/",
+      "currentTitle": "국민연금 추납 신청 전 비용과 가입기간 확인하는 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "020a811cd7d9d598b0fda87017a194beee4a575fa76923472a92d81872311086"
+    },
+    {
+      "slug": "국민취업지원제도-4050-신청-전-확인할-것",
+      "previousTitle": "국민취업지원제도 신청방법과 4050 소득 기준",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국민취업지원제도-4050-신청-전-확인할-것/",
+      "currentTitle": "국민취업지원제도 신청방법과 4050 소득 기준",
+      "sourceCheckDate": null,
+      "htmlSha256": "9f5701220ab280e8abd0240ed7693cf5a7a83240225c2bf38b4976d2ece0c370"
+    },
+    {
+      "slug": "국비지원-자격증-조건",
+      "previousTitle": "국비지원 자격증 조건: 내일배움카드로 신청 전 확인할 것",
+      "previousIssues": [
+        {
+          "code": "navigation",
+          "detail": "Related-reading card links to this same article as 국비지원 자격증 조건."
+        },
+        {
+          "code": "overlap",
+          "detail": "Keep broad eligibility overview short and send detailed issuance and cost steps to their dedicated guides."
+        },
+        {
+          "code": "navigation_self_link",
+          "detail": "Related-reading navigation includes this article itself.",
+          "evidence": [
+            {
+              "text": "국비지원 자격증 조건",
+              "href": "https://4050guide.co.kr/국비지원-자격증-조건/"
+            }
+          ]
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/국비지원-자격증-조건/",
+      "currentTitle": "국비지원 자격증 조건 사람·과정·시험 요건을 따로 확인하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "944f4c88893e8476f1fe6aac65237366a87e981f59ed73042d7b007d32bb465e"
+    },
+    {
+      "slug": "국비지원-학원-취업률-확인방법",
+      "previousTitle": "국비지원 학원 취업률 확인방법과 수강 전 질문 7가지",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/국비지원-학원-취업률-확인방법/",
+      "currentTitle": "국비지원 학원 취업률 확인방법과 수강 전 질문 7가지",
+      "sourceCheckDate": null,
+      "htmlSha256": "c99bb5798e731fcc0dc67f5f729967a9e37acff9275e05121c59ead06a2ec6c9"
+    },
+    {
+      "slug": "국비지원-훈련과정-선택-가이드",
+      "previousTitle": "국비지원 훈련과정 선택방법 비용 실습 취업연계 비교",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/국비지원-훈련과정-선택-가이드/",
+      "currentTitle": "국비지원 훈련과정 선택방법 시간표 실습 비용 취업연계 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e66329ea93cffbd8474030d09d6c378fe4bc5b620f7b1476de92311a3a5c38d3"
+    },
+    {
+      "slug": "굴착기운전기능사-지게차-차이",
+      "previousTitle": "굴착기운전기능사와 지게차 자격증 준비 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/굴착기운전기능사-지게차-차이/",
+      "currentTitle": "굴착기운전기능사와 지게차 자격증 준비 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "20ce157e70083b644c438dd2d8d89b02b009a7be82e4a3a44d16e4297432604f"
+    },
+    {
+      "slug": "근로장려금-기한-후-신청-2026",
+      "previousTitle": "근로장려금 기한 후 신청 2026 놓친 사람 신청기간과 지급 기준",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/근로장려금-기한-후-신청-2026/",
+      "currentTitle": "근로장려금 기한 후 신청 2026 놓친 사람 신청기간과 지급 기준",
+      "sourceCheckDate": null,
+      "htmlSha256": "cf25da23195fd28ebb179b4dbf1380fbb1143688eb8c61c57a3be7c6fae1f058"
+    },
+    {
+      "slug": "근로장려금-신청-안-되는-이유",
+      "previousTitle": "근로장려금 신청 안 되는 이유: 소득, 재산, 가구 조건 체크",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No household income/property thresholds, valuation date or deduction treatment despite those being the title."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "HomeTax homepage is not an eligibility or appeal source; reuse exact NTS guidance from the stronger late-application article."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/근로장려금-신청-안-되는-이유/",
+      "currentTitle": "근로장려금 신청 안 되는 이유 소득·재산 초과와 신청화면 오류 구분",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "28926b9f17b07ab570c7319c10298894bb1bc7398270dbf23d2ae234192bc1f4"
+    },
+    {
+      "slug": "근로장려금-지급일-확인방법",
+      "previousTitle": "근로장려금 지급일 확인방법 2026 심사진행 조회",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/근로장려금-지급일-확인방법/",
+      "currentTitle": "근로장려금 지급일 확인방법 2026 심사진행 조회",
+      "sourceCheckDate": null,
+      "htmlSha256": "874a07c210bb2ed7d34b09a20898cd2203a7fe785dcde26243a43f91f97ae833"
+    },
+    {
+      "slug": "금속재창호기능사-실기-부재-조립",
+      "previousTitle": "금속재창호기능사 실기 부재 조립과 안전",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/금속재창호기능사-실기-부재-조립/",
+      "currentTitle": "금속재창호기능사 실기 부재 가공과 맞춤",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "989c9602d8f85febd3302c34966dda69621fa76426f3fdc4af28cc954968d382"
+    },
+    {
+      "slug": "기초연금-수급자격-확인방법",
+      "previousTitle": "2026 기초연금 수급자격과 소득인정액 확인방법",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/기초연금-수급자격-확인방법/",
+      "currentTitle": "2026 기초연금 수급자격 선정기준액과 신청서류 확인방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "33a1bd9136dace76cc70958af552f1873f7fbd3ede903e8d86d0555b586b711d"
+    },
+    {
+      "slug": "기초연금-신청-전-확인할-것",
+      "previousTitle": "기초연금 신청 전 확인할 것: 소득인정액과 탈락 사유 쉽게 정리",
+      "previousIssues": [
+        {
+          "code": "contradiction",
+          "detail": "Age checklist says to check applying after birthday, while stronger sibling explains pre-birthday application."
+        },
+        {
+          "code": "title_gap",
+          "detail": "No worked income-recognition or distinct application-document treatment."
+        },
+        {
+          "code": "navigation_stale_label",
+          "detail": "Link text still describes summer content, while destination title is the revised winter energy-voucher guide.",
+          "evidence": [
+            {
+              "text": "2026 여름 에너지바우처 부모님 대신 확인할 것: 대상, 신청처, 사용처",
+              "target": "/2026-%EC%97%AC%EB%A6%84-%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%B6%80%EB%AA%A8%EB%8B%98-%EB%8C%80%EC%8B%A0-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83/",
+              "title": "2026 에너지바우처 신청기간과 겨울 사용방법"
+            }
+          ]
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/기초연금-수급자격-확인방법/",
+      "currentTitle": "2026 기초연금 수급자격 선정기준액과 신청서류 확인방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "33a1bd9136dace76cc70958af552f1873f7fbd3ede903e8d86d0555b586b711d"
+    },
+    {
+      "slug": "기초연금-탈락-이유",
+      "previousTitle": "기초연금 탈락 이유: 소득인정액에서 자주 걸리는 부분",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No item-level calculation errors, decision-notice analysis or formal challenge procedure."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/기초연금-탈락-이유/",
+      "currentTitle": "기초연금 탈락 이유와 소득인정액 재확인 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "82011ef3f9129d7d086453b968edf976e876fc887a643f5a876f6f9b2f8a4fd0"
+    },
+    {
+      "slug": "긴급복지-생계지원-신청조건",
+      "previousTitle": "긴급복지 생계지원 신청조건 2026 소득 기준과 상담방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/긴급복지-생계지원-신청조건/",
+      "currentTitle": "긴급복지 생계지원 신청조건 2026 소득 기준과 상담방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "45522262cac6fff60f884375a157ee22f15c81d2fd0798921e63e9f0212bf2bb"
+    },
+    {
+      "slug": "내일배움카드-중도포기-재수강",
+      "previousTitle": "국민내일배움카드 중도포기 시 불이익과 재수강 확인방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/내일배움카드-중도포기-재수강/",
+      "currentTitle": "국민내일배움카드 중도포기 시 불이익과 재수강 확인방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "b5954edde01ab42e8e402c749c38e471cc83545584009640f7596207d2273f38"
+    },
+    {
+      "slug": "내일배움카드-훈련과정-고르는-법",
+      "previousTitle": "내일배움카드 훈련과정 고르는 법: 4050이 수료 전에 봐야 할 기준",
+      "previousIssues": [
+        {
+          "code": "legacy_navigation",
+          "detail": "Workflow begins with HRD-Net rather than current Work24 course selection."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/국비지원-훈련과정-선택-가이드/",
+      "currentTitle": "국비지원 훈련과정 선택방법 시간표 실습 비용 취업연계 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e66329ea93cffbd8474030d09d6c378fe4bc5b620f7b1476de92311a3a5c38d3"
+    },
+    {
+      "slug": "내일배움카드-훈련장려금-지급조건",
+      "previousTitle": "내일배움카드 훈련장려금 지급조건 출석과 입금 확인방법",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Says certain participants qualify without specifying the ordinary course-hours and participant conditions or applicable payment scale."
+        },
+        {
+          "code": "scope",
+          "detail": "Separate standard card allowance from special training stipends with a current official table."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/내일배움카드-훈련장려금-지급조건/",
+      "currentTitle": "내일배움카드 훈련장려금 지급조건 140시간·출석 80%와 실제 금액",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ef0c733397317963de0d7e08271c6675f9ceee3b11655e9960c298c3fecd0f95"
+    },
+    {
+      "slug": "노인맞춤돌봄서비스-신청방법",
+      "previousTitle": "노인맞춤돌봄서비스 신청방법: 부모님 혼자 지내실 때 확인할 제도",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No specific age/income/service-exclusion criteria or concrete application procedure."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/부모님-노인맞춤돌봄서비스-확인법/",
+      "currentTitle": "부모님 노인맞춤돌봄서비스 신청대상 무료 지원과 준비서류",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "cae13f79b24f6f0494342c744ecc8243c5192a89f53f6efe44581c02dc393e16"
+    },
+    {
+      "slug": "노인일자리-신청방법",
+      "previousTitle": "노인일자리 신청방법: 부모님 일자리와 사회활동 지원사업 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No type-specific ages, eligibility exclusions, working hours or allowance-versus-wage examples."
+        },
+        {
+          "code": "terminology",
+          "detail": "Verify current program names against the current-year project guide rather than retaining only older umbrella labels."
+        },
+        {
+          "code": "navigation_stale_label",
+          "detail": "Link text still describes summer content, while destination title is the revised winter energy-voucher guide.",
+          "evidence": [
+            {
+              "text": "2026 여름 에너지바우처 부모님 대신 확인할 것: 대상, 신청처, 사용처",
+              "target": "/2026-%EC%97%AC%EB%A6%84-%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%B6%80%EB%AA%A8%EB%8B%98-%EB%8C%80%EC%8B%A0-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83/",
+              "title": "2026 에너지바우처 신청기간과 겨울 사용방법"
+            }
+          ]
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/노인일자리-신청방법/",
+      "currentTitle": "노인일자리 신청방법과 유형별 접수 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e1276877aa17c5ea7e5b12b49feada8272808efc8f91555b9ca1fce9fa9e293e"
+    },
+    {
+      "slug": "농기계운전기능사-실기-장비-연습",
+      "previousTitle": "농기계운전기능사 실기 장비와 안전교육 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/농기계운전기능사-실기-장비-연습/",
+      "currentTitle": "농기계운전기능사 실기 장비와 안전교육 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "4041a0ca972f0c1f1b7fa9d7c6b8e83aa8827a63545d81bb4d8b95ad57c77865"
+    },
+    {
+      "slug": "농업기계정비기능사-실기-정비-학원",
+      "previousTitle": "농업기계정비기능사 실기와 정비 학원 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/농업기계정비기능사-실기-정비-학원/",
+      "currentTitle": "농업기계정비기능사 실기와 정비 학원 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "2751b00a36aee397301b9bb246fc10b23e6ea02a2533cfe6fb5db4c4e9f466f4"
+    },
+    {
+      "slug": "도배기능사-실기-준비물-연습방법",
+      "previousTitle": "도배기능사 실기 준비물과 초보자 연습 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/도배기능사-실기-준비물-연습방법/",
+      "currentTitle": "도배기능사 실기 준비물과 초보자 연습 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "8d5739e9e59219063fd6518817953d29e5e83178813ae1f942261d203c905bb3"
+    },
+    {
+      "slug": "돌봄-분야-재취업-가이드",
+      "previousTitle": "돌봄 분야 재취업 요양보호사 사회복지사 생활지원사 비교",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/돌봄-분야-재취업-가이드/",
+      "currentTitle": "돌봄 분야 재취업 요양보호사 사회복지사 생활지원사 비교",
+      "sourceCheckDate": null,
+      "htmlSha256": "12d201bde597d85a6c493ec6768caef423bbf2f3dc77c31a7f5fc9a88a62c21d"
+    },
+    {
+      "slug": "떡제조기능사-실기-공개문제-위생",
+      "previousTitle": "떡제조기능사 실기 공개문제와 위생 준비",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/떡제조기능사-실기-공개문제-위생/",
+      "currentTitle": "떡제조기능사 실기 공개문제와 위생 준비",
+      "sourceCheckDate": null,
+      "htmlSha256": "d45d79125b83683fd4eded8c48b3e255b22a961e95c596b7f0c88bf2a3a63c0f"
+    },
+    {
+      "slug": "목공예기능사-실기-도면-연습",
+      "previousTitle": "목공예기능사 실기 도면 읽기와 공방 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/목공예기능사-실기-도면-연습/",
+      "currentTitle": "목공예기능사 실기 도면 읽기와 공방 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "68958ca6a27d75b7f9a3685364d573fb839e0f850bf7c2712a87f7bf7d438a20"
+    },
+    {
+      "slug": "물류관리사-지게차-자격증-취업-차이",
+      "previousTitle": "물류관리사와 지게차 자격증 취업 준비 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/물류관리사-지게차-자격증-취업-차이/",
+      "currentTitle": "물류관리사와 지게차 자격증 취업 준비 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "87694919fd3a4b3d53fefc98b9d6c110653fae101d0c427be205a8204ff348cc"
+    },
+    {
+      "slug": "미용사-네일-실기-재료비-준비",
+      "previousTitle": "미용사 네일 실기 준비물과 재료비 비교",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/미용사-네일-실기-재료비-준비/",
+      "currentTitle": "미용사 네일 실기 준비물과 재료비 비교",
+      "sourceCheckDate": null,
+      "htmlSha256": "b1e19da79717b242c48e7620d49309a2006ab6595caa33a6dff9ad5a62104fca"
+    },
+    {
+      "slug": "미용사-메이크업-실기-모델-재료비",
+      "previousTitle": "미용사 메이크업 실기 모델과 재료비",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/미용사-메이크업-실기-모델-재료비/",
+      "currentTitle": "미용사 메이크업 재료비와 연습 예산 계산",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "bee72f1a1e65c0f63c4cf1e5a7319ac9645c1696991259d7aede557ae36283f6"
+    },
+    {
+      "slug": "미용사-일반-실기-마네킹-연습",
+      "previousTitle": "미용사 일반 실기 마네킹 연습과 준비 비용",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/미용사-일반-실기-마네킹-연습/",
+      "currentTitle": "미용사 일반 실기 마네킹 연습과 준비 비용",
+      "sourceCheckDate": null,
+      "htmlSha256": "9861579e46af0ff193786b8f3b9f9e14cfc39130a675e7cecb328133ddc5e952"
+    },
+    {
+      "slug": "미용사-피부-실기-모델-준비",
+      "previousTitle": "미용사 피부 실기 모델과 준비물 확인 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/미용사-피부-실기-모델-준비/",
+      "currentTitle": "미용사 피부 실기 모델과 준비물 확인 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "61b1dec934a6fba50e9e47a1433282a923a2e6de18a45a81b20d96053c897d23"
+    },
+    {
+      "slug": "미장기능사-실기-재료-연습",
+      "previousTitle": "미장기능사 실기 재료와 개인 연습 시간",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/미장기능사-실기-재료-연습/",
+      "currentTitle": "미장기능사 실기 개인 연습 공간과 재료비",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "8d940e0d43a9e01d94cf7c6ec95b5a02359f9ebfaf2012dbf38fdc5a7b3f83c1"
+    },
+    {
+      "slug": "바리스타-자격증-민간자격-학원선택",
+      "previousTitle": "바리스타 자격증 민간자격 확인과 학원 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/바리스타-자격증-민간자격-학원선택/",
+      "currentTitle": "바리스타 자격증 민간자격 확인과 학원 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "57fb632621217a3a4ba1f86543446b3fb6d655ceb94eb64c67546f481038acbb"
+    },
+    {
+      "slug": "방문요양-서비스-신청-전-확인할-것",
+      "previousTitle": "방문요양 서비스 신청 전 확인할 것: 장기요양등급과 이용 절차",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Needs a worked route from recognition documents to provider contract, covered hours and out-of-pocket categories."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Homepages provide no direct recognition or provider-search workflow."
+        },
+        {
+          "code": "navigation_stale_label",
+          "detail": "Link text still describes summer content, while destination title is the revised winter energy-voucher guide.",
+          "evidence": [
+            {
+              "text": "2026 여름 에너지바우처 부모님 대신 확인할 것: 대상, 신청처, 사용처",
+              "target": "/2026-%EC%97%AC%EB%A6%84-%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%B6%80%EB%AA%A8%EB%8B%98-%EB%8C%80%EC%8B%A0-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83/",
+              "title": "2026 에너지바우처 신청기간과 겨울 사용방법"
+            }
+          ]
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/방문요양-서비스-신청-전-확인할-것/",
+      "currentTitle": "방문요양 서비스 시작 전 등급과 기관 계약 확인하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "70e57bd9bc31e522056a812f1280e090f1764415f4ba4744db966a3eacdd0634"
+    },
+    {
+      "slug": "방문요양-주간보호센터-비용-비교",
+      "previousTitle": "방문요양과 주간보호센터 비용 비교 부모님 돌봄 선택방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/방문요양-주간보호센터-비용-비교/",
+      "currentTitle": "방문요양과 주간보호센터 비용 비교 부모님 돌봄 선택방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "ff7372a55d200ce06873af79b3c0a04633777a1944dad10088237c47321e5f52"
+    },
+    {
+      "slug": "방수기능사-실기-준비-안전수칙",
+      "previousTitle": "방수기능사 실기 준비와 안전한 실습 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/방수기능사-실기-준비-안전수칙/",
+      "currentTitle": "방수기능사 실기 준비와 안전한 실습 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "12572b0bcf6992aae535661dce07c89ed7638189167679142ca0446072691a13"
+    },
+    {
+      "slug": "버섯종균기능사-실기-위생-실습",
+      "previousTitle": "버섯종균기능사 실기 위생과 실습 환경 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/버섯종균기능사-실기-위생-실습/",
+      "currentTitle": "버섯종균기능사 실기 위생과 실습 환경 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "a4d791563b6fce004d831e1f8c53eb5be7500a5c86b3ca37227f2e6a180b047c"
+    },
+    {
+      "slug": "복지멤버십-신청-알림-확인",
+      "previousTitle": "복지멤버십 신청방법과 알림 확인 지원금 자동 지급과 다른 점",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/복지멤버십-신청-알림-확인/",
+      "currentTitle": "복지멤버십 신청방법과 알림 확인 지원금 자동 지급과 다른 점",
+      "sourceCheckDate": null,
+      "htmlSha256": "89b7564fc69ff19132c355380e662878b7a47da02975a0595c27d78992d65e81"
+    },
+    {
+      "slug": "부모님-긴급복지-신청-전-확인할-것",
+      "previousTitle": "부모님 긴급복지 신청 전 확인할 것: 갑작스러운 위기 상황 기준",
+      "previousIssues": [
+        {
+          "code": "scope",
+          "detail": "Lists welfare portal as an application route without clarifying urgent request versus information search."
+        },
+        {
+          "code": "overlap",
+          "detail": "No distinctive parental proxy or evidence procedure."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/부모님-긴급복지-신청-전-확인할-것/",
+      "currentTitle": "부모님 긴급복지 신청 전 위기사유와 요청 방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "9464b19c877787de1cdf3a6d62def4b47ec48aaec71c3d3330a410f5629c4f02"
+    },
+    {
+      "slug": "부모님-노인-틀니-임플란트-건강보험-적용",
+      "previousTitle": "부모님 노인 틀니와 임플란트 건강보험 적용 기준",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/부모님-노인-틀니-임플란트-건강보험-적용/",
+      "currentTitle": "부모님 노인 틀니와 임플란트 건강보험 적용 기준",
+      "sourceCheckDate": null,
+      "htmlSha256": "ee3eb21f90471b1b57f0d3f4e8756579213696f31ebad8af312161c01da56a5e"
+    },
+    {
+      "slug": "부모님-노인맞춤돌봄서비스-확인법",
+      "previousTitle": "부모님 노인맞춤돌봄서비스 확인법: 신청 대상과 상담 전 준비서류",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Longer discussion still omits concrete selection criteria, exclusions, proxy documents and decision procedure."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Two government homepages do not establish the promised target and document list."
+        },
+        {
+          "code": "navigation_stale_label",
+          "detail": "Link text still describes summer content, while destination title is the revised winter energy-voucher guide.",
+          "evidence": [
+            {
+              "text": "2026 여름 에너지바우처 부모님 대신 확인할 것: 대상, 신청처, 사용처",
+              "target": "/2026-%EC%97%AC%EB%A6%84-%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%B6%80%EB%AA%A8%EB%8B%98-%EB%8C%80%EC%8B%A0-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83/",
+              "title": "2026 에너지바우처 신청기간과 겨울 사용방법"
+            }
+          ]
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/부모님-노인맞춤돌봄서비스-확인법/",
+      "currentTitle": "부모님 노인맞춤돌봄서비스 신청대상 무료 지원과 준비서류",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "cae13f79b24f6f0494342c744ecc8243c5192a89f53f6efe44581c02dc393e16"
+    },
+    {
+      "slug": "부모님-복지-점검-가이드",
+      "previousTitle": "부모님 복지 점검 가이드 생활비 돌봄과 주거 지원 확인 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/부모님-복지-점검-가이드/",
+      "currentTitle": "부모님 복지 점검 가이드 생활비 돌봄과 주거 지원 확인 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "1a2628f3ecbdefcd5391ea7e6d330ff498b90abc09768ee5982c684ad8131364"
+    },
+    {
+      "slug": "부모님-복지혜택-한-번에-찾는-법",
+      "previousTitle": "부모님 복지혜택 한 번에 찾는 법: 복지로, 정부24, 주민센터 활용",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "No worked search example or distinctive result interpretation."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/부모님-복지혜택-한-번에-찾는-법/",
+      "currentTitle": "부모님 복지혜택 한 번에 찾는 법과 복지로 확인 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "db789fd9d17503813871c76d77f7102e7fa5972ab582bcca69ae861c99d28eb2"
+    },
+    {
+      "slug": "부모님-의료비-세액공제-공제받는-사람",
+      "previousTitle": "부모님 의료비 세액공제 누가 받을 수 있는지 확인하는 법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/부모님-의료비-세액공제-공제받는-사람/",
+      "currentTitle": "부모님 의료비 세액공제 누가 받을 수 있는지 확인하는 법",
+      "sourceCheckDate": null,
+      "htmlSha256": "68d79d91ef5697d90eadaca7fcb91fe6223f909e1e16a9aa8a8f68dcaa9317ea"
+    },
+    {
+      "slug": "부모님-주민센터-복지상담-준비물",
+      "previousTitle": "부모님 주민센터 복지상담 준비물: 대신 알아볼 때 필요한 정보",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Distinguish useful consultation notes from required proxy identity/authority documents and benefit-specific evidence."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/부모님-주민센터-복지상담-준비물/",
+      "currentTitle": "부모님 주민센터 복지상담 준비물과 대리신청 구분",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "d2bfe3c9cf153884ac285539664430fbbdb078aa89299bf44591434a3f2f596e"
+    },
+    {
+      "slug": "사진기능사-실기-촬영-출력-연습",
+      "previousTitle": "사진기능사 실기 촬영부터 출력까지 연습",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/사진기능사-실기-촬영-출력-연습/",
+      "currentTitle": "사진기능사 실기 촬영과 출력 연습 방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "55926d14b1f3eb699325e279b8c22ccb353bf42ff4d67b1b196db41c8707d4c9"
+    },
+    {
+      "slug": "사회복지사-2급-4050-공부법",
+      "previousTitle": "사회복지사 2급 4050 공부법: 과목 이수와 현장실습을 먼저 계산하세요",
+      "previousIssues": [
+        {
+          "code": "scope",
+          "detail": "Past-question weeks, exam-day/technical-practical advice and generic Q-Net warning do not fit course-based qualification."
+        },
+        {
+          "code": "overlap",
+          "detail": "Move any unique academic-calendar planning into the main preparation guide."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/사회복지사-2급-4050-준비방법/",
+      "currentTitle": "사회복지사 2급 준비방법 학력별 이수과목 실습과 발급 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "bc4d4c92f3b68776b5dd01649416dc21f89ca83d9be2f01bd1f79e89a92c4ff3"
+    },
+    {
+      "slug": "사회복지사-2급-4050-준비방법",
+      "previousTitle": "사회복지사 2급 4050 준비방법: 학점은행제와 실습 확인하기",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add applicable degree/course requirements, transition cohorts, practicum hours/seminars and document issuance sequence."
+        },
+        {
+          "code": "repetition",
+          "detail": "Repeats preparation, costs and placement warnings in appended checklists rather than resolving them."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/사회복지사-2급-4050-준비방법/",
+      "currentTitle": "사회복지사 2급 준비방법 학력별 이수과목 실습과 발급 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "bc4d4c92f3b68776b5dd01649416dc21f89ca83d9be2f01bd1f79e89a92c4ff3"
+    },
+    {
+      "slug": "사회복지사-2급-실습-전-확인할-것",
+      "previousTitle": "사회복지사 2급 실습 전 확인할 것: 4050 준비자가 자주 놓치는 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Missing applicable hours, seminar obligations, approved placement/supervisor checks and transition-rule distinctions."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Needs direct association criteria and placement list rather than portal roots."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/사회복지사-2급-실습-전-확인할-것/",
+      "currentTitle": "사회복지사 2급 실습 전 확인할 시간·세미나·기관 기준",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "fd4afa03d5be3eb2137d63fed6e7704f02c7c3671ad9a1897e6000a9259afcf9"
+    },
+    {
+      "slug": "산림-조경-관련-자격증-4050-활용도",
+      "previousTitle": "산림·조경 관련 자격증 4050 활용도: 자연 분야 재취업 전 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No representative current local vacancy or distinction between specific tasks and legal work requirements."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Subject pages and a dated public forestry/landscape vacancy would substantiate the comparison."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/산림-조경-관련-자격증-4050-활용도/",
+      "currentTitle": "산림기능사와 조경기능사 시험과 업무 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "7462a4bee27eef8c58cea4476cdeba0454b9fc8d3920be7e296756e36a91cd4b"
+    },
+    {
+      "slug": "산림기능사-실기-안전-연습장",
+      "previousTitle": "산림기능사 실기 준비와 안전한 연습장 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/산림기능사-실기-안전-연습장/",
+      "currentTitle": "산림기능사 실기 준비와 안전한 연습장 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "259d4953a2dd632ecdef7646e5f07b920d7b09094c72973864ec32a664350245"
+    },
+    {
+      "slug": "산업안전기사-산업안전산업기사-응시자격-비교",
+      "previousTitle": "산업안전기사와 산업안전산업기사 응시자격 비교",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/산업안전기사-산업안전산업기사-응시자격-비교/",
+      "currentTitle": "산업안전기사와 산업안전산업기사 응시자격 비교",
+      "sourceCheckDate": null,
+      "htmlSha256": "1894d879fa4662627474386caa9224365594c6883b2d20a3b2ee5a06b54e5293"
+    },
+    {
+      "slug": "상시검정-자격증-선택-가이드",
+      "previousTitle": "상시검정 자격증 선택 가이드 지게차 조리 미용 준비 기준",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/상시검정-자격증-선택-가이드/",
+      "currentTitle": "상시검정 자격증 선택 가이드 지게차 조리 미용 준비 기준",
+      "sourceCheckDate": null,
+      "htmlSha256": "eba8bdae1ab84e0bf77f02b072ba1dfa76aa8a26d0a9a2bbbb5eaf6b56e20801"
+    },
+    {
+      "slug": "생활지원사-하는일-채용공고-근무조건",
+      "previousTitle": "생활지원사 하는 일과 채용공고에서 확인할 근무조건",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/생활지원사-하는일-채용공고-근무조건/",
+      "currentTitle": "생활지원사 하는 일과 채용공고에서 확인할 근무조건",
+      "sourceCheckDate": null,
+      "htmlSha256": "4ff3c093920f0226ebc7bb925032e073d4b1edaca4be2bf8e62d6cec077affeb"
+    },
+    {
+      "slug": "세탁기능사-실기-원단-분류",
+      "previousTitle": "세탁기능사 실기 원단 분류와 비용 점검",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/세탁기능사-실기-원단-분류/",
+      "currentTitle": "세탁기능사 실기 원단 분류와 비용 점검",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "2c14239ed6eb46c153591120732883f202965d4d914d35a32f799b466f4fb28e"
+    },
+    {
+      "slug": "소방안전관리자-4050-공부법",
+      "previousTitle": "소방안전관리자 4050 공부법: 강습교육 전후로 나눠 준비하세요",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No grade-specific training/testing structure or concrete law-table example."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Same generic six-week practical-study plan and FAQs as unrelated qualifications."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/소방안전관리자-4050-공부법/",
+      "currentTitle": "소방안전관리자 2급 과목별 공부와 모의 점검",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "61b7dadbc6e7d520475ce6d5ab76f0f2ef037cc2aa6006f2a57cc857ef3988ac"
+    },
+    {
+      "slug": "소방안전관리자-4050-준비-전-확인할-것",
+      "previousTitle": "소방안전관리자 4050 준비 전 확인할 것: 선임 기준과 활용 분야",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Needs a sourced grade-to-building/qualification route comparison and appointment-duty boundaries."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Q-Net is not the primary source for this training/qualification route."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/소방안전관리자-4050-준비-전-확인할-것/",
+      "currentTitle": "소방안전관리자 준비 전 강습과 시험 선임 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ef8165315b0d5fc248aa17bbda1eb74b46a3d574e34f7a903440daff4afbd5b1"
+    },
+    {
+      "slug": "소상공인-정책자금-4050-자영업자-확인방법",
+      "previousTitle": "소상공인 정책자금 4050 자영업자 확인방법: 신청 전 준비서류",
+      "previousIssues": [
+        {
+          "code": "scope",
+          "detail": "Mixes existing operators and pre/re-start founders without naming a program that accepts them."
+        },
+        {
+          "code": "title_gap",
+          "detail": "Generic business/tax records are not a route-specific required-document list."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/소상공인-정책자금-신청-전-확인할-것/",
+      "currentTitle": "소상공인 정책자금 융자와 신청조건 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "09c417f2b681d9e3b968e095a3e6b302d9d8d54356bc16cc4b4412f968af2bd9"
+    },
+    {
+      "slug": "소상공인-정책자금-신청-전-확인할-것",
+      "previousTitle": "소상공인 정책자금 신청 전 확인할 것: 대출과 지원금 차이",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Compare named direct/proxy loan routes, notice date, exclusions and required evidence instead of generic funding types."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Portal homepages cannot support current availability, rate or eligibility."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/소상공인-정책자금-신청-전-확인할-것/",
+      "currentTitle": "소상공인 정책자금 융자와 신청조건 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "09c417f2b681d9e3b968e095a3e6b302d9d8d54356bc16cc4b4412f968af2bd9"
+    },
+    {
+      "slug": "승강기기능사-업무-근무조건-준비",
+      "previousTitle": "승강기기능사 취득 전 확인할 업무와 근무 조건",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/승강기기능사-업무-근무조건-준비/",
+      "currentTitle": "승강기기능사 취득 전 확인할 업무와 근무 조건",
+      "sourceCheckDate": null,
+      "htmlSha256": "3587e3e1dd53a680d573143d983dce245ac1850ff6a08aaf9e97f6f6eb890bfc"
+    },
+    {
+      "slug": "시설관리-입문-가이드",
+      "previousTitle": "시설관리 취업 준비 초보자가 업무와 근무조건을 비교하는 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/시설관리-입문-가이드/",
+      "currentTitle": "시설관리 취업 준비 초보자가 업무와 근무조건을 비교하는 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "4d5c55e33d22cb468c84d4b8d30ced5566c5351aac01425c733f646569aa17b9"
+    },
+    {
+      "slug": "시설관리-자격증-조합",
+      "previousTitle": "시설관리 자격증 조합 50대가 전기 소방 공조를 고르는 순서",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/시설관리-자격증-조합/",
+      "currentTitle": "시설관리 자격증 조합 전기 소방 공조 에너지 가스 선택 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "0abd904f4392983c5d5ad94188173a9ec0c3608ee9e177af5553eda015fa0c03"
+    },
+    {
+      "slug": "시설관리-자격증-현실-비교",
+      "previousTitle": "시설관리 자격증 현실 비교: 전기, 소방, 에너지 분야 어떻게 고를까",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "No distinct energy/gas appointment criteria or worked role comparison beyond broad fields."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/시설관리-자격증-조합/",
+      "currentTitle": "시설관리 자격증 조합 전기 소방 공조 에너지 가스 선택 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "0abd904f4392983c5d5ad94188173a9ec0c3608ee9e177af5553eda015fa0c03"
+    },
+    {
+      "slug": "시험-30일-전-공부계획표",
+      "previousTitle": "시험 30일 전 공부계획표: 직장인·퇴직자 4050 기준",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Morning schedules for retirees and fixed revision rules should be labeled adaptable examples."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Book-selection and generic preparation content repeats other study articles."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/시험-30일-전-공부계획표/",
+      "currentTitle": "시험 30일 전 공부계획표 실제 날짜와 오답 재시험으로 운영하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "a4e85c0757b9de2eda91877db5d4f06caaf75dc2ca4e850c36e5c93262ca99b2"
+    },
+    {
+      "slug": "실업급여-구직활동-인정기준-실업인정-신청",
+      "previousTitle": "실업급여 구직활동 인정기준과 실업인정 신청방법",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No current recipient-type/round-specific activity requirements or limits for repeated courses and alternative activities."
+        },
+        {
+          "code": "scope",
+          "detail": "Provide a dated official baseline while retaining the warning that personal notices control."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/실업급여-구직활동-인정기준-실업인정-신청/",
+      "currentTitle": "실업급여 구직활동 인정기준 일반수급자 4차·8차와 당일 17시 신청",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "047cb546bfa70b06fafdd12f4291fe579601cd54d45090b9661bcded944a281b"
+    },
+    {
+      "slug": "실업급여-신청-전-확인할-것",
+      "previousTitle": "실업급여 신청방법과 이직확인서 확인 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/실업급여-신청-전-확인할-것/",
+      "currentTitle": "실업급여 신청방법과 이직확인서 확인 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "e86acc617736207385ac2ca3ce8882d57be730448bd8ad4680ace06462b61d20"
+    },
+    {
+      "slug": "실업급여-아르바이트-소득신고",
+      "previousTitle": "실업급여 받는 중 아르바이트 소득 신고와 주의사항",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/실업급여-아르바이트-소득신고/",
+      "currentTitle": "실업급여 받는 중 아르바이트 소득 신고와 주의사항",
+      "sourceCheckDate": null,
+      "htmlSha256": "465b90a58bf5e17c7a734914390b6d368dabe0094828e4f3ec279a71d7422beb"
+    },
+    {
+      "slug": "양식조리기능사-실기-위생-준비",
+      "previousTitle": "양식조리기능사 실기 위생과 연습 순서",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/양식조리기능사-실기-위생-준비/",
+      "currentTitle": "양식조리기능사 실기 위생과 연습 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "433b3656e83b660c7fd64cc082bf3ddfe4457cea9ebc52f703903ea1e8e9b543"
+    },
+    {
+      "slug": "에너지관리기능사-50대-취업-실기준비",
+      "previousTitle": "에너지관리기능사 50대 취업 활용과 실기 준비 전 확인할 것",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/에너지관리기능사-50대-취업-실기준비/",
+      "currentTitle": "에너지관리기능사 50대 취업 활용과 실기 준비 전 확인할 것",
+      "sourceCheckDate": null,
+      "htmlSha256": "87b768b8dfd798ea4ef0ae91e50c2d272f8b7177bf8b7fa8b9483b8d4dadbcea"
+    },
+    {
+      "slug": "에너지바우처-신청방법",
+      "previousTitle": "에너지바우처 신청방법: 대상, 신청 기간, 사용처 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No actual current dates, household amounts or exact eligibility tests."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/에너지바우처-신청방법/",
+      "currentTitle": "에너지바우처 신청방법 2026 대상·대리서류·접수 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "a58ca6149575e896808f98efa713311ea215e4511ce60d887e7f780dc7973cc0"
+    },
+    {
+      "slug": "여성새로일하기센터-상담-직업교육",
+      "previousTitle": "여성새로일하기센터 상담과 직업교육 신청방법 4050 준비 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/여성새로일하기센터-상담-직업교육/",
+      "currentTitle": "여성새로일하기센터 상담과 직업교육 신청방법 4050 준비 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "8db2cf08d5675e92151bf4f0bb1c4325427cbc8be61324004ae1c4cebb0299e8"
+    },
+    {
+      "slug": "온수온돌기능사-배관실습-준비비용",
+      "previousTitle": "온수온돌기능사 배관 실습과 준비 비용",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/온수온돌기능사-배관실습-준비비용/",
+      "currentTitle": "온수온돌기능사 배관 실습과 준비 비용",
+      "sourceCheckDate": null,
+      "htmlSha256": "a25154b43ef17ffc0bc237097ba4e30982b8f7a36b6c3e21c9beb264fb20a569"
+    },
+    {
+      "slug": "요양보호사-근로계약서-급여계산",
+      "previousTitle": "요양보호사 근로계약서 확인할 항목과 급여 계산 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/요양보호사-근로계약서-급여계산/",
+      "currentTitle": "요양보호사 근로계약서 확인할 항목과 급여 계산 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "d68f292d7f68afe8275d2506f6749d98385dfea100697518edcfd79aabf96732"
+    },
+    {
+      "slug": "요양보호사-보수교육-대상-이수",
+      "previousTitle": "요양보호사 보수교육 대상과 면제 기준 이수 확인방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/요양보호사-보수교육-대상-이수/",
+      "currentTitle": "요양보호사 보수교육 대상과 면제 기준 이수 확인방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "62b186cf6813356e881a1190962a7d2111acbbe59360b210d1b4148d8abb307d"
+    },
+    {
+      "slug": "요양보호사-월급-현실",
+      "previousTitle": "요양보호사 월급 현실 방문요양과 시설요양 근무조건 비교",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/요양보호사-월급-현실/",
+      "currentTitle": "요양보호사 월급 현실 방문요양과 시설요양 근무조건 비교",
+      "sourceCheckDate": null,
+      "htmlSha256": "7c19d5679f375f5e4c9c4dabaa4167503a5afe2307d306c98eb7f98f1dc8e054"
+    },
+    {
+      "slug": "요양보호사-자격증-공부법",
+      "previousTitle": "요양보호사 자격증 공부법: 50대가 헷갈리는 이론 정리법",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Show one role-boundary or dementia-care question with reasoning tied to official syllabus, not medical advice."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "General book/30-day planning content outweighs care-specific explanation."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/요양보호사-자격증-공부법/",
+      "currentTitle": "요양보호사 필기와 실기 문제 공부 방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "a1096abee1204789c5bec5f656cdc251207583f7792a83cde2bd275b626ebe8f"
+    },
+    {
+      "slug": "요양보호사-자격증-취득방법",
+      "previousTitle": "요양보호사 자격증 취득방법: 교육, 시험, 취업까지 확인할 것",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Missing current standard and prior-qualification training routes, exam sections/pass criteria and issuance documents."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "National testing portal entry alone does not substantiate education and issuance requirements."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/요양보호사-자격증-취득방법/",
+      "currentTitle": "요양보호사 자격증 교육시간과 시험 준비 절차",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "f8ac8aefba4c4606c4bea4526a166458eafe78680314ef52f10dd34b850ef877"
+    },
+    {
+      "slug": "요양보호사-취득-후-취업처",
+      "previousTitle": "요양보호사 취득 후 취업처: 방문요양, 시설, 주간보호센터 차이",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "No distinct provider evaluation or hiring example beyond visits, facilities and day care."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/요양보호사-취득-후-취업처/",
+      "currentTitle": "요양보호사 취업처는 방문 이동과 시설 교대·송영 조건으로 고르세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "45f38ecabcbf2a38744fae3ddb535199ea83347d7c4c26e435b483d57801cd36"
+    },
+    {
+      "slug": "요양원-요양병원-차이-비용-입소기준",
+      "previousTitle": "요양원과 요양병원 차이 비용과 입소 기준 비교",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "State actual facility-benefit eligibility boundaries and ordinary copayment bases; currently neither is quantified or resolved."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/요양원-요양병원-차이-비용-입소기준/",
+      "currentTitle": "요양원과 요양병원 차이 시설급여 입소기준과 진료·간병비 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "20a612ee411942633b4cb67a6d02231d91dc0b71e09af7a59a26eea169d5a425"
+    },
+    {
+      "slug": "원예기능사-출제기준-필기-실기",
+      "previousTitle": "원예기능사 필기와 실기 출제기준 확인 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/원예기능사-출제기준-필기-실기/",
+      "currentTitle": "원예기능사 필기와 실기 출제기준 확인 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "bf253cb8b641fb3915544cb632ef2aa370a8bd54a663a8b28e605c7cb6742be5"
+    },
+    {
+      "slug": "웹디자인개발기능사-실기-환경-확인",
+      "previousTitle": "웹디자인개발기능사 실기 환경과 연습 방법",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/웹디자인개발기능사-실기-환경-확인/",
+      "currentTitle": "웹디자인개발기능사 실기 공개문제와 환경 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "7f569c29b179a1d45df03c80f5bffbd426bf66e453700399044a4a1af2c5003e"
+    },
+    {
+      "slug": "위험물기능사-비전공자-필기-실기-공부",
+      "previousTitle": "위험물기능사 비전공자 필기 공부와 실기 준비 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/위험물기능사-비전공자-필기-실기-공부/",
+      "currentTitle": "위험물기능사 비전공자 필기 공부와 실기 준비 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "04fa493d43aeeccf1d6996d5ed25758ce2c1c7744cf81100460238641c7d02f7"
+    },
+    {
+      "slug": "유기농업기능사-필답형-인증-차이",
+      "previousTitle": "유기농업기능사 실기 공부와 유기인증의 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/유기농업기능사-필답형-인증-차이/",
+      "currentTitle": "유기농업기능사 실기 공부와 유기인증의 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "4149da1917f0ce889f5ca23ac512ddf3bff82ef3598835f952c14b5abd856831"
+    },
+    {
+      "slug": "이용사-실기-모델-도구-준비",
+      "previousTitle": "이용사 실기 모델과 도구 준비 방법",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/이용사-실기-모델-도구-준비/",
+      "currentTitle": "이용사 실기 마네킹과 도구 준비 방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "481c73f4f27858cb181c35313f350181ed429f63f74b8f28b6be331ade3d22c8"
+    },
+    {
+      "slug": "이직확인서-처리여부-조회-정정요청",
+      "previousTitle": "이직확인서 처리여부 조회와 퇴사 사유 정정 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/이직확인서-처리여부-조회-정정요청/",
+      "currentTitle": "이직확인서 처리여부 조회와 퇴사 사유 정정 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "ebd74b0cae8068a9a4def45a135db420522bdfc82ad51f763bc111a4b2282c6a"
+    },
+    {
+      "slug": "인쇄기능사-오프셋-스크린-선택",
+      "previousTitle": "인쇄기능사 오프셋과 스크린 실기 선택",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/인쇄기능사-오프셋-스크린-선택/",
+      "currentTitle": "인쇄기능사 오프셋과 스크린 실습 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "8e85bee6f860d54c6b49debda534af37a0c56fb8f6ba923febc06a26397b0879"
+    },
+    {
+      "slug": "일식조리기능사-실기-재료관리",
+      "previousTitle": "일식조리기능사 실기 재료 관리와 위생",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/일식조리기능사-실기-재료관리/",
+      "currentTitle": "일식조리기능사 실기 재료 관리와 위생",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "9a009a144366bf2ef6e3a699b36a7902f449c948ae41e5967a3f06d2dab40f9d"
+    },
+    {
+      "slug": "자격증-독학-vs-국비지원-학원",
+      "previousTitle": "자격증 독학 vs 국비지원 학원: 4050은 언제 학원이 나을까?",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Provide contrasting written/practical course budgets and contact-hour assumptions, clearly hypothetical."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Shared book/30-day plans repeat information rather than comparing the two routes."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/자격증-독학-vs-국비지원-학원/",
+      "currentTitle": "자격증 독학 vs 국비지원 학원 실습시간과 총비용 비교하기",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "fc6a884f7e46e845972ea7223d6d5fa619e95ecfa8db7c9efe73c490fd3490c2"
+    },
+    {
+      "slug": "자동차정비기능사-비전공자-준비",
+      "previousTitle": "자동차정비기능사 비전공자 공부와 실습 준비",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/자동차정비기능사-비전공자-준비/",
+      "currentTitle": "자동차정비기능사 비전공자 공부와 실습 준비",
+      "sourceCheckDate": null,
+      "htmlSha256": "8bbf81b6593250eceff122105ffbb7c4eb5737d13614bb2ae84153cde1908bb0"
+    },
+    {
+      "slug": "자발적-퇴사-실업급여-인정사유-증빙",
+      "previousTitle": "자발적 퇴사 실업급여 인정 사유와 준비할 증빙",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/자발적-퇴사-실업급여-인정사유-증빙/",
+      "currentTitle": "자발적 퇴사 실업급여 인정 사유와 준비할 증빙",
+      "sourceCheckDate": null,
+      "htmlSha256": "0e5359679fafb388897965373c270ad0d76b5d7b654793f91284996ed60682e6"
+    },
+    {
+      "slug": "장기요양-가족휴가제-이용방법",
+      "previousTitle": "장기요양 가족휴가제 이용방법 2026 단기보호와 종일방문요양",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/장기요양-가족휴가제-이용방법/",
+      "currentTitle": "장기요양 가족휴가제 이용방법 2026 단기보호와 종일방문요양",
+      "sourceCheckDate": null,
+      "htmlSha256": "94e0d4d90aaa426faef0b9645212024af5e49a6562424a08376a194ceedbb3c4"
+    },
+    {
+      "slug": "장기요양-복지용구-구입-대여-본인부담금",
+      "previousTitle": "장기요양 복지용구 구입과 대여 품목 및 본인부담금",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add representative current purchase-only/rental-only/both item groups and ordinary/discounted copayment examples."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "One linked fee-list URL has empty SEQ_HISTORY; confirm the actual effective notice rather than assuming the page resolves."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/장기요양-복지용구-구입-대여-본인부담금/",
+      "currentTitle": "장기요양 복지용구 구입·대여 연 160만원 한도와 15%·9%·6% 부담",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "89a80bce3c095ca1d51fc35ee9422f4aef051c2b05b69dbc54a014e92ce7c6a0"
+    },
+    {
+      "slug": "장기요양-본인부담금-감경-확인방법",
+      "previousTitle": "장기요양 본인부담금 감경 대상과 확인방법",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Give sourced ordinary/reduced/exempt rate comparisons and distinguish automatic qualification from application/correction."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "A document-download endpoint without visible effective-date context is weak evidence for current reduction rules."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/장기요양-본인부담금-감경-확인방법/",
+      "currentTitle": "장기요양 본인부담금 감경 재가 9%·6%, 시설 12%·8% 확인방법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "3cd38e6a44ea2c1a361053518798ae8ddc7ccf565dd2b31eeba6a170f4b64259"
+    },
+    {
+      "slug": "장기요양등급-신청-전-확인할-것",
+      "previousTitle": "장기요양등급 신청 전 확인할 것: 부모님 돌봄이 필요할 때",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add age/under-age disease route, expected duration of assistance, physician opinion timing, proxy application and outcome documents."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/장기요양등급-신청-전-확인할-것/",
+      "currentTitle": "장기요양등급 신청 대상과 서류 준비 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "80cae90a4e242d8e796f54ddc3c81873fc51c9420cd05f3bf138b93804cfd9ac"
+    },
+    {
+      "slug": "장기요양등급-심사청구-준비자료",
+      "previousTitle": "장기요양등급 결과에 이의가 있을 때 확인할 절차와 준비자료",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/장기요양등급-심사청구-준비자료/",
+      "currentTitle": "장기요양등급 결과에 이의가 있을 때 확인할 절차와 준비자료",
+      "sourceCheckDate": null,
+      "htmlSha256": "b9141f8b7c63547fd930a1f75c1e3ad50509d1246f9d29a62011de71f7f0b5f1"
+    },
+    {
+      "slug": "재난적의료비-지원-신청조건-준비서류",
+      "previousTitle": "재난적의료비 지원 신청조건과 준비서류",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No ordinary income/property/medical-burden thresholds, support scale or exception-review route."
+        },
+        {
+          "code": "scope",
+          "detail": "Separate stable nationwide rules from genuinely date- or household-dependent calculations."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/재난적의료비-지원-신청조건-준비서류/",
+      "currentTitle": "재난적의료비 지원 재산과표 7억원·소득별 의료비 기준과 180일 신청",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ba1491d4c1196a921fa7746ced4b8dbf6601d35aff24d032dd40256dffe12547"
+    },
+    {
+      "slug": "재직자-내일배움카드-사용법",
+      "previousTitle": "재직자 내일배움카드 사용법: 퇴근 후 훈련과정 선택 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add relevant worker exclusion checks and one current evening/weekend-course cost/attendance example."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/재직자-내일배움카드-사용법/",
+      "currentTitle": "재직자 내일배움카드 사용법 퇴근 후 수강과 결제 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "321e8af10161078db37b4cf3cb3c567cae7513695a282730318754a97bad3c52"
+    },
+    {
+      "slug": "전기기능사-4050-공부법",
+      "previousTitle": "전기기능사 4050 공부법: 필기와 실기 준비 순서",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Minimum five-year question repetition and fixed one-week foundations are not established for all beginners."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Shared study/30-day/book sections obscure the subject-specific plan."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/전기기능사-4050-공부법/",
+      "currentTitle": "전기기능사 필기 계산과 실기 준비 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "4ed2ce548f58f3cbd972de1cbbf5f1435edddb36483b3d6c2098fbfc05ac00dd"
+    },
+    {
+      "slug": "전기기능사-50대-취업-가능할까",
+      "previousTitle": "전기기능사 50대 취업 가능할까: 준비 전 확인할 현실 조건",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No dated beginner-eligible vacancy example or clear boundary between technician support and statutory appointment."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/전기기능사-50대-취업-가능할까/",
+      "currentTitle": "전기기능사 50대 취업은 자격 우대와 안전관리 선임 공고를 구분하세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "5ed9d5b4b37553cfeeace0348c95e458a9fea26e7404799ae3b6080b3b5f2cb7"
+    },
+    {
+      "slug": "전기기능사와-소방안전관리자-비교",
+      "previousTitle": "전기기능사와 소방안전관리자 비교: 4050 시설관리 준비 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No concrete grade, preparation cost or appointment eligibility comparison."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/전기기능사와-소방안전관리자-비교/",
+      "currentTitle": "전기기능사와 소방안전관리자 준비 경로 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "dfc166922f35d6734f2b7f024b4b570ddfe07a4ebbe23214c122025b344ea260"
+    },
+    {
+      "slug": "전기산업기사-응시자격-경력증명서",
+      "previousTitle": "전기산업기사 응시자격과 경력증명서 준비 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/전기산업기사-응시자격-경력증명서/",
+      "currentTitle": "전기산업기사 응시자격과 경력증명서 준비 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "eb79875a6e8fc475d31f15761c03257f4ae8fed8634939bee942f980bbf5f6e3"
+    },
+    {
+      "slug": "전산응용건축제도기능사-CAD-초보",
+      "previousTitle": "전산응용건축제도기능사 CAD 초보 공부 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/전산응용건축제도기능사-CAD-초보/",
+      "currentTitle": "전산응용건축제도기능사 CAD 초보 공부 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "28801974a766e2b6d7e47f4e838aaaba376c24a830616e9f02aa34f7001352ec"
+    },
+    {
+      "slug": "전산응용기계제도기능사-3D-2D-연습",
+      "previousTitle": "전산응용기계제도기능사 CAD와 도면 연습",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/전산응용기계제도기능사-3D-2D-연습/",
+      "currentTitle": "전산응용기계제도기능사 CAD와 도면 연습",
+      "sourceCheckDate": null,
+      "htmlSha256": "eaf1944f38882ef122cba7cc9db1a984a79d1318ddc0b8756ea6eea41ea2550e"
+    },
+    {
+      "slug": "전산회계운용사-3급-실기-프로그램",
+      "previousTitle": "전산회계운용사 3급 초보 실기 프로그램 준비",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/전산회계운용사-3급-실기-프로그램/",
+      "currentTitle": "전산회계운용사 3급 초보 실기 프로그램 준비",
+      "sourceCheckDate": null,
+      "htmlSha256": "000165773880f51705e1eff3d84e09c560b66929c80e3d42f54a7947249b45a4"
+    },
+    {
+      "slug": "전자출판기능사-실기-편집-연습",
+      "previousTitle": "전자출판기능사 실기 원고 편집 연습",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/전자출판기능사-실기-편집-연습/",
+      "currentTitle": "전자출판기능사 실기 원고 수정과 누락 점검",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "b1c0f4e4f54d6051a73fa345f77ceb7bf75e8c61a075eb40d58c94257c572dc6"
+    },
+    {
+      "slug": "전자캐드기능사-회로도-PCB-연습",
+      "previousTitle": "전자캐드기능사 회로도와 PCB 도면 공부",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/전자캐드기능사-회로도-PCB-연습/",
+      "currentTitle": "전자캐드기능사 회로도와 PCB 도면 공부",
+      "sourceCheckDate": null,
+      "htmlSha256": "34e28b3cc8bfff1b9ce210bff87cc21c43257c5c43f8d814813457712a517982"
+    },
+    {
+      "slug": "정보기기운용기능사-네트워크-초보",
+      "previousTitle": "정보기기운용기능사 네트워크 초보 공부법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/정보기기운용기능사-네트워크-초보/",
+      "currentTitle": "정보기기운용기능사 네트워크 초보 공부법",
+      "sourceCheckDate": null,
+      "htmlSha256": "4ddda9a46e2d46b7664d79a35eec31d190f99eb63732b4401cebe17fdfc9ef5e"
+    },
+    {
+      "slug": "제과기능사-실기-연습-재료비",
+      "previousTitle": "제과기능사 실기 연습과 재료비 계산",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/제과기능사-실기-연습-재료비/",
+      "currentTitle": "제과기능사 실기 연습과 재료비 계산",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "cd0093b2cd24ee3babf192027e009babb63ee30b9c027490b507cb6379c0c26b"
+    },
+    {
+      "slug": "제과기능사-제빵기능사-실기-차이",
+      "previousTitle": "제과기능사와 제빵기능사 실기 준비 차이",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/제과기능사-제빵기능사-실기-차이/",
+      "currentTitle": "제과기능사와 제빵기능사 실기 준비 차이",
+      "sourceCheckDate": null,
+      "htmlSha256": "4a8c6515bc2cc364774b718609fba436815b8cb1135369eef70192791549cb5a"
+    },
+    {
+      "slug": "제빵기능사-발효-실기-연습",
+      "previousTitle": "제빵기능사 발효 과정과 실기 연습 계획",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/제빵기능사-발효-실기-연습/",
+      "currentTitle": "제빵기능사 발효 과정과 실기 연습 계획",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "d64c1035880e30720be42f91b268d0bad34a17530c91a3559fb4fab4122ca3e0"
+    },
+    {
+      "slug": "조경기능사-실기-준비물-연습순서",
+      "previousTitle": "조경기능사 실기 준비물과 초보자 연습 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/조경기능사-실기-준비물-연습순서/",
+      "currentTitle": "조경기능사 실기 준비물과 초보자 연습 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "b416fb9eda07143d752498af3d2a008a2e9a4b6161c730a3728cd8de6f78d776"
+    },
+    {
+      "slug": "조기재취업수당-신청조건-준비서류",
+      "previousTitle": "조기재취업수당 신청조건과 준비서류 재취업 전 확인할 것",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/조기재취업수당-신청조건-준비서류/",
+      "currentTitle": "조기재취업수당 신청조건과 준비서류 재취업 전 확인할 것",
+      "sourceCheckDate": null,
+      "htmlSha256": "90f3237c8a907cb08c8abedfc4974fe8814f7552d76f0f55ffe0e535dfda2691"
+    },
+    {
+      "slug": "조리기능사-50대-취업-가능할까",
+      "previousTitle": "조리기능사 50대 취업 가능할까: 급식, 주방보조, 단체급식 기준",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "No dated vacancy or distinct school/hospital requirement example to separate the two intents."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/조리기능사-50대-취업-가능할까/",
+      "currentTitle": "50대 조리 취업은 자격증부터 따기보다 담당 공정과 출근 시간을 비교하세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "3f669af53c5dd6d1a8e3c4447d9719a926d5d427250ebacc3372ce166a2da9e1"
+    },
+    {
+      "slug": "조주기능사-실기-7분-연습",
+      "previousTitle": "조주기능사 실기 7분 연습과 과정 선택",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/조주기능사-실기-7분-연습/",
+      "currentTitle": "조주기능사 실기 7분 연습과 과정 선택",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "f853ec995afb326d0a134d0cd22d78257d64c5058500c35bd8b5188a945a111d"
+    },
+    {
+      "slug": "종자기능사-필답형-답안-공부",
+      "previousTitle": "종자기능사 필답형 답안과 초보자 공부 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/종자기능사-필답형-답안-공부/",
+      "currentTitle": "종자기능사 필답형 답안과 초보자 공부 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "868cf17d445f7fc978deede138b9efe8f0f883af4ab5fbb13dbce969405240a8"
+    },
+    {
+      "slug": "주거급여-신청조건-2026",
+      "previousTitle": "주거급여 신청조건 2026 소득 기준과 월세 지원",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/주거급여-신청조건-2026/",
+      "currentTitle": "주거급여 신청조건 2026 소득 기준과 월세 지원",
+      "sourceCheckDate": null,
+      "htmlSha256": "7655dc393879fbaf5986d554303f9d5af5349a2c17013441ef12a4ff174506ac"
+    },
+    {
+      "slug": "주택관리사보-50대-시험-취업-현실",
+      "previousTitle": "주택관리사보 50대 준비 전 알아야 할 시험과 취업 현실",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/주택관리사보-50대-시험-취업-현실/",
+      "currentTitle": "주택관리사보 50대 준비 전 알아야 할 시험과 취업 현실",
+      "sourceCheckDate": null,
+      "htmlSha256": "eae3d803dbf81ca15c9f82f8ca722ada2600246930e86696276e381c01e8f371"
+    },
+    {
+      "slug": "주택연금-4050이-부모님-대신-확인할-때-볼-것",
+      "previousTitle": "주택연금 4050이 부모님 대신 확인할 때 볼 것: 가입조건과 상담 전 준비",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Missing age, housing-value/ownership and residence tests plus mortgage/guarantee implications."
+        },
+        {
+          "code": "framing",
+          "detail": "Family agreement should not be confused with legally required consent or replace the parents own decision."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "HF homepage is not an exact eligibility or payout source."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/주택연금-4050이-부모님-대신-확인할-때-볼-것/",
+      "currentTitle": "부모님 주택연금 가입조건과 월지급액 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "0896a82663ecb363c276cb1ee1c076d2735231e53f8115cd04f4ddbd2bfcc4d9"
+    },
+    {
+      "slug": "중식조리기능사-실기-작업순서",
+      "previousTitle": "중식조리기능사 실기 작업 순서와 안전",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/중식조리기능사-실기-작업순서/",
+      "currentTitle": "중식조리기능사 실기 작업 순서와 안전",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "7e3cf8b1f016d5f74bdaa4360d09d47ba998fbcd26dca77d30c35bc1d6d783c5"
+    },
+    {
+      "slug": "중장년-내일센터-상담받기-전-준비할-것",
+      "previousTitle": "중장년 내일센터 상담신청 방법 4050 준비물과 이용 순서",
+      "previousIssues": [
+        {
+          "code": "overlap",
+          "detail": "Preparation notes and application order substantially duplicate the current center article."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/중장년-내일센터-이용방법/",
+      "currentTitle": "중장년 내일센터 이용방법 무료 상담신청과 첫 방문 준비물",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "49c6fcce35e25942a050a70b3e81273a13cb276f79f7367f12431ba2fe7ab57c"
+    },
+    {
+      "slug": "중장년-내일센터-이용방법",
+      "previousTitle": "중장년 내일센터 이용방법 40대 50대 무료 재취업 상담",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/중장년-내일센터-이용방법/",
+      "currentTitle": "중장년 내일센터 이용방법 무료 상담신청과 첫 방문 준비물",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "49c6fcce35e25942a050a70b3e81273a13cb276f79f7367f12431ba2fe7ab57c"
+    },
+    {
+      "slug": "중장년-일자리-지원센터-찾는-법",
+      "previousTitle": "중장년 일자리 지원센터 찾는 법 지역 상담기관과 예약 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/중장년-일자리-지원센터-찾는-법/",
+      "currentTitle": "중장년 일자리 지원센터 찾는 법 지역 상담기관과 예약 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "12c57846da94ee165a8ec63d81d99900c075916202dc931c4145ede7291f1faa"
+    },
+    {
+      "slug": "중장년-재취업-이력서-작성법",
+      "previousTitle": "중장년 재취업 이력서 작성법 경력 공백과 최근 준비 정리",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/중장년-재취업-이력서-작성법/",
+      "currentTitle": "중장년 재취업 이력서 작성법 경력 공백과 최근 준비 정리",
+      "sourceCheckDate": null,
+      "htmlSha256": "b665db67b7c15b7daf00229493e29c2d544e81fd63e4c59f3de52bf46f5b7a98"
+    },
+    {
+      "slug": "중장년-창업지원금-찾는-법",
+      "previousTitle": "중장년 창업지원금 찾는 법: 공고 확인 전에 볼 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No worked official search/filter path or named program illustrating grant/loan/cost-sharing distinctions."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/중장년-창업지원금-찾는-법/",
+      "currentTitle": "중장년 창업지원금 공고 찾기와 유형 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "6f29f8962a0e2343fe48608f93b559b924c41c92d2683b104931dbc20ef91829"
+    },
+    {
+      "slug": "지게차운전기능사-국비지원-과정-고르는-법",
+      "previousTitle": "지게차운전기능사 국비지원 과정 고르는 법: 4050 물류 취업 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No per-person machine-time calculation or worked course comparison to justify a standalone page."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/지게차운전기능사-국비지원-신청방법/",
+      "currentTitle": "지게차운전기능사 국비지원 신청방법 실습시간 비용과 면허 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "14ba48939746efe5830ca9f6cedc73d924a1c1f8d00c1aa765f9259162724022"
+    },
+    {
+      "slug": "지게차운전기능사-국비지원-신청방법",
+      "previousTitle": "지게차운전기능사 국비지원 신청방법: 과정 찾는 법과 준비사항",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add current Work24 course-selection steps, cost example and qualification-to-municipal-license onward route."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Check the supplied Q-Net detail endpoint actually displays subject information rather than another subview."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/지게차운전기능사-국비지원-신청방법/",
+      "currentTitle": "지게차운전기능사 국비지원 신청방법 실습시간 비용과 면허 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "14ba48939746efe5830ca9f6cedc73d924a1c1f8d00c1aa765f9259162724022"
+    },
+    {
+      "slug": "지게차운전기능사-필기-공부법",
+      "previousTitle": "지게차운전기능사 필기 공부법: 기출문제만 봐도 될까?",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No worked safety/inspection question or link to current subject criteria."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Shared study and final-month content outweighs forklift-specific explanation."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/지게차운전기능사-필기-공부법/",
+      "currentTitle": "지게차운전기능사 필기 기출과 안전 개념 공부법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "95e5008088a31650196eafce852aea1872134f9d219336a44196c9e9ff258f54"
+    },
+    {
+      "slug": "지자체-중장년-지원사업-찾는-법",
+      "previousTitle": "지자체 중장년 지원사업 찾는 법: 서울·경기·부산처럼 지역별로 보는 방법",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add actual Seoul/Gyeonggi/Busan official search locations and one dated closed/open notice comparison."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/지자체-중장년-지원사업-찾는-법/",
+      "currentTitle": "지자체 중장년 지원사업 찾는 법 소개글에서 실제 모집공고까지",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "a17ce0e3d7ec144bdc30830be9a8b908e16d3c321191ca1a7f97366131696407"
+    },
+    {
+      "slug": "직업상담사-2급-4050-준비방법-취업",
+      "previousTitle": "직업상담사 2급 4050 준비방법과 취업 활용처",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/직업상담사-2급-4050-준비방법-취업/",
+      "currentTitle": "직업상담사 2급 4050 준비방법과 취업 활용처",
+      "sourceCheckDate": null,
+      "htmlSha256": "202b05b42fc808ad2c1521e09570200d2ac89303a431d305aafac0fdc1437291"
+    },
+    {
+      "slug": "직업상담사-2급-실기-답안연습",
+      "previousTitle": "직업상담사 2급 실기 서술형 답안 연습 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/직업상담사-2급-실기-답안연습/",
+      "currentTitle": "직업상담사 2급 실기 서술형 답안 연습 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "d8bc68c31044ffe441deb3deb097335f7fd535081dbd190e59b3a35c108e06e2"
+    },
+    {
+      "slug": "직업훈련포털-HRD-Net-사용법",
+      "previousTitle": "HRD-Net 사용법 고용24에서 훈련과정 검색하고 신청하기",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/직업훈련포털-HRD-Net-사용법/",
+      "currentTitle": "HRD-Net 사용법 고용24에서 훈련과정 검색하고 신청하기",
+      "sourceCheckDate": null,
+      "htmlSha256": "1fc7f0f3e04349866b01e53f48d88921d918935a876bc109dbb3d47ac00a34f2"
+    },
+    {
+      "slug": "철근기능사-실기-가공-배근",
+      "previousTitle": "철근기능사 실기 가공과 배근 연습",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/철근기능사-실기-가공-배근/",
+      "currentTitle": "철근기능사 실기 도면과 배근 점검",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "ab555917fffeebbc73c36ba035a001908405be6004c2c8e19f0f705249326daf"
+    },
+    {
+      "slug": "측량기능사-실기-장비-학원",
+      "previousTitle": "측량기능사 실기 장비 연습과 학원 선택",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/측량기능사-실기-장비-학원/",
+      "currentTitle": "측량기능사 실기 장비 연습과 학원 선택",
+      "sourceCheckDate": null,
+      "htmlSha256": "f9fb27368f6c2a3bcd7d79adc948f67c9f8c0e45c87ed15f1b847ab2d8a0b516"
+    },
+    {
+      "slug": "치매검사-지원-확인방법",
+      "previousTitle": "치매검사 지원 확인방법: 보건소와 치매안심센터 이용하기",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Differentiate screening, diagnostic and differential tests, referral documents and local contact/search path."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "National homepages do not document the local enrollment workflow."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/치매검사-지원-확인방법/",
+      "currentTitle": "치매검사 지원 확인방법과 치매안심센터 이용 순서",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "8600f39aec81894e1e7e3631f0714dc53e5f414e93667f6e2d5578a32f2872f7"
+    },
+    {
+      "slug": "치매검사비-지원-확인방법",
+      "previousTitle": "치매검사비 지원 확인방법: 보건소 상담 전 준비할 것",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No stage-specific limits, income/age tests or reimbursement-versus-direct-payment distinction."
+        },
+        {
+          "code": "navigation_stale_label",
+          "detail": "Link text still describes summer content, while destination title is the revised winter energy-voucher guide.",
+          "evidence": [
+            {
+              "text": "2026 여름 에너지바우처 부모님 대신 확인할 것: 대상, 신청처, 사용처",
+              "target": "/2026-%EC%97%AC%EB%A6%84-%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%B6%80%EB%AA%A8%EB%8B%98-%EB%8C%80%EC%8B%A0-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83/",
+              "title": "2026 에너지바우처 신청기간과 겨울 사용방법"
+            }
+          ]
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/치매검사비-지원-확인방법/",
+      "currentTitle": "치매검사비 지원 대상과 진단 감별검사 비용 확인",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "2df9ea0a0acb467d2075dbd1940a6438116f2b14358eec021790d12b9d7656f9"
+    },
+    {
+      "slug": "컴퓨터그래픽기능사-실기-작업환경",
+      "previousTitle": "컴퓨터그래픽기능사 실기 작업환경 확인",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/컴퓨터그래픽기능사-실기-작업환경/",
+      "currentTitle": "컴퓨터그래픽기능사 실기 PC와 출력 검수",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "b5337e03dc5f6d4619d073f14d45166c40f9d36eb4bbacfc5abb93900fddc696"
+    },
+    {
+      "slug": "컴퓨터활용능력-2급-엑셀-초보-실기-공부",
+      "previousTitle": "컴퓨터활용능력 2급 엑셀 초보 실기 공부 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/컴퓨터활용능력-2급-엑셀-초보-실기-공부/",
+      "currentTitle": "컴퓨터활용능력 2급 엑셀 초보 실기 공부 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "ba744675aaa7ffa275dc1ba338d9523ca2a9a386fa5e89d295993c881a24e44f"
+    },
+    {
+      "slug": "큐넷-CBT-시험-체험-답안제출",
+      "previousTitle": "큐넷 CBT 시험 체험과 답안 제출 연습",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-CBT-시험-체험-답안제출/",
+      "currentTitle": "큐넷 CBT 시험 체험과 답안 제출 연습",
+      "sourceCheckDate": null,
+      "htmlSha256": "211617b4e2a005a7b5e4ae67446248b8b613eaf91051e799df98c406a59edcb2"
+    },
+    {
+      "slug": "큐넷-사진등록-원서접수-확인",
+      "previousTitle": "큐넷 사진 등록과 원서접수 완료 확인 방법",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-사진등록-원서접수-확인/",
+      "currentTitle": "큐넷 사진 등록과 원서접수 완료 확인 방법",
+      "sourceCheckDate": null,
+      "htmlSha256": "7e0a854f3103efd01a08e736bd0eedfba1bf7e4fbc30d5ff9ef7128cc69580bd"
+    },
+    {
+      "slug": "큐넷-시험취소-환불-기준",
+      "previousTitle": "큐넷 시험 취소와 수험료 환불 기준 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-시험취소-환불-기준/",
+      "currentTitle": "큐넷 시험 취소와 수험료 환불 기준 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "f9d92d45c74346356cd291e0e7a02f0696d8446a3bb04660d94d81f35b19f243"
+    },
+    {
+      "slug": "큐넷-실기시험-준비물-조회방법",
+      "previousTitle": "큐넷 실기시험 준비물 조회방법 종목과 회차별 확인 순서",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-실기시험-준비물-조회방법/",
+      "currentTitle": "큐넷 실기시험 준비물 조회방법 종목과 회차별 확인 순서",
+      "sourceCheckDate": null,
+      "htmlSha256": "0ea611458afea9ff69b7a9f0be7db0823358848ec7de5a4706d432e2ec98f388"
+    },
+    {
+      "slug": "큐넷-자격취득확인서-취업제출",
+      "previousTitle": "큐넷 자격취득 확인서 발급과 취업 서류 제출",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-자격취득확인서-취업제출/",
+      "currentTitle": "큐넷 자격취득 확인서 발급과 취업 서류 제출",
+      "sourceCheckDate": null,
+      "htmlSha256": "354063dcff1499f376f4dbb0dd475c58ac3deea4d419c4b5fa407b9edfcfe0a0"
+    },
+    {
+      "slug": "큐넷-필기면제기간-실기-재응시",
+      "previousTitle": "큐넷 필기 면제기간 확인과 실기 재응시 계획",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/큐넷-필기면제기간-실기-재응시/",
+      "currentTitle": "큐넷 필기 면제기간 확인과 실기 재응시 계획",
+      "sourceCheckDate": null,
+      "htmlSha256": "0defbef147f12cc39fcf5755ac9759aea4b3d46b8c0311667a5499b4bfb155e1"
+    },
+    {
+      "slug": "타일기능사-실기-학원-준비물",
+      "previousTitle": "타일기능사 실기 학원 선택과 준비물 확인",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/타일기능사-실기-학원-준비물/",
+      "currentTitle": "타일기능사 실기 학원 선택과 준비물 확인",
+      "sourceCheckDate": null,
+      "htmlSha256": "cc443d1107cc336604fdfc472cb3c25f1111ab5e367de883ff50ef7c0abad463"
+    },
+    {
+      "slug": "퇴직-예정자-재취업-준비-순서",
+      "previousTitle": "퇴직 예정자 재취업 준비 순서: 퇴사 전 3개월 체크리스트",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add employer-document request checklist and an example linking dates to insurance/benefit procedures; avoid implying they can wait."
+        },
+        {
+          "code": "legacy_navigation",
+          "detail": "Older senior-work portal should be replaced with the current Work24 program path."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직-예정자-재취업-준비-순서/",
+      "currentTitle": "퇴직 예정자 재취업 준비 순서 재직 중 확보할 자료와 상담",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "6c9a1ff8bd93879f18f35c349e698a12a6cd009b3b1cf8a73d47f65a81d3741b"
+    },
+    {
+      "slug": "퇴직-후-30일-실행-가이드",
+      "previousTitle": "퇴직 후 30일 실행 가이드: 건강보험·구직등록·실업급여·재취업 상담 순서",
+      "previousIssues": [
+        {
+          "code": "source_specificity",
+          "detail": "Only broad Work24/NHIS roots support a deadline-sensitive multi-agency checklist."
+        },
+        {
+          "code": "navigation",
+          "detail": "Link each immediate deadline to the exact application/eligibility guide rather than more general advice."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직-후-30일-실행-가이드/",
+      "currentTitle": "퇴직 후 30일 실행 가이드 신청기한 먼저, 생활비와 재취업은 병행",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e9d03416fe8c4d4f7e1a295b63ccd69cf51ba4792c637d4652666c23a13b6087"
+    },
+    {
+      "slug": "퇴직-후-건강보험료-줄이는-방법",
+      "previousTitle": "퇴직 후 건강보험료 줄이는 방법과 임의계속가입 신청기한",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직-후-건강보험료-줄이는-방법/",
+      "currentTitle": "퇴직 후 건강보험료 줄이는 방법 임의계속가입 기한과 비교표",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "08a1cfe7a1ad7a942751990bd0a1bf907a84c47f5d7363a8fbef83a65e3f9f79"
+    },
+    {
+      "slug": "퇴직-후-건강보험료-줄이는-법",
+      "previousTitle": "퇴직 후 건강보험료 줄이는 법: 지역가입자 전환 전 확인할 것",
+      "previousIssues": [
+        {
+          "code": "confirmed_outdated_claim",
+          "detail": "Lists automobiles as a current regional-premium calculation factor; official 2024 abolition notice contradicts this."
+        },
+        {
+          "code": "overlap",
+          "detail": "No distinct transition procedure beyond the stronger continuation guide."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "merged",
+      "target": "https://4050guide.co.kr/퇴직-후-건강보험료-줄이는-방법/",
+      "currentTitle": "퇴직 후 건강보험료 줄이는 방법 임의계속가입 기한과 비교표",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "08a1cfe7a1ad7a942751990bd0a1bf907a84c47f5d7363a8fbef83a65e3f9f79"
+    },
+    {
+      "slug": "퇴직-후-대출-전-확인할-것",
+      "previousTitle": "퇴직 후 대출 전 확인할 것: 금리, 상환, 소득 증빙 체크리스트",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Add a clearly hypothetical fixed-versus-variable repayment stress example with total cost and non-guaranteed lender approval."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "FSS homepage does not support the comparison or document list."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직-후-대출-전-확인할-것/",
+      "currentTitle": "퇴직 후 대출 소득과 상환액 비교",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "dd9a10c02990508fea8c311da993d0f06c02c4ad8a1bd09d7917e44394cb7658"
+    },
+    {
+      "slug": "퇴직-후-생활비-계산법",
+      "previousTitle": "퇴직 후 생활비 계산법: 연금, 보험료, 대출상환을 한 번에 보기",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Separate retirement lump-sum stock from recurring income and demonstrate monthly deficit/runway with irregular annual expenses."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직-후-생활비-계산법/",
+      "currentTitle": "퇴직 후 생활비와 연금 전 공백자금 계산",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "64bdb91f926d2cc3259a4b346afc3d51d249162bc514ecaf7d205a20920a8152"
+    },
+    {
+      "slug": "퇴직금-irp-계좌-수령-예외",
+      "previousTitle": "퇴직금 IRP 계좌로 받아야 하는 경우와 예외",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/퇴직금-irp-계좌-수령-예외/",
+      "currentTitle": "퇴직금 IRP 계좌로 받아야 하는 경우와 예외",
+      "sourceCheckDate": null,
+      "htmlSha256": "12bada805de6b6708e92456b54cd362202e55bf627e7c694970ec3340bff986c"
+    },
+    {
+      "slug": "퇴직금-중간정산과-퇴직연금-차이",
+      "previousTitle": "퇴직금 중간정산과 퇴직연금 차이: 4050이 헷갈리기 쉬운 부분",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "Explain severance interim settlement versus DC early withdrawal and DB limitations with named permissible grounds and evidence."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Ministry and pension portal homepages do not substantiate the legal grounds."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/퇴직금-중간정산과-퇴직연금-차이/",
+      "currentTitle": "퇴직금 중간정산과 DB·DC 중도인출 차이",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "27c3c1310df9621957e6e57a0f1a67a523d2342c8ddd346bee851188a249e46b"
+    },
+    {
+      "slug": "퇴직금-지급기한-미지급-신고",
+      "previousTitle": "퇴직금 지급기한과 미지급 신고방법 퇴사 후 준비할 자료",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/퇴직금-지급기한-미지급-신고/",
+      "currentTitle": "퇴직금 지급기한과 미지급 신고방법 퇴사 후 준비할 자료",
+      "sourceCheckDate": null,
+      "htmlSha256": "3d86d7a2749de7f45549d6304101ce11179967c77a27d3073c910c124608c8d4"
+    },
+    {
+      "slug": "퇴직연금-db형-dc형-차이",
+      "previousTitle": "퇴직연금 DB형 DC형 차이와 퇴사 전 확인할 항목",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/퇴직연금-db형-dc형-차이/",
+      "currentTitle": "퇴직연금 DB형 DC형 차이와 퇴사 전 확인할 항목",
+      "sourceCheckDate": null,
+      "htmlSha256": "c6849d28d3a34a964342a5519d6c9f732bea4aaaf01e795ad1a7e0704d6649dc"
+    },
+    {
+      "slug": "폴리텍-신중년-특화과정-확인방법",
+      "previousTitle": "폴리텍 신중년 특화과정 확인방법: 4050 기술교육 찾는 기준",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No current age/admission eligibility, course duration/cost or campus notice example."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "College homepage alone cannot support the targeted program."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/폴리텍-신중년-특화과정-확인방법/",
+      "currentTitle": "폴리텍 신중년 특화과정 확인방법 중장년특화 명칭과 캠퍼스 모집요강",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "baba2927d0c5abead62296530163d68778c6809e1cbb7647f71266c13580cd71"
+    },
+    {
+      "slug": "피복아크용접기능사-실기-학원-비용",
+      "previousTitle": "피복아크용접기능사 실기 학원 선택과 준비 비용",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/피복아크용접기능사-실기-학원-비용/",
+      "currentTitle": "피복아크용접기능사 실기 학원 선택과 준비 비용",
+      "sourceCheckDate": null,
+      "htmlSha256": "ede02dc83e02f8110b117885d2fe866ef7adc9f46dd5c149e5f41f95022e9ec4"
+    },
+    {
+      "slug": "한식조리기능사-4050-공부법",
+      "previousTitle": "한식조리기능사 4050 공부법: 필기보다 실기 메뉴 반복이 핵심입니다",
+      "previousIssues": [
+        {
+          "code": "unsupported_generalization",
+          "detail": "Title claims practical repetition determines passing and text downplays written preparation without individual assessment."
+        },
+        {
+          "code": "repeated_boilerplate",
+          "detail": "Shared problem-book/six-week/FAQ shell dilutes menu-specific planning."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/한식조리기능사-4050-공부법/",
+      "currentTitle": "한식조리기능사 필기와 실기 오답 정리법",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "d5e480b65990ddb85f6f5ea35d4540a591693b7eef00bdf64e8266e09d402a25"
+    },
+    {
+      "slug": "한식조리기능사-4050-재취업-활용법",
+      "previousTitle": "한식조리기능사 4050 재취업 활용법: 급식, 조리보조, 창업 전 확인",
+      "previousIssues": [
+        {
+          "code": "title_gap",
+          "detail": "No concrete distinction among licensed cook, kitchen assistant and business-opening obligations."
+        },
+        {
+          "code": "source_specificity",
+          "detail": "Needs dated vacancy examples and exact food-service/health-document guidance."
+        },
+        {
+          "code": "marked_generic_expansion",
+          "detail": "Snapshot contains guide4050-depth-expand; assess meaningful surviving core after the main agent removes generic sections, not total word count."
+        }
+      ],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/한식조리기능사-4050-재취업-활용법/",
+      "currentTitle": "한식조리기능사 합격 후에는 조리사 면허와 지원서류부터 구분하세요",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "e852fce1b619795305e52dc79a5c124b99c62e0ba043d2b675e7edb4f0f3766e"
+    },
+    {
+      "slug": "한식조리기능사-실기-위생복-준비물",
+      "previousTitle": "한식조리기능사 실기 위생복과 준비물 점검",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/한식조리기능사-실기-위생복-준비물/",
+      "currentTitle": "한식조리기능사 실기 위생복과 준비물 점검",
+      "sourceCheckDate": null,
+      "htmlSha256": "3e1eb1e3838193453657edcfa765fa10fc48f3d0b5e11e170dac8282a6dbde4f"
+    },
+    {
+      "slug": "화훼장식기능사-실기-꽃-재료비",
+      "previousTitle": "화훼장식기능사 실기 연습과 꽃 재료비 계산",
+      "previousIssues": [],
+      "action": "reviewed-retained",
+      "target": "https://4050guide.co.kr/화훼장식기능사-실기-꽃-재료비/",
+      "currentTitle": "화훼장식기능사 실기 연습과 꽃 재료비 계산",
+      "sourceCheckDate": null,
+      "htmlSha256": "d37d24c022744c6f788c91df8c02c7ca4ab546c72c5d942ed1ca08832f54f93a"
+    },
+    {
+      "slug": "환경기능사-실기-실험실-선택",
+      "previousTitle": "환경기능사 실기 실험실과 안전교육 선택",
+      "previousIssues": [],
+      "action": "rewritten",
+      "target": "https://4050guide.co.kr/환경기능사-실기-실험실-선택/",
+      "currentTitle": "환경기능사 실기 실험실과 안전교육 선택",
+      "sourceCheckDate": "2026-10-19",
+      "htmlSha256": "b72176830cfbb673b5d5cae35ff469e6c2044e43b275891e8a1909515ad37fd6"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ async function run() {
       const body = doc.querySelector('.detail-content');
       return { file, title:doc.querySelector('h1')?.textContent.trim(), canonical:[...doc.querySelectorAll('link[rel=canonical]')].map(a=>a.getAttribute('href')), chars:body?.textContent.replace(/\s+/g,' ').trim().length || 0,
         headings:[...doc.querySelectorAll('.detail-content h2')].map(h=>h.textContent.trim()),
-        generic:body && /4050 세대도 준비하기 늦지|확인해야 할 기본 조건/.test(body.textContent),
+        generic:body && /4050 세대도 준비하기 늦지|확인해야 할 기본 조건|guide4050-depth-expand|4050_SHORT_UPLIFT_START/.test(body.innerHTML),
         seasonal:body && /2026년 6월|여름|남은 시험/.test(body.textContent),
         sources:body ? [...body.querySelectorAll('a[href^="https:"]')].filter(a=>!a.getAttribute('href').includes('4050guide.co.kr')).length : 0,
         anchors:[...doc.querySelectorAll('a[href]')].map(a=>({href:a.getAttribute('href'),text:a.textContent.trim()})) };
@@ -37,7 +37,7 @@ async function run() {
         if (!fs.existsSync(file)) broken.push({page:item.file, href:a.href, text:a.text});
       }
     }
-    const report = {date:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date()),pages:parsed.length,posts:posts.map(({anchors,...p})=>p),broken,summary:{articles:posts.length,brokenLinks:broken.length,shortHubPages:posts.filter(p=>p.chars<1200).length,genericPages:posts.filter(p=>p.generic).length,duplicateCanonicalPages:parsed.filter(p=>p.canonical.length>1).length,articlesWithoutBodySources:posts.filter(p=>p.sources===0).length}};
+    const report = {date:process.env.AUDIT_DATE||new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date()),pages:parsed.length,posts:posts.map(({anchors,...p})=>p),broken,summary:{articles:posts.length,brokenLinks:broken.length,shortHubPages:posts.filter(p=>p.chars<1200).length,genericPages:posts.filter(p=>p.generic).length,duplicateCanonicalPages:parsed.filter(p=>p.canonical.length>1).length,articlesWithoutBodySources:posts.filter(p=>p.sources===0).length}};
     fs.writeFileSync(path.join(root,'scripts','content-audit.json'),JSON.stringify(report,null,2)+'\n');
     console.log(JSON.stringify(report.summary));
     console.log('SHORT',JSON.stringify(posts.filter(p=>p.chars<1200).map(p=>({file:p.file,title:p.title,chars:p.chars}))));

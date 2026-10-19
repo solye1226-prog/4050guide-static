@@ -6,6 +6,9 @@ const date=process.env.PUBLISH_DATE||new Intl.DateTimeFormat('sv-SE',{timeZone:'
 if(!/^\d{4}-\d{2}-\d{2}$/.test(date))throw new Error('PUBLISH_DATE must be YYYY-MM-DD');
 const displayDate=value=>value.split('-').map((n,i)=>Number(n)+['년','월','일'][i]).join(' ');
 const data=require(path.resolve(__dirname,process.argv[2]||'editorial-refresh-data.cjs'));
+if(data.filter(post=>post.body?.includes('자신이 배우려는 기술을 한 문장으로 적고 공식 종목명')).length>=5){
+ throw new Error('Retired repeated-content batch. Use content-repair-20261019.cjs or independently researched article data.');
+}
 const escape=text=>String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 async function run() {
  const browser=await chromium.launch();

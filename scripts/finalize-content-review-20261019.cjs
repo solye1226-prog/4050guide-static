@@ -1,0 +1,30 @@
+const fs=require('node:fs');
+const path=require('node:path');
+const crypto=require('node:crypto');
+const baseline=require('./content-review-20261019.json');
+const repairs=require('./content-repair-20261019.cjs');
+const merges=require('./content-merges-20261019.cjs');
+const cleanup=require('./legacy-cleanup-20261019.json');
+const repaired=new Map(repairs.map(p=>[p.slug,p]));
+const cleaned=new Set(cleanup.articles.map(p=>p.slug));
+const posts=baseline.posts.map(p=>{
+ const target=merges[p.slug]||p.slug;
+ const repair=repaired.get(target);
+ const disposition=merges[p.slug]?'merged':repaired.has(p.slug)?'rewritten':cleaned.has(p.slug)?'repeated-sections-removed':p.disposition==='retain'?'reviewed-retained':'unresolved';
+ const html=fs.readFileSync(path.join(__dirname,'..',target,'index.html'),'utf8');
+ return {slug:p.slug,previousTitle:p.title,previousIssues:p.issues,action:disposition,target:'https://4050guide.co.kr/'+target+'/',currentTitle:repair?.title||p.title,sourceCheckDate:repair?.verifiedAt||null,htmlSha256:crypto.createHash('sha256').update(html).digest('hex')};
+});
+const unresolved=posts.filter(p=>p.action==='unresolved');
+if(unresolved.length)throw new Error('Unresolved audit findings: '+unresolved.map(p=>p.slug).join(', '));
+const repeatedShare=arr=>{
+ const texts=arr.map(p=>p.body.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+ const sentences=texts.map(t=>t.split(/(?<=[.!?])\s+/).filter(s=>s.length>=30));
+ const counts=new Map();for(const list of sentences)for(const sentence of new Set(list))counts.set(sentence,(counts.get(sentence)||0)+1);
+ const shares=sentences.map((list,i)=>list.filter(s=>counts.get(s)>=10).reduce((sum,s)=>sum+s.length,0)/texts[i].length);
+ return {minimum:Math.min(...shares),maximum:Math.max(...shares),definition:'Character share of sentences >=30 chars appearing verbatim in at least ten of the latest twenty articles; own editorial diagnostic, not a Google metric.'};
+};
+const old=require('./cert4-posts-20261008.cjs');
+const latest=old.map(p=>repaired.get(p.slug));
+const result={date:'2026-10-19',summary:{reviewed:posts.length,active:require('../assets/search-index.json').posts.length,rewritten:repairs.length,merged:Object.keys(merges).length,remainingOriginalReviewIssues:unresolved.length,repeatedSectionsRemovedFrom:cleanup.articles.length,removedBlocks:cleanup.articles.reduce((n,p)=>n+p.removedBlocks,0)},latestTwentyRepeatedLongSentenceShare:{before:repeatedShare(old),after:repeatedShare(latest)},posts};
+fs.writeFileSync(path.join(__dirname,'content-repair-result-20261019.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({summary:result.summary,repetition:result.latestTwentyRepeatedLongSentenceShare},null,2));
