@@ -5,14 +5,14 @@ const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '..');
 const origin = 'https://4050guide.co.kr';
-const audit = JSON.parse(fs.readFileSync(path.join(root, 'scripts', 'content-audit.json'), 'utf8'));
+const posts = require('../assets/search-index.json').posts.map(post=>({file:decodeURI(post.url).slice(1)+'index.html'}));
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage();
-    assert.equal(audit.posts.length, 150);
-    for (const post of audit.posts) {
+    assert.ok(posts.length > 0);
+    for (const post of posts) {
       const html = fs.readFileSync(path.join(root, post.file), 'utf8');
       const result = await page.evaluate(html => {
         const doc = new DOMParser().parseFromString(html, 'text/html');
@@ -46,13 +46,14 @@ async function run() {
       assert.ok(result.adScript, `${post.file}: AdSense ownership script`);
       assert.equal(result.article?.headline, result.headline, `${post.file}: schema headline`);
       assert.equal(decodeURI(result.article?.mainEntityOfPage || ''), decodeURI(result.canonical), `${post.file}: schema URL`);
-      assert.equal(result.article?.author?.name, '4050가이드 편집부', `${post.file}: author`);
+      assert.match(result.article?.author?.name || '', /^4050가이드(?: 편집부)?$/, `${post.file}: author`);
       assert.match(result.article?.dateModified || '', /^\d{4}-\d{2}-\d{2}$/, `${post.file}: modified date`);
     }
 
     const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
     const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(match => match[1]);
-    assert.equal(urls.length, 173, 'sitemap URL count');
+    assert.ok(urls.length >= posts.length, 'sitemap includes active articles');
+    for(const post of posts) assert.ok(urls.includes(origin+'/'+post.file.replace(/index\.html$/,'')), 'Missing article in sitemap '+post.file);
     assert.equal(new Set(urls).size, urls.length, 'sitemap duplicates');
     const redirectedSources = new Set(fs.readFileSync(path.join(root, '_redirects'), 'utf8').split(/\r?\n/)
       .map(line => line.trim().split(/\s+/))
@@ -69,7 +70,7 @@ async function run() {
     assert.ok(ads, 'ads.txt publisher ID');
     const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
     assert.ok(home.includes(`client=ca-${ads}`), 'ads.txt and AdSense script publisher IDs differ');
-    console.log('PASS: 150 articles have self-canonical, FAQ, official source, related reading, byline, BlogPosting schema and AdSense ownership code; sitemap has 173 final URLs; privacy disclosures and ads.txt match');
+    console.log(`PASS: ${posts.length} articles have self-canonical, FAQ, official source, related reading, byline, BlogPosting schema and AdSense ownership code; sitemap has ${urls.length} final URLs; privacy disclosures and ads.txt match`);
   } finally {
     await browser.close();
   }

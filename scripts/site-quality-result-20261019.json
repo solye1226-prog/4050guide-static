@@ -1,0 +1,232 @@
+{
+  "categories": [
+    {
+      "category": "grant",
+      "before": 16,
+      "unique": 16,
+      "pages": 2
+    },
+    {
+      "category": "license",
+      "before": 111,
+      "unique": 110,
+      "pages": 4
+    },
+    {
+      "category": "money",
+      "before": 26,
+      "unique": 25,
+      "pages": 2
+    },
+    {
+      "category": "rejob",
+      "before": 28,
+      "unique": 27,
+      "pages": 2
+    },
+    {
+      "category": "support",
+      "before": 18,
+      "unique": 18,
+      "pages": 2
+    },
+    {
+      "category": "welfare",
+      "before": 17,
+      "unique": 17,
+      "pages": 1
+    }
+  ],
+  "images": [
+    {
+      "source": "/wp-content/uploads/2026/05/middle-aged-career-center-card.png",
+      "beforeBytes": 2025381,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/middle-aged-career-center-card-480.webp",
+          "width": 480,
+          "bytes": 19390
+        },
+        {
+          "url": "/assets/optimized/middle-aged-career-center-card-960.webp",
+          "width": 960,
+          "bytes": 54394
+        },
+        {
+          "url": "/assets/optimized/middle-aged-career-center-card-1440.webp",
+          "width": 1440,
+          "bytes": 95696
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/national-tomorrow-learning-card-photo.png",
+      "beforeBytes": 1803600,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/national-tomorrow-learning-card-photo-480.webp",
+          "width": 480,
+          "bytes": 15766
+        },
+        {
+          "url": "/assets/optimized/national-tomorrow-learning-card-photo-960.webp",
+          "width": 960,
+          "bytes": 37568
+        },
+        {
+          "url": "/assets/optimized/national-tomorrow-learning-card-photo-1440.webp",
+          "width": 1440,
+          "bytes": 64454
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/earned-income-tax-credit-card.png",
+      "beforeBytes": 1774044,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/earned-income-tax-credit-card-480.webp",
+          "width": 480,
+          "bytes": 17390
+        },
+        {
+          "url": "/assets/optimized/earned-income-tax-credit-card-960.webp",
+          "width": 960,
+          "bytes": 41260
+        },
+        {
+          "url": "/assets/optimized/earned-income-tax-credit-card-1440.webp",
+          "width": 1440,
+          "bytes": 69568
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/government-benefit-photo.png",
+      "beforeBytes": 1766797,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/government-benefit-photo-480.webp",
+          "width": 480,
+          "bytes": 15848
+        },
+        {
+          "url": "/assets/optimized/government-benefit-photo-960.webp",
+          "width": 960,
+          "bytes": 37622
+        },
+        {
+          "url": "/assets/optimized/government-benefit-photo-1440.webp",
+          "width": 1440,
+          "bytes": 62874
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/basic-pension-card.png",
+      "beforeBytes": 1989936,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/basic-pension-card-480.webp",
+          "width": 480,
+          "bytes": 19740
+        },
+        {
+          "url": "/assets/optimized/basic-pension-card-960.webp",
+          "width": 960,
+          "bytes": 49908
+        },
+        {
+          "url": "/assets/optimized/basic-pension-card-1440.webp",
+          "width": 1440,
+          "bytes": 86934
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/social-worker-level-2-card.png",
+      "beforeBytes": 2064249,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/social-worker-level-2-card-480.webp",
+          "width": 480,
+          "bytes": 22074
+        },
+        {
+          "url": "/assets/optimized/social-worker-level-2-card-960.webp",
+          "width": 960,
+          "bytes": 59172
+        },
+        {
+          "url": "/assets/optimized/social-worker-level-2-card-1440.webp",
+          "width": 1440,
+          "bytes": 103668
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/electric-training-card.png",
+      "beforeBytes": 2155638,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/electric-training-card-480.webp",
+          "width": 480,
+          "bytes": 30856
+        },
+        {
+          "url": "/assets/optimized/electric-training-card-960.webp",
+          "width": 960,
+          "bytes": 78658
+        },
+        {
+          "url": "/assets/optimized/electric-training-card-1440.webp",
+          "width": 1440,
+          "bytes": 133552
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/uploads/2026/05/forklift-training-card.png",
+      "beforeBytes": 1998743,
+      "width": 1672,
+      "height": 941,
+      "versions": [
+        {
+          "url": "/assets/optimized/forklift-training-card-480.webp",
+          "width": 480,
+          "bytes": 27082
+        },
+        {
+          "url": "/assets/optimized/forklift-training-card-960.webp",
+          "width": 960,
+          "bytes": 68796
+        },
+        {
+          "url": "/assets/optimized/forklift-training-card-1440.webp",
+          "width": 1440,
+          "bytes": 112762
+        }
+      ]
+    }
+  ],
+  "links": 109,
+  "sidebars": [
+    "2026년-상시검정-자격증-14종목",
+    "4050-재취업-자격증-고르는-기준"
+  ],
+  "worksheets": []
+}

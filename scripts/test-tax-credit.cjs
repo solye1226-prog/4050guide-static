@@ -26,9 +26,11 @@ async function test() {
       assert.equal(await page.locator('h1').count(), 1);
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
       assert.equal(await page.locator('.detail-hero-image img').evaluate(img => img.complete && img.naturalWidth > 0), true);
-      assert.ok((await page.locator('.detail-side').innerText()).includes('2026년 10월 4일'));
       const article = await page.locator('script[type="application/ld+json"]').allTextContents();
-      assert.ok(article.map(JSON.parse).some(data => data['@type'] === 'BlogPosting' && data.dateModified === '2026-10-04'));
+      const posting=article.map(JSON.parse).find(data=>data['@type']==='BlogPosting');
+      assert.match(posting?.dateModified||'', /^\d{4}-\d{2}-\d{2}$/);
+      const [year,month,day]=posting.dateModified.split('-').map(Number);
+      assert.ok((await page.locator('.detail-side').innerText()).includes(`${year}년 ${month}월 ${day}일`));
       if (width > 1000) {
         assert.equal(await page.evaluate(() => {
           const main = document.querySelector('.detail-main').getBoundingClientRect();

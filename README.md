@@ -33,3 +33,19 @@ canonical URLs, article schema, sidebar placement, and generated search entries.
 `scripts/sync-guide-link-titles.cjs` updates matching link labels from the
 current HEAD titles before committing an editorial revision. It does not
 change link destinations or unrelated article content.
+
+## Site Quality Follow-Up
+
+After adding articles, run `node scripts/complete-site-quality-20261019.cjs`
+to deduplicate category pagination and optimize large body images, then
+`node scripts/add-decision-worksheets-20261019.cjs`,
+`node scripts/install-privacy-controls.cjs`, and `node scripts/build-search.cjs`.
+The search builder imports saved query records and preserves their legacy
+URLs with query-specific permanent redirects. Saved records are not live data.
+
+Run `node scripts/test-site-quality-20261019.cjs` for search record counts,
+category uniqueness, snapshot redirects, worksheets, responsive images and
+consent-change controls. `TEST_ORIGIN` enables production checks. The consent
+API tests use controlled EU/non-EU fixtures, not a claim of live regional delivery.
+The AdSense account's Google CMP message must remain published for this domain.
+Do not remove the AdSense tag or the conditional footer privacy controls.

@@ -51,9 +51,39 @@ async function build() {
           description: parsed.description, text: parsed.text });
       }
     }
+    // Query snapshots contain records absent from the three landing pages.
+    const snapshots = { 'welfare-search': 'welfare', 'public-benefits': 'benefit', 'license-search': 'license' };
+    const aliasRules = [];
+    for (const [folder, mode] of Object.entries(snapshots)) {
+      for (const name of fs.readdirSync(path.join(root, folder))) {
+        if (!name.includes(`_${mode}_q=`)) continue;
+        const html = fs.readFileSync(path.join(root, folder, name), 'utf8');
+        const snapshot = await page.evaluate(({html, mode}) => {
+          const doc = new DOMParser().parseFromString(html, 'text/html');
+          return {
+            query: doc.querySelector(`input[name="${mode}_q"]`)?.value,
+            cards: [...doc.querySelectorAll('.guide-api-item')].map(card => ({
+              title: card.querySelector('h3')?.textContent.trim() || '',
+              description: card.textContent.replace(/\s+/g, ' ').trim(),
+              url: card.querySelector('a')?.getAttribute('href') || '',
+            })),
+          };
+        }, {html, mode});
+        official[mode].push(...snapshot.cards);
+        if (!snapshot.query) throw new Error(`Missing snapshot query: ${folder}/${name}`);
+        const target = Object.keys(modes).find(key => modes[key] === mode);
+        aliasRules.push({from: `/${folder}/${name}`, to: `/${target}/?${mode}_q=${encodeURIComponent(snapshot.query)}`});
+      }
+    }
     for (const mode of Object.keys(official)) {
       official[mode] = [...new Map(official[mode].map(card => [card.url || card.title, card])).values()];
     }
+    const redirectsFile = path.join(root, '_redirects');
+    let redirects = fs.readFileSync(redirectsFile, 'utf8').replace(/# search-snapshot-aliases:start[\s\S]*?# search-snapshot-aliases:end\r?\n?/g, '');
+    const rules = aliasRules.flatMap(({from,to}) => [...new Set([from, encodeURI(from)])].map(source => `${source} ${encodeURI(to.split('?')[0])}?${to.split('?')[1]} 301`));
+    redirects = `# search-snapshot-aliases:start\n${rules.join('\n')}\n# search-snapshot-aliases:end\n${redirects}`;
+    fs.writeFileSync(redirectsFile, redirects);
+    fs.writeFileSync(path.join(root, 'scripts', 'search-snapshot-aliases.json'), JSON.stringify(aliasRules, null, 2) + '\n');
     fs.mkdirSync(path.join(root, 'assets'), { recursive: true });
     fs.writeFileSync(path.join(root, 'assets/search-index.json'), JSON.stringify({ posts, official }));
 
@@ -75,7 +105,7 @@ async function build() {
           html = html.replace(/공식 데이터|실시간/g, '공식 자료');
           html = html.replace(/<div class="guide-api-search">/, `<div class="guide-api-search" data-search-mode="${mode}">`);
           html = html.replace(/<p class="guide-api-note">.*?<\/p>/s,
-            '<p class="guide-api-note">사이트 안내글과 저장된 공식 자료를 확인합니다. 최신 신청 조건은 공식 기관에서 확인하세요.</p>');
+            '<p class="guide-api-note">사이트 안내글과 저장된 공식 자료를 확인합니다. 과거 저장본은 현재 시행 여부나 신청 조건을 보장하지 않습니다. 최신 내용은 공식 기관에서 확인하세요.</p>');
         }
         if (file === path.join(root, 'index.html')) {
           html = html.replace('공식 자료에서 바로 확인한 최신 목록', '주제별 공식 자료 목록')

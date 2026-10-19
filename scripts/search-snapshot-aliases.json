@@ -1,0 +1,150 @@
+[
+  {
+    "from": "/welfare-search/index.html_welfare_q=_μ븷__html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%9E%A5%EC%95%A0%EC%9D%B8"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_먮꼫吏諛붿슦泥_html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_몄씤.html",
+    "to": "/복지서비스-검색/?welfare_q=%EB%85%B8%EC%9D%B8"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_몄씤_뚮큵.html",
+    "to": "/복지서비스-검색/?welfare_q=%EB%85%B8%EC%9D%B8%EB%8F%8C%EB%B4%84"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_섎즺鍮_html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%9D%98%EB%A3%8C%EB%B9%84"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_쇱옄由_html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%9D%BC%EC%9E%90%EB%A6%AC"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=_앷퀎湲됱뿬.html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%83%9D%EA%B3%84%EA%B8%89%EC%97%AC"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=二쇨굅湲됱뿬.html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=媛議깅룎遊_html",
+    "to": "/복지서비스-검색/?welfare_q=%EA%B0%80%EC%A1%B1%EB%8F%8C%EB%B4%84"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=嫄닿컯寃吏_html",
+    "to": "/복지서비스-검색/?welfare_q=%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=湲곗큹_곌툑.html",
+    "to": "/복지서비스-검색/?welfare_q=%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=湲닿툒蹂듭_.html",
+    "to": "/복지서비스-검색/?welfare_q=%EA%B8%B4%EA%B8%89%EB%B3%B5%EC%A7%80"
+  },
+  {
+    "from": "/welfare-search/index.html_welfare_q=移섎ℓ.html",
+    "to": "/복지서비스-검색/?welfare_q=%EC%B9%98%EB%A7%A4"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_λ젮湲_html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%9E%A5%EB%A0%A4%EA%B8%88"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_곌툑.html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%97%B0%EA%B8%88"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_댁쭅.html",
+    "to": "/공공혜택-검색/?benefit_q=%ED%87%B4%EC%A7%81"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_뚮큵.html",
+    "to": "/공공혜택-검색/?benefit_q=%EB%8F%8C%EB%B4%84"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_띿뾽.html",
+    "to": "/공공혜택-검색/?benefit_q=%EB%86%8D%EC%97%85"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_먮꼫吏.html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%97%90%EB%84%88%EC%A7%80"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=_섎즺.html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%9D%98%EB%A3%8C"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=二쇨굅.html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%A3%BC%EA%B1%B0"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=以묒옣__html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%A4%91%EC%9E%A5%EB%85%84"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=怨좎슜.html",
+    "to": "/공공혜택-검색/?benefit_q=%EA%B3%A0%EC%9A%A9"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=援먯쑁.html",
+    "to": "/공공혜택-검색/?benefit_q=%EA%B5%90%EC%9C%A1"
+  },
+  {
+    "from": "/public-benefits/index.html_benefit_q=李쎌뾽.html",
+    "to": "/공공혜택-검색/?benefit_q=%EC%B0%BD%EC%97%85"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_곕┝.html",
+    "to": "/국가자격-검색/?license_q=%EC%82%B0%EB%A6%BC"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_꾧린.html",
+    "to": "/국가자격-검색/?license_q=%EC%A0%84%EA%B8%B0"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_꾪뿕臾_html",
+    "to": "/국가자격-검색/?license_q=%EC%9C%84%ED%97%98%EB%AC%BC"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_덉쟾.html",
+    "to": "/국가자격-검색/?license_q=%EC%95%88%EC%A0%84"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_뚮갑.html",
+    "to": "/국가자격-검색/?license_q=%EC%86%8C%EB%B0%A9"
+  },
+  {
+    "from": "/license-search/index.html_license_q=_먮꼫吏.html",
+    "to": "/국가자격-검색/?license_q=%EC%97%90%EB%84%88%EC%A7%80"
+  },
+  {
+    "from": "/license-search/index.html_license_q=媛__html",
+    "to": "/국가자격-검색/?license_q=%EA%B0%80%EC%8A%A4"
+  },
+  {
+    "from": "/license-search/index.html_license_q=嫄댁텞.html",
+    "to": "/국가자격-검색/?license_q=%EA%B1%B4%EC%B6%95"
+  },
+  {
+    "from": "/license-search/index.html_license_q=援댁갑湲_html",
+    "to": "/국가자격-검색/?license_q=%EA%B5%B4%EC%B0%A9%EA%B8%B0"
+  },
+  {
+    "from": "/license-search/index.html_license_q=而댄벂__html",
+    "to": "/국가자격-검색/?license_q=%EC%BB%B4%ED%93%A8%ED%84%B0"
+  },
+  {
+    "from": "/license-search/index.html_license_q=議곕━.html",
+    "to": "/국가자격-검색/?license_q=%EC%A1%B0%EB%A6%AC"
+  },
+  {
+    "from": "/license-search/index.html_license_q=吏寃뚯감.html",
+    "to": "/국가자격-검색/?license_q=%EC%A7%80%EA%B2%8C%EC%B0%A8"
+  }
+]

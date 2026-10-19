@@ -22,6 +22,10 @@ const server=http.createServer((req,res)=>{
  res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(res);
 });
 async function run(){
+ const redirectRules=fs.readFileSync(path.join(root,'_redirects'),'utf8').split(/\r?\n/).filter(line=>line.trim()&&!line.startsWith('#')).map(line=>line.trim().split(/\s+/));
+ for(const [from,to] of Object.entries(merges))for(const suffix of ['/','','/index.html']){
+  assert.ok(redirectRules.some(([source,target,status])=>decodeURI(source)==='/'+from+suffix&&decodeURI(target)==='/'+to+'/'&&status==='301'),'Missing deployed redirect rule '+from+suffix);
+ }
  assert.equal(originalPosts.length,220);
  assert.equal(current.length,220-Object.keys(merges).length);
  const urls=new Set(current.map(p=>decodeURI(p.url)));
