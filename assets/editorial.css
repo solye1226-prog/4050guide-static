@@ -1,4 +1,16 @@
 .detail-main{min-width:0}
+.detail-content .practical-comparison{table-layout:fixed;width:100%}
+.detail-content .practical-comparison th,.detail-content .practical-comparison td{white-space:normal;word-break:keep-all;overflow-wrap:anywhere}
+@media(max-width:600px){
+ .detail-content .practical-comparison{display:block;border:0;background:transparent}
+ .practical-comparison caption{display:block;text-align:left;font-weight:700;padding:8px 0}
+ .practical-comparison thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .practical-comparison tbody{display:block}
+ .practical-comparison tr{display:block;border:1px solid #dbe4f0;margin:0 0 16px;background:#fff}
+ .detail-content .practical-comparison td{display:grid;grid-template-columns:80px minmax(0,1fr);gap:12px;border:0;border-bottom:1px solid #e8edf2;padding:12px;text-align:left}
+ .practical-comparison td:before{content:attr(data-label);font-weight:700;color:#25465c}
+ .practical-comparison td:last-child{border-bottom:0}
+}
 .detail-content .verified-table{max-width:100%;overflow-x:auto;margin:20px 0}
 .verified-table table{width:100%;min-width:460px}
 .detail-content h2,.detail-content h3,.detail-title h1{word-break:keep-all;overflow-wrap:anywhere;letter-spacing:0}
