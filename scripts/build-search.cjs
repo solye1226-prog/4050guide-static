@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require('playwright');
+const {isDisclosure,cleanDisclosure} = require('./privacy-disclosure.cjs');
 
 const root = path.resolve(__dirname, '..');
 const modes = { '복지서비스-검색': 'welfare', '공공혜택-검색': 'benefit', '국가자격-검색': 'license' };
@@ -94,7 +95,8 @@ async function build() {
         if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
         let html = fs.readFileSync(file, 'utf8');
         html = html.replace(/30분 단위 갱신/g, '공식 자료 저장본');
-        if (!/src="\/assets\/search\.js(?:\?[^\"]*)?"/.test(html)) {
+        if (isDisclosure(html)) html=cleanDisclosure(html);
+        if (!isDisclosure(html) && !/src="\/assets\/search\.js(?:\?[^\"]*)?"/.test(html)) {
           html = html.replace('</head>', '<link rel="stylesheet" href="/assets/search.css">\n<script defer src="/assets/search.js?v=20261008-2"></script>\n</head>');
         }
         html = html.replace(/href="index\.html_(welfare_q|benefit_q|license_q)=([^"]+)\.html"/g,

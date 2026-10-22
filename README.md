@@ -49,3 +49,16 @@ consent-change controls. `TEST_ORIGIN` enables production checks. The consent
 API tests use controlled EU/non-EU fixtures, not a claim of live regional delivery.
 The AdSense account's Google CMP message must remain published for this domain.
 Do not remove the AdSense tag or the conditional footer privacy controls.
+
+Exception: the privacy disclosure and its legacy copies intentionally have no
+executable scripts, ad tags or CMP loader. They must be readable without consent.
+`scripts/privacy-disclosure.cjs` enforces this exception during privacy/search
+maintenance. General content pages keep the AdSense tag and consent controls.
+
+The shared footer lives in `scripts/footer-template.html`. After publishing or
+editing trust pages, run `node scripts/sync-trust-pages-20261022.cjs`, then
+`node scripts/install-privacy-controls.cjs`. The sync keeps the Korean trust pages
+and their canonical legacy copies consistent. Run
+`node scripts/test-trust-pages-20261022.cjs` (or with `TEST_ORIGIN`) to verify
+policy access, footer links, responsive layout and absence of ad/CMP requests
+on the disclosure page.
