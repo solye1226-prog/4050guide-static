@@ -43,11 +43,14 @@ async function run(){
   await page.goto(origin+'/');assert.equal(await page.locator('meta[name="google-adsense-account"]').getAttribute('content'),'ca-pub-2258793659580551');assert.equal(await page.locator('script[src*="adsbygoogle.js"]').count(),1,'normal home keeps AdSense');
   assert.equal(await page.locator('#practice-heading').innerText(),'막히는 단계부터 다시 준비하기');
   await page.evaluate(()=>localStorage.clear());await page.fill('#budget-extra','71234');await page.check('#job-entry');assert.equal(await page.evaluate(()=>localStorage.length),0);await page.reload();assert.equal(await page.inputValue('#budget-extra'),'0');assert.equal(await page.isChecked('#job-entry'),false);
-  await page.goto(origin+'/개인정보처리방침/');const policy=await page.locator('main').innerText();assert.doesNotMatch(policy,/체크 초기화|다시 방문할 때 상태가 유지/);assert.match(policy,/브라우저 메모리/);assert.match(policy,/검색어는 검색 결과 URL에 포함/);assert.match(policy,/CSV 기록표/);assert.equal(await page.locator('script').count(),0);
+  await page.goto(origin+'/개인정보처리방침/');const policy=await page.locator('main').innerText();assert.doesNotMatch(policy,/체크 초기화|다시 방문할 때 상태가 유지/);assert.match(policy,/브라우저 메모리/);assert.match(policy,/검색어는 검색 결과 URL에 포함/);assert.match(policy,/CSV 기록표/);assert.match(policy,/Web Analytics/);
+  const policyScripts=await page.locator('script').evaluateAll(ns=>ns.map(n=>n.getAttribute('src')));
+  // The CDN may inject its disclosed analytics beacon after serving script-free HTML.
+  for(const src of policyScripts){assert.ok(src,'no inline policy scripts');const u=new URL(src,origin);assert.equal(u.hostname,'static.cloudflareinsights.com');assert.match(u.pathname,/^\/beacon\.min\.js(?:\/|$)/);}
   const nojs=await browser.newContext({javaScriptEnabled:false});const policyNoJs=await nojs.newPage();await policyNoJs.goto(origin+'/개인정보처리방침/');assert.match(await policyNoJs.locator('main').innerText(),/solye1226@gmail.com/);assert.equal(await policyNoJs.locator('main a[href="mailto:solye1226@gmail.com"]').count(),1);await nojs.close();
   for(const slug of searchPaths){const r=await page.request.get(origin+slug);const h=await r.text();assert.ok(h.includes('data-search-editorial="20261030"'));assert.equal(applyAdPolicy(h),h,'ad policy idempotence');}
   assert.deepEqual(errors,[]);
-  const result={pass:true,origin,guides:guides.length,csvDownloads:8,widths:[1280,390,320],adFreeSearchAndPolicyRoutes:10,homeAdsRetained:true,calculatorMemoryOnly:true,screenshots};
+  const result={pass:true,origin,guides:guides.length,csvDownloads:8,widths:[1280,390,320],adFreeSearchAndPolicyRoutes:10,homeAdsRetained:true,calculatorMemoryOnly:true,disclosedCdnPolicyBeacons:policyScripts.length,screenshots};
   fs.writeFileSync(path.join(root,'reports/useful-guides-qa'+(remote?'-live':'')+'-20261030.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));
  }finally{await browser.close();server.close();}
 }
