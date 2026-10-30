@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "origin": "https://4050guide.co.kr",
+  "widths": [
+    1440,
+    1280,
+    390,
+    320
+  ],
+  "stagePaths": 3,
+  "comparisonDownloads": 4,
+  "checkedLinks": 31,
+  "keyboardTabs": true,
+  "noJsFallback": true,
+  "output": "D:\\AI-WORK\\4050-home-paths-qa-live"
+}
