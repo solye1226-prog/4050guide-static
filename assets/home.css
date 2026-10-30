@@ -74,4 +74,22 @@
 .focus-jobs{border-collapse:collapse;width:100%;table-layout:fixed;font-size:14px;line-height:1.75}.focus-jobs th{text-align:left;background:#edf3f0}.focus-jobs th,.focus-jobs td{padding:14px 12px;border-bottom:1px solid #dce4e0;vertical-align:top}.focus-jobs p{margin:8px 0 0;color:#52605b;font-size:13px}.focus-jobs th:nth-child(1){width:12%}.focus-jobs th:nth-child(2){width:18%}.focus-jobs th:nth-child(3){width:37%}
 .focus-reading{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:24px 0 0}.focus-reading li{border-top:1px solid #dce4e0;padding:18px 0;min-width:0}.focus-reading a{font-weight:800;line-height:1.6}.focus-reading p{font-size:14px;color:#52605b;margin:8px 0 0}
 .home-main [hidden]{display:none!important}
+.home-masthead{padding:28px 0 20px;border-bottom:3px solid #245e4d}
+.home-masthead h1{font-size:38px}.home-intro{font-size:18px;line-height:1.65}
+.home-popular{padding-top:14px;gap:12px 24px}.home-popular a{font-weight:700;color:#245e4d;text-decoration:none}
+.home-start{padding:24px 0 18px;border-bottom:1px solid #dce4e0}
+.start-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid #afc3b9}
+.start-tabs button{background:#fff;border:0;border-bottom:3px solid transparent;padding:12px 8px;color:#52605b;font:inherit;font-size:15px;font-weight:700;cursor:pointer;min-height:50px;border-radius:0}
+.start-tabs button[aria-selected=true]{background:#eef5f1;color:#194d3b;border-bottom-color:#245e4d}
+.start-path{min-height:170px;padding:16px 0 0}.start-path h3{font-size:17px;margin:0 0 16px;line-height:1.6}
+.start-path ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:0;list-style:none;margin:0}
+.start-path li{display:flex;gap:12px;min-width:0}.start-path li>span{font-size:13px;font-weight:700;color:#a34d37;border-top:2px solid #a34d37;padding-top:3px}.start-path li>div{min-width:0}
+.start-path a{font-size:15px;line-height:1.65;font-weight:700;color:#244c3e;text-decoration:none}.start-path p{font-size:13px;color:#627069;margin:8px 0 0;line-height:1.7}
+.home-disclosure{margin-top:20px;border-top:1px solid #dce4e0;border-bottom:1px solid #dce4e0;padding:14px 0}
+.home-disclosure summary{font-weight:700;color:#245e4d;cursor:pointer;font-size:15px;line-height:1.7}
+.home-disclosure[open]>summary{margin-bottom:20px}.budget-compare{padding:18px 0}
+.budget-verdict{margin-top:24px;padding-top:18px;border-top:1px solid #dce4e0;min-height:140px}.budget-verdict h3{font-size:20px;margin:0 0 10px}.budget-verdict p{font-size:14px;color:#52605b;line-height:1.8;min-height:50px}
+.budget-verdict button{font:inherit;font-size:14px;font-weight:700;color:#fff;background:#245e4d;border:1px solid #245e4d;padding:12px 18px;border-radius:4px;cursor:pointer;max-width:100%}.budget-verdict button:disabled{background:#68756f;border-color:#68756f;cursor:not-allowed}
+.home-story h3{font-size:18px}.home-picks .home-story-grid{gap:24px}.home-picks{padding-top:24px}
+@media(max-width:760px){.home-masthead h1{font-size:32px}.home-masthead{padding:22px 0 18px}.home-intro{font-size:17px}.home-main .hero-search{margin-top:16px}.home-popular{gap:10px 18px}.start-tabs button{font-size:14px;padding:10px 4px}.start-path{min-height:252px}.start-path h3{font-size:16px;margin-bottom:14px}.start-path ol{grid-template-columns:1fr;gap:15px}.start-path p{margin-top:3px}.start-path a{font-size:15px}.home-heading>span{font-size:12px}.budget-verdict h3{font-size:18px}.budget-verdict{min-height:170px}}
 @media(max-width:760px){.budget-layout{grid-template-columns:1fr;gap:20px}.budget-result{padding:12px 18px}.focus-reading{grid-template-columns:1fr}.focus-jobs thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.focus-jobs,.focus-jobs tbody,.focus-jobs tr,.focus-jobs td{display:block;width:auto}.focus-jobs tr{border-top:2px solid #a8bdb1;padding:10px 0 18px}.focus-jobs td{padding:8px 0;border:0}.focus-jobs td:before{content:attr(data-label);display:block;font-size:12px;font-weight:800;color:#25705b;margin-bottom:3px}.job-filters{align-items:flex-start;gap:16px}.job-filters>label{width:100%}.home-masthead h1{font-size:32px}}

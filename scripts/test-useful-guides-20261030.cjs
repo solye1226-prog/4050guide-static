@@ -42,7 +42,7 @@ async function run(){
   }
   await page.goto(origin+'/');assert.equal(await page.locator('meta[name="google-adsense-account"]').getAttribute('content'),'ca-pub-2258793659580551');assert.equal(await page.locator('script[src*="adsbygoogle.js"]').count(),1,'normal home keeps AdSense');
   assert.equal(await page.locator('#practice-heading').innerText(),'막히는 단계부터 다시 준비하기');
-  await page.evaluate(()=>localStorage.clear());await page.fill('#budget-extra','71234');await page.check('#job-entry');assert.equal(await page.evaluate(()=>localStorage.length),0);await page.reload();assert.equal(await page.inputValue('#budget-extra'),'0');assert.equal(await page.isChecked('#job-entry'),false);
+  await page.evaluate(()=>localStorage.clear());await page.fill('#budget-extra','71234');await page.locator('#job-details > summary').click();await page.check('#job-entry');assert.equal(await page.evaluate(()=>localStorage.length),0);await page.reload();assert.equal(await page.inputValue('#budget-extra'),'0');assert.equal(await page.isChecked('#job-entry'),false);
   await page.goto(origin+'/개인정보처리방침/');const policy=await page.locator('main').innerText();assert.doesNotMatch(policy,/체크 초기화|다시 방문할 때 상태가 유지/);assert.match(policy,/브라우저 메모리/);assert.match(policy,/검색어는 검색 결과 URL에 포함/);assert.match(policy,/CSV 기록표/);assert.match(policy,/Web Analytics/);
   const policyScripts=await page.locator('script').evaluateAll(ns=>ns.map(n=>n.getAttribute('src')));
   // The CDN may inject its disclosed analytics beacon after serving script-free HTML.

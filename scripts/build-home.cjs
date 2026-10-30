@@ -7,6 +7,9 @@ const evidence = require('../assets/comparison-evidence-20261030.json');
 const guides = require('./focus-editorial-20261030.cjs');
 const esc = value => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 let main = fs.readFileSync(path.join(__dirname, 'home-template.html'), 'utf8').trim();
+main=main.replace('<!--home-paths-->',fs.readFileSync(path.join(__dirname,'home-paths.html'),'utf8'))
+ .replace('<!--home-budget-compare-->',fs.readFileSync(path.join(__dirname,'home-budget-compare.html'),'utf8'));
+main=main.replace('<!--compare-courses-->',evidence.courses.map(c=>`<option value="${c.id}"${c.id==='T02'?' selected':''} data-pay="${c.displayPay}" data-days="${c.days}" data-url="${esc(c.url)}" data-note="${esc(c.mode+' '+c.hours+'시간 · '+c.status+' · '+c.note)}">${esc(c.name)}</option>`).join(''));
 main = main.replace('<!--focus-courses-->', evidence.courses.map(c=>`<option value="${c.id}" data-pay="${c.displayPay}" data-days="${c.days}" data-url="${esc(c.url)}" data-note="${esc(c.mode+' '+c.hours+'시간 · '+c.status+' · '+c.note)}">${esc(c.name)}</option>`).join(''));
 main = main.replace('<!--focus-jobs-->',evidence.jobs.map(j=>`<tr data-group="${esc(j.group)}" data-entry="${j.entry}" data-night="${j.night}"><td data-label="직무·지역"><strong>${esc(j.group)}</strong><br>${esc(j.region)}</td><td data-label="임금·경력">${esc(j.pay)}<br>${esc(j.experience)}</td><td data-label="근무표·확인할 점">${esc(j.schedule)}<br>${esc(j.qualification)}<p>${esc(j.issue)}</p></td><td data-label="원문·상태"><a href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">${esc(j.name)}</a><p>${esc(j.status)}</p></td></tr>`).join(''));
 main = main.replace('<!--focus-links-->',guides.map(g=>`<li><a href="/${g.slug}/">${esc(g.title)}</a><p>${esc(g.description)}</p></li>`).join(''));
@@ -23,7 +26,7 @@ html = html.replace(/<link\b[^>]*(?:wp-json|EditURI|shortlink)[^>]*>\s*/gi, '');
 html = html.replace(/<meta\b[^>]*name=["']generator["'][^>]*>\s*/gi, '');
 html = html.replace(/<link[^>]*href="\/assets\/home.css(?:\?[^"]*)?"[^>]*>\s*/g, '').replace(/<script[^>]*src="\/assets\/home.js(?:\?[^"]*)?"[^>]*><\/script>\s*/g, '');
 html = html.replace(/<link\b[^>]*href="\/assets\/editorial\.css(?:\?[^\"]*)?"[^>]*>\s*/g, '');
-html = html.replace('</head>', '<link rel="canonical" href="https://4050guide.co.kr/">\n<link rel="stylesheet" href="/assets/home.css?v=20261030">\n<link rel="stylesheet" href="/assets/editorial.css?v=20261022">\n<script src="/assets/home.js?v=20261030" defer></script>\n</head>');
+html = html.replace('</head>', '<link rel="canonical" href="https://4050guide.co.kr/">\n<link rel="stylesheet" href="/assets/home.css?v=20261030-paths">\n<link rel="stylesheet" href="/assets/editorial.css?v=20261022">\n<script src="/assets/home.js?v=20261030-paths" defer></script>\n</head>');
 html = html.replace(/<title>[\s\S]*?<\/title>/, '<title>4050가이드 - 자격증·훈련비·재취업 근무조건 비교</title>');
 html = html.replace(/(<meta name="description" content=")[^"]*(")/, '$140대·50대의 자격증 선택과 국비훈련 예산, 재취업 근무조건을 공개 공고 표본과 통학비 계산으로 비교합니다.$2');
 html = html.replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*(")/g, '$14050가이드 - 자격증·훈련비·재취업 근무조건 비교$2');

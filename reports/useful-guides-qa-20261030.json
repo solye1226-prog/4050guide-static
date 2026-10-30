@@ -1,6 +1,6 @@
 {
   "pass": true,
-  "origin": "http://127.0.0.1:54490",
+  "origin": "http://127.0.0.1:54818",
   "guides": 8,
   "csvDownloads": 8,
   "widths": [
@@ -11,5 +11,6 @@
   "adFreeSearchAndPolicyRoutes": 10,
   "homeAdsRetained": true,
   "calculatorMemoryOnly": true,
+  "disclosedCdnPolicyBeacons": 0,
   "screenshots": "D:\\AI-WORK\\4050-useful-guides-qa"
 }

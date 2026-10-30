@@ -138,3 +138,23 @@ Run `node scripts/test-useful-guides-20261030.cjs`, also with `TEST_ORIGIN` afte
 deployment. It checks all eight articles/downloads, desktop/mobile tables,
 metadata/image preservation and zero advertising/CMP requests on ten search
 and disclosure routes. A passing test is not an AdSense approval prediction.
+
+## October 30 Homepage Preparation Paths
+
+The homepage now starts with three preparation paths (qualification choice,
+course registration and exam preparation), followed by existing illustrated
+comparison articles. The long job table and secondary guide list use native
+disclosures; job links open the table before navigating to it. Without JavaScript,
+all three paths and the native disclosures remain available.
+
+`scripts/home-paths.html` and `scripts/home-budget-compare.html` are included by
+the home builder. The second cost scenario supports independent inputs, the
+signed cost difference, a common daily-travel crossover estimate where defined,
+and a browser-generated CSV export. These are user-input arithmetic examples,
+not quotes, benefit eligibility or a ranking of training quality. Nothing is
+saved in localStorage or sent to an application server. The privacy disclosure
+describes this behavior; keep its canonical copies synchronized.
+
+Run `node scripts/test-home-paths-20261030.cjs` locally and with `TEST_ORIGIN`
+after deployment. It verifies keyboard tabs, links, native no-JS fallback,
+equal/unequal/invalid cost scenarios and generated downloads at four widths.

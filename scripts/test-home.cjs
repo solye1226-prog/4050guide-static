@@ -38,6 +38,7 @@ async function run() {
       await page.fill('#budget-days','1.5');assert.equal(await page.locator('#budget-error').isVisible(),true);
       await page.selectOption('#budget-course','T04');assert.equal(await page.locator('#budget-total').innerText(),'101,580원');
       await page.fill('#budget-extra','10000');assert.equal(await page.locator('#budget-total').innerText(),'111,580원');
+      await page.locator('#job-details > summary').click();
       await page.check('#job-entry');assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),4);
       await page.check('#job-day');assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),1);
       await page.selectOption('#job-group','시설관리');assert.equal(await page.locator('#job-empty').isVisible(),true);
@@ -67,8 +68,9 @@ async function run() {
     const context = await browser.newContext({ javaScriptEnabled:false });
     const fallback = await context.newPage();
     await fallback.goto(origin + '/');
+    await fallback.locator('#job-details > summary').click();
     assert.equal(await fallback.locator('.focus-jobs tbody tr:visible').count(), 10);
-    assert.match(await fallback.locator('noscript').innerText(),/339,390/);
+    assert.match(await fallback.locator('#training-budget > noscript').innerText(),/339,390/);
     assert.equal(await fallback.locator('.home-story img').count(), 3);
     await context.close();
     console.log(`PASS ${urls.length} homepage links, trust pages, JavaScript-disabled fallback`);
