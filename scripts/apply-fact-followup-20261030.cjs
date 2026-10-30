@@ -17,6 +17,7 @@ async function run(){const browser=await chromium.launch();try{
   const file=path.join(root,post.slug,'index.html');let html=fs.readFileSync(file,'utf8');const before=html;
   let notes=[],additions=[];
   const alreadyUpdated=html.includes('data-fact-review="20261030"');
+  const baseText=await page.evaluate(html=>{const d=new DOMParser().parseFromString(html,'text/html');d.querySelectorAll('.fact-followup,.source-recheck,.editorial-sources,.guide-related-posts').forEach(n=>n.remove());return d.querySelector('.detail-content')?.textContent||'';},html);
   const qnet=post.sources.map(s=>sourceMap.get(s.url)).filter(s=>s?.status===200&&/jmCd=/.test(s.url)&&s.text?.includes('수수료'));
   const subjectSources=qnet.filter(s=>{
    const name=s.text.match(/취득방법\s+(.+?)\s+취득방법/)?.[1];
@@ -31,7 +32,10 @@ async function run(){const browser=await chromium.launch();try{
    const sourceUrl='https://www.q-net.or.kr/crf005.do?id=crf00503s02&gSite=Q&jmInfoDivCcd=B0&jmCd='+code;
    const fact=amounts.length===2?`필기 ${amounts[0]}, 실기 ${amounts[1]}`:`실기 ${amounts[0]}`;
    notes.push({type:'시험 수수료',code,fact,source:sourceUrl});
-   if(!amounts.every(amount=>post.text.replace(/\s/g,'').includes(amount.replace(/\s/g,'')))){
+   const hasFees=amounts.every(amount=>baseText.replace(/\s/g,'').includes(amount.replace(/\s/g,'')));
+   if(hasFees){
+    html=html.replace(/<section class="fact-followup" data-fact-review="20261030"><h2>공식 시험료와 교육비를 구분합니다<\/h2>[\s\S]*?<\/section>/g,'');
+   }else{
     additions.push(`<section class="fact-followup" data-fact-review="20261030"><h2>공식 시험료와 교육비를 구분합니다</h2><p>2026년 10월 30일 <a href="${esc(sourceUrl)}" target="_blank" rel="noopener noreferrer">Q-Net 해당 종목 시험정보</a>에서 확인한 수험료는 ${fact}입니다. 교재·수강료·실습 재료·공구·통학비를 포함하는 금액이 아닙니다. 학원 견적에 접수비가 포함되어 있다면 같은 비용을 다시 더하지 말고, 재응시할 때 필요한 비용은 별도로 적으세요.</p></section>`);
    }
    html=html.replaceAll(esc(s.url),esc(sourceUrl)).replaceAll(s.url,esc(sourceUrl));

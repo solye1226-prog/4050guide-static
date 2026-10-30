@@ -37,6 +37,7 @@ async function run(){
    }
   }
   await page.goto(origin+'/부모님-응급안전안심서비스-신청-확인/');assert.equal(await page.locator('main a[href*="biz.namdong.go.kr"]').count(),0);assert.doesNotMatch(await page.locator('main').innerText(),/실제로 인천 남동구는/);
+  await page.goto(origin+'/공조냉동기계기능사-4050-공부법/');assert.equal(await page.getByRole('heading',{name:'공식 시험료와 교육비를 구분합니다',exact:true}).count(),0,'Do not repeat fees already covered by the merged article');
   console.log(JSON.stringify({pass:true,activeArticles:posts.length,mergedUrls:3,checkedModifiedArticles:checked,widths:[1280,390,320],output}));
  }finally{await browser.close();server.close();}
 }
