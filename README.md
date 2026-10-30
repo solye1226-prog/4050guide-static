@@ -129,6 +129,8 @@ Both home and search builders enforce the policy on future rebuilds.
 
 The privacy disclosure now describes the current calculator/filter memory,
 URL-based search queries and device-local CSV files, not the retired checklist.
+Its email links use Cloudflare's documented `email_off` exception so the policy
+contact remains readable without an injected email-decoding script or JavaScript.
 When syncing only updated trust pages, use `TRUST_MODIFIED_DATE=2026-10-30` and
 `TRUST_MODIFIED_SLUGS=소개,개인정보처리방침` to avoid redating unchanged terms.
 
