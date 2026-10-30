@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "origin": "http://127.0.0.1:50417",
+  "widths": [
+    1440,
+    1280,
+    768,
+    390,
+    320
+  ],
+  "coherentPhotos": 3,
+  "photoFrames": "16:10",
+  "visibleInFirstViewport": true,
+  "articleCoversSynced": true,
+  "output": "D:\\AI-WORK\\4050-home-visual-20261031"
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-31",
+  "method": "Three separately generated built-in images, responsive WebP encoding only. Existing originals retained; no change to article factual verification dates.",
+  "photos": [
+    {
+      "slug": "50대-시설관리-채용공고-근무조건",
+      "id": "facility",
+      "source": "exec-aaea7e42-3ac0-4bd2-acdb-d5e76911bbe7.png",
+      "alt": "시설 설비 앞에서 점검표를 확인하는 중장년 작업자 두 명을 표현한 AI 제작 이미지",
+      "prompt": "Bright natural-daylight Korean workplace editorial photograph, forest-green and gray work clothing. A woman and man in their late 40s to 50s compare a blank checklist in a building maintenance room with safely closed electrical control panels. Eye-level medium-wide composition, readable equipment, dignified realistic faces and hands, generous crop margins. No exposed live wires, text, logos, watermark, collage or diagram. Illustrative AI scene, not a real testimonial.",
+      "versions": [
+        {
+          "url": "/assets/home-photos/facility-20261031-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25816
+        },
+        {
+          "url": "/assets/home-photos/facility-20261031-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 51592
+        },
+        {
+          "url": "/assets/home-photos/facility-20261031-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 84406
+        }
+      ],
+      "tool": "built-in image_gen",
+      "style": "20261031 natural-daylight documentary workplace photography"
+    },
+    {
+      "slug": "국비지원-훈련과정-선택-가이드",
+      "id": "training",
+      "source": "exec-75543914-3f6b-4711-a037-72df88ddbba5.png",
+      "alt": "직업훈련 교실에서 시간표와 계산기를 놓고 상담하는 중장년 여성을 표현한 AI 제작 이미지",
+      "prompt": "Bright natural-daylight Korean workplace editorial photograph matching the facility photo, forest-green, warm white and gray. A Korean woman around 50 in a sage cardigan compares paper course schedules beside a calculator and notebook with an attentive instructor at an adult vocational classroom bench. Recognizable safe training equipment in background. Eye-level, realistic faces and hands, generous crop margins. No readable text, logos, watermark, collage or diagram. Illustrative AI scene.",
+      "versions": [
+        {
+          "url": "/assets/home-photos/training-20261031-480.webp",
+          "width": 480,
+          "height": 300,
+          "bytes": 24864
+        },
+        {
+          "url": "/assets/home-photos/training-20261031-800.webp",
+          "width": 800,
+          "height": 500,
+          "bytes": 51510
+        },
+        {
+          "url": "/assets/home-photos/training-20261031-1200.webp",
+          "width": 1200,
+          "height": 751,
+          "bytes": 85774
+        }
+      ],
+      "tool": "built-in image_gen",
+      "style": "20261031 natural-daylight documentary workplace photography"
+    },
+    {
+      "slug": "요양보호사-월급-현실",
+      "id": "care",
+      "source": "exec-14da9f9e-403a-4a6e-87da-fc037943ce2c.png",
+      "alt": "주간보호 공간에서 어르신과 활동을 함께하는 중장년 돌봄 종사자를 표현한 AI 제작 이미지",
+      "prompt": "Bright natural-daylight Korean workplace editorial photograph matching facility and training photos, forest-green, warm white and gray. A Korean care worker in her late 40s in a sage uniform sits respectfully beside an elderly Korean woman at a day-care table sharing an activity with colored wooden pieces. Safe dignified relaxed interaction, recognizable clean room, realistic hands and faces, generous crop margins. No medical procedure, readable text, logos, watermark, collage or diagram. Illustrative AI scene, not a real patient or testimonial.",
+      "versions": [
+        {
+          "url": "/assets/home-photos/care-20261031-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30276
+        },
+        {
+          "url": "/assets/home-photos/care-20261031-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 64506
+        },
+        {
+          "url": "/assets/home-photos/care-20261031-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 118638
+        }
+      ],
+      "tool": "built-in image_gen",
+      "style": "20261031 natural-daylight documentary workplace photography"
+    }
+  ]
+}

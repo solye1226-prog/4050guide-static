@@ -181,3 +181,17 @@ homepage and search index afterward. Run `test-value-repair-20261030.cjs`, home,
 category, redirect and advertising/privacy regression tests locally and against
 `TEST_ORIGIN` after deployment. Do not equate passing these tests with AdSense
 approval, and do not request reconsideration as part of this publishing script.
+
+## October 31 Homepage Visual Set
+
+Three separately generated editorial workplace photographs replace the mixed
+photo/diagram covers on the homepage, their three linked articles and category
+cards. All homepage frames are 16:10, with no text embedded in the images and a
+visible AI-image disclosure. Article facts and verification dates are unchanged.
+Responsive WebP files live in `assets/home-photos/`; the prompt set and generation
+method are recorded in `reports/home-photo-set-20261031.json`.
+
+The photo-led reading section now precedes the preparation paths. Four secondary
+practice links are in a native disclosure; calculations, privacy and search
+behavior are unchanged. Run `test-home-visual-20261031.cjs` at five widths and the
+existing homepage/functionality tests before and after deployment.

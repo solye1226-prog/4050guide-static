@@ -34,7 +34,7 @@
 .home-story-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .home-story{min-width:0}
 .home-story>a{display:block;text-decoration:none}
-.home-story img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;background:#f4f6f5;border:1px solid #e5ebe7;border-radius:4px;display:block}
+.home-story img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:#edf1ee;border:0;border-radius:4px;display:block}
 .home-topic{display:block;color:#216b53;font-weight:800;font-size:12px;margin:12px 0 6px}
 .home-story h3{font-size:19px;line-height:1.5;margin:0 0 8px}
 .home-story p{margin:0;color:#52605b;font-size:14px;line-height:1.7}
@@ -93,3 +93,22 @@
 .home-story h3{font-size:18px}.home-picks .home-story-grid{gap:24px}.home-picks{padding-top:24px}
 @media(max-width:760px){.home-masthead h1{font-size:32px}.home-masthead{padding:22px 0 18px}.home-intro{font-size:17px}.home-main .hero-search{margin-top:16px}.home-popular{gap:10px 18px}.start-tabs button{font-size:14px;padding:10px 4px}.start-path{min-height:252px}.start-path h3{font-size:16px;margin-bottom:14px}.start-path ol{grid-template-columns:1fr;gap:15px}.start-path p{margin-top:3px}.start-path a{font-size:15px}.home-heading>span{font-size:12px}.budget-verdict h3{font-size:18px}.budget-verdict{min-height:170px}}
 @media(max-width:760px){.budget-layout{grid-template-columns:1fr;gap:20px}.budget-result{padding:12px 18px}.focus-reading{grid-template-columns:1fr}.focus-jobs thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.focus-jobs,.focus-jobs tbody,.focus-jobs tr,.focus-jobs td{display:block;width:auto}.focus-jobs tr{border-top:2px solid #a8bdb1;padding:10px 0 18px}.focus-jobs td{padding:8px 0;border:0}.focus-jobs td:before{content:attr(data-label);display:block;font-size:12px;font-weight:800;color:#25705b;margin-bottom:3px}.job-filters{align-items:flex-start;gap:16px}.job-filters>label{width:100%}.home-masthead h1{font-size:32px}}
+.home-picks{padding:28px 0 24px}
+.home-picks .home-heading{margin-bottom:20px}
+.home-picks .home-story-grid{gap:24px}
+.home-picks .home-story>a{display:block}
+.home-picks .home-story img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;transition:filter .18s ease}
+.home-picks .home-story a:hover img{filter:brightness(1.04)}
+.home-picks .home-story h3{font-size:20px;line-height:1.5;margin:0 0 8px}
+.home-picks .home-story p{font-size:14px;line-height:1.7;color:#627069}
+.home-picks .home-topic{margin-top:14px}
+.home-photo-disclosure{font-size:11px;line-height:1.6;color:#66766d;margin:18px 0 0}
+.home-picks>.home-disclosure{margin-top:16px;border-bottom:0;padding-bottom:0}
+.home-start{background:#f3f7f4;padding:24px;box-sizing:border-box;margin-top:28px;border-bottom:0}
+.start-tabs button{background:transparent}.start-tabs button[aria-selected=true]{background:#e4eee7}
+.home-main .home-reading[aria-labelledby="practice-heading"] .focus-reading{counter-reset:practice}
+.home-main .home-reading[aria-labelledby="practice-heading"] .focus-reading>li{position:relative;padding-left:40px}
+.home-main .home-reading[aria-labelledby="practice-heading"] .focus-reading>li:before{counter-increment:practice;content:counter(practice,decimal-leading-zero);position:absolute;left:0;top:18px;color:#6e8d7d;font-size:18px;font-weight:700}
+@media(min-width:761px){.home-masthead{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);column-gap:40px}.home-masthead .home-eyebrow,.home-masthead h1,.home-masthead .home-intro{grid-column:1}.home-masthead .hero-search{grid-column:2;grid-row:2/4;align-self:center;margin:0;width:100%}.home-masthead .home-popular{grid-column:1/-1;margin-top:8px}.home-intro{font-size:17px}.home-picks .home-story h3{min-height:60px}}
+@media(max-width:760px){.home-picks .home-story-grid{grid-template-columns:1fr;gap:28px}.home-picks .home-story img{height:auto;width:100%;aspect-ratio:16/10}.home-picks .home-story>a{display:block}.home-picks .home-story h3{font-size:19px}.home-picks .home-story p{font-size:14px;margin:0}.home-picks .home-topic{margin-top:12px}.home-start{padding:20px 16px;margin-top:24px}.home-picks{padding-top:24px}.home-masthead{border-bottom:1px solid #dce4e0}.home-photo-disclosure{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){.home-picks .home-story img{transition:none}}
