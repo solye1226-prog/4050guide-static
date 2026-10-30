@@ -1,6 +1,6 @@
 {
   "pass": true,
-  "origin": "http://127.0.0.1:54750",
+  "origin": "http://127.0.0.1:57123",
   "widths": [
     1440,
     1280,
@@ -9,7 +9,7 @@
   ],
   "stagePaths": 3,
   "comparisonDownloads": 4,
-  "checkedLinks": 31,
+  "checkedLinks": 41,
   "keyboardTabs": true,
   "noJsFallback": true,
   "output": "D:\\AI-WORK\\4050-home-paths-qa"

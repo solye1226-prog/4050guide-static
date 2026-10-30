@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-30",
+  "site": "https://4050guide.co.kr/",
+  "recommendation": "추가 디자인 교체보다 기존 글의 질문 충족도와 겹치는 답변을 먼저 보완한 뒤 재검토 요청을 권고합니다. 재거절 위험은 남아 있으나 Google의 개별 심사 원인을 확정한 것은 아닙니다.",
+  "scope": {
+    "articleStructureAndSimilarityScreening": 216,
+    "liveArticleStatusTitleIntroChecks": 216,
+    "manualBodyReadingSample": 29,
+    "manualArticleIndicesInAudit": [7,11,14,16,24,29,31,58,63,65,78,81,94,98,101,106,131,137,153,154,159,168,174,175,180,188,189,202,215],
+    "limitations": [
+      "216편 모든 문장과 첨부자료의 사실관계를 새로 전수 검증한 결과가 아닙니다.",
+      "전체 구조·유사도 후보 선별 후 짧은 글, 대표 글, 실기 글과 생활·복지 글을 표본 정독했습니다.",
+      "본문 길이는 우선 검토 대상을 찾는 수치일 뿐 AdSense 최소 분량 기준이 아닙니다.",
+      "외부 사이트와의 표절 검증, 실제 전문가 검수, 실제 신청·수강·채용 체험은 수행하지 않았습니다.",
+      "EU 동의창 재호출 검사는 제어된 API 응답을 사용한 기능 검사이며 실제 Google 관리화면의 게시 상태를 재확인한 것은 아닙니다.",
+      "현재 AdSense 계정의 거절·심사 상태는 이번 작업에서 열람하지 않았습니다."
+    ]
+  },
+  "findings": [
+    {
+      "priority": 1,
+      "title": "실기 준비 글 일부가 독자의 핵심 질문을 끝까지 해결하지 못함",
+      "examples": ["/조주기능사-실기-7분-연습/", "/세탁기능사-실기-원단-분류/", "/제빵기능사-발효-실기-연습/"],
+      "evidence": "조주 글은 7분을 제시하지만 출제 음료 수·레시피·시간 산입 범위를 확인하지 않았다고 설명합니다. 세탁 글에는 원단별 판단 예가 없고 기록 항목과 기관 확인 안내가 중심입니다. 첨부 세부내용 제외라고 출처에 명시한 글은 총 10편입니다. 이 한계 공개는 정직하지만 그 자체가 독자 질문의 답을 대신하지는 않습니다.",
+      "action": "최신 공개문제·출제기준의 관련 부분을 직접 확인하고 안전한 범위의 구체적 예, 완료된 기록 예, 결과를 해석하는 기준을 넣습니다. 확인 범위가 좁으면 제목을 학원 상담·과정 선택으로 좁힙니다. 위험한 현장 조작법이나 가짜 체험을 추가하지 않습니다."
+    },
+    {
+      "priority": 1,
+      "title": "문장 중복보다 독자의 질문과 답변이 겹치는 글이 남음",
+      "examples": [
+        ["/중장년-내일센터-이용방법/", "/중장년-일자리-지원센터-찾는-법/"],
+        ["/4050-재취업-자격증-고르는-기준/", "/전기기능사-50대-취업-가능할까/"]
+      ],
+      "evidence": "센터 두 글 모두 공식 센터 현황, 예약, 경력 메모, 상담 질문과 후속 행동을 설명합니다. 자격 선택과 전기 취업 두 글은 동일 신입 설치직·경력 10년 현장책임자 사례로 같은 주의점을 설명합니다. 각각 다른 내용도 있어 완전 복제라고 판정하지 않았습니다. 5글자 집합 유사도는 후보 생성에만 사용했습니다.",
+      "action": "센터 찾기·이용은 한 안내로 통합하는 것을 우선 검토합니다. 전기 취업 글은 설치·시설·교대 등 서로 다른 실제 직무 표본과 구체적인 지원 준비로 확장해 일반 선택 기준 글과 역할을 분리합니다. 통합 시 기존 URL은 대표 글로 301하고 내부 링크·사이트맵도 함께 고칩니다."
+    },
+    {
+      "priority": 2,
+      "title": "두 자격 비교 글의 수험료 적용 대상이 불명확함",
+      "examples": ["/산림-조경-관련-자격증-4050-활용도/", "/전기기능사와-소방안전관리자-비교/"],
+      "evidence": "산림·조경 비교의 추가 비용 문단은 조경 jmCd=7900 링크로 필기 14,500원·실기 30,400원을 제시하지만 문장에 조경이라고 명시하지 않습니다. 전기·소방 비교도 전기 jmCd=7780의 필기·실기 비용만 해당 종목이라는 표현으로 제시합니다. 금액 자체가 틀렸다고 판정한 것이 아니라 적용 대상의 모호함입니다.",
+      "action": "자격명·시험료·교육비·발급비를 열로 구분한 표로 바꾸고 확인한 항목만 채웁니다. 서로 다른 자격의 비용을 같은 접수 체계로 보이게 하지 않습니다."
+    },
+    {
+      "priority": 2,
+      "title": "메인의 비교 도구는 개선됐으나 자료의 범위가 좁음",
+      "examples": ["/", "/assets/comparison-evidence-20261030.json"],
+      "evidence": "비용 비교 기본 표본 5건은 모두 전기기능사 과정입니다. 공고 표본 10건 중 마감·과거 사례도 포함하며, 이는 메인에서 명확히 고지되어 있습니다. 4050 전반을 다루는 사이트의 고유 자료로 확대하려면 표본 다양성과 재현 가능한 비교 기록이 더 필요합니다.",
+      "action": "기존 고지를 유지하면서 표본 과정이 전기기능사임을 더 분명하게 표시하고, 주요 직무별로 새로 검증한 비교 자료를 축적합니다. 실제 확인하지 않은 상담 결과·수강 후기를 만들어 넣지 않습니다. 추가 스타일 개편의 우선순위는 낮습니다."
+    },
+    {
+      "priority": 3,
+      "title": "상단 확인일·본문 부분 보완일·사이드바 업데이트의 관계가 불분명함",
+      "examples": ["/산림-조경-관련-자격증-4050-활용도/", "/전기기능사와-소방안전관리자-비교/"],
+      "evidence": "상단과 사이드바는 10월 19일, 본문 시험료 재확인 문단은 10월 30일로 표시됩니다. 부분 재확인 범위는 본문에 있으나 독자가 한눈에 파악하기 어렵습니다.",
+      "action": "전체 검토일과 부분 수정일을 구분하고 무엇을 고쳤는지 짧게 표시합니다. 모든 내용을 검증한 것처럼 날짜를 일괄 갱신하지 않습니다."
+    }
+  ],
+  "passedChecks": {
+    "liveActiveArticleStatusAndTitleIntroMismatches": 0,
+    "homepageViewportWidths": [1440,1280,390,320],
+    "homepageCheckedInternalLinks": 31,
+    "homepageKeyboardTabsAndNoJsFallback": true,
+    "homepageComparisonCsvDownloads": 4,
+    "revisedGuideCsvDownloads": 8,
+    "adFreeSearchAndDisclosureRoutes": 10,
+    "homeAdsRetained": true,
+    "categories": 6,
+    "legacyAliases": 37,
+    "mergedArticleRedirects": 3,
+    "footerCopies": 486,
+    "privacyDisclosureCopies": 3,
+    "privacyDisclosureAdvertisingRequests": 0
+  },
+  "officialReferences": [
+    "https://support.google.com/adsense/answer/7299563?hl=ko",
+    "https://support.google.com/publisherpolicies/answer/11112688?hl=en",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=ko"
+  ],
+  "productionChanges": false,
+  "adsenseReviewRequested": false
+}

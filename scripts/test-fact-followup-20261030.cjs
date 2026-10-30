@@ -15,7 +15,7 @@ async function run(){
  const remote=process.env.TEST_ORIGIN;if(!remote)await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin=remote||`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch();
  try{
   const page=await browser.newPage();await page.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
-  assert.equal(posts.length,216);const sitemap=await (await page.request.get(origin+'/sitemap.xml')).text();
+  assert.equal(posts.length,219-Object.keys(merges).length);const sitemap=await (await page.request.get(origin+'/sitemap.xml')).text();
   for(const [from,to] of Object.entries(merges)){
    for(const suffix of ['/','','/index.html']){const response=await page.request.get(origin+encodeURI('/'+from+suffix),{maxRedirects:0});assert.equal(response.status(),301,from+suffix);assert.equal(decodeURI(new URL(response.headers().location,origin).pathname),'/'+to+'/');}
    assert.ok(!sitemap.includes('https://4050guide.co.kr/'+from+'/'));assert.ok(sitemap.includes('https://4050guide.co.kr/'+to+'/'));
@@ -39,7 +39,7 @@ async function run(){
   }
   await page.goto(origin+'/부모님-응급안전안심서비스-신청-확인/');assert.equal(await page.locator('main a[href*="biz.namdong.go.kr"]').count(),0);assert.doesNotMatch(await page.locator('main').innerText(),/실제로 인천 남동구는/);
   await page.goto(origin+'/공조냉동기계기능사-4050-공부법/');assert.equal(await page.getByRole('heading',{name:'공식 시험료와 교육비를 구분합니다',exact:true}).count(),0,'Do not repeat fees already covered by the merged article');
-  console.log(JSON.stringify({pass:true,activeArticles:posts.length,mergedUrls:3,checkedModifiedArticles:checked,widths:[1280,390,320],output}));
+  console.log(JSON.stringify({pass:true,activeArticles:posts.length,mergedUrls:Object.keys(merges).length,checkedModifiedArticles:checked,widths:[1280,390,320],output}));
  }finally{await browser.close();server.close();}
 }
 run().catch(e=>{console.error(e);server.close();process.exitCode=1});

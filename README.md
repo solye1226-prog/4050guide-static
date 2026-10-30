@@ -158,3 +158,26 @@ describes this behavior; keep its canonical copies synchronized.
 Run `node scripts/test-home-paths-20261030.cjs` locally and with `TEST_ORIGIN`
 after deployment. It verifies keyboard tabs, links, native no-JS fallback,
 equal/unequal/invalid cost scenarios and generated downloads at four widths.
+
+## October 30 Practical Content Follow-Up
+
+Ten practical articles now include selected official public-problem requirements
+and original completed practice records or arithmetic examples. The exact PDF
+pages reviewed are listed in `reports/value-repair-result-20261030.json`;
+attachment metadata and hashes are in `reports/practical-source-files-20261030.json`.
+Original problem sheets, diagrams and full recipes are not redistributed.
+Research downloads and rendered source pages stay outside the published repo.
+
+The regional center finder is merged into the center usage guide, including its
+legacy redirects. There are now 215 active articles. General qualification
+selection and electrical employment have separate examples and purposes.
+Two comparison articles distinguish each qualification's fees. Older source
+dates remain visible alongside scoped October 30 revision dates; date-label
+updates are not new claims that every sentence was fact-checked again.
+
+`scripts/apply-value-repair-20261030.cjs` applies the article changes; the reviewed
+merge uses `content-merges-20261030.cjs` and the existing merge tool. Rebuild the
+homepage and search index afterward. Run `test-value-repair-20261030.cjs`, home,
+category, redirect and advertising/privacy regression tests locally and against
+`TEST_ORIGIN` after deployment. Do not equate passing these tests with AdSense
+approval, and do not request reconsideration as part of this publishing script.

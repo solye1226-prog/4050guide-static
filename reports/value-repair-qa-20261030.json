@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "origin": "http://127.0.0.1:57084",
+  "articles": 215,
+  "contentRevisions": 15,
+  "practicalExamples": 10,
+  "dateLabelUpdates": 113,
+  "widths": [
+    1280,
+    390,
+    320
+  ],
+  "preservedImages": 16,
+  "newMergeRedirects": 3,
+  "output": "D:\\AI-WORK\\4050-value-repair-qa"
+}
