@@ -2,7 +2,8 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const merges=require('./content-merges-20261019.cjs');
+const merges=require(process.argv[2]?path.resolve(__dirname,process.argv[2]):'./content-merges-20261019.cjs');
+const date=process.env.PUBLISH_DATE||'2026-10-19';
 const origin='https://4050guide.co.kr';
 const files=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.name.startsWith('.')?[]:e.isDirectory()?(e.name==='scripts'||e.name==='node_modules'?[]:files(path.join(dir,e.name))):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);
 function replacement(href,base){
@@ -19,7 +20,7 @@ async function run(){
   if(!fs.existsSync(path.join(root,to,'index.html')))throw new Error('Missing target '+to);
  }
  const browser=await chromium.launch();
- const report={date:'2026-10-19',merges:Object.entries(merges).map(([from,to])=>({from,to})),changedFiles:[],removedCards:0,rewrittenLinks:0};
+ const report={date,merges:Object.entries(merges).map(([from,to])=>({from,to})),changedFiles:[],removedCards:0,rewrittenLinks:0};
  try{
   const page=await browser.newPage();
   for(const file of [...files(root),path.join(__dirname,'home-template.html')]){
@@ -81,7 +82,7 @@ async function run(){
    if(!file.startsWith(root+path.sep)||path.dirname(file)!==path.join(root,from))throw new Error('Invalid merge source path');
    if(fs.existsSync(file))fs.unlinkSync(file);
   }
-  fs.writeFileSync(path.join(__dirname,'content-merge-result-20261019.json'),JSON.stringify(report,null,2)+'\n');
+  fs.writeFileSync(path.join(__dirname,'content-merge-result-'+date.replaceAll('-','')+'.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({merged:report.merges.length,changedFiles:report.changedFiles.length,removedCards:report.removedCards,rewrittenLinks:report.rewrittenLinks}));
  }finally{await browser.close();}
 }

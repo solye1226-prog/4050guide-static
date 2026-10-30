@@ -55,6 +55,27 @@ executable scripts, ad tags or CMP loader. They must be readable without consent
 `scripts/privacy-disclosure.cjs` enforces this exception during privacy/search
 maintenance. General content pages keep the AdSense tag and consent controls.
 
+## October 30 Content Follow-Up
+
+`reports/duplicate-body-review-20261030.json` records all 14 candidate-pair
+decisions. Three retired URLs redirect to two expanded articles; the other
+11 pairs address different trades or benefit systems and remain separate.
+
+`reports/fact-followup-result-20261030.json` records the scoped checks and
+actual changes. The 219-article source/amount scan is not a sentence-by-sentence
+fact-check: 72 articles received targeted source verification or additions;
+144 retained articles still require detailed review. Three were merged.
+Do not relabel the remaining articles as fully verified or refresh their dates
+solely because a source returned HTTP 200.
+
+The primary-page research cache stays outside the published site at
+`../4050-source-evidence-20261030`. Reports and maintenance scripts carry
+`X-Robots-Tag: noindex`; they are not reader articles.
+
+Run `node scripts/test-fact-followup-20261030.cjs` for the current 216-article
+index, merge redirects, sitemap exclusions, changed pages and mobile layout.
+The older focus and site-quality tests also account for these explicit merges.
+
 The shared footer lives in `scripts/footer-template.html`. After publishing or
 editing trust pages, run `node scripts/sync-trust-pages-20261022.cjs`, then
 `node scripts/install-privacy-controls.cjs`. The sync keeps the Korean trust pages

@@ -42,7 +42,9 @@ async function run(){
     urls.push(...await page.locator('.photo-grid > article h2 a').evaluateAll(as=>as.map(a=>decodeURI(new URL(a.href).pathname))));
    }
    assert.equal(urls.length,new Set(urls).size,'Duplicate category article '+cat.category);
-   assert.equal(urls.length,cat.unique,'Category membership retained '+cat.category);
+   const retired=new Set(Object.keys(require('./content-merges-20261030.cjs')));
+   const removed=require('../reports/focus-audit-20261030.json').posts.filter(p=>retired.has(decodeURI(p.url).split('/')[1])&&p.categories.includes(cat.category)).length;
+   assert.equal(urls.length,cat.unique-removed,'Category membership retained except reviewed merges '+cat.category);
    for(const url of urls)categoryCoverage.add(url);
   }
   for(const post of require('../assets/search-index.json').posts)assert.ok(categoryCoverage.has(decodeURI(post.url)),'Article missing from categories '+decodeURI(post.url));

@@ -12,3 +12,9 @@
 
 /assets/search-index.json
   Cache-Control: public, max-age=0, must-revalidate
+
+/reports/*
+  X-Robots-Tag: noindex
+
+/scripts/*
+  X-Robots-Tag: noindex

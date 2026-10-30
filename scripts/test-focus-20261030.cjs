@@ -7,7 +7,8 @@ const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),posts=require('./focus-editorial-20261030.cjs');
 const baseline=JSON.parse(execFileSync('git',['show','eb0cdad:assets/search-index.json'],{cwd:root,encoding:'utf8',maxBuffer:20e6}));
 const current=require('../assets/search-index.json');
-assert.deepEqual(current.posts.map(p=>p.url).sort(),baseline.posts.map(p=>p.url).sort(),'All existing article URLs preserved');
+const merges=require('./content-merges-20261030.cjs');
+assert.deepEqual(current.posts.map(p=>decodeURI(p.url)).sort(),[...new Set(baseline.posts.map(p=>{const slug=decodeURI(p.url).split('/')[1];return '/'+(merges[slug]||slug)+'/';}))].sort(),'Only explicitly reviewed merges may leave the article index');
 const server=http.createServer((req,res)=>{
  let file=path.resolve(root,'.'+decodeURI(new URL(req.url,'http://local').pathname));
  if(file!==root&&!file.startsWith(root+path.sep))return res.writeHead(403).end();
