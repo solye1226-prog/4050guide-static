@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "origin": "https://4050guide.co.kr",
+  "guides": 8,
+  "csvDownloads": 8,
+  "widths": [
+    1280,
+    390,
+    320
+  ],
+  "adFreeSearchAndPolicyRoutes": 10,
+  "homeAdsRetained": true,
+  "calculatorMemoryOnly": true,
+  "disclosedCdnPolicyBeacons": 1,
+  "screenshots": "D:\\AI-WORK\\4050-useful-guides-qa-live"
+}
