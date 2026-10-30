@@ -83,3 +83,28 @@ and their canonical legacy copies consistent. Run
 `node scripts/test-trust-pages-20261022.cjs` (or with `TEST_ORIGIN`) to verify
 policy access, footer links, responsive layout and absence of ad/CMP requests
 on the disclosure page.
+
+## October 30 Remaining 144 Follow-Up
+
+`reports/remaining-review-result-20261030.json` is the follow-up to the historical
+144-item pending list above. It records a specific `checked` scope for each
+article, not an automatic approval based on source availability. Core conditions,
+quantitative examples and their scope were reviewed; this is not a warranty for
+every sentence, attachment, local vacancy or individual eligibility decision.
+
+Forty articles received topic-specific practical additions. One additional
+article clarifies the September 2025 / March 2026 application dates for 2025
+income. The other 103 retain their content and modification dates. No URLs,
+original publication dates or article images were changed. The original
+preliminary report remains intact as historical evidence; use the follow-up
+report when identifying the coverage of this batch.
+
+Official Q-Net, KFSI and social-work regulation PDFs were read separately from
+their HTML landing pages. Public research text remains outside the published
+repo in `../4050-source-evidence-20261030/official-pdfs.json`.
+
+Run `node scripts/test-remaining-review-20261030.cjs` locally and with
+`TEST_ORIGIN=https://4050guide.co.kr`. It checks all 144 target URLs, preserved
+metadata/images, 108 image resources, and 328 desktop/mobile views. The report
+distinguishes content kept from actual modifications; do not refresh dates for
+the 103 unchanged articles just to imply freshness.
