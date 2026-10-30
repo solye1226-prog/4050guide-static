@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-30",
+  "scope": "8편의 핵심 글을 독립적인 풀이·판단 예시와 개인 기록 양식으로 다시 작성했습니다. 나머지 208편을 전면 재작성한 작업은 아닙니다. 예시는 편집자가 만든 가정이며 실제 기출·상담·수강·취업 경험이 아닙니다.",
+  "articles": [
+    {
+      "slug": "요양보호사-자격증-공부법",
+      "title": "요양보호사 필기와 실기 문제 공부 방법",
+      "url": "https://4050guide.co.kr/요양보호사-자격증-공부법/",
+      "worksheet": "/assets/worksheets/care-study-errors.csv",
+      "sections": [
+        "첫 진단에서는 두 영역을 따로 기록합니다",
+        "틀린 이유를 네 가지로 나눕니다",
+        "완성된 오답 메모는 이렇게 생겼습니다",
+        "하루 40분을 확보한 사람의 2주 운영 예",
+        "요양보호사 오답 기록표"
+      ],
+      "sources": [
+        [
+          "국시원 요양보호사 시험시간표",
+          "https://www.kuksiwon.or.kr/subcnt/c_2027/7/view.do?seq=7"
+        ],
+        [
+          "국시원 요양보호사 합격기준",
+          "https://www.kuksiwon.or.kr/subcnt/c_2027/5/view.do?seq=7"
+        ]
+      ]
+    },
+    {
+      "slug": "요양보호사-자격증-취득방법",
+      "title": "요양보호사 자격증 교육시간과 시험 준비 절차",
+      "url": "https://4050guide.co.kr/요양보호사-자격증-취득방법/",
+      "worksheet": "/assets/worksheets/care-course-decision.csv",
+      "sections": [
+        "보유 자격을 확인한 뒤 교육 경로를 정합니다",
+        "수업시간보다 실습 가능한 날짜를 먼저 비교하세요",
+        "교육비가 싼 과정과 실제 지출이 적은 과정은 다릅니다",
+        "수료 이후에는 세 개의 완료 증거를 남기세요",
+        "요양보호사 교육 등록 비교표"
+      ],
+      "sources": [
+        [
+          "국시원 요양보호사 응시자격",
+          "https://www.kuksiwon.or.kr/subcnt/c_2027/2/view.do?seq=7"
+        ],
+        [
+          "국시원 요양보호사 시간표",
+          "https://www.kuksiwon.or.kr/subcnt/c_2027/7/view.do?seq=7"
+        ],
+        [
+          "국시원 요양보호사 합격기준",
+          "https://www.kuksiwon.or.kr/subcnt/c_2027/5/view.do?seq=7"
+        ]
+      ]
+    },
+    {
+      "slug": "전기기능사-4050-공부법",
+      "title": "전기기능사 필기 계산과 실기 준비 순서",
+      "url": "https://4050guide.co.kr/전기기능사-4050-공부법/",
+      "worksheet": "/assets/worksheets/electric-study-feedback.csv",
+      "sections": [
+        "계산을 못하는지 단위를 놓치는지 먼저 확인합니다",
+        "오답을 세 번 다른 방식으로 확인합니다",
+        "실기 수업에서는 완성 시간보다 오류 위치를 적으세요",
+        "이번 주 계획은 가능한 시간에서 거꾸로 잡습니다",
+        "전기기능사 풀이·실습 기록표"
+      ],
+      "sources": [
+        [
+          "Q-Net 전기기능사",
+          "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7780"
+        ]
+      ]
+    },
+    {
+      "slug": "한식조리기능사-4050-공부법",
+      "title": "한식조리기능사 필기와 실기 오답 정리법",
+      "url": "https://4050guide.co.kr/한식조리기능사-4050-공부법/",
+      "worksheet": "/assets/worksheets/cooking-practice-review.csv",
+      "sections": [
+        "공개과제의 숫자부터 옮기고 조리를 시작하세요",
+        "시간 초과를 분석하는 가상 사례",
+        "전체 연습과 부분 수정은 다른 날의 목표입니다",
+        "필기는 작업 단계와 연결해 복습합니다",
+        "한식조리 연습 회고표"
+      ],
+      "sources": [
+        [
+          "Q-Net 한식조리기능사",
+          "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7910"
+        ]
+      ]
+    },
+    {
+      "slug": "지게차운전기능사-필기-공부법",
+      "title": "지게차운전기능사 필기 기출과 안전 개념 공부법",
+      "url": "https://4050guide.co.kr/지게차운전기능사-필기-공부법/",
+      "worksheet": "/assets/worksheets/forklift-written-log.csv",
+      "sections": [
+        "공식 출제기준을 공부 목차로 바꿉니다",
+        "장비·조건·요구 행동 세 칸으로 문장을 읽으세요",
+        "점수와 별도로 반복 오류를 셉니다",
+        "필기 이후 일정과 면허 절차도 따로 남겨두세요",
+        "지게차 필기 조건 읽기 기록표"
+      ],
+      "sources": [
+        [
+          "Q-Net 지게차운전기능사",
+          "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7875"
+        ]
+      ]
+    },
+    {
+      "slug": "건축도장기능사-4050-실기-공부법",
+      "title": "건축도장기능사 실기 요구사항과 작업 기록",
+      "url": "https://4050guide.co.kr/건축도장기능사-4050-실기-공부법/",
+      "worksheet": "/assets/worksheets/painting-practice-review.csv",
+      "sections": [
+        "지금 응시할 과제와 자료 적용기간부터 맞춥니다",
+        "가상 재작업 기록을 보면 다음 수업이 정해집니다",
+        "개인 작업 한 회를 끝낸 횟수를 비교하세요",
+        "추가 연습은 비용과 수정 목표를 함께 정합니다",
+        "건축도장 실기 재작업 회고표"
+      ],
+      "sources": [
+        [
+          "Q-Net 건축도장기능사",
+          "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7150"
+        ]
+      ]
+    },
+    {
+      "slug": "소방안전관리자-4050-준비-전-확인할-것",
+      "title": "소방안전관리자 준비 전 강습과 시험 선임 확인",
+      "url": "https://4050guide.co.kr/소방안전관리자-4050-준비-전-확인할-것/",
+      "worksheet": "/assets/worksheets/fire-registration-check.csv",
+      "sections": [
+        "공고에서 요구하는 자격과 업무를 먼저 분리합니다",
+        "본인 경로를 확인할 때 질문할 내용",
+        "결제 전에 일정과 총비용을 나누어 받으세요",
+        "등록을 보류해야 하는 세 가지 상황",
+        "소방안전관리자 등록 전 확인표"
+      ],
+      "sources": [
+        [
+          "소방안전24 강습교육",
+          "https://safe.kfsi.or.kr/edu/training/trainingInfo.do"
+        ],
+        [
+          "소방안전24 시험 안내",
+          "https://safe.kfsi.or.kr/exam/examInfo.do"
+        ],
+        [
+          "소방안전24 자격발급",
+          "https://safe.kfsi.or.kr/certificate/issueInfo.do"
+        ]
+      ]
+    },
+    {
+      "slug": "소방안전관리자-4050-공부법",
+      "title": "소방안전관리자 2급 과목별 공부와 모의 점검",
+      "url": "https://4050guide.co.kr/소방안전관리자-4050-공부법/",
+      "worksheet": "/assets/worksheets/fire-study-balance.csv",
+      "sections": [
+        "두 과목 점수로 다음 복습을 정합니다",
+        "법령 용어를 설명하는 칸과 관리 행동을 나누세요",
+        "공부시간을 늘리기 전에 오답 종류를 셉니다",
+        "시험 직전에는 범위를 더 넓히지 말고 미완료를 확인합니다",
+        "소방 2급 과목별 복습표"
+      ],
+      "sources": [
+        [
+          "한국소방안전원 2급 시험 안내",
+          "https://www.kfsi.or.kr/assets/downloadDoc/33.pdf"
+        ],
+        [
+          "소방안전24 시험 안내",
+          "https://safe.kfsi.or.kr/exam/examInfo.do"
+        ]
+      ]
+    }
+  ],
+  "searchPolicy": "국가자격·복지서비스·공공혜택의 검색 화면과 저장된 검색 별칭에서는 광고 태그를 제거합니다. 메인 GET 검색은 광고 로더가 URL을 먼저 검사해 광고 요청을 시작하지 않습니다. 일반 메인·게시글은 광고 연결을 유지합니다.",
+  "privacy": "계산·필터의 페이지 메모리 처리, 검색어 URL의 접속기록 가능성, CSV 기기 내 작성 및 업로드 없음으로 안내를 변경했습니다. 개인정보처리방침 3개 사본의 스크립트 없음은 유지합니다.",
+  "approval": "AdSense 재검토 요청은 진행하지 않았으며 이 변경은 승인 보장이 아닙니다."
+}

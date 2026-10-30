@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require('playwright');
 const {isDisclosure,cleanDisclosure} = require('./privacy-disclosure.cjs');
+const {applyAdPolicy}=require('./search-ad-policy.cjs');
 
 const root = path.resolve(__dirname, '..');
 const modes = { '복지서비스-검색': 'welfare', '공공혜택-검색': 'benefit', '국가자격-검색': 'license' };
@@ -114,6 +115,7 @@ async function build() {
             .replace('정부24, 복지로, Q-Net 데이터를 연결해 지원제도와 국가자격 종목을 빠르게 확인할 수 있습니다.',
               '정부24, 복지로, Q-Net의 저장된 자료입니다. 최신 정보는 각 기관의 공식 페이지에서 확인하세요.');
         }
+        html=applyAdPolicy(html,file);
         if (html !== fs.readFileSync(file, 'utf8')) fs.writeFileSync(file, html);
       }
     }

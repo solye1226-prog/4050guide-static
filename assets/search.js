@@ -78,9 +78,16 @@
     }
   }
   const tool = document.querySelector('[data-search-mode]');
+  function markSearchResults() {
+    if (document.querySelector('meta[data-search-robots]')) return;
+    const robots = document.createElement('meta');
+    robots.name = 'robots'; robots.content = 'noindex, follow';
+    robots.dataset.searchRobots = ''; document.head.append(robots);
+  }
   if (tool) {
     const mode = tool.dataset.searchMode;
     const parameter = modeParameters[mode];
+    if (params.has(parameter)) markSearchResults();
     const form = tool.querySelector('form');
     const input = form.querySelector('input[type="search"]');
     input.setAttribute('aria-label', '검색어');
@@ -107,8 +114,7 @@
     section.append(element('h1', '검색 결과'), form, results);
     main.replaceChildren(section);
     document.title = `${params.get('s')} 검색 결과 - 4050가이드`;
-    const robots = document.createElement('meta');
-    robots.name = 'robots'; robots.content = 'noindex, follow'; document.head.append(robots);
+    markSearchResults();
     render(results, params.get('s'));
   }
 })();

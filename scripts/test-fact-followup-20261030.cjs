@@ -2,6 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),merges=require('./content-merges-20261030.cjs');
 const posts=require('../assets/search-index.json').posts,changed=require('../reports/fact-followup-result-20261030.json').changed;
+const revised=new Set(require('./useful-guides-20261030.cjs').map(p=>p.slug));
 const rules=fs.readFileSync(path.join(root,'_redirects'),'utf8').split(/\r?\n/).filter(l=>l.trim()&&!l.startsWith('#')).map(l=>l.trim().split(/\s+/));
 const server=http.createServer((req,res)=>{
  const url=new URL(req.url,'http://local'),rule=rules.find(([a])=>!a.includes('*')&&!a.includes('?')&&decodeURI(a)===decodeURI(url.pathname));
@@ -25,7 +26,7 @@ async function run(){
    const slug=decodeURI(p.url).split('/')[1],html=await (await page.request.get(origin+p.url)).text();
    const parsed=await page.evaluate(html=>{const d=new DOMParser().parseFromString(html,'text/html');return {title:d.querySelector('h1')?.textContent.trim(),links:[...d.querySelectorAll('main a[href]')].map(a=>a.getAttribute('href')),count:d.querySelectorAll('[data-fact-review="20261030"]').length,fees:d.querySelectorAll('.fact-followup h2').length}},html);
    assert.equal(parsed.title,p.title);for(const href of parsed.links){try{const u=new URL(href,origin);if(u.origin===origin)assert.ok(!merges[decodeURI(u.pathname).split('/')[1]],slug+' links to retired '+href);}catch(e){if(e.code==='ERR_ASSERTION')throw e;}}
-   if(changed.includes(slug)){assert.ok(parsed.count>=1,slug+' recheck scope');checked++;}
+   if(changed.includes(slug)){if(revised.has(slug))assert.ok(html.includes('class="guide-worksheet"'),slug+' replacement guide');else assert.ok(parsed.count>=1,slug+' recheck scope');checked++;}
    assert.ok(!html.includes('edi.work.go.kr'),slug+' old source');
   }
   const output=path.resolve(root,'../4050-fact-followup-qa'+(remote?'-live':''));fs.mkdirSync(output,{recursive:true});

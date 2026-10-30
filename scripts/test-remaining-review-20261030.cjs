@@ -2,6 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),report=require('../reports/remaining-review-result-20261030.json');
 const supplements=require('./remaining-supplements-20261030.cjs');
+const revised=new Set(require('./useful-guides-20261030.cjs').map(p=>p.slug));
 const server=http.createServer((req,res)=>{
  const u=new URL(req.url,'http://local');let f=path.resolve(root,'.'+decodeURI(u.pathname));
  if(f!==root&&!f.startsWith(root+path.sep))return res.writeHead(403).end();
@@ -27,7 +28,8 @@ async function run(){
    const article=x.schema.find(x=>x['@type']==='BlogPosting');assert.ok(article,p.slug+' schema');assert.equal(article.datePublished,p.preserved.datePublished);
    assert.deepEqual(x.images,p.preserved.images,p.slug+' images preserved');x.images.forEach(s=>assets.add(s));
    assert.ok(sitemap.includes(p.url),p.slug+' sitemap');
-   if(p.supplement){assert.equal(x.sections,1,p.slug+' unique addition');assert.deepEqual(x.headings,[p.supplement.heading]);assert.equal(article.dateModified,'2026-10-30');}
+   if(revised.has(p.slug)){assert.ok(html.includes('class="guide-worksheet"'),p.slug+' successor guide');assert.equal(article.dateModified,'2026-10-30');}
+   else if(p.supplement){assert.equal(x.sections,1,p.slug+' unique addition');assert.deepEqual(x.headings,[p.supplement.heading]);assert.equal(article.dateModified,'2026-10-30');}
    else assert.equal(x.sections,0);
    if(p.index===52){assert.doesNotMatch(x.text,/지난해 상반기 또는 올해 3월/);assert.match(x.text,/2025년 9월/);}
   }
@@ -38,7 +40,7 @@ async function run(){
    for(const width of [1280,320]){
     await page.setViewportSize({width,height:900});await page.goto(origin+encodeURI('/'+p.slug+'/'),{waitUntil:'domcontentloaded'});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,p.slug+' overflow '+width);
-    if(p.supplement){
+    if(p.supplement&&!revised.has(p.slug)){
      assert.equal(await page.locator('.detail-content .remaining-review').count(),1);
      await page.locator('.remaining-review').scrollIntoViewIfNeeded();
      assert.equal(await page.locator('.remaining-review').evaluate(n=>{const r=n.getBoundingClientRect();return r.width>0&&r.left>=0&&r.right<=innerWidth+1}),true,p.slug+' supplement frame');

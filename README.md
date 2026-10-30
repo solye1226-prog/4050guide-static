@@ -108,3 +108,31 @@ Run `node scripts/test-remaining-review-20261030.cjs` locally and with
 metadata/images, 108 image resources, and 328 desktop/mobile views. The report
 distinguishes content kept from actual modifications; do not refresh dates for
 the 103 unchanged articles just to imply freshness.
+
+## October 30 Practical Content And Search Ads
+
+`scripts/useful-guides-20261030.cjs` replaces eight shallow core guides with
+distinct worked examples, decision paths and eight downloadable CSV worksheets.
+The examples are editorial exercises, not official exam questions, field
+experience or validated eligibility decisions. Existing URLs, article images and
+known publication dates are preserved. The homepage links to all eight guides.
+`reports/content-value-improvements-20261030.json` records the exact scope.
+These eight successor guides replace earlier scoped-check sections; historical
+review tests now verify their worksheet rather than requiring the retired text.
+
+Search pages are an exception to the general instruction to keep ad tags:
+`scripts/search-ad-policy.cjs` strips ads from all three search tools and saved
+search aliases. The homepage uses `assets/home-ads.js` to check for `?s=` before
+making any advertising request, and retains the AdSense account verification
+meta tag. Normal homepage/article advertising and consent controls remain.
+Both home and search builders enforce the policy on future rebuilds.
+
+The privacy disclosure now describes the current calculator/filter memory,
+URL-based search queries and device-local CSV files, not the retired checklist.
+When syncing only updated trust pages, use `TRUST_MODIFIED_DATE=2026-10-30` and
+`TRUST_MODIFIED_SLUGS=소개,개인정보처리방침` to avoid redating unchanged terms.
+
+Run `node scripts/test-useful-guides-20261030.cjs`, also with `TEST_ORIGIN` after
+deployment. It checks all eight articles/downloads, desktop/mobile tables,
+metadata/image preservation and zero advertising/CMP requests on ten search
+and disclosure routes. A passing test is not an AdSense approval prediction.

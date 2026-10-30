@@ -4,6 +4,9 @@ const {isDisclosure,cleanDisclosure}=require('./privacy-disclosure.cjs');
 const root=path.resolve(__dirname,'..');
 const template=fs.readFileSync(path.join(__dirname,'footer-template.html'),'utf8').trim();
 const updates=new Set(['소개','이용약관','개인정보처리방침']);
+const modifiedDate=process.env.TRUST_MODIFIED_DATE||'2026-10-22';
+if(!/^\d{4}-\d{2}-\d{2}$/.test(modifiedDate))throw new Error('Invalid TRUST_MODIFIED_DATE');
+const dateUpdates=new Set((process.env.TRUST_MODIFIED_SLUGS||[...updates].join(',')).split(',').map(s=>'/'+s+'/'));
 const canonicalMains=new Map([...updates].map(slug=>{
  const html=fs.readFileSync(path.join(root,slug,'index.html'),'utf8');
  return ['/'+slug+'/',html.match(/<main\b[\s\S]*?<\/main>/)[0]];
@@ -40,7 +43,7 @@ sitemap=sitemap.replace(/<url>[\s\S]*?<\/url>/g,block=>{
  const loc=block.match(/<loc>([^<]+)<\/loc>/)?.[1];
  if(!loc)return block;
  const u=new URL(loc);
- return canonicalMains.has(decodeURI(u.pathname))?block.replace(/<lastmod>[^<]+<\/lastmod>/,'<lastmod>2026-10-22</lastmod>'):block;
+ return dateUpdates.has(decodeURI(u.pathname))?block.replace(/<lastmod>[^<]+<\/lastmod>/,`<lastmod>${modifiedDate}</lastmod>`):block;
 });
 fs.writeFileSync(sitemapFile,sitemap);
 console.log(JSON.stringify({updatedPages:pages,scriptFreeDisclosureCopies:disclosures}));

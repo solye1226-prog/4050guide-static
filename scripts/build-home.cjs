@@ -28,5 +28,5 @@ html = html.replace(/<title>[\s\S]*?<\/title>/, '<title>4050가이드 - 자격�
 html = html.replace(/(<meta name="description" content=")[^"]*(")/, '$140대·50대의 자격증 선택과 국비훈련 예산, 재취업 근무조건을 공개 공고 표본과 통학비 계산으로 비교합니다.$2');
 html = html.replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*(")/g, '$14050가이드 - 자격증·훈련비·재취업 근무조건 비교$2');
 html = html.replace(/(<meta (?:property="og:description"|name="twitter:description") content=")[^"]*(")/g, '$1자격증·훈련·재취업을 공개 공고의 경력·근무시간과 훈련비 계산으로 비교하세요.$2');
-fs.writeFileSync(file, html);
+fs.writeFileSync(file, require('./search-ad-policy.cjs').applyAdPolicy(html,file));
 console.log('Built evidence-led comparison homepage');
