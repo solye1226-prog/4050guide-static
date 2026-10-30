@@ -62,3 +62,16 @@
 }
 @media(prefers-reduced-motion:reduce){.home-main *{scroll-behavior:auto}}
 @media(max-width:360px){.home-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.budget-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:32px}
+.budget-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.budget-form label,.job-filters label{font-size:14px;font-weight:700;min-width:0}
+.budget-form input,.budget-form select,.job-filters select{display:block;width:100%;min-width:0;box-sizing:border-box;margin-top:6px;padding:10px;background:#fff;border:1px solid #94a69e;border-radius:4px;color:#242c2b;font:inherit;min-height:44px}
+.budget-wide{grid-column:1/-1}
+.budget-result{border-left:3px solid #25705b;padding:12px 24px;background:#f0f7f3;min-width:0}
+.budget-result>span{font-size:14px;color:#52605b}.budget-result strong{display:block;font-size:30px;line-height:1.5;margin:8px 0;color:#16583f}.budget-result p{font-size:14px;line-height:1.8}
+#budget-error{color:#9d301e;font-size:14px;margin:0}
+.job-filters{display:flex;align-items:center;gap:16px 24px;flex-wrap:wrap;margin:20px 0}.job-filters>label:first-child{min-width:140px}.job-filters input{width:18px;height:18px;accent-color:#216b53;vertical-align:middle}
+.focus-jobs{border-collapse:collapse;width:100%;table-layout:fixed;font-size:14px;line-height:1.75}.focus-jobs th{text-align:left;background:#edf3f0}.focus-jobs th,.focus-jobs td{padding:14px 12px;border-bottom:1px solid #dce4e0;vertical-align:top}.focus-jobs p{margin:8px 0 0;color:#52605b;font-size:13px}.focus-jobs th:nth-child(1){width:12%}.focus-jobs th:nth-child(2){width:18%}.focus-jobs th:nth-child(3){width:37%}
+.focus-reading{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:24px 0 0}.focus-reading li{border-top:1px solid #dce4e0;padding:18px 0;min-width:0}.focus-reading a{font-weight:800;line-height:1.6}.focus-reading p{font-size:14px;color:#52605b;margin:8px 0 0}
+.home-main [hidden]{display:none!important}
+@media(max-width:760px){.budget-layout{grid-template-columns:1fr;gap:20px}.budget-result{padding:12px 18px}.focus-reading{grid-template-columns:1fr}.focus-jobs thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.focus-jobs,.focus-jobs tbody,.focus-jobs tr,.focus-jobs td{display:block;width:auto}.focus-jobs tr{border-top:2px solid #a8bdb1;padding:10px 0 18px}.focus-jobs td{padding:8px 0;border:0}.focus-jobs td:before{content:attr(data-label);display:block;font-size:12px;font-weight:800;color:#25705b;margin-bottom:3px}.job-filters{align-items:flex-start;gap:16px}.job-filters>label{width:100%}.home-masthead h1{font-size:32px}}

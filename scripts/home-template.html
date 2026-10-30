@@ -1,81 +1,26 @@
-<main class="main home-main">
-  <div class="wrap">
-    <section class="home-masthead" aria-labelledby="home-title">
-      <p class="home-eyebrow">일 · 생활비 · 부모님 돌봄</p>
-      <h1 id="home-title">4050가이드</h1>
-      <p class="home-intro">다시 일할 준비부터 부모님 돌봄까지.<br>비용과 조건을 비교하고, 내 다음 단계를 정하세요.</p>
-      <form class="hero-search" role="search" action="/" method="get">
-        <label class="home-sr" for="home-query">게시글 검색어</label>
-        <input id="home-query" type="search" name="s" placeholder="내일배움카드, 건강보험료" required>
-        <button type="submit">검색</button>
-      </form>
-      <div class="home-popular"><a href="/국민내일배움카드-신청방법-2026/">내일배움카드</a><a href="/퇴직-후-건강보험료-줄이는-방법/">퇴직 후 건강보험료</a><a href="/중장년-내일센터-이용방법/">중장년 취업상담</a></div>
-    </section>
-    <section class="home-planner" aria-labelledby="planner-heading">
-      <div class="home-heading"><div><p class="home-eyebrow">나의 다음 단계</p><h2 id="planner-heading">지금 어떤 상황인가요?</h2></div><span class="home-count" aria-live="polite"></span></div>
-      <div class="home-tabs" aria-label="현재 상황">
-        <a href="#plan-retired" id="tab-retired">퇴직 직후</a><a href="#plan-work" id="tab-work">재취업 준비</a><a href="#plan-parent" id="tab-parent">부모님 복지</a><a href="#plan-living" id="tab-living">생활비 부담</a>
-      </div>
-      <div class="home-plan" id="plan-retired" aria-labelledby="tab-retired">
-        <p class="home-plan-intro">교육비를 결제하기 전에, 당장 바뀌는 생활비와 고용보험부터 확인하세요.</p>
-        <ol>
-          <li><input type="checkbox" id="retired-1"><div><label for="retired-1">퇴사 서류와 고용보험 상태 확인</label><p>퇴사 사유와 이직확인서 처리 여부를 확인하고, 수급 가능성은 고용센터에 문의하세요.</p><a href="/실업급여-신청-전-확인할-것/">실업급여 신청 전 확인할 것 →</a></div></li>
-          <li><input type="checkbox" id="retired-2"><div><label for="retired-2">건강보험료 전환 방식 비교</label><p>피부양자·임의계속가입·지역가입을 비교하세요. 임의계속가입은 신청기한도 중요합니다.</p><a href="/퇴직-후-건강보험료-줄이는-방법/">퇴직 후 건강보험료 줄이는 방법 →</a></div></li>
-          <li><input type="checkbox" id="retired-3"><div><label for="retired-3">경력과 희망 근무조건 정리</label><p>이전 업무, 가능한 근무시간, 통근 범위를 적어 중장년 상담에 가져가세요.</p><a href="/중장년-내일센터-이용방법/">중장년 내일센터 이용방법 →</a></div></li>
-        </ol>
-      </div>
-      <div class="home-plan" id="plan-work" aria-labelledby="tab-work">
-        <p class="home-plan-intro">자격증 이름보다 채용공고의 업무와 근무조건을 먼저 비교하세요.</p>
-        <ol>
-          <li><input type="checkbox" id="work-1"><div><label for="work-1">상담에서 경력의 활용처 찾기</label><p>이력서와 관심 채용공고를 가져가 실제 지원 가능한 직무를 좁혀보세요.</p><a href="/중장년-내일센터-이용방법/">무료 취업상담 준비 →</a></div></li>
-          <li><input type="checkbox" id="work-2"><div><label for="work-2">국비훈련의 본인부담금 확인</label><p>카드 발급과 수강 신청은 별개입니다. 시간표·자비부담·훈련 내용을 함께 비교하세요.</p><a href="/국민내일배움카드-신청방법-2026/">내일배움카드 신청방법 →</a></div></li>
-          <li><input type="checkbox" id="work-3"><div><label for="work-3">취업지원제도 참여 가능성 확인</label><p>가구 소득과 재산, 취업경험, 실업급여 수급 여부에 따라 참여 유형이 달라집니다.</p><a href="/국민취업지원제도-4050-신청-전-확인할-것/">국민취업지원제도 신청 기준 →</a></div></li>
-        </ol>
-      </div>
-      <div class="home-plan" id="plan-parent" aria-labelledby="tab-parent">
-        <p class="home-plan-intro">부모님의 연령과 가구 상황, 기존 수급 내역을 함께 확인하세요.</p>
-        <ol>
-          <li><input type="checkbox" id="parent-1"><div><label for="parent-1">기초연금 소득인정액 확인</label><p>월급이나 연금 액수만으로 판단하지 마세요. 소득과 재산을 함께 반영합니다.</p><a href="/기초연금-수급자격-확인방법/">기초연금 수급자격 확인 →</a></div></li>
-          <li><input type="checkbox" id="parent-2"><div><label for="parent-2">겨울 난방비 지원과 사용 방식 확인</label><p>에너지바우처는 수급 자격과 세대원 특성 요건이 필요합니다. 요금차감과 카드 사용을 구분하세요.</p><a href="/2026-여름-에너지바우처-부모님-대신-확인할-것/">2026 에너지바우처 확인 →</a></div></li>
-          <li><input type="checkbox" id="parent-3"><div><label for="parent-3">주거비 지원 가능성 확인</label><p>임차가구와 자가가구의 지원 방식이 다릅니다. 가구원과 거주 형태를 정리하세요.</p><a href="/주거급여-신청조건-2026/">주거급여 신청조건 →</a></div></li>
-        </ol>
-      </div>
-      <div class="home-plan" id="plan-living" aria-labelledby="tab-living">
-        <p class="home-plan-intro">급한 위기 상황의 상담과 정기 지원금 확인을 구분하세요.</p>
-        <ol>
-          <li><input type="checkbox" id="living-1"><div><label for="living-1">갑작스러운 생계 위기는 먼저 상담</label><p>실직·휴폐업 등으로 생활이 어렵다면 주민센터나 보건복지상담센터 129에 문의하세요.</p><a href="/긴급복지-생계지원-신청조건/">긴급복지 생계지원 확인 →</a></div></li>
-          <li><input type="checkbox" id="living-2"><div><label for="living-2">주거비와 가구 소득 함께 확인</label><p>현재 월세, 보증금, 가구원의 소득·재산 자료로 주거급여 상담을 준비하세요.</p><a href="/주거급여-신청조건-2026/">주거급여 신청 준비 →</a></div></li>
-          <li><input type="checkbox" id="living-3"><div><label for="living-3">근로장려금 심사·지급 상태 확인</label><p>신청한 유형과 실제 심사 상태를 홈택스에서 확인하세요. 예상 지급일은 개인별로 다릅니다.</p><a href="/근로장려금-지급일-확인방법/">근로장려금 지급일 확인 →</a></div></li>
-        </ol>
-      </div>
-      <div class="home-plan-footer"><p>확인 순서는 편집 제안이며 수급 자격 판정이 아닙니다.</p><button type="button" id="home-reset" hidden>체크 초기화</button></div>
-    </section>
-    <section class="home-reading" aria-labelledby="reading-heading">
-      <div class="home-heading"><h2 id="reading-heading">지금 다시 확인할 생활 정보</h2><span>신청과 이용 조건 비교</span></div>
-      <div class="home-story-grid">
-        <article class="home-story"><a href="/2026-여름-에너지바우처-부모님-대신-확인할-것/"><img src="/assets/energy-voucher-winter-2026.webp" alt="부모님 에너지바우처 확인을 위한 카드뉴스" width="1024" height="1024" loading="lazy"><div><span class="home-topic">부모님 복지</span><h3>겨울 에너지바우처, 신청과 사용은 다릅니다</h3><p>2026 신청기간과 요금차감·국민행복카드 사용방법.</p></div></a></article>
-        <article class="home-story"><a href="/국민취업지원제도-4050-신청-전-확인할-것/"><img src="/wp-content/uploads/2026/06/national-employment-support-4050-application-cardnews.png" alt="중장년 국민취업지원제도 신청 준비 카드뉴스" width="1024" height="1024" loading="lazy"><div><span class="home-topic">다시 일하기</span><h3>국민취업지원제도, 내 유형부터 확인하세요</h3><p>4050이 비교할 소득·재산·취업경험과 신청 순서.</p></div></a></article>
-        <article class="home-story"><a href="/퇴직-후-건강보험료-줄이는-방법/"><img src="/wp-content/uploads/2026/05/retirement-finance-documents-1024x576.png" alt="퇴직 후 생활비와 보험 관련 서류를 정리하는 모습" width="1024" height="576" loading="lazy"><div><span class="home-topic">퇴직 후 생활비</span><h3>퇴직 후 건강보험료, 세 가지 경로 비교</h3><p>피부양자·임의계속가입·지역가입, 신청기한까지.</p></div></a></article>
-      </div>
-      <p class="home-image-note">이미지는 이해를 돕는 AI 제작 자료이며 공식 안내문이 아닙니다. 제도 기준은 본문의 공식 출처를 확인하세요.</p>
-    </section>
-<!-- recent-editorial:start -->
-<section class="home-recent" aria-labelledby="recent-heading"><div class="home-heading"><h2 id="recent-heading">새로 발행한 실전 안내</h2><span>2026.10.23 최신 글</span></div><ul class="home-recent-list"><li><a href="/방문요양-어르신-입원-근무중단-급여/"><span>방문요양 근무 중단</span><strong>방문요양 어르신 입원으로 일이 끊겼을 때 급여 확인하는 법</strong></a></li><li><a href="/폐업한-회사-경력증명서-대체서류/"><span>재취업 서류</span><strong>폐업한 회사 경력증명서 대신 준비할 서류와 제출 방법</strong></a></li><li><a href="/재취업-계약서-3-3퍼센트-확인/"><span>계약 확인</span><strong>재취업 계약서에 3.3%가 적혀 있다면 확인할 근무조건</strong></a></li><li><a href="/재취업-첫월급-급여명세서-확인/"><span>첫 월급 점검</span><strong>재취업 첫 월급이 적을 때 급여명세서 확인하는 순서</strong></a></li><li><a href="/스마트폰-취업서류-PDF-제출/"><span>디지털 서류</span><strong>스마트폰으로 취업 서류 PDF 만들고 제출하는 방법</strong></a></li><li><a href="/채용공고-교육비-보증금-확인/"><span>구직 피해 예방</span><strong>채용공고에서 교육비나 보증금을 요구할 때 확인할 것</strong></a></li><li><a href="/부모님-가족돌봄휴가-휴직-비교/"><span>일과 가족 돌봄</span><strong>부모님 돌봄 때문에 퇴사하기 전 가족돌봄휴가와 휴직 비교</strong></a></li><li><a href="/채용-건강검진-대체통보서-확인/"><span>채용 검진 서류</span><strong>채용 건강검진 비용 내기 전 대체통보서부터 확인하세요</strong></a></li><li><a href="/이직한-해-연말정산-서류-준비/"><span>이직 연말정산</span><strong>퇴직 후 같은 해 재취업했다면 연말정산 서류 준비하는 법</strong></a></li><li><a href="/부모님-응급안전안심서비스-신청-확인/"><span>부모님 안전 돌봄</span><strong>혼자 사는 부모님 응급안전안심서비스 신청 전 확인할 것</strong></a></li></ul></section>
-<!-- recent-editorial:end -->
-    <section class="home-directory" aria-labelledby="directory-heading">
-      <h2 id="directory-heading">주제별로 더 살펴보기</h2>
-      <nav class="home-hubs" aria-label="종합 안내">
-        <a href="/4050-자격증-로드맵/"><span>자격증 준비</span><strong>취업처부터 시험과 훈련까지</strong></a>
-        <a href="/4050-생활경제-점검표/"><span>생활비 점검</span><strong>보험·대출·연금 함께 정리</strong></a>
-        <a href="/부모님-복지-점검-가이드/"><span>부모님 복지</span><strong>생활비·돌봄·주거 확인 순서</strong></a>
-        <a href="/상시검정-자격증-선택-가이드/"><span>상시시험 준비</span><strong>접수와 실습 조건 비교</strong></a>
-      </nav>
-      <div class="home-directory-grid">
-        <div><h3>일과 훈련</h3><a href="/category/rejob/">재취업 안내 →</a><a href="/category/support/">국비지원 교육 →</a><a href="/category/license/">자격증 준비 →</a><a href="/category/license/license-schedule/">시험일정 확인 →</a></div>
-        <div><h3>생활과 복지</h3><a href="/category/money/">생활경제 안내 →</a><a href="/복지서비스-검색/">복지서비스 검색 →</a><a href="/공공혜택-검색/">공공혜택 검색 →</a><a href="/국가자격-검색/">국가자격 검색 →</a></div>
-        <div><h3>공식 기관에서 확인</h3><a href="https://www.work24.go.kr/">고용24 · 취업과 훈련 →</a><a href="https://www.bokjiro.go.kr/">복지로 · 복지서비스 →</a><a href="https://www.hometax.go.kr/">홈택스 · 장려금 →</a><a href="https://www.q-net.or.kr/">Q-Net · 시험 접수 →</a></div>
-      </div>
-    </section>
-    <section class="home-editorial" aria-labelledby="editorial-heading"><h2 id="editorial-heading">조건은 정확하게, 선택은 현실적으로</h2><p>4050가이드는 민간 정보 사이트입니다. 지원금 수령이나 취업을 보장하지 않습니다. 공식 기준과 생활 속 준비 방법을 구분해 안내하고, 바뀐 정보는 제보를 받아 수정합니다.</p><div><a href="/정보-출처-및-면책-안내/">출처와 작성 기준</a><a href="/소개/">운영 소개</a><a href="mailto:solye1226@gmail.com">오류 제보</a></div></section>
-  </div>
-</main>
+<main class="main home-main" data-edition="20261030"><div class="wrap">
+ <section class="home-masthead" aria-labelledby="home-title">
+  <p class="home-eyebrow">40대·50대의 자격증 · 훈련 · 재취업</p><h1 id="home-title">4050가이드</h1><p class="home-intro">자격증을 고르기 전에,<br>일자리의 조건과 배우는 비용부터.</p>
+  <form class="hero-search" role="search" action="/" method="get"><label class="home-sr" for="home-query">게시글 검색어</label><input id="home-query" type="search" name="s" placeholder="전기기능사, 내일배움카드" required><button type="submit">검색</button></form>
+  <div class="home-popular"><a href="#training-budget">훈련비 비교</a><a href="#job-samples">근무조건 비교</a><a href="/4050-자격증-로드맵/">처음 준비하는 순서</a></div>
+ </section>
+ <section class="home-planner" id="training-budget" aria-labelledby="budget-heading">
+  <div class="home-heading"><div><p class="home-eyebrow">결제하기 전</p><h2 id="budget-heading">훈련비에 통학비까지 더하면?</h2></div><span>공개 과정 5건 · 2026.10.30 확인</span></div>
+  <div class="budget-layout"><form id="budget-form" class="budget-form" novalidate>
+   <label class="budget-wide" for="budget-course">비교할 과정 표본<select id="budget-course"><!--focus-courses--></select></label>
+   <label for="budget-tuition">내 부담 훈련비 (원)<input id="budget-tuition" type="number" min="0" max="100000000" step="1" value="201390" required></label>
+   <label for="budget-days">통학일수 (일)<input id="budget-days" type="number" min="0" max="366" step="1" value="23" required></label>
+   <label for="budget-travel">하루 왕복 교통비 (원)<input id="budget-travel" type="number" min="0" max="1000000" step="1" value="6000" required></label>
+   <label for="budget-extra">추가 준비비 (원)<input id="budget-extra" type="number" min="0" max="100000000" step="1" value="0" required></label><p id="budget-error" role="alert" class="budget-wide" hidden>빈칸 없이 허용 범위의 0 이상 정수를 입력해 주세요.</p>
+  </form><div class="budget-result" aria-live="polite" aria-atomic="true"><span>입력한 비용의 단순 합계</span><strong id="budget-total">339,390원</strong><p id="budget-breakdown">훈련비 201,390원 + 교통비 138,000원 + 준비비 0원</p><a id="budget-source" href="https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?crseTracseSe=C0061&amp;tracseId=AIG20250000532807&amp;tracseTme=7&amp;trainstCstmrId=500020029487" target="_blank" rel="noopener noreferrer">선택한 과정 원문</a><p id="budget-note">집체 실기 84시간 · 모집마감 표본. 일반 표시 부담액이며 개인별 확정 금액이 아닙니다.</p></div></div>
+  <p class="home-image-note">공개 화면의 일반 부담액을 기본값으로 사용했습니다. 실제 개인 부담액으로 바꾸세요. 하루 교통비 6,000원은 계산 예시이며 준비비 0원은 무료 확인이 아닙니다. 지원 자격·환급·시험비·기회비용은 자동 산정하지 않습니다. 입력값은 서버로 보내지 않습니다.</p><noscript><p>계산식은 훈련비 + 통학일수 × 하루 교통비 + 추가 준비비입니다. 기본 예시는 201,390 + 23 × 6,000 = 339,390원입니다.</p></noscript><a href="/4050-국민내일배움카드-자비부담금-확인법/">통학 횟수 때문에 비용 순서가 바뀌는 사례 보기</a>
+ </section>
+ <section class="home-reading" id="job-samples" aria-labelledby="jobs-heading">
+  <div class="home-heading"><div><p class="home-eyebrow">자격증보다 먼저 볼 것</p><h2 id="jobs-heading">실제 공고의 근무조건 비교</h2></div><span id="job-count" role="status">비교 표본 10건</span></div><p>월급이 높아도 경력·야간·통근 조건이 맞아야 합니다. 아래는 마감 사례를 포함한 학습용 표본이며 현재 모집목록이나 평균 임금 자료가 아닙니다.</p>
+  <div class="job-filters"><label for="job-group">직무<select id="job-group"><option value="">전체</option><option>시설관리</option><option>전기·통신</option><option>요양</option><option>지게차</option><option>조리</option></select></label><label><input id="job-entry" type="checkbox"> 신입·경력무관 명시</label><label><input id="job-day" type="checkbox"> 공개 시간표에 야간 없는 표본</label></div><p class="home-image-note">미표기·불명확 조건은 필터 선택 시 제외합니다. 제외된 공고가 신입 지원 불가라는 뜻은 아닙니다. 야간 필터는 근무표 표기만 분류하며 실제 배정과 수당 기준을 판단하지 않습니다.</p>
+  <table class="focus-jobs"><thead><tr><th scope="col">직무·지역</th><th scope="col">임금·경력</th><th scope="col">근무표·확인할 점</th><th scope="col">원문·상태</th></tr></thead><tbody><!--focus-jobs--></tbody></table><p id="job-empty" hidden>조건이 명시된 표본이 없습니다. 필터를 해제하면 미확인 조건도 함께 볼 수 있습니다.</p><p class="home-image-note">2026.10.30 고용24 공개 상세페이지를 읽어 구성한 편의표본입니다. 직접 지원·전화·수강·현장 방문한 후기가 아닙니다. 전국 대표성·4050 채용 보장·실시간 모집 여부를 뜻하지 않습니다.</p>
+ </section>
+ <section class="home-reading" aria-labelledby="core-heading"><div class="home-heading"><div><p class="home-eyebrow">조건을 읽고 다음 단계로</p><h2 id="core-heading">선택부터 지원 준비까지</h2></div></div><div class="home-story-grid"><!--focus-stories--></div><ol class="focus-reading"><!--focus-links--></ol></section>
+ <section class="home-directory" aria-labelledby="directory-heading"><h2 id="directory-heading">직업·생활 정보 자료실</h2><div class="home-directory-grid"><div><h3>직업과 훈련</h3><a href="/category/license/">자격증 취득</a><a href="/category/rejob/">재취업 준비</a><a href="/category/support/">국비지원</a></div><div><h3>함께 살펴볼 생활 정보</h3><a href="/복지서비스-검색/">복지서비스 검색</a><a href="/공공혜택-검색/">공공혜택 검색</a><a href="/국가자격-검색/">국가자격 검색</a></div><div><h3>공식 확인처</h3><a href="https://www.work24.go.kr/" target="_blank" rel="noopener noreferrer">고용24 채용·훈련</a><a href="https://www.q-net.or.kr/" target="_blank" rel="noopener noreferrer">Q-Net 자격시험</a><a href="/문의/">정보 오류 제보</a></div></div></section>
+ <section class="home-editorial"><h2>자료를 읽는 기준</h2><p>공개 원문의 표기와 편집자의 비교·계산을 구분합니다. 확인되지 않은 조건은 추정하지 않고, 모집이 끝난 자료는 과거 표본으로 표시합니다. 기관·직무의 우열이나 개인별 취업·지원 결과를 보장하지 않습니다. 실제 접수 전에는 원문과 채용처·교육기관 안내를 다시 확인하세요.</p><div><a href="/소개/">운영자와 사이트 소개</a><a href="/정보-출처-및-면책-안내/">출처·수정 기준</a><a href="/문의/">오류·정정 문의</a></div></section>
+</div></main>

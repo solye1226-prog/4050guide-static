@@ -1,0 +1,2874 @@
+{
+  "checkedAt": "2026-10-30",
+  "scope": "구조·카테고리·제목 유사도 점검입니다. 전체 글의 사실 재검증이나 중복 확정 결과가 아닙니다. 원문과 주소는 유지합니다.",
+  "counts": {
+    "생활·복지 자료실": 59,
+    "직업·훈련 보조 글": 150,
+    "대표 글": 10
+  },
+  "posts": [
+    {
+      "url": "/2026-근로-자녀장려금-6월-1일-전후-확인할-것/",
+      "title": "2026 근로·자녀장려금 정기신청 마감 후 접수·심사 확인 순서",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1498,
+      "sources": 6,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/2026-여름-에너지바우처-부모님-대신-확인할-것/",
+      "title": "2026 에너지바우처 신청기간과 겨울 사용방법",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1825,
+      "sources": 0,
+      "images": 1,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/2026-중장년-경력지원제-신청방법/",
+      "title": "2026 중장년 경력지원제 신청조건과 참여방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1658,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/2026년-6월-4050-정부지원금-복지-신청-체크리스트/",
+      "title": "4050 정부지원금·복지 신청 누락 점검표 소득 감소·난방·부모님 돌봄",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1548,
+      "sources": 8,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/2026년-6월-중장년-재취업-지원제도-확인할-것/",
+      "title": "중장년 재취업 지원제도 선택 순서 재직·퇴직·훈련 단계별",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1458,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/2026년-기능사-남은-시험일정/",
+      "title": "2026년 기능사 남은 시험일정 10월 19일 이후 실기와 빈자리 접수",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1217,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/2026년-기사-산업기사-남은-시험일정/",
+      "title": "2026년 기사·산업기사 남은 시험일정 3회 실기와 10월 19일 마감",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1195,
+      "sources": 2,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/2026년-남은-국가기술자격-시험일정/",
+      "title": "2026년 남은 국가기술자격 시험일정 10월 19일 접수 가능성과 시험 구분",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1322,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/2026년-상시검정-자격증-14종목/",
+      "title": "2026년 상시검정 자격증 14종목: 지게차·한식조리처럼 일정 선택이 쉬운 종목",
+      "categories": [
+        "license",
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1737,
+      "sources": 0,
+      "images": 1,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/3d프린터운용기능사-실기-장비-선택/",
+      "title": "3D프린터운용기능사 실기 출력 기회와 비용",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1465,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/3톤-미만-지게차-교육-면허-발급/",
+      "title": "3톤 미만 지게차 교육과 면허 발급 기능사와 다른 점",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1969,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/4050-국민내일배움카드-자비부담금-확인법/",
+      "title": "국민내일배움카드 자비부담금 확인법 고용24 조회와 실제 결제금액",
+      "categories": [
+        "support"
+      ],
+      "bucket": "대표 글",
+      "characters": 1374,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/4050-국비지원-과정-수료-후-할-일/",
+      "title": "4050 국비지원 과정 수료 후 할 일 수료 기록을 입사지원으로 바꾸기",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1160,
+      "sources": 2,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/4050-면접-준비법/",
+      "title": "4050 면접 준비법 지원 공고 하나로 답변과 질문 만들기",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1166,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/4050-보험-리모델링-체크리스트/",
+      "title": "4050 보험 리모델링 체크리스트 해지 전 보장과 갱신 조건 확인",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1678,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/4050-생활경제-점검표/",
+      "title": "4050 생활경제 점검표 보험 대출 연금과 퇴직 후 생활비 정리",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1649,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/4050-자격증-로드맵/",
+      "title": "4050 자격증 로드맵 취업처 시험일정 국비훈련을 정하는 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "대표 글",
+      "characters": 2197,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/4050-자격증-준비기간-잡는-법/",
+      "title": "4050 자격증 준비기간 잡는 법 접수와 실습에서 역산하기",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1179,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/4050-재취업-자격증-고르는-기준/",
+      "title": "4050 재취업 자격증 고르는 기준: 취득 쉬운 자격보다 일자리 연결이 먼저",
+      "categories": [
+        "license"
+      ],
+      "bucket": "대표 글",
+      "characters": 2327,
+      "sources": 0,
+      "images": 1,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/50대-남자-재취업-자격증-추천/",
+      "title": "50대 남성 재취업 자격증은 현장 전환 조건부터 대조하세요",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1633,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대-시설관리-채용공고-근무조건/",
+      "title": "50대 시설관리 취업 채용공고에서 확인할 근무조건 7가지",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "대표 글",
+      "characters": 1779,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대-여성-재취업-자격증-추천/",
+      "title": "50대 여성 재취업 자격증은 돌봄과 병행할 시간표부터 맞추세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1615,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대-재취업-가능한-직종/",
+      "title": "50대 재취업 가능한 직종 경력과 근무조건으로 비교하는 방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1630,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대-재취업-경력기술서-작성법/",
+      "title": "50대 재취업 경력기술서 예시와 직무 전환 작성법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1708,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대-재취업-현실/",
+      "title": "50대 재취업이 막히면 지원 조건과 경력 설명을 나눠 고치세요",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1607,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/50대가-내일배움카드로-많이-찾는-자격증/",
+      "title": "50대 내일배움카드 자격증은 목표 공고와 훈련 내용을 맞춰 고르세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1744,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/Q-Net-월간시험일정-보는-법/",
+      "title": "Q-Net 월간시험일정 보는 법 접수·시험·발표를 나누는 실제 예시",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1216,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/가구제작기능사-목공예-실기-차이/",
+      "title": "가구제작기능사와 목공예 실기 준비 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1928,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/가스기능사-에너지관리기능사-차이/",
+      "title": "가스기능사와 에너지관리기능사 시설관리 준비 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2053,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/가족인-요양보호사-부모님-돌봄-인정조건/",
+      "title": "가족인 요양보호사가 부모님을 돌볼 때 인정조건과 급여시간",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1614,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/간호간병통합서비스-병원-찾기-입원비용/",
+      "title": "간호간병통합서비스 병원 찾기 운영병동 확인과 입원비 계산",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1343,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/거푸집기능사-실기-도면-안전/",
+      "title": "거푸집기능사 실기 도면과 부재표 준비",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1405,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/건강보험-본인부담상한제-환급금-신청/",
+      "title": "건강보험 본인부담상한제 환급금 조회와 신청방법",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1574,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/건강보험-피부양자-탈락-기준-4050-체크/",
+      "title": "건강보험 피부양자 소득과 재산 기준",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1213,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/건설업-기초안전보건교육-신청-이수증-재발급/",
+      "title": "건설업 기초안전보건교육 신청과 이수증 재발급 방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1569,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/건축도장기능사-4050-실기-공부법/",
+      "title": "건축도장기능사 실기 요구사항과 작업 기록",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 915,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/건축도장기능사-4050-준비방법/",
+      "title": "건축도장기능사 준비 전 실습과 작업환경 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1061,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/건축목공기능사-실기-준비물-안전/",
+      "title": "건축목공기능사 실기 준비물과 안전한 연습",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1901,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/경력단절-후-재취업-시작법/",
+      "title": "경력단절 후 재취업 시작법 첫 주에 복귀 조건부터 정하기",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1246,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/경비원-신임교육-4050-준비방법/",
+      "title": "일반경비원 신임교육 준비방법 24시간 교육·면제·이수증 확인",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1749,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/경비원-월급-현실/",
+      "title": "경비원 월급은 휴게를 뺀 근로시간과 야간가산을 나눠 계산하세요",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1764,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/경비원-취업-전-확인할-것/",
+      "title": "경비원 취업 전 확인할 것 근무표·휴게·고용주 비교",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1650,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/고용24-구직등록-방법/",
+      "title": "고용24 구직등록 방법 이력서 저장 뒤 신청 완료 확인까지",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1153,
+      "sources": 2,
+      "images": 2,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/공인중개사-4050-1차-2차-공부선택/",
+      "title": "공인중개사 4050 초보 1차와 동차 준비 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2069,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/공조냉동기계기능사-4050-공부법/",
+      "title": "공조냉동기계기능사 필답과 동관작업 공부법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 990,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/공조냉동기계기능사-4050-준비-전-확인할-것/",
+      "title": "공조냉동기계기능사 준비 전 필답과 동관작업 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 923,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/과정평가형-검정형-자격증-차이/",
+      "title": "과정평가형과 검정형 자격증 취득 방법 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2031,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국가기술자격-문제집-고르는-법/",
+      "title": "국가기술자격 문제집 고르는 법 출제기준과 샘플 해설 대조",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1234,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국가기술자격-상장형-수첩형-발급/",
+      "title": "국가기술자격 상장형과 수첩형 발급 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1968,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국가기술자격-시험-편의제공-신청/",
+      "title": "국가기술자격 시험 편의제공 신청 전 확인사항",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1988,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민내일배움카드-사용처-찾는-법/",
+      "title": "국민내일배움카드 사용처 찾는 법 지원 과정과 실제 비용 확인",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1642,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민내일배움카드-신청-안-되는-경우/",
+      "title": "국민내일배움카드 신청 안 되는 경우 제외 대상과 신청 오류 구분",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1289,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민내일배움카드-신청방법-2026/",
+      "title": "국민내일배움카드 신청방법 2026 지원금과 사용처",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1884,
+      "sources": 0,
+      "images": 2,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/국민연금-납부예외-실업크레딧-차이/",
+      "title": "퇴직 후 국민연금 납부예외와 실업크레딧 차이",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1658,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민연금-예상연금액-조회-수령나이/",
+      "title": "국민연금 예상연금액 조회와 수령나이 확인방법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1606,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민연금-임의계속가입-신청조건-보험료/",
+      "title": "국민연금 임의계속가입 신청조건과 보험료 확인방법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1704,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민연금-조기수령-전-확인할-것/",
+      "title": "국민연금 조기수령 감액과 소득 기준",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1234,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민연금-추납-신청-비용-확인/",
+      "title": "국민연금 추납 신청 전 비용과 가입기간 확인하는 방법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1994,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국민취업지원제도-4050-신청-전-확인할-것/",
+      "title": "국민취업지원제도 신청방법과 4050 소득 기준",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1830,
+      "sources": 0,
+      "images": 1,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/국비지원-자격증-조건/",
+      "title": "국비지원 자격증 조건 사람·과정·시험 요건을 따로 확인하기",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1231,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국비지원-학원-취업률-확인방법/",
+      "title": "국비지원 학원 취업률 확인방법과 수강 전 질문 7가지",
+      "categories": [
+        "support"
+      ],
+      "bucket": "대표 글",
+      "characters": 1599,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/국비지원-훈련과정-선택-가이드/",
+      "title": "국비지원 훈련과정 선택방법 시간표 실습 비용 취업연계 비교",
+      "categories": [
+        "support"
+      ],
+      "bucket": "대표 글",
+      "characters": 2139,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/굴착기운전기능사-지게차-차이/",
+      "title": "굴착기운전기능사와 지게차 자격증 준비 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2049,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/근로장려금-기한-후-신청-2026/",
+      "title": "근로장려금 기한 후 신청 2026 놓친 사람 신청기간과 지급 기준",
+      "categories": [
+        "grant",
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 2591,
+      "sources": 0,
+      "images": 1,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/근로장려금-신청-안-되는-이유/",
+      "title": "근로장려금 신청 안 되는 이유 소득·재산 초과와 신청화면 오류 구분",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1424,
+      "sources": 3,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/근로장려금-지급일-확인방법/",
+      "title": "근로장려금 지급일 확인방법 2026 심사진행 조회",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 2185,
+      "sources": 0,
+      "images": 2,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/금속재창호기능사-실기-부재-조립/",
+      "title": "금속재창호기능사 실기 부재 가공과 맞춤",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1471,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/기초연금-수급자격-확인방법/",
+      "title": "2026 기초연금 수급자격 선정기준액과 신청서류 확인방법",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1508,
+      "sources": 3,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/기초연금-탈락-이유/",
+      "title": "기초연금 탈락 이유와 소득인정액 재확인 순서",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1423,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/긴급복지-생계지원-신청조건/",
+      "title": "긴급복지 생계지원 신청조건 2026 소득 기준과 상담방법",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1939,
+      "sources": 0,
+      "images": 2,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/내일배움카드-중도포기-재수강/",
+      "title": "국민내일배움카드 중도포기 시 불이익과 재수강 확인방법",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1533,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/내일배움카드-훈련장려금-지급조건/",
+      "title": "내일배움카드 훈련장려금 지급조건 140시간·출석 80%와 실제 금액",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1320,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/노인일자리-신청방법/",
+      "title": "노인일자리 신청방법과 유형별 접수 순서",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1329,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/농기계운전기능사-실기-장비-연습/",
+      "title": "농기계운전기능사 실기 장비와 안전교육 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1951,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/농업기계정비기능사-실기-정비-학원/",
+      "title": "농업기계정비기능사 실기와 정비 학원 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1917,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/도배기능사-실기-준비물-연습방법/",
+      "title": "도배기능사 실기 준비물과 초보자 연습 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2012,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/돌봄-분야-재취업-가이드/",
+      "title": "돌봄 분야 재취업 요양보호사 사회복지사 생활지원사 비교",
+      "categories": [
+        "license",
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1640,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/떡제조기능사-실기-공개문제-위생/",
+      "title": "떡제조기능사 실기 공개문제와 위생 준비",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1965,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/목공예기능사-실기-도면-연습/",
+      "title": "목공예기능사 실기 도면 읽기와 공방 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1884,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/물류관리사-지게차-자격증-취업-차이/",
+      "title": "물류관리사와 지게차 자격증 취업 준비 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2123,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/미용사-네일-실기-재료비-준비/",
+      "title": "미용사 네일 실기 준비물과 재료비 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1934,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/미용사-메이크업-실기-모델-재료비/",
+      "title": "미용사 메이크업 재료비와 연습 예산 계산",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1500,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/미용사-일반-실기-마네킹-연습/",
+      "title": "미용사 일반 실기 마네킹 연습과 준비 비용",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1947,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/미용사-피부-실기-모델-준비/",
+      "title": "미용사 피부 실기 모델과 준비물 확인 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1940,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/미장기능사-실기-재료-연습/",
+      "title": "미장기능사 실기 개인 연습 공간과 재료비",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1459,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/바리스타-자격증-민간자격-학원선택/",
+      "title": "바리스타 자격증 민간자격 확인과 학원 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2049,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/방문요양-서비스-신청-전-확인할-것/",
+      "title": "방문요양 서비스 시작 전 등급과 기관 계약 확인하기",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1372,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/방문요양-어르신-입원-근무중단-급여/",
+      "title": "방문요양 어르신 입원으로 일이 끊겼을 때 급여 확인하는 법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2331,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/방문요양-주간보호센터-비용-비교/",
+      "title": "방문요양과 주간보호센터 비용 비교 부모님 돌봄 선택방법",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1723,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/방수기능사-실기-준비-안전수칙/",
+      "title": "방수기능사 실기 준비와 안전한 실습 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1980,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/버섯종균기능사-실기-위생-실습/",
+      "title": "버섯종균기능사 실기 위생과 실습 환경 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1948,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/복지멤버십-신청-알림-확인/",
+      "title": "복지멤버십 신청방법과 알림 확인 지원금 자동 지급과 다른 점",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1994,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-가족돌봄휴가-휴직-비교/",
+      "title": "부모님 돌봄 때문에 퇴사하기 전 가족돌봄휴가와 휴직 비교",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1754,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-긴급복지-신청-전-확인할-것/",
+      "title": "부모님 긴급복지 신청 전 위기사유와 요청 방법",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1338,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-노인-틀니-임플란트-건강보험-적용/",
+      "title": "부모님 노인 틀니와 임플란트 건강보험 적용 기준",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1536,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-노인맞춤돌봄서비스-확인법/",
+      "title": "부모님 노인맞춤돌봄서비스 신청대상 무료 지원과 준비서류",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1437,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-복지-점검-가이드/",
+      "title": "부모님 복지 점검 가이드 생활비 돌봄과 주거 지원 확인 순서",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1685,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-복지혜택-한-번에-찾는-법/",
+      "title": "부모님 복지혜택 한 번에 찾는 법과 복지로 확인 순서",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1381,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-응급안전안심서비스-신청-확인/",
+      "title": "혼자 사는 부모님 응급안전안심서비스 신청 전 확인할 것",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1860,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-의료비-세액공제-공제받는-사람/",
+      "title": "부모님 의료비 세액공제 누가 받을 수 있는지 확인하는 법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1632,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/부모님-주민센터-복지상담-준비물/",
+      "title": "부모님 주민센터 복지상담 준비물과 대리신청 구분",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1310,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/사진기능사-실기-촬영-출력-연습/",
+      "title": "사진기능사 실기 촬영과 출력 연습 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1455,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/사회복지사-2급-4050-준비방법/",
+      "title": "사회복지사 2급 준비방법 학력별 이수과목 실습과 발급 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1660,
+      "sources": 4,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/사회복지사-2급-실습-전-확인할-것/",
+      "title": "사회복지사 2급 실습 전 확인할 시간·세미나·기관 기준",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1720,
+      "sources": 5,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/산림-조경-관련-자격증-4050-활용도/",
+      "title": "산림기능사와 조경기능사 시험과 업무 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 967,
+      "sources": 3,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/산림기능사-실기-안전-연습장/",
+      "title": "산림기능사 실기 준비와 안전한 연습장 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1948,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/산업안전기사-산업안전산업기사-응시자격-비교/",
+      "title": "산업안전기사와 산업안전산업기사 응시자격 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2115,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/상시검정-자격증-선택-가이드/",
+      "title": "상시검정 자격증 선택 가이드 지게차 조리 미용 준비 기준",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1642,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/생활지원사-하는일-채용공고-근무조건/",
+      "title": "생활지원사 하는 일과 채용공고에서 확인할 근무조건",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1472,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/세탁기능사-실기-원단-분류/",
+      "title": "세탁기능사 실기 원단 분류와 비용 점검",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1510,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/소방안전관리자-4050-공부법/",
+      "title": "소방안전관리자 2급 과목별 공부와 모의 점검",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 891,
+      "sources": 2,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/소방안전관리자-4050-준비-전-확인할-것/",
+      "title": "소방안전관리자 준비 전 강습과 시험 선임 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1051,
+      "sources": 3,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/소상공인-정책자금-신청-전-확인할-것/",
+      "title": "소상공인 정책자금 융자와 신청조건 확인",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1335,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/스마트폰-취업서류-PDF-제출/",
+      "title": "스마트폰으로 취업 서류 PDF 만들고 제출하는 방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1738,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/승강기기능사-업무-근무조건-준비/",
+      "title": "승강기기능사 취득 전 확인할 업무와 근무 조건",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2079,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/시설관리-입문-가이드/",
+      "title": "시설관리 취업 준비 초보자가 업무와 근무조건을 비교하는 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1525,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/시설관리-자격증-조합/",
+      "title": "시설관리 자격증 조합 전기 소방 공조 에너지 가스 선택 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1566,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/시험-30일-전-공부계획표/",
+      "title": "시험 30일 전 공부계획표 실제 날짜와 오답 재시험으로 운영하기",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1266,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/실업급여-구직활동-인정기준-실업인정-신청/",
+      "title": "실업급여 구직활동 인정기준 일반수급자 4차·8차와 당일 17시 신청",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1468,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/실업급여-신청-전-확인할-것/",
+      "title": "실업급여 신청방법과 이직확인서 확인 순서",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1966,
+      "sources": 0,
+      "images": 2,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/실업급여-아르바이트-소득신고/",
+      "title": "실업급여 받는 중 아르바이트 소득 신고와 주의사항",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1658,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/양식조리기능사-실기-위생-준비/",
+      "title": "양식조리기능사 실기 위생과 연습 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1446,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/에너지관리기능사-50대-취업-실기준비/",
+      "title": "에너지관리기능사 50대 취업 활용과 실기 준비 전 확인할 것",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1444,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/에너지바우처-신청방법/",
+      "title": "에너지바우처 신청방법 2026 대상·대리서류·접수 확인",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1752,
+      "sources": 4,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/여성새로일하기센터-상담-직업교육/",
+      "title": "여성새로일하기센터 상담과 직업교육 신청방법 4050 준비 순서",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2009,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/온수온돌기능사-배관실습-준비비용/",
+      "title": "온수온돌기능사 배관 실습과 준비 비용",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1986,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/요양보호사-근로계약서-급여계산/",
+      "title": "요양보호사 근로계약서 확인할 항목과 급여 계산 방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1683,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/요양보호사-보수교육-대상-이수/",
+      "title": "요양보호사 보수교육 대상과 면제 기준 이수 확인방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2021,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/요양보호사-월급-현실/",
+      "title": "요양보호사 월급 현실 방문요양과 시설요양 근무조건 비교",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "대표 글",
+      "characters": 1673,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/요양보호사-자격증-공부법/",
+      "title": "요양보호사 필기와 실기 문제 공부 방법",
+      "categories": [
+        "license",
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 903,
+      "sources": 2,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/요양보호사-자격증-취득방법/",
+      "title": "요양보호사 자격증 교육시간과 시험 준비 절차",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1009,
+      "sources": 3,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/요양보호사-취득-후-취업처/",
+      "title": "요양보호사 취업처는 방문 이동과 시설 교대·송영 조건으로 고르세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1565,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/요양원-요양병원-차이-비용-입소기준/",
+      "title": "요양원과 요양병원 차이 시설급여 입소기준과 진료·간병비 비교",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1454,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/원예기능사-출제기준-필기-실기/",
+      "title": "원예기능사 필기와 실기 출제기준 확인 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1948,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/웹디자인개발기능사-실기-환경-확인/",
+      "title": "웹디자인개발기능사 실기 공개문제와 환경 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1472,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/위험물기능사-비전공자-필기-실기-공부/",
+      "title": "위험물기능사 비전공자 필기 공부와 실기 준비 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2018,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/유기농업기능사-필답형-인증-차이/",
+      "title": "유기농업기능사 실기 공부와 유기인증의 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1977,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/이용사-실기-모델-도구-준비/",
+      "title": "이용사 실기 마네킹과 도구 준비 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1453,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/이직한-해-연말정산-서류-준비/",
+      "title": "퇴직 후 같은 해 재취업했다면 연말정산 서류 준비하는 법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1872,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/이직확인서-처리여부-조회-정정요청/",
+      "title": "이직확인서 처리여부 조회와 퇴사 사유 정정 방법",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1580,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/인쇄기능사-오프셋-스크린-선택/",
+      "title": "인쇄기능사 오프셋과 스크린 실습 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1437,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/일식조리기능사-실기-재료관리/",
+      "title": "일식조리기능사 실기 재료 관리와 위생",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1498,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/자격증-독학-vs-국비지원-학원/",
+      "title": "자격증 독학 vs 국비지원 학원 실습시간과 총비용 비교하기",
+      "categories": [
+        "license",
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1229,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/자동차정비기능사-비전공자-준비/",
+      "title": "자동차정비기능사 비전공자 공부와 실습 준비",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2018,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/자발적-퇴사-실업급여-인정사유-증빙/",
+      "title": "자발적 퇴사 실업급여 인정 사유와 준비할 증빙",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1746,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/장기요양-가족휴가제-이용방법/",
+      "title": "장기요양 가족휴가제 이용방법 2026 단기보호와 종일방문요양",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 2001,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/장기요양-복지용구-구입-대여-본인부담금/",
+      "title": "장기요양 복지용구 구입·대여 연 160만원 한도와 15%·9%·6% 부담",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1351,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/장기요양-본인부담금-감경-확인방법/",
+      "title": "장기요양 본인부담금 감경 재가 9%·6%, 시설 12%·8% 확인방법",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1366,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/장기요양등급-신청-전-확인할-것/",
+      "title": "장기요양등급 신청 대상과 서류 준비 순서",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1330,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/장기요양등급-심사청구-준비자료/",
+      "title": "장기요양등급 결과에 이의가 있을 때 확인할 절차와 준비자료",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1666,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/재난적의료비-지원-신청조건-준비서류/",
+      "title": "재난적의료비 지원 재산과표 7억원·소득별 의료비 기준과 180일 신청",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1448,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/재직자-내일배움카드-사용법/",
+      "title": "재직자 내일배움카드 사용법 퇴근 후 수강과 결제 순서",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1250,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/재취업-계약서-3-3퍼센트-확인/",
+      "title": "재취업 계약서에 3.3%가 적혀 있다면 확인할 근무조건",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1697,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/재취업-첫월급-급여명세서-확인/",
+      "title": "재취업 첫 월급이 적을 때 급여명세서 확인하는 순서",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1694,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/재취업-첫출근-인수인계-준비/",
+      "title": "4050 재취업 첫 출근과 첫 주 인수인계 준비법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1951,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전기기능사-4050-공부법/",
+      "title": "전기기능사 필기 계산과 실기 준비 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1005,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/전기기능사-50대-취업-가능할까/",
+      "title": "전기기능사 50대 취업은 자격 우대와 안전관리 선임 공고를 구분하세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "대표 글",
+      "characters": 1792,
+      "sources": 6,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/전기기능사와-소방안전관리자-비교/",
+      "title": "전기기능사와 소방안전관리자 준비 경로 비교",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 978,
+      "sources": 3,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/전기산업기사-응시자격-경력증명서/",
+      "title": "전기산업기사 응시자격과 경력증명서 준비 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2126,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전산응용건축제도기능사-CAD-초보/",
+      "title": "전산응용건축제도기능사 CAD 초보 공부 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1922,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전산응용기계제도기능사-3D-2D-연습/",
+      "title": "전산응용기계제도기능사 CAD와 도면 연습",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1911,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전산회계운용사-3급-실기-프로그램/",
+      "title": "전산회계운용사 3급 초보 실기 프로그램 준비",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2052,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전자출판기능사-실기-편집-연습/",
+      "title": "전자출판기능사 실기 원고 수정과 누락 점검",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1428,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/전자캐드기능사-회로도-PCB-연습/",
+      "title": "전자캐드기능사 회로도와 PCB 도면 공부",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1893,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/정보기기운용기능사-네트워크-초보/",
+      "title": "정보기기운용기능사 네트워크 초보 공부법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1939,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/제과기능사-실기-연습-재료비/",
+      "title": "제과기능사 실기 연습과 재료비 계산",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1566,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/제과기능사-제빵기능사-실기-차이/",
+      "title": "제과기능사와 제빵기능사 실기 준비 차이",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2005,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/제빵기능사-발효-실기-연습/",
+      "title": "제빵기능사 발효 과정과 실기 연습 계획",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1506,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/조경기능사-실기-준비물-연습순서/",
+      "title": "조경기능사 실기 준비물과 초보자 연습 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2074,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/조기재취업수당-신청조건-준비서류/",
+      "title": "조기재취업수당 신청조건과 준비서류 재취업 전 확인할 것",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1957,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/조리기능사-50대-취업-가능할까/",
+      "title": "50대 조리 취업은 자격증부터 따기보다 담당 공정과 출근 시간을 비교하세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "대표 글",
+      "characters": 1604,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/조주기능사-실기-7분-연습/",
+      "title": "조주기능사 실기 7분 연습과 과정 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1443,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/종자기능사-필답형-답안-공부/",
+      "title": "종자기능사 필답형 답안과 초보자 공부 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1869,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/주거급여-신청조건-2026/",
+      "title": "주거급여 신청조건 2026 소득 기준과 월세 지원",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1821,
+      "sources": 0,
+      "images": 2,
+      "flags": [
+        "구조화된 출처 영역 미확인"
+      ]
+    },
+    {
+      "url": "/주택관리사보-50대-시험-취업-현실/",
+      "title": "주택관리사보 50대 준비 전 알아야 할 시험과 취업 현실",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2063,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/주택연금-4050이-부모님-대신-확인할-때-볼-것/",
+      "title": "부모님 주택연금 가입조건과 월지급액 확인",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1192,
+      "sources": 3,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/중식조리기능사-실기-작업순서/",
+      "title": "중식조리기능사 실기 작업 순서와 안전",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1510,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/중장년-내일센터-이용방법/",
+      "title": "중장년 내일센터 이용방법 무료 상담신청과 첫 방문 준비물",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1579,
+      "sources": 3,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/중장년-일자리-지원센터-찾는-법/",
+      "title": "중장년 일자리 지원센터 찾는 법 지역 상담기관과 예약 확인",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1666,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/중장년-재취업-이력서-작성법/",
+      "title": "중장년 재취업 이력서 작성법 경력 공백과 최근 준비 정리",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1711,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/중장년-창업지원금-찾는-법/",
+      "title": "중장년 창업지원금 공고 찾기와 유형 비교",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1384,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/지게차운전기능사-국비지원-신청방법/",
+      "title": "지게차운전기능사 국비지원 신청방법 실습시간 비용과 면허 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "대표 글",
+      "characters": 1539,
+      "sources": 4,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/지게차운전기능사-필기-공부법/",
+      "title": "지게차운전기능사 필기 기출과 안전 개념 공부법",
+      "categories": [
+        "license",
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 904,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/지자체-중장년-지원사업-찾는-법/",
+      "title": "지자체 중장년 지원사업 찾는 법 소개글에서 실제 모집공고까지",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1193,
+      "sources": 2,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/직업상담사-2급-4050-준비방법-취업/",
+      "title": "직업상담사 2급 4050 준비방법과 취업 활용처",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1590,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/직업상담사-2급-실기-답안연습/",
+      "title": "직업상담사 2급 실기 서술형 답안 연습 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2019,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/직업훈련포털-HRD-Net-사용법/",
+      "title": "HRD-Net 사용법 고용24에서 훈련과정 검색하고 신청하기",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1695,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/채용-건강검진-대체통보서-확인/",
+      "title": "채용 건강검진 비용 내기 전 대체통보서부터 확인하세요",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1822,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/채용공고-교육비-보증금-확인/",
+      "title": "채용공고에서 교육비나 보증금을 요구할 때 확인할 것",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1715,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/철근기능사-실기-가공-배근/",
+      "title": "철근기능사 실기 도면과 배근 점검",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1432,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/측량기능사-실기-장비-학원/",
+      "title": "측량기능사 실기 장비 연습과 학원 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1947,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/치매검사-지원-확인방법/",
+      "title": "치매검사 지원 확인방법과 치매안심센터 이용 순서",
+      "categories": [
+        "grant"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1372,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/치매검사비-지원-확인방법/",
+      "title": "치매검사비 지원 대상과 진단 감별검사 비용 확인",
+      "categories": [
+        "welfare"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1420,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/컴퓨터그래픽기능사-실기-작업환경/",
+      "title": "컴퓨터그래픽기능사 실기 PC와 출력 검수",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1462,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/컴퓨터활용능력-2급-엑셀-초보-실기-공부/",
+      "title": "컴퓨터활용능력 2급 엑셀 초보 실기 공부 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2140,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-CBT-시험-체험-답안제출/",
+      "title": "큐넷 CBT 시험 체험과 답안 제출 연습",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2064,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-사진등록-원서접수-확인/",
+      "title": "큐넷 사진 등록과 원서접수 완료 확인 방법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1980,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-시험취소-환불-기준/",
+      "title": "큐넷 시험 취소와 수험료 환불 기준 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1948,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-실기시험-준비물-조회방법/",
+      "title": "큐넷 실기시험 준비물 조회방법 종목과 회차별 확인 순서",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1933,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-자격취득확인서-취업제출/",
+      "title": "큐넷 자격취득 확인서 발급과 취업 서류 제출",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1906,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/큐넷-필기면제기간-실기-재응시/",
+      "title": "큐넷 필기 면제기간 확인과 실기 재응시 계획",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1935,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/타일기능사-실기-학원-준비물/",
+      "title": "타일기능사 실기 학원 선택과 준비물 확인",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1951,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직-예정자-재취업-준비-순서/",
+      "title": "퇴직 예정자 재취업 준비 순서 재직 중 확보할 자료와 상담",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1225,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직-후-30일-실행-가이드/",
+      "title": "퇴직 후 30일 실행 가이드 신청기한 먼저, 생활비와 재취업은 병행",
+      "categories": [
+        "money",
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1342,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직-후-건강보험료-줄이는-방법/",
+      "title": "퇴직 후 건강보험료 줄이는 방법 임의계속가입 기한과 비교표",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1813,
+      "sources": 6,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직-후-대출-전-확인할-것/",
+      "title": "퇴직 후 대출 소득과 상환액 비교",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1242,
+      "sources": 2,
+      "images": 2,
+      "flags": []
+    },
+    {
+      "url": "/퇴직-후-생활비-계산법/",
+      "title": "퇴직 후 생활비와 연금 전 공백자금 계산",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1318,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직금-irp-계좌-수령-예외/",
+      "title": "퇴직금 IRP 계좌로 받아야 하는 경우와 예외",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1574,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직금-중간정산과-퇴직연금-차이/",
+      "title": "퇴직금 중간정산과 DB·DC 중도인출 차이",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1342,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직금-지급기한-미지급-신고/",
+      "title": "퇴직금 지급기한과 미지급 신고방법 퇴사 후 준비할 자료",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 2017,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/퇴직연금-db형-dc형-차이/",
+      "title": "퇴직연금 DB형 DC형 차이와 퇴사 전 확인할 항목",
+      "categories": [
+        "money"
+      ],
+      "bucket": "생활·복지 자료실",
+      "characters": 1571,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/폐업한-회사-경력증명서-대체서류/",
+      "title": "폐업한 회사 경력증명서 대신 준비할 서류와 제출 방법",
+      "categories": [
+        "rejob"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1841,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/폴리텍-신중년-특화과정-확인방법/",
+      "title": "폴리텍 신중년 특화과정 확인방법 중장년특화 명칭과 캠퍼스 모집요강",
+      "categories": [
+        "support"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1219,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/피복아크용접기능사-실기-학원-비용/",
+      "title": "피복아크용접기능사 실기 학원 선택과 준비 비용",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2099,
+      "sources": 3,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/한식조리기능사-4050-공부법/",
+      "title": "한식조리기능사 필기와 실기 오답 정리법",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 883,
+      "sources": 1,
+      "images": 1,
+      "flags": [
+        "본문 길이 추가 검토"
+      ]
+    },
+    {
+      "url": "/한식조리기능사-4050-재취업-활용법/",
+      "title": "한식조리기능사 합격 후에는 조리사 면허와 지원서류부터 구분하세요",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1673,
+      "sources": 4,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/한식조리기능사-실기-위생복-준비물/",
+      "title": "한식조리기능사 실기 위생복과 준비물 점검",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 2059,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/화훼장식기능사-실기-꽃-재료비/",
+      "title": "화훼장식기능사 실기 연습과 꽃 재료비 계산",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1918,
+      "sources": 2,
+      "images": 1,
+      "flags": []
+    },
+    {
+      "url": "/환경기능사-실기-실험실-선택/",
+      "title": "환경기능사 실기 실험실과 안전교육 선택",
+      "categories": [
+        "license"
+      ],
+      "bucket": "직업·훈련 보조 글",
+      "characters": 1570,
+      "sources": 1,
+      "images": 1,
+      "flags": []
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "score": 0.667,
+      "a": "/제과기능사-실기-연습-재료비/",
+      "b": "/화훼장식기능사-실기-꽃-재료비/",
+      "common": [
+        "실기",
+        "연습과",
+        "재료비",
+        "계산"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.571,
+      "a": "/굴착기운전기능사-지게차-차이/",
+      "b": "/물류관리사-지게차-자격증-취업-차이/",
+      "common": [
+        "지게차",
+        "자격증",
+        "준비",
+        "차이"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.5,
+      "a": "/공조냉동기계기능사-4050-공부법/",
+      "b": "/공조냉동기계기능사-4050-준비-전-확인할-것/",
+      "common": [
+        "공조냉동기계기능사",
+        "필답과",
+        "동관작업"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.5,
+      "a": "/도배기능사-실기-준비물-연습방법/",
+      "b": "/조경기능사-실기-준비물-연습순서/",
+      "common": [
+        "실기",
+        "준비물과",
+        "초보자",
+        "연습"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.5,
+      "a": "/방수기능사-실기-준비-안전수칙/",
+      "b": "/산림기능사-실기-안전-연습장/",
+      "common": [
+        "실기",
+        "준비와",
+        "안전한",
+        "선택"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.444,
+      "a": "/위험물기능사-비전공자-필기-실기-공부/",
+      "b": "/전기기능사-4050-공부법/",
+      "common": [
+        "필기",
+        "실기",
+        "준비",
+        "순서"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.429,
+      "a": "/2026년-기능사-남은-시험일정/",
+      "b": "/2026년-기사-산업기사-남은-시험일정/",
+      "common": [
+        "2026년",
+        "남은",
+        "시험일정",
+        "10월",
+        "19일",
+        "실기와"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.429,
+      "a": "/2026년-기능사-남은-시험일정/",
+      "b": "/2026년-남은-국가기술자격-시험일정/",
+      "common": [
+        "2026년",
+        "남은",
+        "시험일정",
+        "10월",
+        "19일",
+        "접수"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.429,
+      "a": "/가구제작기능사-목공예-실기-차이/",
+      "b": "/제과기능사-제빵기능사-실기-차이/",
+      "common": [
+        "실기",
+        "준비",
+        "차이"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.4,
+      "a": "/긴급복지-생계지원-신청조건/",
+      "b": "/주거급여-신청조건-2026/",
+      "common": [
+        "신청조건",
+        "2026",
+        "소득",
+        "기준과"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.375,
+      "a": "/건축목공기능사-실기-준비물-안전/",
+      "b": "/도배기능사-실기-준비물-연습방법/",
+      "common": [
+        "실기",
+        "준비물과",
+        "연습"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.375,
+      "a": "/건축목공기능사-실기-준비물-안전/",
+      "b": "/조경기능사-실기-준비물-연습순서/",
+      "common": [
+        "실기",
+        "준비물과",
+        "연습"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.375,
+      "a": "/버섯종균기능사-실기-위생-실습/",
+      "b": "/웹디자인개발기능사-실기-환경-확인/",
+      "common": [
+        "실기",
+        "환경",
+        "확인"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    },
+    {
+      "score": 0.375,
+      "a": "/양식조리기능사-실기-위생-준비/",
+      "b": "/조경기능사-실기-준비물-연습순서/",
+      "common": [
+        "실기",
+        "연습",
+        "순서"
+      ],
+      "status": "제목 유사 후보·본문 비교 후 판단·자동 통합 안 함"
+    }
+  ]
+}

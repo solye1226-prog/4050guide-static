@@ -64,7 +64,7 @@ async function run(){
     if(worksheets.includes(slug))assert.ok(await page.locator('.detail-content table caption').count()>0,slug+' comparison tool');
     const imgs=await page.locator('article img[src*="/assets/optimized/"]').all();
     for(const img of imgs){await img.scrollIntoViewIfNeeded();await img.evaluate(i=>i.decode());assert.ok(await img.getAttribute('width'));assert.ok(await img.getAttribute('height'));assert.ok(await img.getAttribute('srcset'));}
-    if(slug===worksheets[2]&&width!==320){await page.getByRole('heading',{name:'수강료가 싼 과정과 실제 부담이 적은 과정은 다릅니다',exact:true}).scrollIntoViewIfNeeded();await page.screenshot({path:path.join(output,'comparison-'+width+'.png')});}
+    if(slug===worksheets[2]&&width!==320){await page.locator('.detail-content table').first().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(output,'comparison-'+width+'.png')});}
    }
   }
   for(const applies of [true,false]){

@@ -29,25 +29,22 @@ async function run() {
       assert.equal(await page.locator('h1').innerText(), '4050가이드');
       assert.equal(await page.locator('link[rel=canonical]').count(), 1);
       assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'), 'https://4050guide.co.kr/');
-      const tabs = page.getByRole('tab');
-      for (let i = 0; i < 4; i++) {
-        await tabs.nth(i).click();
-        assert.equal(await page.locator('.home-plan:visible').count(), 1);
-        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `Overflow at ${width}, tab ${i}`);
-      }
-      await tabs.first().click();
-      await page.locator('#retired-1').check();
-      await page.reload();
-      assert.equal(await page.locator('#retired-1').isChecked(), true);
-      assert.ok((await page.locator('.home-count').innerText()).startsWith('1 /'));
-      await page.getByRole('button', { name:'체크 초기화' }).click();
-      assert.equal(await page.locator('#retired-1').isChecked(), false);
-      await tabs.first().focus();
-      await page.keyboard.press('ArrowRight');
-      assert.equal(await tabs.nth(1).getAttribute('aria-selected'), 'true');
-      await page.keyboard.press('End');
-      assert.equal(await tabs.last().getAttribute('aria-selected'), 'true');
-      await page.keyboard.press('Home');
+      assert.equal(await page.locator('#budget-total').innerText(),'339,390원');
+      await page.selectOption('#budget-course','T02');
+      assert.equal(await page.locator('#budget-total').innerText(),'281,940원');
+      assert.match(await page.locator('#budget-source').getAttribute('href'),/AIG20250000513298/);
+      await page.fill('#budget-days','');assert.equal(await page.locator('#budget-error').isVisible(),true);
+      await page.fill('#budget-days','-1');assert.equal(await page.locator('#budget-total').innerText(),'계산 대기');
+      await page.fill('#budget-days','1.5');assert.equal(await page.locator('#budget-error').isVisible(),true);
+      await page.selectOption('#budget-course','T04');assert.equal(await page.locator('#budget-total').innerText(),'101,580원');
+      await page.fill('#budget-extra','10000');assert.equal(await page.locator('#budget-total').innerText(),'111,580원');
+      await page.check('#job-entry');assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),4);
+      await page.check('#job-day');assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),1);
+      await page.selectOption('#job-group','시설관리');assert.equal(await page.locator('#job-empty').isVisible(),true);
+      await page.uncheck('#job-entry');assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),2);
+      await page.uncheck('#job-day');await page.selectOption('#job-group','');
+      assert.equal(await page.locator('.focus-jobs tbody tr:visible').count(),10);
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `Overflow at ${width}`);
       const images = await page.locator('.home-story img').evaluateAll(async imgs => {
         await Promise.all(imgs.map(img => img.decode().catch(() => {})));
         return imgs.map(img => [img.getAttribute('src'), img.naturalWidth]);
@@ -55,8 +52,9 @@ async function run() {
       for (const [src, naturalWidth] of images) assert.ok(naturalWidth > 0, `Broken image ${src}`);
       await page.locator('h1').click();
       await page.evaluate(() => scrollTo(0, 0));
+      await page.screenshot({ path:path.resolve(root,'..',`4050-focus-${remote ? 'live' : 'local'}-${width}.png`) });
       await page.screenshot({ path:path.resolve(root,'..',`4050-home-${remote ? 'live' : 'local'}-${width}.png`), fullPage:true });
-      console.log(`PASS homepage ${width}px, tabs, keyboard, persistence, reset, images`);
+      console.log(`PASS homepage ${width}px, budget math, validation, unknown-condition filters, images`);
     }
     const urls = await page.locator('main a[href]').evaluateAll(links => [...new Set(links.map(a => a.getAttribute('href')).filter(url => url.startsWith('/')))]);
     for (const url of urls) assert.equal((await page.request.get(origin + url)).status(), 200, `Broken main link ${url}`);
@@ -69,7 +67,8 @@ async function run() {
     const context = await browser.newContext({ javaScriptEnabled:false });
     const fallback = await context.newPage();
     await fallback.goto(origin + '/');
-    assert.equal(await fallback.locator('.home-plan:visible').count(), 4);
+    assert.equal(await fallback.locator('.focus-jobs tbody tr:visible').count(), 10);
+    assert.match(await fallback.locator('noscript').innerText(),/339,390/);
     assert.equal(await fallback.locator('.home-story img').count(), 3);
     await context.close();
     console.log(`PASS ${urls.length} homepage links, trust pages, JavaScript-disabled fallback`);

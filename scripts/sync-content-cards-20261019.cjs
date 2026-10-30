@@ -2,7 +2,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..');
-const data=require('./content-repair-20261019.cjs');
+const data=require(process.argv[2]?path.resolve(__dirname,process.argv[2]):'./content-repair-20261019.cjs');
 const posts=Object.fromEntries(data.map(p=>[p.slug,{title:p.title,description:p.description,image:p.image,imageAlt:p.imageAlt}]));
 const files=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);
 async function run(){
