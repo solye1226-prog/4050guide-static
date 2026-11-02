@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "origin": "http://127.0.0.1:52206",
+  "categoryLists": 14,
+  "categoryCards": 228,
+  "coveredArticles": 215,
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "allImagesDecoded": true,
+  "output": "D:\\AI-WORK\\4050-category-photos-20261102"
+}

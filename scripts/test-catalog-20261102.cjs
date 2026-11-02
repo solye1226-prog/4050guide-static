@@ -7,14 +7,9 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  for(const width of [1440,1280,768,390,320]){
   await p.setViewportSize({width,height:900});await p.goto(origin+'/');assert.equal(await p.locator('.catalog-card').count(),215);assert.equal(await p.locator('.catalog-card:visible').count(),12);assert.equal(await p.locator('#budget-form').count(),0);
   const photoMap=require('../assets/catalog-photo-map.json');
-  assert.equal(Object.keys(photoMap).length,8);
-  for(const [slug,photo] of Object.entries(photoMap)){
-   const image=p.locator('.catalog-card-image[href="/'+slug+'/"] img');
-   assert.equal(await image.getAttribute('src'),photo.image);
-   assert.equal(await image.getAttribute('srcset'),photo.srcset);
-   assert.equal(await image.getAttribute('alt'),photo.alt);
-   assert.ok(await image.isVisible());
-  }
+  assert.equal(Object.keys(photoMap).length,expected.length);
+  const rendered=await p.locator('.catalog-card-image').evaluateAll(nodes=>Object.fromEntries(nodes.map(a=>{const im=a.querySelector('img');return [decodeURI(new URL(a.href).pathname).split('/')[1],{image:im.getAttribute('src'),srcset:im.getAttribute('srcset')||'',alt:im.alt}]})));
+  assert.deepEqual(rendered,Object.fromEntries(Object.entries(photoMap).map(([slug,photo])=>[slug,{image:photo.image,srcset:photo.srcset,alt:photo.alt}])));
   const columns=await p.locator('.catalog-grid').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length);assert.equal(columns,width>1000?4:width>600?2:1);
   for(const img of await p.locator('.catalog-card:visible img').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(n=>n.decode());assert.ok(await img.evaluate(n=>n.naturalWidth>0));}
   await p.locator('#catalog-more').click();assert.equal(await p.locator('.catalog-card:visible').count(),24);
@@ -27,7 +22,8 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  while(await p.locator('#catalog-more').isVisible())await p.locator('#catalog-more').click();assert.equal(await p.locator('.catalog-card:visible').count(),215);
  const links=await p.locator('.catalog-card h3 a').evaluateAll(ns=>ns.map(n=>n.getAttribute('href')));assert.deepEqual(new Set(links),new Set(expected.map(p=>decodeURI(p.url))));for(const u of links)assert.equal((await p.request.get(origin+encodeURI(u))).status(),200,u);
  const images=await p.locator('.catalog-card img').evaluateAll(ns=>[...new Set(ns.map(n=>n.getAttribute('src')))]);for(const src of images)assert.equal((await p.request.get(origin+encodeURI(src))).status(),200,src);
- for(const photo of Object.values(require('../assets/catalog-photo-map.json')))for(const candidate of photo.srcset.split(',')){
+ const candidates=[...new Set(Object.values(require('../assets/catalog-photo-map.json')).flatMap(photo=>photo.srcset.split(',').map(s=>s.trim())).filter(s=>s.startsWith('/assets/catalog-photos/')))];
+ for(const candidate of candidates){
   const [src,size]=candidate.trim().split(/\s+/),response=await p.request.get(origin+src);assert.equal(response.status(),200,src);
   const metadata=await require('sharp')(await response.body()).metadata();assert.equal(metadata.format,'webp');assert.equal(metadata.width,Number(size.slice(0,-1)));assert.equal(metadata.height,metadata.width*5/8);
  }
@@ -37,6 +33,6 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  await p.goto(origin+'/tools/');assert.equal(await p.locator('#budget-total').innerText(),'339,390원');await p.locator('#budget-compare summary').click();assert.equal(await p.locator('#budget-b-total').innerText(),'281,940원');const dl=p.waitForEvent('download');await p.locator('#budget-export').click();assert.equal(await(await dl).failure(),null);
  assert.equal(await p.locator('link[rel="canonical"]').getAttribute('href'),'https://4050guide.co.kr/tools/');
  const context=await browser.newContext({javaScriptEnabled:false}),fallback=await context.newPage();await fallback.goto(origin+'/');assert.equal(await fallback.locator('.catalog-card:visible').count(),215);await context.close();assert.deepEqual(errors,[]);
- const report={pass:true,origin,articles:215,checkedArticleLinks:links.length,widths:[1440,1280,768,390,320],layout:'4/2/1 columns',filters:5,sorting:true,loadMore:true,search:true,noJsFallback:true,toolsMoved:true,comparisonDownload:true,output};fs.writeFileSync(path.join(root,'reports/catalog-qa'+(remote?'-live':'')+'-20261102.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
+ const report={pass:true,origin,articles:215,checkedArticleLinks:links.length,photoMappings:215,uniqueImages:images.length,responsivePhotoFiles:candidates.length,widths:[1440,1280,768,390,320],layout:'4/2/1 columns',filters:5,sorting:true,loadMore:true,search:true,noJsFallback:true,toolsMoved:true,comparisonDownload:true,output};fs.writeFileSync(path.join(root,'reports/catalog-qa'+(remote?'-live':'')+'-20261102.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
  }finally{await browser.close();server.close()}}
 run().catch(e=>{console.error(e);server.close();process.exitCode=1});

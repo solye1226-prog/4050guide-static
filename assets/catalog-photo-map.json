@@ -1,42 +1,1292 @@
 {
-  "전기기능사-4050-공부법": {
-    "image": "/assets/catalog-photos/electrical-20261102-800.webp",
-    "srcset": "/assets/catalog-photos/electrical-20261102-480.webp 480w, /assets/catalog-photos/electrical-20261102-800.webp 800w, /assets/catalog-photos/electrical-20261102-1200.webp 1200w",
-    "alt": "전기 이론 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)"
+  "2026-근로-자녀장려금-6월-1일-전후-확인할-것": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
   },
-  "국민내일배움카드-신청방법-2026": {
-    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
-    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
-    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)"
+  "2026-여름-에너지바우처-부모님-대신-확인할-것": {
+    "image": "/assets/catalog-photos/energy-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/energy-set-20261102-480.webp 480w, /assets/catalog-photos/energy-set-20261102-800.webp 800w, /assets/catalog-photos/energy-set-20261102-1200.webp 1200w",
+    "alt": "난방 사용을 점검하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "energy"
   },
-  "지게차운전기능사-필기-공부법": {
-    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
-    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
-    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)"
-  },
-  "중장년-내일센터-이용방법": {
+  "2026-중장년-경력지원제-신청방법": {
     "image": "/assets/catalog-photos/career-center-20261102-800.webp",
     "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
-    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)"
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "career-center"
+  },
+  "2026년-6월-4050-정부지원금-복지-신청-체크리스트": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "2026년-6월-중장년-재취업-지원제도-확인할-것": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "career-center"
   },
   "2026년-남은-국가기술자격-시험일정": {
     "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
     "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
-    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)"
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
   },
-  "퇴직-후-생활비-계산법": {
+  "2026년-상시검정-자격증-14종목": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "3d프린터운용기능사-실기-장비-선택": {
+    "image": "/assets/catalog-photos/printing3d-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/printing3d-set-20261102-480.webp 480w, /assets/catalog-photos/printing3d-set-20261102-800.webp 800w, /assets/catalog-photos/printing3d-set-20261102-1200.webp 1200w",
+    "alt": "3D 프린터 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "printing3d"
+  },
+  "3톤-미만-지게차-교육-면허-발급": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forklift"
+  },
+  "4050-국민내일배움카드-자비부담금-확인법": {
     "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
     "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
-    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)"
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "retirement-budget"
+  },
+  "4050-국비지원-과정-수료-후-할-일": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "4050-면접-준비법": {
+    "image": "/assets/catalog-photos/interview-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/interview-set-20261102-480.webp 480w, /assets/catalog-photos/interview-set-20261102-800.webp 800w, /assets/catalog-photos/interview-set-20261102-1200.webp 1200w",
+    "alt": "취업 면접 연습을 하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "interview"
+  },
+  "4050-보험-리모델링-체크리스트": {
+    "image": "/assets/catalog-photos/insurance-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/insurance-set-20261102-480.webp 480w, /assets/catalog-photos/insurance-set-20261102-800.webp 800w, /assets/catalog-photos/insurance-set-20261102-1200.webp 1200w",
+    "alt": "보험 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "insurance"
+  },
+  "4050-생활경제-점검표": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "4050-자격증-로드맵": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "4050-자격증-준비기간-잡는-법": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "4050-재취업-자격증-고르는-기준": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "50대-남자-재취업-자격증-추천": {
+    "image": "/assets/catalog-photos/interview-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/interview-set-20261102-480.webp 480w, /assets/catalog-photos/interview-set-20261102-800.webp 800w, /assets/catalog-photos/interview-set-20261102-1200.webp 1200w",
+    "alt": "취업 면접 연습을 하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "interview"
+  },
+  "50대-시설관리-채용공고-근무조건": {
+    "image": "/assets/home-photos/facility-20261031-1200.webp",
+    "srcset": "/assets/home-photos/facility-20261031-480.webp 480w, /assets/home-photos/facility-20261031-800.webp 800w, /assets/home-photos/facility-20261031-1200.webp 1200w",
+    "alt": "시설 설비 앞에서 점검표를 확인하는 중장년 작업자 두 명을 표현한 AI 제작 이미지",
+    "photoKey": "50대-시설관리-채용공고-근무조건"
+  },
+  "50대-여성-재취업-자격증-추천": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "50대-재취업-가능한-직종": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "50대-재취업-경력기술서-작성법": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "50대-재취업-현실": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "50대가-내일배움카드로-많이-찾는-자격증": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "Q-Net-월간시험일정-보는-법": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "가구제작기능사-목공예-실기-차이": {
+    "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/woodwork-set-20261102-480.webp 480w, /assets/catalog-photos/woodwork-set-20261102-800.webp 800w, /assets/catalog-photos/woodwork-set-20261102-1200.webp 1200w",
+    "alt": "중년 학습자의 목공 치수 측정 실습 (AI 제작 설명 이미지)",
+    "photoKey": "woodwork"
+  },
+  "가스기능사-에너지관리기능사-차이": {
+    "image": "/assets/catalog-photos/hvac-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hvac-set-20261102-480.webp 480w, /assets/catalog-photos/hvac-set-20261102-800.webp 800w, /assets/catalog-photos/hvac-set-20261102-1200.webp 1200w",
+    "alt": "냉난방 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hvac"
+  },
+  "가족인-요양보호사-부모님-돌봄-인정조건": {
+    "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-contract-set-20261102-480.webp 480w, /assets/catalog-photos/care-contract-set-20261102-800.webp 800w, /assets/catalog-photos/care-contract-set-20261102-1200.webp 1200w",
+    "alt": "돌봄 업무의 근무표를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "care-contract"
+  },
+  "간호간병통합서비스-병원-찾기-입원비용": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "거푸집기능사-실기-도면-안전": {
+    "image": "/assets/catalog-photos/construction-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/construction-set-20261102-480.webp 480w, /assets/catalog-photos/construction-set-20261102-800.webp 800w, /assets/catalog-photos/construction-set-20261102-1200.webp 1200w",
+    "alt": "건설 실습장에서 도면과 부재를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "construction"
+  },
+  "건강보험-본인부담상한제-환급금-신청": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "건강보험-피부양자-탈락-기준-4050-체크": {
+    "image": "/assets/catalog-photos/insurance-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/insurance-set-20261102-480.webp 480w, /assets/catalog-photos/insurance-set-20261102-800.webp 800w, /assets/catalog-photos/insurance-set-20261102-1200.webp 1200w",
+    "alt": "보험 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "insurance"
+  },
+  "건설업-기초안전보건교육-신청-이수증-재발급": {
+    "image": "/assets/catalog-photos/construction-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/construction-set-20261102-480.webp 480w, /assets/catalog-photos/construction-set-20261102-800.webp 800w, /assets/catalog-photos/construction-set-20261102-1200.webp 1200w",
+    "alt": "건설 실습장에서 도면과 부재를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "construction"
+  },
+  "건축도장기능사-4050-실기-공부법": {
+    "image": "/assets/catalog-photos/painting-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/painting-set-20261102-480.webp 480w, /assets/catalog-photos/painting-set-20261102-800.webp 800w, /assets/catalog-photos/painting-set-20261102-1200.webp 1200w",
+    "alt": "도장 교육장에서 색칠 연습을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "painting"
+  },
+  "건축도장기능사-4050-준비방법": {
+    "image": "/assets/catalog-photos/painting-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/painting-set-20261102-480.webp 480w, /assets/catalog-photos/painting-set-20261102-800.webp 800w, /assets/catalog-photos/painting-set-20261102-1200.webp 1200w",
+    "alt": "도장 교육장에서 색칠 연습을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "painting"
+  },
+  "건축목공기능사-실기-준비물-안전": {
+    "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/woodwork-set-20261102-480.webp 480w, /assets/catalog-photos/woodwork-set-20261102-800.webp 800w, /assets/catalog-photos/woodwork-set-20261102-1200.webp 1200w",
+    "alt": "중년 학습자의 목공 치수 측정 실습 (AI 제작 설명 이미지)",
+    "photoKey": "woodwork"
+  },
+  "경력단절-후-재취업-시작법": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "경비원-신임교육-4050-준비방법": {
+    "image": "/assets/catalog-photos/security-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/security-set-20261102-480.webp 480w, /assets/catalog-photos/security-set-20261102-800.webp 800w, /assets/catalog-photos/security-set-20261102-1200.webp 1200w",
+    "alt": "경비 근무 인수인계 자료를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "security"
+  },
+  "경비원-월급-현실": {
+    "image": "/assets/catalog-photos/security-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/security-set-20261102-480.webp 480w, /assets/catalog-photos/security-set-20261102-800.webp 800w, /assets/catalog-photos/security-set-20261102-1200.webp 1200w",
+    "alt": "경비 근무 인수인계 자료를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "security"
+  },
+  "경비원-취업-전-확인할-것": {
+    "image": "/assets/catalog-photos/security-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/security-set-20261102-480.webp 480w, /assets/catalog-photos/security-set-20261102-800.webp 800w, /assets/catalog-photos/security-set-20261102-1200.webp 1200w",
+    "alt": "경비 근무 인수인계 자료를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "security"
+  },
+  "고용24-구직등록-방법": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "공인중개사-4050-1차-2차-공부선택": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "공조냉동기계기능사-4050-공부법": {
+    "image": "/assets/catalog-photos/hvac-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hvac-set-20261102-480.webp 480w, /assets/catalog-photos/hvac-set-20261102-800.webp 800w, /assets/catalog-photos/hvac-set-20261102-1200.webp 1200w",
+    "alt": "냉난방 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hvac"
+  },
+  "과정평가형-검정형-자격증-차이": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "국가기술자격-문제집-고르는-법": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "국가기술자격-상장형-수첩형-발급": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "국가기술자격-시험-편의제공-신청": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "국민내일배움카드-사용처-찾는-법": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "국민내일배움카드-신청-안-되는-경우": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "국민내일배움카드-신청방법-2026": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "국민내일배움카드-신청방법-2026"
+  },
+  "국민연금-납부예외-실업크레딧-차이": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "국민연금-예상연금액-조회-수령나이": {
+    "image": "/assets/catalog-photos/pension-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/pension-set-20261102-480.webp 480w, /assets/catalog-photos/pension-set-20261102-800.webp 800w, /assets/catalog-photos/pension-set-20261102-1200.webp 1200w",
+    "alt": "은퇴 이후 연금 계획을 살펴보는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "pension"
+  },
+  "국민연금-임의계속가입-신청조건-보험료": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "국민연금-조기수령-전-확인할-것": {
+    "image": "/assets/catalog-photos/pension-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/pension-set-20261102-480.webp 480w, /assets/catalog-photos/pension-set-20261102-800.webp 800w, /assets/catalog-photos/pension-set-20261102-1200.webp 1200w",
+    "alt": "은퇴 이후 연금 계획을 살펴보는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "pension"
+  },
+  "국민연금-추납-신청-비용-확인": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "국민취업지원제도-4050-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "국비지원-자격증-조건": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "국비지원-학원-취업률-확인방법": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "국비지원-훈련과정-선택-가이드": {
+    "image": "/assets/home-photos/training-20261031-1200.webp",
+    "srcset": "/assets/home-photos/training-20261031-480.webp 480w, /assets/home-photos/training-20261031-800.webp 800w, /assets/home-photos/training-20261031-1200.webp 1200w",
+    "alt": "직업훈련 교실에서 시간표와 계산기를 놓고 상담하는 중장년 여성을 표현한 AI 제작 이미지",
+    "photoKey": "국비지원-훈련과정-선택-가이드"
+  },
+  "굴착기운전기능사-지게차-차이": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forklift"
+  },
+  "근로장려금-기한-후-신청-2026": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
+  },
+  "근로장려금-신청-안-되는-이유": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
+  },
+  "근로장려금-지급일-확인방법": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
+  },
+  "금속재창호기능사-실기-부재-조립": {
+    "image": "/assets/catalog-photos/metalwork-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/metalwork-set-20261102-480.webp 480w, /assets/catalog-photos/metalwork-set-20261102-800.webp 800w, /assets/catalog-photos/metalwork-set-20261102-1200.webp 1200w",
+    "alt": "금속 부재의 치수를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "metalwork"
+  },
+  "기초연금-수급자격-확인방법": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "기초연금-탈락-이유": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "긴급복지-생계지원-신청조건": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "내일배움카드-중도포기-재수강": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "내일배움카드-훈련장려금-지급조건": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "retirement-budget"
+  },
+  "노인일자리-신청방법": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "career-center"
+  },
+  "농기계운전기능사-실기-장비-연습": {
+    "image": "/assets/catalog-photos/farm-machinery-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/farm-machinery-set-20261102-480.webp 480w, /assets/catalog-photos/farm-machinery-set-20261102-800.webp 800w, /assets/catalog-photos/farm-machinery-set-20261102-1200.webp 1200w",
+    "alt": "농기계 교육장에서 정비 항목을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "farm-machinery"
+  },
+  "농업기계정비기능사-실기-정비-학원": {
+    "image": "/assets/catalog-photos/farm-machinery-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/farm-machinery-set-20261102-480.webp 480w, /assets/catalog-photos/farm-machinery-set-20261102-800.webp 800w, /assets/catalog-photos/farm-machinery-set-20261102-1200.webp 1200w",
+    "alt": "농기계 교육장에서 정비 항목을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "farm-machinery"
+  },
+  "도배기능사-실기-준비물-연습방법": {
+    "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/wall-finish-set-20261102-480.webp 480w, /assets/catalog-photos/wall-finish-set-20261102-800.webp 800w, /assets/catalog-photos/wall-finish-set-20261102-1200.webp 1200w",
+    "alt": "벽면 마감 연습 재료를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "wall-finish"
+  },
+  "돌봄-분야-재취업-가이드": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "떡제조기능사-실기-공개문제-위생": {
+    "image": "/assets/catalog-photos/ricecake-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/ricecake-set-20261102-480.webp 480w, /assets/catalog-photos/ricecake-set-20261102-800.webp 800w, /assets/catalog-photos/ricecake-set-20261102-1200.webp 1200w",
+    "alt": "떡 제조 교육장에서 재료를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "ricecake"
+  },
+  "목공예기능사-실기-도면-연습": {
+    "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/woodwork-set-20261102-480.webp 480w, /assets/catalog-photos/woodwork-set-20261102-800.webp 800w, /assets/catalog-photos/woodwork-set-20261102-1200.webp 1200w",
+    "alt": "중년 학습자의 목공 치수 측정 실습 (AI 제작 설명 이미지)",
+    "photoKey": "woodwork"
+  },
+  "물류관리사-지게차-자격증-취업-차이": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forklift"
+  },
+  "미용사-네일-실기-재료비-준비": {
+    "image": "/assets/catalog-photos/beauty-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/beauty-set-20261102-480.webp 480w, /assets/catalog-photos/beauty-set-20261102-800.webp 800w, /assets/catalog-photos/beauty-set-20261102-1200.webp 1200w",
+    "alt": "미용 교육장에서 실습 도구를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "beauty"
+  },
+  "미용사-메이크업-실기-모델-재료비": {
+    "image": "/assets/catalog-photos/beauty-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/beauty-set-20261102-480.webp 480w, /assets/catalog-photos/beauty-set-20261102-800.webp 800w, /assets/catalog-photos/beauty-set-20261102-1200.webp 1200w",
+    "alt": "미용 교육장에서 실습 도구를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "beauty"
+  },
+  "미용사-일반-실기-마네킹-연습": {
+    "image": "/assets/catalog-photos/hair-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hair-set-20261102-480.webp 480w, /assets/catalog-photos/hair-set-20261102-800.webp 800w, /assets/catalog-photos/hair-set-20261102-1200.webp 1200w",
+    "alt": "마네킹으로 헤어 실습을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hair"
+  },
+  "미용사-피부-실기-모델-준비": {
+    "image": "/assets/catalog-photos/beauty-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/beauty-set-20261102-480.webp 480w, /assets/catalog-photos/beauty-set-20261102-800.webp 800w, /assets/catalog-photos/beauty-set-20261102-1200.webp 1200w",
+    "alt": "미용 교육장에서 실습 도구를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "beauty"
+  },
+  "미장기능사-실기-재료-연습": {
+    "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/wall-finish-set-20261102-480.webp 480w, /assets/catalog-photos/wall-finish-set-20261102-800.webp 800w, /assets/catalog-photos/wall-finish-set-20261102-1200.webp 1200w",
+    "alt": "벽면 마감 연습 재료를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "wall-finish"
+  },
+  "바리스타-자격증-민간자격-학원선택": {
+    "image": "/assets/catalog-photos/beverages-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/beverages-set-20261102-480.webp 480w, /assets/catalog-photos/beverages-set-20261102-800.webp 800w, /assets/catalog-photos/beverages-set-20261102-1200.webp 1200w",
+    "alt": "음료 실습 도구를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "beverages"
+  },
+  "방문요양-서비스-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "방문요양-어르신-입원-근무중단-급여": {
+    "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-contract-set-20261102-480.webp 480w, /assets/catalog-photos/care-contract-set-20261102-800.webp 800w, /assets/catalog-photos/care-contract-set-20261102-1200.webp 1200w",
+    "alt": "돌봄 업무의 근무표를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "care-contract"
+  },
+  "방문요양-주간보호센터-비용-비교": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "방수기능사-실기-준비-안전수칙": {
+    "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/wall-finish-set-20261102-480.webp 480w, /assets/catalog-photos/wall-finish-set-20261102-800.webp 800w, /assets/catalog-photos/wall-finish-set-20261102-1200.webp 1200w",
+    "alt": "벽면 마감 연습 재료를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "wall-finish"
+  },
+  "버섯종균기능사-실기-위생-실습": {
+    "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/agriculture-set-20261102-480.webp 480w, /assets/catalog-photos/agriculture-set-20261102-800.webp 800w, /assets/catalog-photos/agriculture-set-20261102-1200.webp 1200w",
+    "alt": "온실에서 재배 상태를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "agriculture"
+  },
+  "복지멤버십-신청-알림-확인": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "부모님-가족돌봄휴가-휴직-비교": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "부모님-긴급복지-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "부모님-노인-틀니-임플란트-건강보험-적용": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "부모님-노인맞춤돌봄서비스-확인법": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "부모님-복지-점검-가이드": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "부모님-복지혜택-한-번에-찾는-법": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "부모님-응급안전안심서비스-신청-확인": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "부모님-의료비-세액공제-공제받는-사람": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
+  },
+  "부모님-주민센터-복지상담-준비물": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "사진기능사-실기-촬영-출력-연습": {
+    "image": "/assets/catalog-photos/photography-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/photography-set-20261102-480.webp 480w, /assets/catalog-photos/photography-set-20261102-800.webp 800w, /assets/catalog-photos/photography-set-20261102-1200.webp 1200w",
+    "alt": "카메라 촬영 실습을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "photography"
+  },
+  "사회복지사-2급-4050-준비방법": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "사회복지사-2급-실습-전-확인할-것": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "산림-조경-관련-자격증-4050-활용도": {
+    "image": "/assets/catalog-photos/forestry-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forestry-set-20261102-480.webp 480w, /assets/catalog-photos/forestry-set-20261102-800.webp 800w, /assets/catalog-photos/forestry-set-20261102-1200.webp 1200w",
+    "alt": "산림 교육장에서 안전 장비를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forestry"
+  },
+  "산림기능사-실기-안전-연습장": {
+    "image": "/assets/catalog-photos/forestry-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forestry-set-20261102-480.webp 480w, /assets/catalog-photos/forestry-set-20261102-800.webp 800w, /assets/catalog-photos/forestry-set-20261102-1200.webp 1200w",
+    "alt": "산림 교육장에서 안전 장비를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forestry"
+  },
+  "산업안전기사-산업안전산업기사-응시자격-비교": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "상시검정-자격증-선택-가이드": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "생활지원사-하는일-채용공고-근무조건": {
+    "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-contract-set-20261102-480.webp 480w, /assets/catalog-photos/care-contract-set-20261102-800.webp 800w, /assets/catalog-photos/care-contract-set-20261102-1200.webp 1200w",
+    "alt": "돌봄 업무의 근무표를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "care-contract"
+  },
+  "세탁기능사-실기-원단-분류": {
+    "image": "/assets/catalog-photos/laundry-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/laundry-set-20261102-480.webp 480w, /assets/catalog-photos/laundry-set-20261102-800.webp 800w, /assets/catalog-photos/laundry-set-20261102-1200.webp 1200w",
+    "alt": "세탁 실습장에서 원단을 분류하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "laundry"
+  },
+  "소방안전관리자-4050-공부법": {
+    "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/fire-safety-set-20261102-480.webp 480w, /assets/catalog-photos/fire-safety-set-20261102-800.webp 800w, /assets/catalog-photos/fire-safety-set-20261102-1200.webp 1200w",
+    "alt": "소방 교육장에서 점검 항목을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "fire-safety"
+  },
+  "소방안전관리자-4050-준비-전-확인할-것": {
+    "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/fire-safety-set-20261102-480.webp 480w, /assets/catalog-photos/fire-safety-set-20261102-800.webp 800w, /assets/catalog-photos/fire-safety-set-20261102-1200.webp 1200w",
+    "alt": "소방 교육장에서 점검 항목을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "fire-safety"
+  },
+  "소상공인-정책자금-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "스마트폰-취업서류-PDF-제출": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "승강기기능사-업무-근무조건-준비": {
+    "image": "/assets/catalog-photos/elevator-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elevator-set-20261102-480.webp 480w, /assets/catalog-photos/elevator-set-20261102-800.webp 800w, /assets/catalog-photos/elevator-set-20261102-1200.webp 1200w",
+    "alt": "승강기 교육 장비를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "elevator"
+  },
+  "시설관리-입문-가이드": {
+    "image": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png",
+    "srcset": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png 1024w, /wp-content/uploads/2026/06/facility-cert-combination-ai-300x169.png 300w, /wp-content/uploads/2026/06/facility-cert-combination-ai-768x432.png 768w, /wp-content/uploads/2026/06/facility-cert-combination-ai.png 1672w",
+    "alt": "시설관리 자격증 조합",
+    "photoKey": "facility"
+  },
+  "시설관리-자격증-조합": {
+    "image": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png",
+    "srcset": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png 1024w, /wp-content/uploads/2026/06/facility-cert-combination-ai-300x169.png 300w, /wp-content/uploads/2026/06/facility-cert-combination-ai-768x432.png 768w, /wp-content/uploads/2026/06/facility-cert-combination-ai.png 1672w",
+    "alt": "시설관리 자격증 조합",
+    "photoKey": "시설관리-자격증-조합"
+  },
+  "시험-30일-전-공부계획표": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "실업급여-구직활동-인정기준-실업인정-신청": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "실업급여-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "실업급여-아르바이트-소득신고": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "양식조리기능사-실기-위생-준비": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "에너지관리기능사-50대-취업-실기준비": {
+    "image": "/assets/catalog-photos/hvac-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hvac-set-20261102-480.webp 480w, /assets/catalog-photos/hvac-set-20261102-800.webp 800w, /assets/catalog-photos/hvac-set-20261102-1200.webp 1200w",
+    "alt": "냉난방 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hvac"
+  },
+  "에너지바우처-신청방법": {
+    "image": "/assets/catalog-photos/energy-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/energy-set-20261102-480.webp 480w, /assets/catalog-photos/energy-set-20261102-800.webp 800w, /assets/catalog-photos/energy-set-20261102-1200.webp 1200w",
+    "alt": "난방 사용을 점검하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "energy"
+  },
+  "여성새로일하기센터-상담-직업교육": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "온수온돌기능사-배관실습-준비비용": {
+    "image": "/assets/catalog-photos/hvac-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hvac-set-20261102-480.webp 480w, /assets/catalog-photos/hvac-set-20261102-800.webp 800w, /assets/catalog-photos/hvac-set-20261102-1200.webp 1200w",
+    "alt": "냉난방 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hvac"
+  },
+  "요양보호사-근로계약서-급여계산": {
+    "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-contract-set-20261102-480.webp 480w, /assets/catalog-photos/care-contract-set-20261102-800.webp 800w, /assets/catalog-photos/care-contract-set-20261102-1200.webp 1200w",
+    "alt": "돌봄 업무의 근무표를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "care-contract"
+  },
+  "요양보호사-보수교육-대상-이수": {
+    "image": "/assets/catalog-photos/care-training-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-training-20261102-480.webp 480w, /assets/catalog-photos/care-training-20261102-800.webp 800w, /assets/catalog-photos/care-training-20261102-1200.webp 1200w",
+    "alt": "교육용 침대에서 침구 정리 실습을 하는 요양보호 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "care-training"
+  },
+  "요양보호사-월급-현실": {
+    "image": "/assets/home-photos/care-20261031-1200.webp",
+    "srcset": "/assets/home-photos/care-20261031-480.webp 480w, /assets/home-photos/care-20261031-800.webp 800w, /assets/home-photos/care-20261031-1200.webp 1200w",
+    "alt": "주간보호 공간에서 어르신과 활동을 함께하는 중장년 돌봄 종사자를 표현한 AI 제작 이미지",
+    "photoKey": "요양보호사-월급-현실"
+  },
+  "요양보호사-자격증-공부법": {
+    "image": "/assets/catalog-photos/care-training-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-training-20261102-480.webp 480w, /assets/catalog-photos/care-training-20261102-800.webp 800w, /assets/catalog-photos/care-training-20261102-1200.webp 1200w",
+    "alt": "교육용 침대에서 침구 정리 실습을 하는 요양보호 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "care-training"
   },
   "요양보호사-자격증-취득방법": {
     "image": "/assets/catalog-photos/care-training-20261102-800.webp",
     "srcset": "/assets/catalog-photos/care-training-20261102-480.webp 480w, /assets/catalog-photos/care-training-20261102-800.webp 800w, /assets/catalog-photos/care-training-20261102-1200.webp 1200w",
-    "alt": "교육용 침대에서 침구 정리 실습을 하는 요양보호 학습자 (AI 제작 설명 이미지)"
+    "alt": "교육용 침대에서 침구 정리 실습을 하는 요양보호 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "요양보호사-자격증-취득방법"
+  },
+  "요양보호사-취득-후-취업처": {
+    "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-contract-set-20261102-480.webp 480w, /assets/catalog-photos/care-contract-set-20261102-800.webp 800w, /assets/catalog-photos/care-contract-set-20261102-1200.webp 1200w",
+    "alt": "돌봄 업무의 근무표를 확인하는 중년 근무자 (AI 제작 설명 이미지)",
+    "photoKey": "care-contract"
+  },
+  "요양원-요양병원-차이-비용-입소기준": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "원예기능사-출제기준-필기-실기": {
+    "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/agriculture-set-20261102-480.webp 480w, /assets/catalog-photos/agriculture-set-20261102-800.webp 800w, /assets/catalog-photos/agriculture-set-20261102-1200.webp 1200w",
+    "alt": "온실에서 재배 상태를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "agriculture"
+  },
+  "웹디자인개발기능사-실기-환경-확인": {
+    "image": "/assets/catalog-photos/web-design-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/web-design-set-20261102-480.webp 480w, /assets/catalog-photos/web-design-set-20261102-800.webp 800w, /assets/catalog-photos/web-design-set-20261102-1200.webp 1200w",
+    "alt": "웹페이지 구성 실습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "web-design"
+  },
+  "위험물기능사-비전공자-필기-실기-공부": {
+    "image": "/assets/catalog-photos/laboratory-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/laboratory-set-20261102-480.webp 480w, /assets/catalog-photos/laboratory-set-20261102-800.webp 800w, /assets/catalog-photos/laboratory-set-20261102-1200.webp 1200w",
+    "alt": "실험 교육장에서 보호구와 기구를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "laboratory"
+  },
+  "유기농업기능사-필답형-인증-차이": {
+    "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/agriculture-set-20261102-480.webp 480w, /assets/catalog-photos/agriculture-set-20261102-800.webp 800w, /assets/catalog-photos/agriculture-set-20261102-1200.webp 1200w",
+    "alt": "온실에서 재배 상태를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "agriculture"
+  },
+  "이용사-실기-모델-도구-준비": {
+    "image": "/assets/catalog-photos/hair-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/hair-set-20261102-480.webp 480w, /assets/catalog-photos/hair-set-20261102-800.webp 800w, /assets/catalog-photos/hair-set-20261102-1200.webp 1200w",
+    "alt": "마네킹으로 헤어 실습을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "hair"
+  },
+  "이직한-해-연말정산-서류-준비": {
+    "image": "/assets/catalog-photos/tax-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/tax-set-20261102-480.webp 480w, /assets/catalog-photos/tax-set-20261102-800.webp 800w, /assets/catalog-photos/tax-set-20261102-1200.webp 1200w",
+    "alt": "세금과 소득 서류를 정리하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "tax"
+  },
+  "이직확인서-처리여부-조회-정정요청": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "인쇄기능사-오프셋-스크린-선택": {
+    "image": "/assets/catalog-photos/printing-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/printing-set-20261102-480.webp 480w, /assets/catalog-photos/printing-set-20261102-800.webp 800w, /assets/catalog-photos/printing-set-20261102-1200.webp 1200w",
+    "alt": "인쇄 교육장에서 출력물을 검토하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "printing"
+  },
+  "일식조리기능사-실기-재료관리": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "자격증-독학-vs-국비지원-학원": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "자동차정비기능사-비전공자-준비": {
+    "image": "/assets/catalog-photos/automotive-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/automotive-set-20261102-480.webp 480w, /assets/catalog-photos/automotive-set-20261102-800.webp 800w, /assets/catalog-photos/automotive-set-20261102-1200.webp 1200w",
+    "alt": "자동차 정비 실습 장비를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "automotive"
+  },
+  "자발적-퇴사-실업급여-인정사유-증빙": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "장기요양-가족휴가제-이용방법": {
+    "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/elder-care-set-20261102-480.webp 480w, /assets/catalog-photos/elder-care-set-20261102-800.webp 800w, /assets/catalog-photos/elder-care-set-20261102-1200.webp 1200w",
+    "alt": "부모님의 일상 돌봄을 돕는 중년 가족 (AI 제작 설명 이미지)",
+    "photoKey": "elder-care"
+  },
+  "장기요양-복지용구-구입-대여-본인부담금": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "장기요양-본인부담금-감경-확인방법": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "장기요양등급-신청-전-확인할-것": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "장기요양등급-심사청구-준비자료": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "재난적의료비-지원-신청조건-준비서류": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "재직자-내일배움카드-사용법": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "training-card"
+  },
+  "재취업-계약서-3-3퍼센트-확인": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "재취업-첫월급-급여명세서-확인": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "재취업-첫출근-인수인계-준비": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "전기기능사-4050-공부법": {
+    "image": "/assets/catalog-photos/electrical-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/electrical-20261102-480.webp 480w, /assets/catalog-photos/electrical-20261102-800.webp 800w, /assets/catalog-photos/electrical-20261102-1200.webp 1200w",
+    "alt": "전기 이론 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "전기기능사-4050-공부법"
+  },
+  "전기기능사-50대-취업-가능할까": {
+    "image": "/assets/catalog-photos/electrical-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/electrical-20261102-480.webp 480w, /assets/catalog-photos/electrical-20261102-800.webp 800w, /assets/catalog-photos/electrical-20261102-1200.webp 1200w",
+    "alt": "전기 이론 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "전기기능사-4050-공부법"
+  },
+  "전기기능사와-소방안전관리자-비교": {
+    "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/fire-safety-set-20261102-480.webp 480w, /assets/catalog-photos/fire-safety-set-20261102-800.webp 800w, /assets/catalog-photos/fire-safety-set-20261102-1200.webp 1200w",
+    "alt": "소방 교육장에서 점검 항목을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "fire-safety"
+  },
+  "전기산업기사-응시자격-경력증명서": {
+    "image": "/assets/catalog-photos/electrical-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/electrical-20261102-480.webp 480w, /assets/catalog-photos/electrical-20261102-800.webp 800w, /assets/catalog-photos/electrical-20261102-1200.webp 1200w",
+    "alt": "전기 이론 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "전기기능사-4050-공부법"
+  },
+  "전산응용건축제도기능사-CAD-초보": {
+    "image": "/assets/catalog-photos/cad-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cad-set-20261102-480.webp 480w, /assets/catalog-photos/cad-set-20261102-800.webp 800w, /assets/catalog-photos/cad-set-20261102-1200.webp 1200w",
+    "alt": "설계 도면 실습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cad"
+  },
+  "전산응용기계제도기능사-3D-2D-연습": {
+    "image": "/assets/catalog-photos/cad-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cad-set-20261102-480.webp 480w, /assets/catalog-photos/cad-set-20261102-800.webp 800w, /assets/catalog-photos/cad-set-20261102-1200.webp 1200w",
+    "alt": "설계 도면 실습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cad"
+  },
+  "전산회계운용사-3급-실기-프로그램": {
+    "image": "/assets/catalog-photos/computer-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/computer-set-20261102-480.webp 480w, /assets/catalog-photos/computer-set-20261102-800.webp 800w, /assets/catalog-photos/computer-set-20261102-1200.webp 1200w",
+    "alt": "컴퓨터 교육장에서 실기 연습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "computer"
+  },
+  "전자출판기능사-실기-편집-연습": {
+    "image": "/assets/catalog-photos/publishing-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/publishing-set-20261102-480.webp 480w, /assets/catalog-photos/publishing-set-20261102-800.webp 800w, /assets/catalog-photos/publishing-set-20261102-1200.webp 1200w",
+    "alt": "편집 화면과 출력물을 대조하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "publishing"
+  },
+  "전자캐드기능사-회로도-PCB-연습": {
+    "image": "/assets/catalog-photos/cad-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cad-set-20261102-480.webp 480w, /assets/catalog-photos/cad-set-20261102-800.webp 800w, /assets/catalog-photos/cad-set-20261102-1200.webp 1200w",
+    "alt": "설계 도면 실습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cad"
+  },
+  "정보기기운용기능사-네트워크-초보": {
+    "image": "/assets/catalog-photos/network-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/network-set-20261102-480.webp 480w, /assets/catalog-photos/network-set-20261102-800.webp 800w, /assets/catalog-photos/network-set-20261102-1200.webp 1200w",
+    "alt": "네트워크 교육 장비를 살펴보는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "network"
+  },
+  "제과기능사-실기-연습-재료비": {
+    "image": "/assets/catalog-photos/bakery-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/bakery-set-20261102-480.webp 480w, /assets/catalog-photos/bakery-set-20261102-800.webp 800w, /assets/catalog-photos/bakery-set-20261102-1200.webp 1200w",
+    "alt": "제과제빵 교육장에서 반죽을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "bakery"
+  },
+  "제과기능사-제빵기능사-실기-차이": {
+    "image": "/assets/catalog-photos/bakery-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/bakery-set-20261102-480.webp 480w, /assets/catalog-photos/bakery-set-20261102-800.webp 800w, /assets/catalog-photos/bakery-set-20261102-1200.webp 1200w",
+    "alt": "제과제빵 교육장에서 반죽을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "bakery"
+  },
+  "제빵기능사-발효-실기-연습": {
+    "image": "/assets/catalog-photos/bakery-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/bakery-set-20261102-480.webp 480w, /assets/catalog-photos/bakery-set-20261102-800.webp 800w, /assets/catalog-photos/bakery-set-20261102-1200.webp 1200w",
+    "alt": "제과제빵 교육장에서 반죽을 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "bakery"
+  },
+  "조경기능사-실기-준비물-연습순서": {
+    "image": "/assets/catalog-photos/landscape-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/landscape-set-20261102-480.webp 480w, /assets/catalog-photos/landscape-set-20261102-800.webp 800w, /assets/catalog-photos/landscape-set-20261102-1200.webp 1200w",
+    "alt": "조경 실습장에서 식재 계획을 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "landscape"
+  },
+  "조기재취업수당-신청조건-준비서류": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "조리기능사-50대-취업-가능할까": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "조주기능사-실기-7분-연습": {
+    "image": "/assets/catalog-photos/bar-practice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/bar-practice-set-20261102-480.webp 480w, /assets/catalog-photos/bar-practice-set-20261102-800.webp 800w, /assets/catalog-photos/bar-practice-set-20261102-1200.webp 1200w",
+    "alt": "음료 조제 교육장에서 도구를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "bar-practice"
+  },
+  "종자기능사-필답형-답안-공부": {
+    "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/agriculture-set-20261102-480.webp 480w, /assets/catalog-photos/agriculture-set-20261102-800.webp 800w, /assets/catalog-photos/agriculture-set-20261102-1200.webp 1200w",
+    "alt": "온실에서 재배 상태를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "agriculture"
+  },
+  "주거급여-신청조건-2026": {
+    "image": "/assets/catalog-photos/housing-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/housing-set-20261102-480.webp 480w, /assets/catalog-photos/housing-set-20261102-800.webp 800w, /assets/catalog-photos/housing-set-20261102-1200.webp 1200w",
+    "alt": "주거 지원 서류를 검토하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "housing"
+  },
+  "주택관리사보-50대-시험-취업-현실": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "주택연금-4050이-부모님-대신-확인할-때-볼-것": {
+    "image": "/assets/catalog-photos/pension-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/pension-set-20261102-480.webp 480w, /assets/catalog-photos/pension-set-20261102-800.webp 800w, /assets/catalog-photos/pension-set-20261102-1200.webp 1200w",
+    "alt": "은퇴 이후 연금 계획을 살펴보는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "pension"
+  },
+  "중식조리기능사-실기-작업순서": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "중장년-내일센터-이용방법": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "중장년-내일센터-이용방법"
+  },
+  "중장년-재취업-이력서-작성법": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "중장년-창업지원금-찾는-법": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "지게차운전기능사-국비지원-신청방법": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "forklift"
+  },
+  "지게차운전기능사-필기-공부법": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "지게차운전기능사-필기-공부법"
+  },
+  "지자체-중장년-지원사업-찾는-법": {
+    "image": "/assets/catalog-photos/benefits-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/benefits-set-20261102-480.webp 480w, /assets/catalog-photos/benefits-set-20261102-800.webp 800w, /assets/catalog-photos/benefits-set-20261102-1200.webp 1200w",
+    "alt": "복지 지원 신청 서류를 상담하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "benefits"
+  },
+  "직업상담사-2급-4050-준비방법-취업": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "career-center"
+  },
+  "직업상담사-2급-실기-답안연습": {
+    "image": "/assets/catalog-photos/interview-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/interview-set-20261102-480.webp 480w, /assets/catalog-photos/interview-set-20261102-800.webp 800w, /assets/catalog-photos/interview-set-20261102-1200.webp 1200w",
+    "alt": "취업 면접 연습을 하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "interview"
+  },
+  "직업훈련포털-HRD-Net-사용법": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "채용-건강검진-대체통보서-확인": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "채용공고-교육비-보증금-확인": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "철근기능사-실기-가공-배근": {
+    "image": "/assets/catalog-photos/construction-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/construction-set-20261102-480.webp 480w, /assets/catalog-photos/construction-set-20261102-800.webp 800w, /assets/catalog-photos/construction-set-20261102-1200.webp 1200w",
+    "alt": "건설 실습장에서 도면과 부재를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "construction"
+  },
+  "측량기능사-실기-장비-학원": {
+    "image": "/assets/catalog-photos/surveying-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/surveying-set-20261102-480.webp 480w, /assets/catalog-photos/surveying-set-20261102-800.webp 800w, /assets/catalog-photos/surveying-set-20261102-1200.webp 1200w",
+    "alt": "측량 교육장에서 삼각대 장비를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "surveying"
+  },
+  "치매검사-지원-확인방법": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "치매검사비-지원-확인방법": {
+    "image": "/assets/catalog-photos/medical-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/medical-set-20261102-480.webp 480w, /assets/catalog-photos/medical-set-20261102-800.webp 800w, /assets/catalog-photos/medical-set-20261102-1200.webp 1200w",
+    "alt": "진료비 서류를 상담하는 중년 방문자 (AI 제작 설명 이미지)",
+    "photoKey": "medical"
+  },
+  "컴퓨터그래픽기능사-실기-작업환경": {
+    "image": "/assets/catalog-photos/computer-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/computer-set-20261102-480.webp 480w, /assets/catalog-photos/computer-set-20261102-800.webp 800w, /assets/catalog-photos/computer-set-20261102-1200.webp 1200w",
+    "alt": "컴퓨터 교육장에서 실기 연습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "computer"
+  },
+  "컴퓨터활용능력-2급-엑셀-초보-실기-공부": {
+    "image": "/assets/catalog-photos/computer-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/computer-set-20261102-480.webp 480w, /assets/catalog-photos/computer-set-20261102-800.webp 800w, /assets/catalog-photos/computer-set-20261102-1200.webp 1200w",
+    "alt": "컴퓨터 교육장에서 실기 연습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "computer"
+  },
+  "큐넷-CBT-시험-체험-답안제출": {
+    "image": "/assets/catalog-photos/computer-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/computer-set-20261102-480.webp 480w, /assets/catalog-photos/computer-set-20261102-800.webp 800w, /assets/catalog-photos/computer-set-20261102-1200.webp 1200w",
+    "alt": "컴퓨터 교육장에서 실기 연습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "computer"
+  },
+  "큐넷-사진등록-원서접수-확인": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "큐넷-시험취소-환불-기준": {
+    "image": "/assets/catalog-photos/computer-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/computer-set-20261102-480.webp 480w, /assets/catalog-photos/computer-set-20261102-800.webp 800w, /assets/catalog-photos/computer-set-20261102-1200.webp 1200w",
+    "alt": "컴퓨터 교육장에서 실기 연습을 하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "computer"
+  },
+  "큐넷-실기시험-준비물-조회방법": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "큐넷-자격취득확인서-취업제출": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "큐넷-필기면제기간-실기-재응시": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "2026년-남은-국가기술자격-시험일정"
+  },
+  "타일기능사-실기-학원-준비물": {
+    "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/wall-finish-set-20261102-480.webp 480w, /assets/catalog-photos/wall-finish-set-20261102-800.webp 800w, /assets/catalog-photos/wall-finish-set-20261102-1200.webp 1200w",
+    "alt": "벽면 마감 연습 재료를 준비하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "wall-finish"
+  },
+  "퇴직-예정자-재취업-준비-순서": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "career-center"
+  },
+  "퇴직-후-30일-실행-가이드": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "retirement-budget"
+  },
+  "퇴직-후-건강보험료-줄이는-방법": {
+    "image": "/assets/catalog-photos/insurance-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/insurance-set-20261102-480.webp 480w, /assets/catalog-photos/insurance-set-20261102-800.webp 800w, /assets/catalog-photos/insurance-set-20261102-1200.webp 1200w",
+    "alt": "보험 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "insurance"
+  },
+  "퇴직-후-대출-전-확인할-것": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "퇴직-후-생활비-계산법": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "퇴직-후-생활비-계산법"
+  },
+  "퇴직금-irp-계좌-수령-예외": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "retirement-budget"
+  },
+  "퇴직금-중간정산과-퇴직연금-차이": {
+    "image": "/assets/catalog-photos/pension-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/pension-set-20261102-480.webp 480w, /assets/catalog-photos/pension-set-20261102-800.webp 800w, /assets/catalog-photos/pension-set-20261102-1200.webp 1200w",
+    "alt": "은퇴 이후 연금 계획을 살펴보는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "pension"
+  },
+  "퇴직금-지급기한-미지급-신고": {
+    "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/finance-advice-set-20261102-480.webp 480w, /assets/catalog-photos/finance-advice-set-20261102-800.webp 800w, /assets/catalog-photos/finance-advice-set-20261102-1200.webp 1200w",
+    "alt": "생활비와 납부 서류를 비교하는 중년 이용자 (AI 제작 설명 이미지)",
+    "photoKey": "finance-advice"
+  },
+  "퇴직연금-db형-dc형-차이": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)",
+    "photoKey": "retirement-budget"
+  },
+  "폐업한-회사-경력증명서-대체서류": {
+    "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/job-documents-set-20261102-480.webp 480w, /assets/catalog-photos/job-documents-set-20261102-800.webp 800w, /assets/catalog-photos/job-documents-set-20261102-1200.webp 1200w",
+    "alt": "입사지원 서류를 준비하는 중년 구직자 (AI 제작 설명 이미지)",
+    "photoKey": "job-documents"
+  },
+  "폴리텍-신중년-특화과정-확인방법": {
+    "image": "/assets/catalog-photos/training-class-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-class-set-20261102-480.webp 480w, /assets/catalog-photos/training-class-set-20261102-800.webp 800w, /assets/catalog-photos/training-class-set-20261102-1200.webp 1200w",
+    "alt": "직업교육 수업을 듣는 중년 학습자들 (AI 제작 설명 이미지)",
+    "photoKey": "training-class"
+  },
+  "피복아크용접기능사-실기-학원-비용": {
+    "image": "/assets/catalog-photos/welding-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/welding-set-20261102-480.webp 480w, /assets/catalog-photos/welding-set-20261102-800.webp 800w, /assets/catalog-photos/welding-set-20261102-1200.webp 1200w",
+    "alt": "용접 교육장에서 보호구를 점검하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "welding"
   },
   "한식조리기능사-4050-공부법": {
     "image": "/assets/catalog-photos/cooking-20261102-800.webp",
     "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
-    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)"
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "한식조리기능사-4050-공부법"
+  },
+  "한식조리기능사-4050-재취업-활용법": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "한식조리기능사-실기-위생복-준비물": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "cooking"
+  },
+  "화훼장식기능사-실기-꽃-재료비": {
+    "image": "/assets/catalog-photos/flowers-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/flowers-set-20261102-480.webp 480w, /assets/catalog-photos/flowers-set-20261102-800.webp 800w, /assets/catalog-photos/flowers-set-20261102-1200.webp 1200w",
+    "alt": "꽃꽂이 실습 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "flowers"
+  },
+  "환경기능사-실기-실험실-선택": {
+    "image": "/assets/catalog-photos/laboratory-set-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/laboratory-set-20261102-480.webp 480w, /assets/catalog-photos/laboratory-set-20261102-800.webp 800w, /assets/catalog-photos/laboratory-set-20261102-1200.webp 1200w",
+    "alt": "실험 교육장에서 보호구와 기구를 확인하는 중년 학습자 (AI 제작 설명 이미지)",
+    "photoKey": "laboratory"
   }
 }

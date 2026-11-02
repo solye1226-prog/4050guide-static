@@ -215,3 +215,15 @@ list-only covers are mapped in `assets/catalog-photo-map.json`; existing article
 body illustrations are unchanged. Responsive WebP derivatives are in
 `assets/catalog-photos/`. Generation subjects and visual constraints are recorded
 in `reports/catalog-photos-20261102.json`; the built-in image generator was used.
+
+All 215 homepage cards and 228 category-list cards now use the same photographic
+thumbnail style (58 distinct topic photos, shared by related articles). The 46
+additional built-in image-generation prompts and saved source paths are in
+`scripts/catalog-photo-library-20261102.json`. Run
+`node scripts/complete-catalog-photos-20261102.cjs`, then `build-home.cjs` to
+reapply mappings. This preserves the first twelve cards and does not modify
+article bodies, publication dates or URLs. Do not run the earlier eight-photo
+preparation script afterward, since it produces only the initial partial map.
+Run `test-catalog-20261102.cjs` and `test-category-photos-20261102.cjs` locally
+and with `TEST_ORIGIN` after deployment. See
+`reports/catalog-photos-complete-20261102.json` for article-to-photo assignments.

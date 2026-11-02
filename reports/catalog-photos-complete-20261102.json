@@ -1,0 +1,1305 @@
+{
+  "date": "2026-11-02",
+  "method": "Built-in image_gen",
+  "newPhotographs": 46,
+  "articles": 215,
+  "previouslyUnified": 12,
+  "remainingUnified": 203,
+  "scope": "Homepage catalog and category list thumbnails only. Article body images, copy, URLs and dates unchanged. Related articles intentionally share topic photographs.",
+  "uniqueImages": 58,
+  "categoryFiles": 14,
+  "categoryCards": 228,
+  "categoryArticles": 215,
+  "assignments": [
+    {
+      "slug": "2026-근로-자녀장려금-6월-1일-전후-확인할-것",
+      "title": "2026 근로·자녀장려금 정기신청 마감 후 접수·심사 확인 순서",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "2026-여름-에너지바우처-부모님-대신-확인할-것",
+      "title": "2026 에너지바우처 신청기간과 겨울 사용방법",
+      "photoKey": "energy",
+      "image": "/assets/catalog-photos/energy-set-20261102-800.webp"
+    },
+    {
+      "slug": "2026-중장년-경력지원제-신청방법",
+      "title": "2026 중장년 경력지원제 신청조건과 참여방법",
+      "photoKey": "career-center",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "2026년-6월-4050-정부지원금-복지-신청-체크리스트",
+      "title": "4050 정부지원금·복지 신청 누락 점검표 소득 감소·난방·부모님 돌봄",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "2026년-6월-중장년-재취업-지원제도-확인할-것",
+      "title": "중장년 재취업 지원제도 선택 순서 재직·퇴직·훈련 단계별",
+      "photoKey": "career-center",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "2026년-남은-국가기술자격-시험일정",
+      "title": "2026년 남은 국가기술자격 시험일정과 접수 종료 여부",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "2026년-상시검정-자격증-14종목",
+      "title": "2026년 상시검정 자격증 14종목: 지게차·한식조리처럼 일정 선택이 쉬운 종목",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "3d프린터운용기능사-실기-장비-선택",
+      "title": "3D프린터운용기능사 실기 출력 기회와 비용",
+      "photoKey": "printing3d",
+      "image": "/assets/catalog-photos/printing3d-set-20261102-800.webp"
+    },
+    {
+      "slug": "3톤-미만-지게차-교육-면허-발급",
+      "title": "3톤 미만 지게차 교육과 면허 발급 기능사와 다른 점",
+      "photoKey": "forklift",
+      "image": "/assets/catalog-photos/forklift-20261102-800.webp"
+    },
+    {
+      "slug": "4050-국민내일배움카드-자비부담금-확인법",
+      "title": "국민내일배움카드 자비부담금 통학비까지 더해 비교하는 법",
+      "photoKey": "retirement-budget",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "4050-국비지원-과정-수료-후-할-일",
+      "title": "4050 국비지원 과정 수료 후 할 일 수료 기록을 입사지원으로 바꾸기",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "4050-면접-준비법",
+      "title": "4050 면접 준비법 지원 공고 하나로 답변과 질문 만들기",
+      "photoKey": "interview",
+      "image": "/assets/catalog-photos/interview-set-20261102-800.webp"
+    },
+    {
+      "slug": "4050-보험-리모델링-체크리스트",
+      "title": "4050 보험 리모델링 체크리스트 해지 전 보장과 갱신 조건 확인",
+      "photoKey": "insurance",
+      "image": "/assets/catalog-photos/insurance-set-20261102-800.webp"
+    },
+    {
+      "slug": "4050-생활경제-점검표",
+      "title": "4050 생활경제 점검표 보험 대출 연금과 퇴직 후 생활비 정리",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "4050-자격증-로드맵",
+      "title": "4050 자격증 로드맵 취업공고에서 훈련비까지 비교하는 순서",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "4050-자격증-준비기간-잡는-법",
+      "title": "4050 자격증 준비기간 잡는 법 접수와 실습에서 역산하기",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "4050-재취업-자격증-고르는-기준",
+      "title": "4050 재취업 자격증 고르는 기준 신입 공고와 경력 공고 구분하기",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "50대-남자-재취업-자격증-추천",
+      "title": "50대 남성 재취업 자격증은 현장 전환 조건부터 대조하세요",
+      "photoKey": "interview",
+      "image": "/assets/catalog-photos/interview-set-20261102-800.webp"
+    },
+    {
+      "slug": "50대-시설관리-채용공고-근무조건",
+      "title": "50대 시설관리 채용공고에서 월급보다 먼저 볼 근무조건",
+      "photoKey": "50대-시설관리-채용공고-근무조건",
+      "image": "/assets/home-photos/facility-20261031-1200.webp"
+    },
+    {
+      "slug": "50대-여성-재취업-자격증-추천",
+      "title": "50대 여성 재취업 자격증은 돌봄과 병행할 시간표부터 맞추세요",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "50대-재취업-가능한-직종",
+      "title": "50대 재취업 가능한 직종 경력과 근무조건으로 비교하는 방법",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "50대-재취업-경력기술서-작성법",
+      "title": "50대 재취업 경력기술서 예시와 직무 전환 작성법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "50대-재취업-현실",
+      "title": "50대 재취업이 막히면 지원 조건과 경력 설명을 나눠 고치세요",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "50대가-내일배움카드로-많이-찾는-자격증",
+      "title": "50대 내일배움카드 자격증은 목표 공고와 훈련 내용을 맞춰 고르세요",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "Q-Net-월간시험일정-보는-법",
+      "title": "Q-Net 월간시험일정 보는 법 접수·시험·발표를 나누는 실제 예시",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "가구제작기능사-목공예-실기-차이",
+      "title": "가구제작기능사와 목공예 실기 준비 차이",
+      "photoKey": "woodwork",
+      "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp"
+    },
+    {
+      "slug": "가스기능사-에너지관리기능사-차이",
+      "title": "가스기능사와 에너지관리기능사 시설관리 준비 차이",
+      "photoKey": "hvac",
+      "image": "/assets/catalog-photos/hvac-set-20261102-800.webp"
+    },
+    {
+      "slug": "가족인-요양보호사-부모님-돌봄-인정조건",
+      "title": "가족인 요양보호사가 부모님을 돌볼 때 인정조건과 급여시간",
+      "photoKey": "care-contract",
+      "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp"
+    },
+    {
+      "slug": "간호간병통합서비스-병원-찾기-입원비용",
+      "title": "간호간병통합서비스 병원 찾기 운영병동 확인과 입원비 계산",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "거푸집기능사-실기-도면-안전",
+      "title": "거푸집기능사 실기 도면과 부재표 준비",
+      "photoKey": "construction",
+      "image": "/assets/catalog-photos/construction-set-20261102-800.webp"
+    },
+    {
+      "slug": "건강보험-본인부담상한제-환급금-신청",
+      "title": "건강보험 본인부담상한제 환급금 조회와 신청방법",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "건강보험-피부양자-탈락-기준-4050-체크",
+      "title": "건강보험 피부양자 소득과 재산 기준",
+      "photoKey": "insurance",
+      "image": "/assets/catalog-photos/insurance-set-20261102-800.webp"
+    },
+    {
+      "slug": "건설업-기초안전보건교육-신청-이수증-재발급",
+      "title": "건설업 기초안전보건교육 신청과 이수증 재발급 방법",
+      "photoKey": "construction",
+      "image": "/assets/catalog-photos/construction-set-20261102-800.webp"
+    },
+    {
+      "slug": "건축도장기능사-4050-실기-공부법",
+      "title": "건축도장기능사 실기 요구사항과 작업 기록",
+      "photoKey": "painting",
+      "image": "/assets/catalog-photos/painting-set-20261102-800.webp"
+    },
+    {
+      "slug": "건축도장기능사-4050-준비방법",
+      "title": "건축도장기능사 준비 전 실습과 작업환경 비교",
+      "photoKey": "painting",
+      "image": "/assets/catalog-photos/painting-set-20261102-800.webp"
+    },
+    {
+      "slug": "건축목공기능사-실기-준비물-안전",
+      "title": "건축목공기능사 실기 준비물과 안전한 연습",
+      "photoKey": "woodwork",
+      "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp"
+    },
+    {
+      "slug": "경력단절-후-재취업-시작법",
+      "title": "경력단절 후 재취업 시작법 첫 주에 복귀 조건부터 정하기",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "경비원-신임교육-4050-준비방법",
+      "title": "일반경비원 신임교육 준비방법 24시간 교육·면제·이수증 확인",
+      "photoKey": "security",
+      "image": "/assets/catalog-photos/security-set-20261102-800.webp"
+    },
+    {
+      "slug": "경비원-월급-현실",
+      "title": "경비원 월급은 휴게를 뺀 근로시간과 야간가산을 나눠 계산하세요",
+      "photoKey": "security",
+      "image": "/assets/catalog-photos/security-set-20261102-800.webp"
+    },
+    {
+      "slug": "경비원-취업-전-확인할-것",
+      "title": "경비원 취업 전 확인할 것 근무표·휴게·고용주 비교",
+      "photoKey": "security",
+      "image": "/assets/catalog-photos/security-set-20261102-800.webp"
+    },
+    {
+      "slug": "고용24-구직등록-방법",
+      "title": "고용24 구직등록 방법 이력서 저장 뒤 신청 완료 확인까지",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "공인중개사-4050-1차-2차-공부선택",
+      "title": "공인중개사 4050 초보 1차와 동차 준비 선택",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "공조냉동기계기능사-4050-공부법",
+      "title": "공조냉동기계기능사 필기와 실기 준비 비용과 연습 순서",
+      "photoKey": "hvac",
+      "image": "/assets/catalog-photos/hvac-set-20261102-800.webp"
+    },
+    {
+      "slug": "과정평가형-검정형-자격증-차이",
+      "title": "과정평가형과 검정형 자격증 취득 방법 차이",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "국가기술자격-문제집-고르는-법",
+      "title": "국가기술자격 문제집 고르는 법 출제기준과 샘플 해설 대조",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "국가기술자격-상장형-수첩형-발급",
+      "title": "국가기술자격 상장형과 수첩형 발급 방법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "국가기술자격-시험-편의제공-신청",
+      "title": "국가기술자격 시험 편의제공 신청 전 확인사항",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "국민내일배움카드-사용처-찾는-법",
+      "title": "국민내일배움카드 사용처 찾는 법 지원 과정과 실제 비용 확인",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "국민내일배움카드-신청-안-되는-경우",
+      "title": "국민내일배움카드 신청 안 되는 경우 제외 대상과 신청 오류 구분",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "국민내일배움카드-신청방법-2026",
+      "title": "국민내일배움카드 신청방법 2026 지원금과 사용처",
+      "photoKey": "국민내일배움카드-신청방법-2026",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "국민연금-납부예외-실업크레딧-차이",
+      "title": "퇴직 후 국민연금 납부예외와 실업크레딧 차이",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "국민연금-예상연금액-조회-수령나이",
+      "title": "국민연금 예상연금액 조회와 수령나이 확인방법",
+      "photoKey": "pension",
+      "image": "/assets/catalog-photos/pension-set-20261102-800.webp"
+    },
+    {
+      "slug": "국민연금-임의계속가입-신청조건-보험료",
+      "title": "국민연금 임의계속가입 신청조건과 보험료 확인방법",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "국민연금-조기수령-전-확인할-것",
+      "title": "국민연금 조기수령 감액과 소득 기준",
+      "photoKey": "pension",
+      "image": "/assets/catalog-photos/pension-set-20261102-800.webp"
+    },
+    {
+      "slug": "국민연금-추납-신청-비용-확인",
+      "title": "국민연금 추납 신청 전 비용과 가입기간 확인하는 방법",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "국민취업지원제도-4050-신청-전-확인할-것",
+      "title": "국민취업지원제도 신청방법과 4050 소득 기준",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "국비지원-자격증-조건",
+      "title": "국비지원 자격증 조건 사람·과정·시험 요건을 따로 확인하기",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "국비지원-학원-취업률-확인방법",
+      "title": "국비지원 학원 취업률 해당없음일 때 확인할 자료",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "국비지원-훈련과정-선택-가이드",
+      "title": "국비지원 훈련과정 선택 집체 실습과 원격 강의 비교",
+      "photoKey": "국비지원-훈련과정-선택-가이드",
+      "image": "/assets/home-photos/training-20261031-1200.webp"
+    },
+    {
+      "slug": "굴착기운전기능사-지게차-차이",
+      "title": "굴착기운전기능사와 지게차 자격증 준비 차이",
+      "photoKey": "forklift",
+      "image": "/assets/catalog-photos/forklift-20261102-800.webp"
+    },
+    {
+      "slug": "근로장려금-기한-후-신청-2026",
+      "title": "근로장려금 기한 후 신청 2026 놓친 사람 신청기간과 지급 기준",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "근로장려금-신청-안-되는-이유",
+      "title": "근로장려금 신청 안 되는 이유 소득·재산 초과와 신청화면 오류 구분",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "근로장려금-지급일-확인방법",
+      "title": "근로장려금 지급일 확인방법 2026 심사진행 조회",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "금속재창호기능사-실기-부재-조립",
+      "title": "금속재창호기능사 실기 부재 가공과 맞춤",
+      "photoKey": "metalwork",
+      "image": "/assets/catalog-photos/metalwork-set-20261102-800.webp"
+    },
+    {
+      "slug": "기초연금-수급자격-확인방법",
+      "title": "2026 기초연금 수급자격 선정기준액과 신청서류 확인방법",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "기초연금-탈락-이유",
+      "title": "기초연금 탈락 이유와 소득인정액 재확인 순서",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "긴급복지-생계지원-신청조건",
+      "title": "긴급복지 생계지원 신청조건 2026 소득 기준과 상담방법",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "내일배움카드-중도포기-재수강",
+      "title": "국민내일배움카드 중도포기 시 불이익과 재수강 확인방법",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "내일배움카드-훈련장려금-지급조건",
+      "title": "내일배움카드 훈련장려금 지급조건 140시간·출석 80%와 실제 금액",
+      "photoKey": "retirement-budget",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "노인일자리-신청방법",
+      "title": "노인일자리 신청방법과 유형별 접수 순서",
+      "photoKey": "career-center",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "농기계운전기능사-실기-장비-연습",
+      "title": "농기계운전기능사 실기 장비와 안전교육 확인",
+      "photoKey": "farm-machinery",
+      "image": "/assets/catalog-photos/farm-machinery-set-20261102-800.webp"
+    },
+    {
+      "slug": "농업기계정비기능사-실기-정비-학원",
+      "title": "농업기계정비기능사 실기와 정비 학원 선택",
+      "photoKey": "farm-machinery",
+      "image": "/assets/catalog-photos/farm-machinery-set-20261102-800.webp"
+    },
+    {
+      "slug": "도배기능사-실기-준비물-연습방법",
+      "title": "도배기능사 실기 준비물과 초보자 연습 방법",
+      "photoKey": "wall-finish",
+      "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp"
+    },
+    {
+      "slug": "돌봄-분야-재취업-가이드",
+      "title": "돌봄 분야 재취업 요양보호사 사회복지사 생활지원사 비교",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "떡제조기능사-실기-공개문제-위생",
+      "title": "떡제조기능사 실기 공개문제와 위생 준비",
+      "photoKey": "ricecake",
+      "image": "/assets/catalog-photos/ricecake-set-20261102-800.webp"
+    },
+    {
+      "slug": "목공예기능사-실기-도면-연습",
+      "title": "목공예기능사 실기 도면 읽기와 공방 선택",
+      "photoKey": "woodwork",
+      "image": "/assets/catalog-photos/woodwork-set-20261102-800.webp"
+    },
+    {
+      "slug": "물류관리사-지게차-자격증-취업-차이",
+      "title": "물류관리사와 지게차 자격증 취업 준비 차이",
+      "photoKey": "forklift",
+      "image": "/assets/catalog-photos/forklift-20261102-800.webp"
+    },
+    {
+      "slug": "미용사-네일-실기-재료비-준비",
+      "title": "미용사 네일 실기 준비물과 재료비 비교",
+      "photoKey": "beauty",
+      "image": "/assets/catalog-photos/beauty-set-20261102-800.webp"
+    },
+    {
+      "slug": "미용사-메이크업-실기-모델-재료비",
+      "title": "미용사 메이크업 재료비와 연습 예산 계산",
+      "photoKey": "beauty",
+      "image": "/assets/catalog-photos/beauty-set-20261102-800.webp"
+    },
+    {
+      "slug": "미용사-일반-실기-마네킹-연습",
+      "title": "미용사 일반 실기 마네킹 연습과 준비 비용",
+      "photoKey": "hair",
+      "image": "/assets/catalog-photos/hair-set-20261102-800.webp"
+    },
+    {
+      "slug": "미용사-피부-실기-모델-준비",
+      "title": "미용사 피부 실기 모델과 준비물 확인 방법",
+      "photoKey": "beauty",
+      "image": "/assets/catalog-photos/beauty-set-20261102-800.webp"
+    },
+    {
+      "slug": "미장기능사-실기-재료-연습",
+      "title": "미장기능사 실기 개인 연습 공간과 재료비",
+      "photoKey": "wall-finish",
+      "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp"
+    },
+    {
+      "slug": "바리스타-자격증-민간자격-학원선택",
+      "title": "바리스타 자격증 민간자격 확인과 학원 선택",
+      "photoKey": "beverages",
+      "image": "/assets/catalog-photos/beverages-set-20261102-800.webp"
+    },
+    {
+      "slug": "방문요양-서비스-신청-전-확인할-것",
+      "title": "방문요양 서비스 시작 전 등급과 기관 계약 확인하기",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "방문요양-어르신-입원-근무중단-급여",
+      "title": "방문요양 어르신 입원으로 일이 끊겼을 때 급여 확인하는 법",
+      "photoKey": "care-contract",
+      "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp"
+    },
+    {
+      "slug": "방문요양-주간보호센터-비용-비교",
+      "title": "방문요양과 주간보호센터 비용 비교 부모님 돌봄 선택방법",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "방수기능사-실기-준비-안전수칙",
+      "title": "방수기능사 실기 준비와 안전한 실습 선택",
+      "photoKey": "wall-finish",
+      "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp"
+    },
+    {
+      "slug": "버섯종균기능사-실기-위생-실습",
+      "title": "버섯종균기능사 실기 위생과 실습 환경 확인",
+      "photoKey": "agriculture",
+      "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp"
+    },
+    {
+      "slug": "복지멤버십-신청-알림-확인",
+      "title": "복지멤버십 신청방법과 알림 확인 지원금 자동 지급과 다른 점",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-가족돌봄휴가-휴직-비교",
+      "title": "부모님 돌봄 때문에 퇴사하기 전 가족돌봄휴가와 휴직 비교",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-긴급복지-신청-전-확인할-것",
+      "title": "부모님 긴급복지 신청 전 위기사유와 요청 방법",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-노인-틀니-임플란트-건강보험-적용",
+      "title": "부모님 노인 틀니와 임플란트 건강보험 적용 기준",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-노인맞춤돌봄서비스-확인법",
+      "title": "부모님 노인맞춤돌봄서비스 신청대상 무료 지원과 준비서류",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-복지-점검-가이드",
+      "title": "부모님 복지 점검 가이드 생활비 돌봄과 주거 지원 확인 순서",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-복지혜택-한-번에-찾는-법",
+      "title": "부모님 복지혜택 한 번에 찾는 법과 복지로 확인 순서",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-응급안전안심서비스-신청-확인",
+      "title": "혼자 사는 부모님 응급안전안심서비스 신청 전 확인할 것",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-의료비-세액공제-공제받는-사람",
+      "title": "부모님 의료비 세액공제 누가 받을 수 있는지 확인하는 법",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "부모님-주민센터-복지상담-준비물",
+      "title": "부모님 주민센터 복지상담 준비물과 대리신청 구분",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "사진기능사-실기-촬영-출력-연습",
+      "title": "사진기능사 실기 촬영과 출력 연습 방법",
+      "photoKey": "photography",
+      "image": "/assets/catalog-photos/photography-set-20261102-800.webp"
+    },
+    {
+      "slug": "사회복지사-2급-4050-준비방법",
+      "title": "사회복지사 2급 준비방법 학력별 이수과목 실습과 발급 순서",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "사회복지사-2급-실습-전-확인할-것",
+      "title": "사회복지사 2급 실습 전 확인할 시간·세미나·기관 기준",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "산림-조경-관련-자격증-4050-활용도",
+      "title": "산림기능사와 조경기능사 시험과 업무 비교",
+      "photoKey": "forestry",
+      "image": "/assets/catalog-photos/forestry-set-20261102-800.webp"
+    },
+    {
+      "slug": "산림기능사-실기-안전-연습장",
+      "title": "산림기능사 실기 준비와 안전한 연습장 선택",
+      "photoKey": "forestry",
+      "image": "/assets/catalog-photos/forestry-set-20261102-800.webp"
+    },
+    {
+      "slug": "산업안전기사-산업안전산업기사-응시자격-비교",
+      "title": "산업안전기사와 산업안전산업기사 응시자격 비교",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "상시검정-자격증-선택-가이드",
+      "title": "상시검정 자격증 선택 가이드 지게차 조리 미용 준비 기준",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "생활지원사-하는일-채용공고-근무조건",
+      "title": "생활지원사 하는 일과 채용공고에서 확인할 근무조건",
+      "photoKey": "care-contract",
+      "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp"
+    },
+    {
+      "slug": "세탁기능사-실기-원단-분류",
+      "title": "세탁기능사 실기 원단 분류와 비용 점검",
+      "photoKey": "laundry",
+      "image": "/assets/catalog-photos/laundry-set-20261102-800.webp"
+    },
+    {
+      "slug": "소방안전관리자-4050-공부법",
+      "title": "소방안전관리자 2급 과목별 공부와 모의 점검",
+      "photoKey": "fire-safety",
+      "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp"
+    },
+    {
+      "slug": "소방안전관리자-4050-준비-전-확인할-것",
+      "title": "소방안전관리자 준비 전 강습과 시험 선임 확인",
+      "photoKey": "fire-safety",
+      "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp"
+    },
+    {
+      "slug": "소상공인-정책자금-신청-전-확인할-것",
+      "title": "소상공인 정책자금 융자와 신청조건 확인",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "스마트폰-취업서류-PDF-제출",
+      "title": "스마트폰으로 취업 서류 PDF 만들고 제출하는 방법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "승강기기능사-업무-근무조건-준비",
+      "title": "승강기기능사 취득 전 확인할 업무와 근무 조건",
+      "photoKey": "elevator",
+      "image": "/assets/catalog-photos/elevator-set-20261102-800.webp"
+    },
+    {
+      "slug": "시설관리-입문-가이드",
+      "title": "시설관리 취업 준비 초보자가 업무와 근무조건을 비교하는 방법",
+      "photoKey": "facility",
+      "image": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png"
+    },
+    {
+      "slug": "시설관리-자격증-조합",
+      "title": "시설관리 자격증 조합 전기 소방 공조 에너지 가스 선택 순서",
+      "photoKey": "시설관리-자격증-조합",
+      "image": "/wp-content/uploads/2026/06/facility-cert-combination-ai-1024x576.png"
+    },
+    {
+      "slug": "시험-30일-전-공부계획표",
+      "title": "시험 30일 전 공부계획표 실제 날짜와 오답 재시험으로 운영하기",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "실업급여-구직활동-인정기준-실업인정-신청",
+      "title": "실업급여 구직활동 인정기준 일반수급자 4차·8차와 당일 17시 신청",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "실업급여-신청-전-확인할-것",
+      "title": "실업급여 신청방법과 이직확인서 확인 순서",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "실업급여-아르바이트-소득신고",
+      "title": "실업급여 받는 중 아르바이트 소득 신고와 주의사항",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "양식조리기능사-실기-위생-준비",
+      "title": "양식조리기능사 실기 위생과 연습 순서",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "에너지관리기능사-50대-취업-실기준비",
+      "title": "에너지관리기능사 50대 취업 활용과 실기 준비 전 확인할 것",
+      "photoKey": "hvac",
+      "image": "/assets/catalog-photos/hvac-set-20261102-800.webp"
+    },
+    {
+      "slug": "에너지바우처-신청방법",
+      "title": "에너지바우처 신청방법 2026 대상·대리서류·접수 확인",
+      "photoKey": "energy",
+      "image": "/assets/catalog-photos/energy-set-20261102-800.webp"
+    },
+    {
+      "slug": "여성새로일하기센터-상담-직업교육",
+      "title": "여성새로일하기센터 상담과 직업교육 신청방법 4050 준비 순서",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "온수온돌기능사-배관실습-준비비용",
+      "title": "온수온돌기능사 배관 실습과 준비 비용",
+      "photoKey": "hvac",
+      "image": "/assets/catalog-photos/hvac-set-20261102-800.webp"
+    },
+    {
+      "slug": "요양보호사-근로계약서-급여계산",
+      "title": "요양보호사 근로계약서 확인할 항목과 급여 계산 방법",
+      "photoKey": "care-contract",
+      "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp"
+    },
+    {
+      "slug": "요양보호사-보수교육-대상-이수",
+      "title": "요양보호사 보수교육 대상과 면제 기준 이수 확인방법",
+      "photoKey": "care-training",
+      "image": "/assets/catalog-photos/care-training-20261102-800.webp"
+    },
+    {
+      "slug": "요양보호사-월급-현실",
+      "title": "요양보호사 월급 현실 주간 근무와 교대 공고 비교",
+      "photoKey": "요양보호사-월급-현실",
+      "image": "/assets/home-photos/care-20261031-1200.webp"
+    },
+    {
+      "slug": "요양보호사-자격증-공부법",
+      "title": "요양보호사 필기와 실기 문제 공부 방법",
+      "photoKey": "care-training",
+      "image": "/assets/catalog-photos/care-training-20261102-800.webp"
+    },
+    {
+      "slug": "요양보호사-자격증-취득방법",
+      "title": "요양보호사 자격증 교육시간과 시험 준비 절차",
+      "photoKey": "요양보호사-자격증-취득방법",
+      "image": "/assets/catalog-photos/care-training-20261102-800.webp"
+    },
+    {
+      "slug": "요양보호사-취득-후-취업처",
+      "title": "요양보호사 취업처는 방문 이동과 시설 교대·송영 조건으로 고르세요",
+      "photoKey": "care-contract",
+      "image": "/assets/catalog-photos/care-contract-set-20261102-800.webp"
+    },
+    {
+      "slug": "요양원-요양병원-차이-비용-입소기준",
+      "title": "요양원과 요양병원 차이 시설급여 입소기준과 진료·간병비 비교",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "원예기능사-출제기준-필기-실기",
+      "title": "원예기능사 필기와 실기 출제기준 확인 방법",
+      "photoKey": "agriculture",
+      "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp"
+    },
+    {
+      "slug": "웹디자인개발기능사-실기-환경-확인",
+      "title": "웹디자인개발기능사 실기 공개문제와 환경 확인",
+      "photoKey": "web-design",
+      "image": "/assets/catalog-photos/web-design-set-20261102-800.webp"
+    },
+    {
+      "slug": "위험물기능사-비전공자-필기-실기-공부",
+      "title": "위험물기능사 비전공자 필기 공부와 실기 준비 순서",
+      "photoKey": "laboratory",
+      "image": "/assets/catalog-photos/laboratory-set-20261102-800.webp"
+    },
+    {
+      "slug": "유기농업기능사-필답형-인증-차이",
+      "title": "유기농업기능사 실기 공부와 유기인증의 차이",
+      "photoKey": "agriculture",
+      "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp"
+    },
+    {
+      "slug": "이용사-실기-모델-도구-준비",
+      "title": "이용사 실기 마네킹과 도구 준비 방법",
+      "photoKey": "hair",
+      "image": "/assets/catalog-photos/hair-set-20261102-800.webp"
+    },
+    {
+      "slug": "이직한-해-연말정산-서류-준비",
+      "title": "퇴직 후 같은 해 재취업했다면 연말정산 서류 준비하는 법",
+      "photoKey": "tax",
+      "image": "/assets/catalog-photos/tax-set-20261102-800.webp"
+    },
+    {
+      "slug": "이직확인서-처리여부-조회-정정요청",
+      "title": "이직확인서 처리여부 조회와 퇴사 사유 정정 방법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "인쇄기능사-오프셋-스크린-선택",
+      "title": "인쇄기능사 오프셋과 스크린 실습 비교",
+      "photoKey": "printing",
+      "image": "/assets/catalog-photos/printing-set-20261102-800.webp"
+    },
+    {
+      "slug": "일식조리기능사-실기-재료관리",
+      "title": "일식조리기능사 실기 재료 관리와 위생",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "자격증-독학-vs-국비지원-학원",
+      "title": "자격증 독학 vs 국비지원 학원 실습시간과 총비용 비교하기",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "자동차정비기능사-비전공자-준비",
+      "title": "자동차정비기능사 비전공자 공부와 실습 준비",
+      "photoKey": "automotive",
+      "image": "/assets/catalog-photos/automotive-set-20261102-800.webp"
+    },
+    {
+      "slug": "자발적-퇴사-실업급여-인정사유-증빙",
+      "title": "자발적 퇴사 실업급여 인정 사유와 준비할 증빙",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "장기요양-가족휴가제-이용방법",
+      "title": "장기요양 가족휴가제 이용방법 2026 단기보호와 종일방문요양",
+      "photoKey": "elder-care",
+      "image": "/assets/catalog-photos/elder-care-set-20261102-800.webp"
+    },
+    {
+      "slug": "장기요양-복지용구-구입-대여-본인부담금",
+      "title": "장기요양 복지용구 구입·대여 연 160만원 한도와 15%·9%·6% 부담",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "장기요양-본인부담금-감경-확인방법",
+      "title": "장기요양 본인부담금 감경 재가 9%·6%, 시설 12%·8% 확인방법",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "장기요양등급-신청-전-확인할-것",
+      "title": "장기요양등급 신청 대상과 서류 준비 순서",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "장기요양등급-심사청구-준비자료",
+      "title": "장기요양등급 결과에 이의가 있을 때 확인할 절차와 준비자료",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "재난적의료비-지원-신청조건-준비서류",
+      "title": "재난적의료비 지원 재산과표 7억원·소득별 의료비 기준과 180일 신청",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "재직자-내일배움카드-사용법",
+      "title": "재직자 내일배움카드 사용법 퇴근 후 수강과 결제 순서",
+      "photoKey": "training-card",
+      "image": "/assets/catalog-photos/training-card-20261102-800.webp"
+    },
+    {
+      "slug": "재취업-계약서-3-3퍼센트-확인",
+      "title": "재취업 계약서에 3.3%가 적혀 있다면 확인할 근무조건",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "재취업-첫월급-급여명세서-확인",
+      "title": "재취업 첫 월급이 적을 때 급여명세서 확인하는 순서",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "재취업-첫출근-인수인계-준비",
+      "title": "4050 재취업 첫 출근과 첫 주 인수인계 준비법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "전기기능사-4050-공부법",
+      "title": "전기기능사 필기 계산과 실기 준비 순서",
+      "photoKey": "전기기능사-4050-공부법",
+      "image": "/assets/catalog-photos/electrical-20261102-800.webp"
+    },
+    {
+      "slug": "전기기능사-50대-취업-가능할까",
+      "title": "전기기능사 50대 취업 신입 설치직과 경력직 공고 비교",
+      "photoKey": "전기기능사-4050-공부법",
+      "image": "/assets/catalog-photos/electrical-20261102-800.webp"
+    },
+    {
+      "slug": "전기기능사와-소방안전관리자-비교",
+      "title": "전기기능사와 소방안전관리자 준비 경로 비교",
+      "photoKey": "fire-safety",
+      "image": "/assets/catalog-photos/fire-safety-set-20261102-800.webp"
+    },
+    {
+      "slug": "전기산업기사-응시자격-경력증명서",
+      "title": "전기산업기사 응시자격과 경력증명서 준비 방법",
+      "photoKey": "전기기능사-4050-공부법",
+      "image": "/assets/catalog-photos/electrical-20261102-800.webp"
+    },
+    {
+      "slug": "전산응용건축제도기능사-CAD-초보",
+      "title": "전산응용건축제도기능사 CAD 초보 공부 순서",
+      "photoKey": "cad",
+      "image": "/assets/catalog-photos/cad-set-20261102-800.webp"
+    },
+    {
+      "slug": "전산응용기계제도기능사-3D-2D-연습",
+      "title": "전산응용기계제도기능사 CAD와 도면 연습",
+      "photoKey": "cad",
+      "image": "/assets/catalog-photos/cad-set-20261102-800.webp"
+    },
+    {
+      "slug": "전산회계운용사-3급-실기-프로그램",
+      "title": "전산회계운용사 3급 초보 실기 프로그램 준비",
+      "photoKey": "computer",
+      "image": "/assets/catalog-photos/computer-set-20261102-800.webp"
+    },
+    {
+      "slug": "전자출판기능사-실기-편집-연습",
+      "title": "전자출판기능사 실기 원고 수정과 누락 점검",
+      "photoKey": "publishing",
+      "image": "/assets/catalog-photos/publishing-set-20261102-800.webp"
+    },
+    {
+      "slug": "전자캐드기능사-회로도-PCB-연습",
+      "title": "전자캐드기능사 회로도와 PCB 도면 공부",
+      "photoKey": "cad",
+      "image": "/assets/catalog-photos/cad-set-20261102-800.webp"
+    },
+    {
+      "slug": "정보기기운용기능사-네트워크-초보",
+      "title": "정보기기운용기능사 네트워크 초보 공부법",
+      "photoKey": "network",
+      "image": "/assets/catalog-photos/network-set-20261102-800.webp"
+    },
+    {
+      "slug": "제과기능사-실기-연습-재료비",
+      "title": "제과기능사 실기 연습과 재료비 계산",
+      "photoKey": "bakery",
+      "image": "/assets/catalog-photos/bakery-set-20261102-800.webp"
+    },
+    {
+      "slug": "제과기능사-제빵기능사-실기-차이",
+      "title": "제과기능사와 제빵기능사 실기 준비 차이",
+      "photoKey": "bakery",
+      "image": "/assets/catalog-photos/bakery-set-20261102-800.webp"
+    },
+    {
+      "slug": "제빵기능사-발효-실기-연습",
+      "title": "제빵기능사 발효 과정과 실기 연습 계획",
+      "photoKey": "bakery",
+      "image": "/assets/catalog-photos/bakery-set-20261102-800.webp"
+    },
+    {
+      "slug": "조경기능사-실기-준비물-연습순서",
+      "title": "조경기능사 실기 준비물과 초보자 연습 순서",
+      "photoKey": "landscape",
+      "image": "/assets/catalog-photos/landscape-set-20261102-800.webp"
+    },
+    {
+      "slug": "조기재취업수당-신청조건-준비서류",
+      "title": "조기재취업수당 신청조건과 준비서류 재취업 전 확인할 것",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "조리기능사-50대-취업-가능할까",
+      "title": "조리기능사 50대 취업 자격증보다 먼저 볼 경력과 출근시간",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "조주기능사-실기-7분-연습",
+      "title": "조주기능사 실기 7분 연습과 과정 선택",
+      "photoKey": "bar-practice",
+      "image": "/assets/catalog-photos/bar-practice-set-20261102-800.webp"
+    },
+    {
+      "slug": "종자기능사-필답형-답안-공부",
+      "title": "종자기능사 필답형 답안과 초보자 공부 순서",
+      "photoKey": "agriculture",
+      "image": "/assets/catalog-photos/agriculture-set-20261102-800.webp"
+    },
+    {
+      "slug": "주거급여-신청조건-2026",
+      "title": "주거급여 신청조건 2026 소득 기준과 월세 지원",
+      "photoKey": "housing",
+      "image": "/assets/catalog-photos/housing-set-20261102-800.webp"
+    },
+    {
+      "slug": "주택관리사보-50대-시험-취업-현실",
+      "title": "주택관리사보 50대 준비 전 알아야 할 시험과 취업 현실",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "주택연금-4050이-부모님-대신-확인할-때-볼-것",
+      "title": "부모님 주택연금 가입조건과 월지급액 확인",
+      "photoKey": "pension",
+      "image": "/assets/catalog-photos/pension-set-20261102-800.webp"
+    },
+    {
+      "slug": "중식조리기능사-실기-작업순서",
+      "title": "중식조리기능사 실기 작업 순서와 안전",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "중장년-내일센터-이용방법",
+      "title": "중장년 내일센터 이용방법 무료 상담신청과 첫 방문 준비물",
+      "photoKey": "중장년-내일센터-이용방법",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "중장년-재취업-이력서-작성법",
+      "title": "중장년 재취업 이력서 작성법 경력 공백과 최근 준비 정리",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "중장년-창업지원금-찾는-법",
+      "title": "중장년 창업지원금 공고 찾기와 유형 비교",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "지게차운전기능사-국비지원-신청방법",
+      "title": "지게차운전기능사 국비지원 신청 전 채용공고에서 확인할 조건",
+      "photoKey": "forklift",
+      "image": "/assets/catalog-photos/forklift-20261102-800.webp"
+    },
+    {
+      "slug": "지게차운전기능사-필기-공부법",
+      "title": "지게차운전기능사 필기 기출과 안전 개념 공부법",
+      "photoKey": "지게차운전기능사-필기-공부법",
+      "image": "/assets/catalog-photos/forklift-20261102-800.webp"
+    },
+    {
+      "slug": "지자체-중장년-지원사업-찾는-법",
+      "title": "지자체 중장년 지원사업 찾는 법 소개글에서 실제 모집공고까지",
+      "photoKey": "benefits",
+      "image": "/assets/catalog-photos/benefits-set-20261102-800.webp"
+    },
+    {
+      "slug": "직업상담사-2급-4050-준비방법-취업",
+      "title": "직업상담사 2급 4050 준비방법과 취업 활용처",
+      "photoKey": "career-center",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "직업상담사-2급-실기-답안연습",
+      "title": "직업상담사 2급 실기 서술형 답안 연습 방법",
+      "photoKey": "interview",
+      "image": "/assets/catalog-photos/interview-set-20261102-800.webp"
+    },
+    {
+      "slug": "직업훈련포털-HRD-Net-사용법",
+      "title": "HRD-Net 사용법 고용24에서 훈련과정 검색하고 신청하기",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "채용-건강검진-대체통보서-확인",
+      "title": "채용 건강검진 비용 내기 전 대체통보서부터 확인하세요",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "채용공고-교육비-보증금-확인",
+      "title": "채용공고에서 교육비나 보증금을 요구할 때 확인할 것",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "철근기능사-실기-가공-배근",
+      "title": "철근기능사 실기 도면과 배근 점검",
+      "photoKey": "construction",
+      "image": "/assets/catalog-photos/construction-set-20261102-800.webp"
+    },
+    {
+      "slug": "측량기능사-실기-장비-학원",
+      "title": "측량기능사 실기 장비 연습과 학원 선택",
+      "photoKey": "surveying",
+      "image": "/assets/catalog-photos/surveying-set-20261102-800.webp"
+    },
+    {
+      "slug": "치매검사-지원-확인방법",
+      "title": "치매검사 지원 확인방법과 치매안심센터 이용 순서",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "치매검사비-지원-확인방법",
+      "title": "치매검사비 지원 대상과 진단 감별검사 비용 확인",
+      "photoKey": "medical",
+      "image": "/assets/catalog-photos/medical-set-20261102-800.webp"
+    },
+    {
+      "slug": "컴퓨터그래픽기능사-실기-작업환경",
+      "title": "컴퓨터그래픽기능사 실기 PC와 출력 검수",
+      "photoKey": "computer",
+      "image": "/assets/catalog-photos/computer-set-20261102-800.webp"
+    },
+    {
+      "slug": "컴퓨터활용능력-2급-엑셀-초보-실기-공부",
+      "title": "컴퓨터활용능력 2급 엑셀 초보 실기 공부 순서",
+      "photoKey": "computer",
+      "image": "/assets/catalog-photos/computer-set-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-CBT-시험-체험-답안제출",
+      "title": "큐넷 CBT 시험 체험과 답안 제출 연습",
+      "photoKey": "computer",
+      "image": "/assets/catalog-photos/computer-set-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-사진등록-원서접수-확인",
+      "title": "큐넷 사진 등록과 원서접수 완료 확인 방법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-시험취소-환불-기준",
+      "title": "큐넷 시험 취소와 수험료 환불 기준 확인",
+      "photoKey": "computer",
+      "image": "/assets/catalog-photos/computer-set-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-실기시험-준비물-조회방법",
+      "title": "큐넷 실기시험 준비물 조회방법 종목과 회차별 확인 순서",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-자격취득확인서-취업제출",
+      "title": "큐넷 자격취득 확인서 발급과 취업 서류 제출",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "큐넷-필기면제기간-실기-재응시",
+      "title": "큐넷 필기 면제기간 확인과 실기 재응시 계획",
+      "photoKey": "2026년-남은-국가기술자격-시험일정",
+      "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp"
+    },
+    {
+      "slug": "타일기능사-실기-학원-준비물",
+      "title": "타일기능사 실기 학원 선택과 준비물 확인",
+      "photoKey": "wall-finish",
+      "image": "/assets/catalog-photos/wall-finish-set-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직-예정자-재취업-준비-순서",
+      "title": "퇴직 예정자 재취업 준비 순서 재직 중 확보할 자료와 상담",
+      "photoKey": "career-center",
+      "image": "/assets/catalog-photos/career-center-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직-후-30일-실행-가이드",
+      "title": "퇴직 후 30일 실행 가이드 신청기한 먼저, 생활비와 재취업은 병행",
+      "photoKey": "retirement-budget",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직-후-건강보험료-줄이는-방법",
+      "title": "퇴직 후 건강보험료 줄이는 방법 임의계속가입 기한과 비교표",
+      "photoKey": "insurance",
+      "image": "/assets/catalog-photos/insurance-set-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직-후-대출-전-확인할-것",
+      "title": "퇴직 후 대출 소득과 상환액 비교",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직-후-생활비-계산법",
+      "title": "퇴직 후 생활비와 연금 전 공백자금 계산",
+      "photoKey": "퇴직-후-생활비-계산법",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직금-irp-계좌-수령-예외",
+      "title": "퇴직금 IRP 계좌로 받아야 하는 경우와 예외",
+      "photoKey": "retirement-budget",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직금-중간정산과-퇴직연금-차이",
+      "title": "퇴직금 중간정산과 DB·DC 중도인출 차이",
+      "photoKey": "pension",
+      "image": "/assets/catalog-photos/pension-set-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직금-지급기한-미지급-신고",
+      "title": "퇴직금 지급기한과 미지급 신고방법 퇴사 후 준비할 자료",
+      "photoKey": "finance-advice",
+      "image": "/assets/catalog-photos/finance-advice-set-20261102-800.webp"
+    },
+    {
+      "slug": "퇴직연금-db형-dc형-차이",
+      "title": "퇴직연금 DB형 DC형 차이와 퇴사 전 확인할 항목",
+      "photoKey": "retirement-budget",
+      "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp"
+    },
+    {
+      "slug": "폐업한-회사-경력증명서-대체서류",
+      "title": "폐업한 회사 경력증명서 대신 준비할 서류와 제출 방법",
+      "photoKey": "job-documents",
+      "image": "/assets/catalog-photos/job-documents-set-20261102-800.webp"
+    },
+    {
+      "slug": "폴리텍-신중년-특화과정-확인방법",
+      "title": "폴리텍 신중년 특화과정 확인방법 중장년특화 명칭과 캠퍼스 모집요강",
+      "photoKey": "training-class",
+      "image": "/assets/catalog-photos/training-class-set-20261102-800.webp"
+    },
+    {
+      "slug": "피복아크용접기능사-실기-학원-비용",
+      "title": "피복아크용접기능사 실기 학원 선택과 준비 비용",
+      "photoKey": "welding",
+      "image": "/assets/catalog-photos/welding-set-20261102-800.webp"
+    },
+    {
+      "slug": "한식조리기능사-4050-공부법",
+      "title": "한식조리기능사 필기와 실기 오답 정리법",
+      "photoKey": "한식조리기능사-4050-공부법",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "한식조리기능사-4050-재취업-활용법",
+      "title": "한식조리기능사 합격 후에는 조리사 면허와 지원서류부터 구분하세요",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "한식조리기능사-실기-위생복-준비물",
+      "title": "한식조리기능사 실기 위생복과 준비물 점검",
+      "photoKey": "cooking",
+      "image": "/assets/catalog-photos/cooking-20261102-800.webp"
+    },
+    {
+      "slug": "화훼장식기능사-실기-꽃-재료비",
+      "title": "화훼장식기능사 실기 연습과 꽃 재료비 계산",
+      "photoKey": "flowers",
+      "image": "/assets/catalog-photos/flowers-set-20261102-800.webp"
+    },
+    {
+      "slug": "환경기능사-실기-실험실-선택",
+      "title": "환경기능사 실기 실험실과 안전교육 선택",
+      "photoKey": "laboratory",
+      "image": "/assets/catalog-photos/laboratory-set-20261102-800.webp"
+    }
+  ]
+}
