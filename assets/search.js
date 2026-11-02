@@ -102,7 +102,7 @@
     const results = tool.querySelector('.guide-api-list');
     results.setAttribute('aria-live', 'polite');
     render(results, query, mode);
-  } else if (params.has('s') && (location.pathname === '/' || location.pathname === '/index.html')) {
+  } else if (params.has('s') && !document.querySelector('[data-catalog]') && (location.pathname === '/' || location.pathname === '/index.html')) {
     const main = document.querySelector('main');
     const section = element('section', '', 'guide-search-page');
     const form = document.querySelector('.hero-search').cloneNode(true);

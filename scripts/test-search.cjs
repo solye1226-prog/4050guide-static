@@ -60,7 +60,7 @@ async function test() {
       console.log(`PASS ${width}px; screenshot ${output}`);
     }
     await page.goto(origin + '/?s=지게차');
-    await page.locator('.guide-search-result h3 a').first().click();
+    await page.locator('.guide-search-result:visible h3 a').first().click();
     await page.locator('h1').waitFor();
     assert.ok((await page.locator('h1').innerText()).includes('지게차'));
     const response = await page.goto(origin + '/missing-search-test-20261004/');
@@ -71,7 +71,7 @@ async function test() {
     await page.locator('.hero-search button').click();
     await page.getByRole('heading', { name: /“요양보호사” 안내글/, level: 2 }).waitFor();
     await page.route('**/assets/search-index.json', route => route.abort());
-    await page.goto(origin + '/?s=지게차');
+    await page.goto(origin + '/국가자격-검색/?license_q=지게차');
     await page.getByText('검색 결과를 불러오지 못했습니다.', { exact: false }).waitFor();
     await page.unroute('**/assets/search-index.json');
     await page.getByRole('button', { name: '다시 시도' }).click();

@@ -195,3 +195,17 @@ The photo-led reading section now precedes the preparation paths. Four secondary
 practice links are in a native disclosure; calculations, privacy and search
 behavior are unchanged. Run `test-home-visual-20261031.cjs` at five widths and the
 existing homepage/functionality tests before and after deployment.
+
+## November 2 Image Catalog Homepage
+
+The homepage now displays all 215 active articles as an image-card catalog:
+four columns on desktop, two on tablet and one on mobile. Category filters,
+sorting, search and progressive display work without changing article URLs.
+Without JavaScript, all cards remain available. Existing calculators and
+preparation worksheets are retained at `/tools/`.
+
+Rebuild in order with `node scripts/build-home.cjs` and then
+`node scripts/build-preparation-tools.cjs`. Run `test-catalog-20261102.cjs`,
+`test-search.cjs`, `test-home-paths-20261030.cjs` and
+`test-useful-guides-20261030.cjs` locally and with `TEST_ORIGIN` after deployment.
+The earlier homepage visual tests describe the superseded editorial layout.

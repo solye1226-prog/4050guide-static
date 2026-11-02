@@ -8,7 +8,7 @@ async function run(){
  try{
   const p=await browser.newPage({acceptDownloads:true}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
   for(const width of [1440,1280,390,320]){
-   await p.setViewportSize({width,height:900});await p.goto(origin+'/');
+   await p.setViewportSize({width,height:900});await p.goto(origin+'/tools/');
    assert.equal(await p.getByRole('tab').count(),3);assert.equal(await p.locator('[data-stage-panel]:visible').count(),1);
    await p.getByRole('tab',{name:'자격증 선택',exact:true}).focus();await p.keyboard.press('ArrowRight');assert.equal(await p.getByRole('tab',{name:'교육 등록 전',exact:true}).getAttribute('aria-selected'),'true');assert.equal(await p.locator('#path-course').isVisible(),true);
    await p.keyboard.press('End');assert.equal(await p.locator('#path-study').isVisible(),true);await p.keyboard.press('Home');assert.equal(await p.locator('#path-choice').isVisible(),true);
@@ -29,7 +29,7 @@ async function run(){
    for(const image of await p.locator('.home-story img').all()){await image.evaluate(n=>n.decode());assert.ok(await image.evaluate(n=>n.naturalWidth));}
   }
   const links=await p.locator('main a[href^="/"]').evaluateAll(ns=>[...new Set(ns.map(n=>n.getAttribute('href')))]);for(const u of links)assert.equal((await p.request.get(origin+u)).status(),200,u);
-  const nojs=await browser.newContext({javaScriptEnabled:false}),fallback=await nojs.newPage();await fallback.goto(origin+'/');assert.equal(await fallback.locator('[data-stage-panel]:visible').count(),3);await fallback.locator('#job-details > summary').click();assert.equal(await fallback.locator('.focus-jobs tbody tr:visible').count(),10);await fallback.locator('#budget-compare > summary').click();assert.match(await fallback.locator('#budget-compare noscript').innerText(),/281,940/);await nojs.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false}),fallback=await nojs.newPage();await fallback.goto(origin+'/tools/');assert.equal(await fallback.locator('[data-stage-panel]:visible').count(),3);await fallback.locator('#job-details > summary').click();assert.equal(await fallback.locator('.focus-jobs tbody tr:visible').count(),10);await fallback.locator('#budget-compare > summary').click();assert.match(await fallback.locator('#budget-compare noscript').innerText(),/281,940/);await nojs.close();
   assert.deepEqual(errors,[]);const result={pass:true,origin,widths:[1440,1280,390,320],stagePaths:3,comparisonDownloads:4,checkedLinks:links.length,keyboardTabs:true,noJsFallback:true,output:out};fs.writeFileSync(path.join(root,'reports/home-paths-qa'+(remote?'-live':'')+'-20261030.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));
  }finally{await browser.close();server.close();}
 }

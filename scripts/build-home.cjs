@@ -1,47 +1,29 @@
-const fs = require('node:fs');
-const path = require('node:path');
-const root = path.resolve(__dirname, '..');
-const file = path.join(root, 'index.html');
-let html = fs.readFileSync(file, 'utf8');
-const evidence = require('../assets/comparison-evidence-20261030.json');
-const guides = require('./focus-editorial-20261030.cjs');
-const esc = value => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
-let main = fs.readFileSync(path.join(__dirname, 'home-template.html'), 'utf8').trim();
-main=main.replace('<!--home-paths-->',fs.readFileSync(path.join(__dirname,'home-paths.html'),'utf8'))
- .replace('<!--home-budget-compare-->',fs.readFileSync(path.join(__dirname,'home-budget-compare.html'),'utf8'));
-main=main.replace(' <section class="home-directory"',fs.readFileSync(path.join(__dirname,'home-practical-depth.html'),'utf8')+'\n <section class="home-directory"');
-main=main.replace(/(<section class="home-reading" aria-labelledby="practice-heading">[\s\S]*?<ul class="focus-reading">)([\s\S]*?)(<\/ul><\/section>)/,(all,start,list)=>{
- const items=list.match(/<li>[\s\S]*?<\/li>/g)||[];
- if(items.length!==8)throw new Error('Expected eight practice links');
- return start+items.slice(0,4).join('')+'</ul><details class="home-disclosure"><summary>실습·소방 기록 양식 4개 더 보기</summary><ul class="focus-reading">'+items.slice(4).join('')+'</ul></details></section>';
-});
-main=main.replace('<!--compare-courses-->',evidence.courses.map(c=>`<option value="${c.id}"${c.id==='T02'?' selected':''} data-pay="${c.displayPay}" data-days="${c.days}" data-url="${esc(c.url)}" data-note="${esc(c.mode+' '+c.hours+'시간 · '+c.status+' · '+c.note)}">${esc(c.name)}</option>`).join(''));
-main = main.replace('<!--focus-courses-->', evidence.courses.map(c=>`<option value="${c.id}" data-pay="${c.displayPay}" data-days="${c.days}" data-url="${esc(c.url)}" data-note="${esc(c.mode+' '+c.hours+'시간 · '+c.status+' · '+c.note)}">${esc(c.name)}</option>`).join(''));
-main = main.replace('<!--focus-jobs-->',evidence.jobs.map(j=>`<tr data-group="${esc(j.group)}" data-entry="${j.entry}" data-night="${j.night}"><td data-label="직무·지역"><strong>${esc(j.group)}</strong><br>${esc(j.region)}</td><td data-label="임금·경력">${esc(j.pay)}<br>${esc(j.experience)}</td><td data-label="근무표·확인할 점">${esc(j.schedule)}<br>${esc(j.qualification)}<p>${esc(j.issue)}</p></td><td data-label="원문·상태"><a href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">${esc(j.name)}</a><p>${esc(j.status)}</p></td></tr>`).join(''));
-main = main.replace('<!--focus-links-->',guides.map(g=>`<li><a href="/${g.slug}/">${esc(g.title)}</a><p>${esc(g.description)}</p></li>`).join(''));
-main = main.replace('<!--focus-stories-->',[guides[2],guides[4],guides[7]].map(g=>{
- const article=fs.readFileSync(path.join(root,g.slug,'index.html'),'utf8');
- const figure=article.match(/<figure class="detail-hero-image">[\s\S]*?<\/figure>/)?.[0]||'';
- const image=figure.match(/<img\b[^>]*>/)?.[0]?.replace(/fetchpriority="high"/,'loading="eager"').replace(/sizes="[^"]*"/,'sizes="(max-width: 760px) 100vw, (max-width: 1200px) 33vw, 370px"')||'';
- const cards={
-  '50대-시설관리-채용공고-근무조건':['시설관리, 월급보다 근무표','야간·휴게·일요일 근무까지 공고의 조건을 나란히 봅니다.'],
-  '국비지원-훈련과정-선택-가이드':['국비훈련, 이름보다 수업 방식','같은 실기 과정이라도 집체 실습과 원격 강의는 다릅니다.'],
-  '요양보호사-월급-현실':['요양보호사, 주간과 교대의 차이','표시 월급과 실제 근무시간·수당을 함께 비교합니다.']
- };
- const [title,description]=cards[g.slug]||[g.title,g.description];
- return `<article class="home-story"><a href="/${g.slug}/">${image}<div><span class="home-topic">${esc(g.label)}</span><h3>${esc(title)}</h3><p>${esc(description)}</p></div></a></article>`;
-}).join(''));
-if (!/<main\b[\s\S]*?<\/main>/.test(html)) throw new Error('Homepage main not found');
-html = html.replace(/<main\b[\s\S]*?<\/main>/, main);
-html = html.replace(/<link\b[^>]*rel=["']canonical["'][^>]*>\s*/gi, '');
-html = html.replace(/<link\b[^>]*(?:wp-json|EditURI|shortlink)[^>]*>\s*/gi, '');
-html = html.replace(/<meta\b[^>]*name=["']generator["'][^>]*>\s*/gi, '');
-html = html.replace(/<link[^>]*href="\/assets\/home.css(?:\?[^"]*)?"[^>]*>\s*/g, '').replace(/<script[^>]*src="\/assets\/home.js(?:\?[^"]*)?"[^>]*><\/script>\s*/g, '');
-html = html.replace(/<link\b[^>]*href="\/assets\/editorial\.css(?:\?[^\"]*)?"[^>]*>\s*/g, '');
-html = html.replace('</head>', '<link rel="canonical" href="https://4050guide.co.kr/">\n<link rel="stylesheet" href="/assets/home.css?v=20261031-visual">\n<link rel="stylesheet" href="/assets/editorial.css?v=20261022">\n<script src="/assets/home.js?v=20261030-paths" defer></script>\n</head>');
-html = html.replace(/<title>[\s\S]*?<\/title>/, '<title>4050가이드 - 자격증·훈련비·재취업 근무조건 비교</title>');
-html = html.replace(/(<meta name="description" content=")[^"]*(")/, '$140대·50대의 자격증 선택과 국비훈련 예산, 재취업 근무조건을 공개 공고 표본과 통학비 계산으로 비교합니다.$2');
-html = html.replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*(")/g, '$14050가이드 - 자격증·훈련비·재취업 근무조건 비교$2');
-html = html.replace(/(<meta (?:property="og:description"|name="twitter:description") content=")[^"]*(")/g, '$1자격증·훈련·재취업을 공개 공고의 경력·근무시간과 훈련비 계산으로 비교하세요.$2');
-fs.writeFileSync(file, require('./search-ad-policy.cjs').applyAdPolicy(html,file));
-console.log('Built evidence-led comparison homepage');
+const fs=require('node:fs'),path=require('node:path');
+const {chromium}=require('playwright');
+const root=path.resolve(__dirname,'..'),origin='https://4050guide.co.kr';
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const labels={license:'자격증',support:'국비지원',rejob:'재취업',exam:'시험일정',money:'생활·복지'};
+const curated=['50대-시설관리-채용공고-근무조건','국비지원-훈련과정-선택-가이드','요양보호사-월급-현실','시설관리-자격증-조합','전기기능사-4050-공부법','국민내일배움카드-신청방법-2026','지게차운전기능사-필기-공부법','중장년-내일센터-이용방법','2026년-남은-국가기술자격-시험일정','퇴직-후-생활비-계산법','요양보호사-자격증-취득방법','한식조리기능사-4050-공부법'];
+const shortTitles={'50대-시설관리-채용공고-근무조건':'시설관리 취업, 월급보다 먼저 볼 근무표','국비지원-훈련과정-선택-가이드':'국비지원 훈련과정, 실습과 원격 강의 비교','요양보호사-월급-현실':'요양보호사 월급, 주간과 교대의 차이','국민내일배움카드-신청방법-2026':'국민내일배움카드 신청과 사용처','2026년-남은-국가기술자격-시험일정':'2026년 남은 자격시험 일정과 접수 상태'};
+async function run(){const browser=await chromium.launch();try{const page=await browser.newPage(),audit=require('../reports/focus-audit-20261030.json').posts,rows=[];
+ for(const post of require('../assets/search-index.json').posts){const slug=decodeURI(post.url).split('/')[1],html=fs.readFileSync(path.join(root,slug,'index.html'),'utf8');
+  const data=await page.evaluate(({html,slug})=>{const d=new DOMParser().parseFromString(html,'text/html'),im=d.querySelector('.detail-hero-image img'),schema=[...d.querySelectorAll('script[type="application/ld+json"]')].map(n=>{try{return JSON.parse(n.textContent)}catch{return {}}}).find(s=>s['@type']==='BlogPosting');return {slug,title:d.querySelector('h1').textContent.trim(),description:d.querySelector('meta[name="description"]')?.content||'',image:im?.getAttribute('src'),srcset:im?.getAttribute('srcset'),alt:im?.alt||'',modified:schema?.dateModified||''}}, {html,slug});
+  const cats=audit.find(p=>decodeURI(p.url)==='/'+slug+'/')?.categories||[];
+  data.topic=/시험일정|월간시험일정|상시검정.*14/.test(data.title)?'exam':cats.includes('support')?'support':cats.includes('rejob')?'rejob':cats.some(c=>['money','grant','welfare'].includes(c))?'money':'license';
+  if(!data.image)throw Error('Missing article cover '+slug);data.image=new URL(data.image,origin+'/'+slug+'/').pathname;
+  if(data.srcset)data.srcset=data.srcset.split(',').map(v=>{const [u,size]=v.trim().split(/\s+/);return new URL(u,origin+'/'+slug+'/').pathname+' '+size}).join(', ');rows.push(data);
+ }
+ rows.sort((a,b)=>{const ai=curated.indexOf(a.slug),bi=curated.indexOf(b.slug);return (ai<0?999:ai)-(bi<0?999:bi)||b.modified.localeCompare(a.modified)||a.title.localeCompare(b.title,'ko')});
+ const cards=rows.map((r,i)=>`<article class="catalog-card guide-search-result" data-category="${r.topic}" data-updated="${esc(r.modified)}" data-order="${i}" data-title="${esc(r.title)}" data-search="${esc(r.title+' '+r.description+' '+labels[r.topic])}"><a class="catalog-card-image" href="/${r.slug}/" aria-label="${esc(r.title)}"><img src="${esc(r.image)}"${r.srcset?' srcset="'+esc(r.srcset)+'"':''} sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 290px" width="640" height="400" loading="${i<4?'eager':'lazy'}" decoding="async" alt="${esc(r.alt)}"><span class="catalog-badge">${labels[r.topic]}</span></a><div class="catalog-card-body"><h3><a href="/${r.slug}/">${esc(shortTitles[r.slug]||r.title)}</a></h3><p>${esc(r.description)}</p><div class="catalog-card-meta"><span>${esc(labels[r.topic])}</span>${r.modified?'<time datetime="'+r.modified+'">수정 '+r.modified.replaceAll('-','.')+'</time>':''}</div><a class="catalog-card-action" href="/${r.slug}/">글 보기 <span aria-hidden="true">→</span></a></div></article>`).join('\n');
+ const main=fs.readFileSync(path.join(__dirname,'catalog-template.html'),'utf8').replace('<!--count-->',rows.length).replace('<!--cards-->',cards);
+ let html=fs.readFileSync(path.join(root,'index.html'),'utf8').replace(/<main\b[\s\S]*?<\/main>/,main);
+ const nav='<a href="/category/license/">자격증</a><a href="/category/support/">국비지원</a><a href="/category/rejob/">재취업</a><a href="/category/license/license-schedule/">시험일정</a><a href="/category/money/">생활경제</a><a href="/tools/">준비 도구</a><a href="/문의/">문의</a>';
+ html=html.replace(/<header class="site-header[^\"]*">[\s\S]*?<\/header>/,`<header class="site-header catalog-header"><div class="wrap catalog-header-inner"><a class="brand" href="/">4050<span>가이드</span></a><nav class="catalog-desktop-nav" aria-label="주요 메뉴">${nav}</nav><details class="catalog-mobile-nav"><summary aria-label="메뉴 열기"><span class="menu-symbol" aria-hidden="true"></span></summary><nav aria-label="모바일 메뉴">${nav}<a href="/국가자격-검색/">국가자격 검색</a><a href="/복지서비스-검색/">복지서비스 검색</a><a href="/공공혜택-검색/">공공혜택 검색</a></nav></details></div></header>`);
+ html=html.replace(/<link\b[^>]*href="\/assets\/(?:home|catalog)\.css[^\"]*"[^>]*>\s*/g,'').replace(/<script\b[^>]*src="\/assets\/(?:home|catalog)\.js[^\"]*"[^>]*><\/script>\s*/g,'');
+ html=html.replace('</head>','<link rel="stylesheet" href="/assets/catalog.css?v=20261102">\n<script defer src="/assets/catalog.js?v=20261102"></script>\n</head>');
+ html=html.replace(/<title>[\s\S]*?<\/title>/,'<title>4050가이드 - 자격증·국비지원·재취업 정보</title>').replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*/g,'$140대·50대에게 필요한 자격증, 국비지원, 재취업과 생활·복지 정보를 주제별로 찾아보세요.').replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*/g,'$14050가이드 - 자격증·국비지원·재취업 정보');
+ fs.writeFileSync(path.join(root,'index.html'),require('./search-ad-policy.cjs').applyAdPolicy(html));
+ const sitemap=await page.evaluate(({xml})=>{const d=new DOMParser().parseFromString(xml,'application/xml'),ns=d.documentElement.namespaceURI;for(const route of ['/','/tools/']){let item=[...d.getElementsByTagName('url')].find(n=>n.getElementsByTagName('loc')[0]?.textContent==='https://4050guide.co.kr'+route);if(!item){item=d.createElementNS(ns,'url');const loc=d.createElementNS(ns,'loc');loc.textContent='https://4050guide.co.kr'+route;item.append(loc);d.documentElement.append(item)}let m=item.getElementsByTagName('lastmod')[0];if(!m){m=d.createElementNS(ns,'lastmod');item.append(m)}m.textContent='2026-11-02'}return new XMLSerializer().serializeToString(d)}, {xml:fs.readFileSync(path.join(root,'sitemap.xml'),'utf8')});fs.writeFileSync(path.join(root,'sitemap.xml'),sitemap+'\n');
+ fs.writeFileSync(path.join(root,'reports/catalog-build-20261102.json'),JSON.stringify({date:'2026-11-02',articles:rows.length,categories:Object.fromEntries(Object.keys(labels).map(t=>[t,rows.filter(r=>r.topic===t).length])),curated:curated.filter(s=>rows.some(r=>r.slug===s)),tools:'/tools/',articlesChanged:false},null,2)+'\n');console.log('Built '+rows.length+' catalog cards and retained article URLs');
+ }finally{await browser.close()}}
+run().catch(e=>{console.error(e);process.exitCode=1});
