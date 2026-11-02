@@ -3,6 +3,9 @@
   "origin": "https://4050guide.co.kr",
   "articles": 215,
   "checkedArticleLinks": 215,
+  "photoMappings": 215,
+  "uniqueImages": 58,
+  "responsivePhotoFiles": 162,
   "widths": [
     1440,
     1280,
