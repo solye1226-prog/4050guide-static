@@ -6,6 +6,15 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  const p=await browser.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
  for(const width of [1440,1280,768,390,320]){
   await p.setViewportSize({width,height:900});await p.goto(origin+'/');assert.equal(await p.locator('.catalog-card').count(),215);assert.equal(await p.locator('.catalog-card:visible').count(),12);assert.equal(await p.locator('#budget-form').count(),0);
+  const photoMap=require('../assets/catalog-photo-map.json');
+  assert.equal(Object.keys(photoMap).length,8);
+  for(const [slug,photo] of Object.entries(photoMap)){
+   const image=p.locator('.catalog-card-image[href="/'+slug+'/"] img');
+   assert.equal(await image.getAttribute('src'),photo.image);
+   assert.equal(await image.getAttribute('srcset'),photo.srcset);
+   assert.equal(await image.getAttribute('alt'),photo.alt);
+   assert.ok(await image.isVisible());
+  }
   const columns=await p.locator('.catalog-grid').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length);assert.equal(columns,width>1000?4:width>600?2:1);
   for(const img of await p.locator('.catalog-card:visible img').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(n=>n.decode());assert.ok(await img.evaluate(n=>n.naturalWidth>0));}
   await p.locator('#catalog-more').click();assert.equal(await p.locator('.catalog-card:visible').count(),24);

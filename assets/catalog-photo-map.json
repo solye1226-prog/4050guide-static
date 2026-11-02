@@ -1,0 +1,42 @@
+{
+  "전기기능사-4050-공부법": {
+    "image": "/assets/catalog-photos/electrical-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/electrical-20261102-480.webp 480w, /assets/catalog-photos/electrical-20261102-800.webp 800w, /assets/catalog-photos/electrical-20261102-1200.webp 1200w",
+    "alt": "전기 이론 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)"
+  },
+  "국민내일배움카드-신청방법-2026": {
+    "image": "/assets/catalog-photos/training-card-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/training-card-20261102-480.webp 480w, /assets/catalog-photos/training-card-20261102-800.webp 800w, /assets/catalog-photos/training-card-20261102-1200.webp 1200w",
+    "alt": "훈련 지원 신청 서류를 상담하는 중년 학습자 (AI 제작 설명 이미지)"
+  },
+  "지게차운전기능사-필기-공부법": {
+    "image": "/assets/catalog-photos/forklift-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/forklift-20261102-480.webp 480w, /assets/catalog-photos/forklift-20261102-800.webp 800w, /assets/catalog-photos/forklift-20261102-1200.webp 1200w",
+    "alt": "지게차 교육장에서 필기 교재를 공부하는 중년 학습자 (AI 제작 설명 이미지)"
+  },
+  "중장년-내일센터-이용방법": {
+    "image": "/assets/catalog-photos/career-center-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/career-center-20261102-480.webp 480w, /assets/catalog-photos/career-center-20261102-800.webp 800w, /assets/catalog-photos/career-center-20261102-1200.webp 1200w",
+    "alt": "이력서를 살펴보며 재취업 상담을 받는 중년 구직자 (AI 제작 설명 이미지)"
+  },
+  "2026년-남은-국가기술자격-시험일정": {
+    "image": "/assets/catalog-photos/exam-calendar-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/exam-calendar-20261102-480.webp 480w, /assets/catalog-photos/exam-calendar-20261102-800.webp 800w, /assets/catalog-photos/exam-calendar-20261102-1200.webp 1200w",
+    "alt": "달력에 시험 준비 일정을 표시하는 중년 학습자 (AI 제작 설명 이미지)"
+  },
+  "퇴직-후-생활비-계산법": {
+    "image": "/assets/catalog-photos/retirement-budget-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/retirement-budget-20261102-480.webp 480w, /assets/catalog-photos/retirement-budget-20261102-800.webp 800w, /assets/catalog-photos/retirement-budget-20261102-1200.webp 1200w",
+    "alt": "계산기와 영수증으로 생활비를 점검하는 중년 부부 (AI 제작 설명 이미지)"
+  },
+  "요양보호사-자격증-취득방법": {
+    "image": "/assets/catalog-photos/care-training-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/care-training-20261102-480.webp 480w, /assets/catalog-photos/care-training-20261102-800.webp 800w, /assets/catalog-photos/care-training-20261102-1200.webp 1200w",
+    "alt": "교육용 침대에서 침구 정리 실습을 하는 요양보호 학습자 (AI 제작 설명 이미지)"
+  },
+  "한식조리기능사-4050-공부법": {
+    "image": "/assets/catalog-photos/cooking-20261102-800.webp",
+    "srcset": "/assets/catalog-photos/cooking-20261102-480.webp 480w, /assets/catalog-photos/cooking-20261102-800.webp 800w, /assets/catalog-photos/cooking-20261102-1200.webp 1200w",
+    "alt": "조리 교육장에서 채소와 재료를 정리하는 중년 학습자 (AI 제작 설명 이미지)"
+  }
+}

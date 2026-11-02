@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-02",
+  "method": "Built-in image_gen",
+  "scope": "Eight new catalog thumbnails; four existing photographic covers retained. Article body images unchanged.",
+  "sharedPromptStyle": "Photorealistic editorial website thumbnail, landscape 16:10, Korean adults in their 40s and 50s, candid medium-wide composition, soft natural daylight, white and muted blue/green palette, realistic hands and skin. No readable text, overlays, logos, watermark or collage. Fictional illustrative scene.",
+  "promptNote": "Subject prompts and shared visual constraints record the prompt set; individual generation calls included minor scene-specific composition wording.",
+  "records": [
+    {
+      "slug": "전기기능사-4050-공부법",
+      "name": "electrical",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-46d048b2-559c-403e-8884-3ab7ad71ca54.png",
+      "subjectPrompt": "A Korean man in his early 50s studying electrical technician theory at a bright vocational classroom desk, open workbook with indistinct diagrams, pencil, small disconnected training terminal board in background.",
+      "files": [
+        "assets/catalog-photos/electrical-20261102-480.webp",
+        "assets/catalog-photos/electrical-20261102-800.webp",
+        "assets/catalog-photos/electrical-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "국민내일배움카드-신청방법-2026",
+      "name": "training-card",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-5d32c817-1d07-4d4e-8f25-cdeda6868aa3.png",
+      "subjectPrompt": "Korean woman age 48 and vocational training counselor age 50 seated across a light desk in a bright modern employment service office, applicant holding a plain unbranded card and checking papers alongside laptop, screen not readable.",
+      "files": [
+        "assets/catalog-photos/training-card-20261102-480.webp",
+        "assets/catalog-photos/training-card-20261102-800.webp",
+        "assets/catalog-photos/training-card-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "지게차운전기능사-필기-공부법",
+      "name": "forklift",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-20ec0331-c38e-4c97-9390-eeea4abe25f3.png",
+      "subjectPrompt": "Korean male vocational student in his early 50s studying forklift written test theory with a workbook and pen at a clean training room desk. Through large classroom interior windows a stationary yellow forklift is clearly visible in a dedicated empty training bay, forks resting on floor, no operation.",
+      "files": [
+        "assets/catalog-photos/forklift-20261102-480.webp",
+        "assets/catalog-photos/forklift-20261102-800.webp",
+        "assets/catalog-photos/forklift-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "중장년-내일센터-이용방법",
+      "name": "career-center",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-d66531d7-8098-425d-9fb5-51eebc329923.png",
+      "subjectPrompt": "Korean man about 55 in everyday light blue shirt receiving one-to-one career counseling from Korean woman counselor about 45 in a bright employment center, both examining a resume on desk, counselor gestures gently with pen, laptop turned away from viewer.",
+      "files": [
+        "assets/catalog-photos/career-center-20261102-480.webp",
+        "assets/catalog-photos/career-center-20261102-800.webp",
+        "assets/catalog-photos/career-center-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "2026년-남은-국가기술자격-시험일정",
+      "name": "exam-calendar",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-d4f93f8b-2670-4c5d-a524-02e6d9ccc360.png",
+      "subjectPrompt": "Korean woman about 50 seated at a bright home study desk marking a date on a paper monthly calendar with pen, open workbook and closed blue notebook nearby, laptop showing an indistinct calendar grid. Over shoulder three-quarter medium shot with hands and calendar visible.",
+      "files": [
+        "assets/catalog-photos/exam-calendar-20261102-480.webp",
+        "assets/catalog-photos/exam-calendar-20261102-800.webp",
+        "assets/catalog-photos/exam-calendar-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "퇴직-후-생활비-계산법",
+      "name": "retirement-budget",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-1d6a33b3-b13c-4f58-8d84-6940f167935b.png",
+      "subjectPrompt": "Korean couple in their early-to-mid 50s calmly reviewing household expenses after retirement at a bright dining table, calculator, organized receipts and open notebook, woman writing and man checking calculator. Not luxurious or distressed. No money piles.",
+      "files": [
+        "assets/catalog-photos/retirement-budget-20261102-480.webp",
+        "assets/catalog-photos/retirement-budget-20261102-800.webp",
+        "assets/catalog-photos/retirement-budget-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "요양보호사-자격증-취득방법",
+      "name": "care-training",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-04c08eb1-86cd-4886-9c2a-f75f6290cb78.png",
+      "subjectPrompt": "Korean woman trainee about 50 learning elder care in a bright vocational skills classroom, wearing pale blue training scrubs, practicing gently folding a clean bed sheet on an empty demonstration bed while female instructor in white polo observes beside her. No patients, no actual medical procedure.",
+      "files": [
+        "assets/catalog-photos/care-training-20261102-480.webp",
+        "assets/catalog-photos/care-training-20261102-800.webp",
+        "assets/catalog-photos/care-training-20261102-1200.webp"
+      ]
+    },
+    {
+      "slug": "한식조리기능사-4050-공부법",
+      "name": "cooking",
+      "source": "C:\\Users\\kch41\\.codex\\generated_images\\019e7e0e-7d29-7da3-aa5f-5bffb7ad17b7\\exec-6b07f84e-2d2f-4786-9972-60f0115e0b06.png",
+      "subjectPrompt": "Korean woman student around 50 in clean white cook jacket apron and white cap concentrating on arranging julienned vegetables in small dishes at a stainless steel training kitchen counter, instructor in background at another station. Clean safe workspace, no flame or unsafe knife handling.",
+      "files": [
+        "assets/catalog-photos/cooking-20261102-480.webp",
+        "assets/catalog-photos/cooking-20261102-800.webp",
+        "assets/catalog-photos/cooking-20261102-1200.webp"
+      ]
+    }
+  ]
+}

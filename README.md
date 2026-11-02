@@ -209,3 +209,9 @@ Rebuild in order with `node scripts/build-home.cjs` and then
 `test-search.cjs`, `test-home-paths-20261030.cjs` and
 `test-useful-guides-20261030.cjs` locally and with `TEST_ORIGIN` after deployment.
 The earlier homepage visual tests describe the superseded editorial layout.
+
+The first twelve recommended cards use photographic covers. Eight dedicated
+list-only covers are mapped in `assets/catalog-photo-map.json`; existing article
+body illustrations are unchanged. Responsive WebP derivatives are in
+`assets/catalog-photos/`. Generation subjects and visual constraints are recorded
+in `reports/catalog-photos-20261102.json`; the built-in image generator was used.

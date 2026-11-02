@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),origin='https://4050guide.co.kr';
+const catalogPhotos=require('../assets/catalog-photo-map.json');
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 const labels={license:'자격증',support:'국비지원',rejob:'재취업',exam:'시험일정',money:'생활·복지'};
 const curated=['50대-시설관리-채용공고-근무조건','국비지원-훈련과정-선택-가이드','요양보호사-월급-현실','시설관리-자격증-조합','전기기능사-4050-공부법','국민내일배움카드-신청방법-2026','지게차운전기능사-필기-공부법','중장년-내일센터-이용방법','2026년-남은-국가기술자격-시험일정','퇴직-후-생활비-계산법','요양보호사-자격증-취득방법','한식조리기능사-4050-공부법'];
@@ -11,7 +12,8 @@ async function run(){const browser=await chromium.launch();try{const page=await 
   const cats=audit.find(p=>decodeURI(p.url)==='/'+slug+'/')?.categories||[];
   data.topic=/시험일정|월간시험일정|상시검정.*14/.test(data.title)?'exam':cats.includes('support')?'support':cats.includes('rejob')?'rejob':cats.some(c=>['money','grant','welfare'].includes(c))?'money':'license';
   if(!data.image)throw Error('Missing article cover '+slug);data.image=new URL(data.image,origin+'/'+slug+'/').pathname;
-  if(data.srcset)data.srcset=data.srcset.split(',').map(v=>{const [u,size]=v.trim().split(/\s+/);return new URL(u,origin+'/'+slug+'/').pathname+' '+size}).join(', ');rows.push(data);
+  if(data.srcset)data.srcset=data.srcset.split(',').map(v=>{const [u,size]=v.trim().split(/\s+/);return new URL(u,origin+'/'+slug+'/').pathname+' '+size}).join(', ');
+  if(catalogPhotos[slug])Object.assign(data,catalogPhotos[slug]);rows.push(data);
  }
  rows.sort((a,b)=>{const ai=curated.indexOf(a.slug),bi=curated.indexOf(b.slug);return (ai<0?999:ai)-(bi<0?999:bi)||b.modified.localeCompare(a.modified)||a.title.localeCompare(b.title,'ko')});
  const cards=rows.map((r,i)=>`<article class="catalog-card guide-search-result" data-category="${r.topic}" data-updated="${esc(r.modified)}" data-order="${i}" data-title="${esc(r.title)}" data-search="${esc(r.title+' '+r.description+' '+labels[r.topic])}"><a class="catalog-card-image" href="/${r.slug}/" aria-label="${esc(r.title)}"><img src="${esc(r.image)}"${r.srcset?' srcset="'+esc(r.srcset)+'"':''} sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 290px" width="640" height="400" loading="${i<4?'eager':'lazy'}" decoding="async" alt="${esc(r.alt)}"><span class="catalog-badge">${labels[r.topic]}</span></a><div class="catalog-card-body"><h3><a href="/${r.slug}/">${esc(shortTitles[r.slug]||r.title)}</a></h3><p>${esc(r.description)}</p><div class="catalog-card-meta"><span>${esc(labels[r.topic])}</span>${r.modified?'<time datetime="'+r.modified+'">수정 '+r.modified.replaceAll('-','.')+'</time>':''}</div><a class="catalog-card-action" href="/${r.slug}/">글 보기 <span aria-hidden="true">→</span></a></div></article>`).join('\n');
