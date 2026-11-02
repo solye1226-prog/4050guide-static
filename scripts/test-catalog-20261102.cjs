@@ -27,6 +27,10 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  while(await p.locator('#catalog-more').isVisible())await p.locator('#catalog-more').click();assert.equal(await p.locator('.catalog-card:visible').count(),215);
  const links=await p.locator('.catalog-card h3 a').evaluateAll(ns=>ns.map(n=>n.getAttribute('href')));assert.deepEqual(new Set(links),new Set(expected.map(p=>decodeURI(p.url))));for(const u of links)assert.equal((await p.request.get(origin+encodeURI(u))).status(),200,u);
  const images=await p.locator('.catalog-card img').evaluateAll(ns=>[...new Set(ns.map(n=>n.getAttribute('src')))]);for(const src of images)assert.equal((await p.request.get(origin+encodeURI(src))).status(),200,src);
+ for(const photo of Object.values(require('../assets/catalog-photo-map.json')))for(const candidate of photo.srcset.split(',')){
+  const [src,size]=candidate.trim().split(/\s+/),response=await p.request.get(origin+src);assert.equal(response.status(),200,src);
+  const metadata=await require('sharp')(await response.body()).metadata();assert.equal(metadata.format,'webp');assert.equal(metadata.width,Number(size.slice(0,-1)));assert.equal(metadata.height,metadata.width*5/8);
+ }
  await p.goto(origin+'/?s=지게차');await p.getByRole('heading',{name:/“지게차” 안내글/}).waitFor();assert.ok(await p.locator('.catalog-card:visible').count()>0);
  await p.goto(origin+'/?s=없는검색어987654');assert.equal(await p.locator('.catalog-card:visible').count(),0);assert.ok(await p.locator('#catalog-empty').isVisible());assert.ok(await p.locator('meta[name="robots"]').evaluateAll(ns=>ns.some(n=>n.content.includes('noindex'))));
  await p.goto(origin+'/?s=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E');assert.equal(await p.locator('img[onerror]').count(),0);
