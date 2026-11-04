@@ -6,6 +6,11 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
  const p=await browser.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.route('**/*',r=>r.request().url().startsWith(origin)?r.continue():r.abort());
  for(const width of [1440,1280,768,390,320]){
   await p.setViewportSize({width,height:900});await p.goto(origin+'/');assert.equal(await p.locator('.catalog-card').count(),215);assert.equal(await p.locator('.catalog-card:visible').count(),12);assert.equal(await p.locator('#budget-form').count(),0);
+  assert.equal(await p.locator('h1').innerText(),'4050가이드');assert.match(await p.locator('.catalog-kicker').innerText(),/비전공자.*첫 재취업/);
+  assert.deepEqual(await p.locator('.career-path h3').allTextContents(),['시설관리','돌봄','조리','물류']);assert.equal(await p.locator('.career-path-links a').count(),8);
+  for(const im of await p.locator('.career-path img').all()){await im.evaluate(n=>n.decode());assert.ok(await im.evaluate(n=>n.naturalWidth>0));}
+  assert.ok((await p.locator('#career-paths-title').boundingBox()).y<900,'career choices below first viewport');
+  const pathwayLinks=await p.locator('.career-path a').evaluateAll(ns=>ns.map(n=>n.getAttribute('href')));for(const href of pathwayLinks)assert.ok(expected.some(post=>decodeURI(post.url)===href),'Missing pathway article '+href);
   const photoMap=require('../assets/catalog-photo-map.json');
   assert.equal(Object.keys(photoMap).length,expected.length);
   const rendered=await p.locator('.catalog-card-image').evaluateAll(nodes=>Object.fromEntries(nodes.map(a=>{const im=a.querySelector('img');return [decodeURI(new URL(a.href).pathname).split('/')[1],{image:im.getAttribute('src'),srcset:im.getAttribute('srcset')||'',alt:im.alt}]})));
@@ -27,7 +32,7 @@ async function run(){const remote=process.env.TEST_ORIGIN;if(!remote)await new P
   const [src,size]=candidate.trim().split(/\s+/),response=await p.request.get(origin+src);assert.equal(response.status(),200,src);
   const metadata=await require('sharp')(await response.body()).metadata();assert.equal(metadata.format,'webp');assert.equal(metadata.width,Number(size.slice(0,-1)));assert.equal(metadata.height,metadata.width*5/8);
  }
- await p.goto(origin+'/?s=지게차');await p.getByRole('heading',{name:/“지게차” 안내글/}).waitFor();assert.ok(await p.locator('.catalog-card:visible').count()>0);
+ await p.goto(origin+'/?s=지게차');await p.getByRole('heading',{name:/“지게차” 안내글/}).waitFor();assert.ok(await p.locator('.catalog-card:visible').count()>0);assert.equal(await p.locator('.career-paths').isVisible(),false);
  await p.goto(origin+'/?s=없는검색어987654');assert.equal(await p.locator('.catalog-card:visible').count(),0);assert.ok(await p.locator('#catalog-empty').isVisible());assert.ok(await p.locator('meta[name="robots"]').evaluateAll(ns=>ns.some(n=>n.content.includes('noindex'))));
  await p.goto(origin+'/?s=%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E');assert.equal(await p.locator('img[onerror]').count(),0);
  await p.goto(origin+'/tools/');assert.equal(await p.locator('#budget-total').innerText(),'339,390원');await p.locator('#budget-compare summary').click();assert.equal(await p.locator('#budget-b-total').innerText(),'281,940원');const dl=p.waitForEvent('download');await p.locator('#budget-export').click();assert.equal(await(await dl).failure(),null);

@@ -227,3 +227,14 @@ preparation script afterward, since it produces only the initial partial map.
 Run `test-catalog-20261102.cjs` and `test-category-photos-20261102.cjs` locally
 and with `TEST_ORIGIN` after deployment. See
 `reports/catalog-photos-complete-20261102.json` for article-to-photo assignments.
+
+## November 4 Career Focus
+
+The homepage and three About-page copies now position the site around the first
+career change for non-specialists in their 40s and 50s. Four unframed photo paths
+lead to facilities, care, food service and logistics working conditions, with
+separate qualification-preparation links. The recommended article order follows
+that focus; all 215 article URLs and the catalog filters remain available.
+Retirement and household support remain secondary information. Search-result
+pages hide the job paths to keep results prominent. The catalog QA checks the
+positioning, eight job-path links and images at five widths.
