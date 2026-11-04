@@ -33,6 +33,7 @@ body.home .wrap{width:calc(100% - 32px);max-width:1248px;margin-inline:auto}
 .career-criteria{list-style:none;margin:20px 0 0;padding:16px 0 0;border-top:1px solid #e4e8ee;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .career-criteria li{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 12px;font-size:12px;color:#697584}
 .career-criteria strong{font-size:13px;color:#394b60}
+.career-compare-entry{margin:16px 0 0;font-size:14px;line-height:1.7}.career-compare-entry a{color:#2865bd;text-underline-offset:3px}
 @media(max-width:760px){.catalog-main .catalog-intro p.career-promise{font-size:19px}.career-path-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px}.career-path-photo{aspect-ratio:16/9}.career-path h3{font-size:17px}.career-path p{font-size:12px;min-height:40px}.career-path-links{gap:4px 10px}.career-path-links a{font-size:12px}.career-section-heading h2{font-size:20px}.career-criteria{grid-template-columns:1fr;gap:8px;margin-top:18px;padding-top:14px}.career-criteria li{justify-content:space-between;gap:4px 12px}.career-paths{padding-top:22px;padding-bottom:22px}}
 .catalog-main .catalog-search{position:relative;width:100%;margin:0;display:flex;align-items:center;border:1px solid #b4c9e8;border-radius:6px;min-height:48px;background:#fff;box-shadow:none}
 .catalog-search input{width:100%;min-width:0;height:46px;padding:0 48px 0 15px;border:0!important;background:transparent;box-shadow:none!important;border-radius:6px;font:inherit;font-size:14px}

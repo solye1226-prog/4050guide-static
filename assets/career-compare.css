@@ -1,0 +1,43 @@
+body.home .compare-main .wrap{max-width:1120px;padding-bottom:32px}
+.compare-main h1,.compare-main h2,.compare-main h3{letter-spacing:0;word-break:keep-all;overflow-wrap:anywhere;color:#20272f}
+.compare-main h1{font-size:28px;line-height:1.45;margin:6px 0 14px}
+.compare-main h2{font-size:22px;line-height:1.5;margin:0 0 12px}
+.compare-main p{font-size:15px;line-height:1.8;color:#526171}
+.compare-main a{color:#2865bd;text-underline-offset:3px}
+.compare-breadcrumb{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;padding:22px 0;color:#667687}
+.compare-intro{padding-bottom:20px}
+.compare-intro>p{max-width:900px;margin:10px 0}
+.compare-entry-links{display:flex;gap:12px 24px;flex-wrap:wrap;margin-top:18px;font-size:14px}
+.compare-photo-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-bottom:28px}
+.compare-photo-row>a{display:block;color:#263d55;text-decoration:none;min-width:0}
+.compare-photo-row img{display:block;width:100%;height:auto;aspect-ratio:16/6;object-fit:cover;border-radius:4px}
+.compare-photo-row span{display:block;font-weight:700;font-size:16px;padding-top:8px}
+.compare-table-section,.compare-conditions,.compare-example{padding:24px 0;border-top:1px solid #dfe6ed;scroll-margin-top:16px}
+.compare-main .compare-evidence-note{font-size:13px;line-height:1.8;color:#657487}
+.compare-scroll{overflow-x:auto;border:1px solid #dfe6ed;border-radius:4px;max-width:100%}
+.compare-scroll table{border-collapse:collapse;width:100%;min-width:1030px;font-size:14px;line-height:1.75;text-align:left}
+.compare-scroll th,.compare-scroll td{padding:14px 12px;vertical-align:top;border-bottom:1px solid #dfe6ed;overflow-wrap:anywhere}
+.compare-scroll thead th{background:#edf3fa;color:#294866;font-weight:700;white-space:nowrap}
+.compare-scroll tbody th{min-width:92px;background:#f8fafc}
+.compare-scroll td{min-width:140px;color:#475969}
+.compare-scroll td:last-child{min-width:100px}
+.compare-scroll tbody tr:last-child>*{border-bottom:0}
+.compare-main .compare-pay{font-size:13px;margin:12px 0 0;color:#294866}
+#compare-conditions{display:flex;align-items:center;gap:12px;border-top:1px solid #e4e9ef;border-bottom:1px solid #e4e9ef;padding:16px 0}
+#compare-conditions fieldset{display:flex;flex-wrap:wrap;gap:12px 24px;border:0;padding:0;margin:0;min-width:0;flex:1}
+#compare-conditions legend{font-size:14px;font-weight:700;margin-bottom:12px;color:#354c64}
+#compare-conditions label{display:flex;gap:8px;align-items:center;font-size:15px;color:#354c64;min-height:36px;cursor:pointer}
+#compare-conditions input{width:18px;height:18px;accent-color:#2865bd;flex-shrink:0}
+#compare-conditions button{width:40px;height:40px;flex-shrink:0;border:1px solid #cfdae5;border-radius:4px;background:#fff;color:#2865bd;cursor:pointer;font-size:24px;line-height:1}
+.compare-main #compare-status{font-size:14px;color:#2865bd;margin:16px 0 8px}
+.compare-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;padding:0;margin:0;list-style:none}
+.compare-results>li{padding:18px 0;border-bottom:1px solid #e4e9ef;min-width:0}
+.compare-results h3{font-size:18px;margin:0 0 8px}
+.compare-results ul{font-size:15px;line-height:1.8;color:#526171;padding-left:20px;margin:0 0 10px}
+.compare-results ul li+li{margin-top:8px}
+.compare-results>li>a{font-size:14px}
+.compare-sources{border-top:1px solid #dfe6ed;padding:20px 0;font-size:14px;line-height:1.8}
+.compare-sources summary{font-weight:700;cursor:pointer;color:#294866}
+.compare-sources ul{padding-left:20px;color:#526171}
+.compare-sources li+li{margin-top:10px}
+@media(max-width:700px){.compare-main h1{font-size:24px}.compare-main h2{font-size:20px}.compare-photo-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 16px}.compare-photo-row img{aspect-ratio:16/8}.compare-results{grid-template-columns:1fr}.compare-intro{padding-bottom:16px}.compare-main p{font-size:15px}.compare-scroll table{font-size:14px}#compare-conditions{align-items:flex-start}#compare-conditions fieldset{flex-direction:column;gap:6px}#compare-conditions button{margin-top:30px}}

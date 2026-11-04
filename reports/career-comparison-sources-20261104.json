@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "baseDataset": "assets/comparison-evidence-20261030.json",
+  "baseCheckedAt": "2026-10-30",
+  "method": "Four historical job-ad examples, one per field. Not a representative sample, job suitability score or current vacancies list. Field burden and condition notes are editorial questions, not verified workplace observations. No current average salary, training cost or training duration is inferred.",
+  "rechecks": [
+    {"sourceId":"J01","status":"Official body retrieved; recruitment status not verified"},
+    {"sourceId":"J06","status":"Official body retrieved; original September application period already ended"},
+    {"sourceId":"J08","status":"Official detailed body retrieved; recruitment status not verified"},
+    {"sourceId":"J10","status":"Official body retrieval failed on desktop and mobile routes; only previously recorded October 30 data used, explicitly labeled on page"}
+  ],
+  "worksheet": "assets/worksheets/career-comparison-20261104.csv",
+  "conditions": "Browser memory only; no storage, submission or ranking",
+  "images": "Existing AI editorial thumbnails reused; no claim of real workplace photography"
+}

@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "origin": "http://127.0.0.1:51778",
+  "widths": [
+    1440,
+    1280,
+    768,
+    390,
+    320
+  ],
+  "jobRows": 4,
+  "conditionCombinations": 8,
+  "keyboardCheckbox": true,
+  "keyboardTableScroll": true,
+  "noJsFallback": true,
+  "noStoredConditions": true,
+  "csvDownload": true,
+  "checkedInternalLinks": 12,
+  "adRequests": 0,
+  "assetErrors": 0,
+  "output": "D:\\AI-WORK\\4050-career-comparison-20261104"
+}

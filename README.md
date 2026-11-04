@@ -238,3 +238,17 @@ that focus; all 215 article URLs and the catalog filters remain available.
 Retirement and household support remain secondary information. Search-result
 pages hide the job paths to keep results prominent. The catalog QA checks the
 positioning, eight job-path links and images at five widths.
+
+The `/재취업-직무-비교/` page adds a four-job comparison from explicitly dated
+historical job-ad examples. Three optional constraints change the questions to
+ask, not job rankings or eligibility verdicts. All eight combinations are tested;
+conditions stay in browser memory. A UTF-8 CSV includes four labeled examples and
+two blank rows for the reader's own ads. No average salary or course budget is
+inferred. J10 could not be reopened on November 4 and is explicitly labeled as
+October 30 evidence. Other retrieval limits are recorded in
+`reports/career-comparison-sources-20261104.json`.
+
+Build the homepage first, then run `build-career-comparison-20261104.cjs`.
+Run `test-career-comparison-20261104.cjs` locally and with `TEST_ORIGIN` after
+deployment, in addition to catalog/search tests. Keep this comparison tool free
+of ad scripts, and preserve the no-JavaScript table, questions and CSV link.
