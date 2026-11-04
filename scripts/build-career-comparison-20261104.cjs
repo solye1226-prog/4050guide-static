@@ -20,6 +20,7 @@ const main=`<main class="catalog-main compare-main" data-career-comparison><div 
  </div></main>`;
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8').replace(/<main\b[\s\S]*?<\/main>/,main).replace(/<title>[\s\S]*?<\/title>/,'<title>'+title+'</title>');
 html=html.replace(/<script\b[^>]*src="\/assets\/(?:catalog|home-ads)\.js[^\"]*"[^>]*><\/script>\s*/g,'');
+html=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,block=>/id="wp-emoji-settings"|sourceURL=.*wp-emoji-loader\.min\.js/.test(block)?'':block);
 html=html.replace(/(<link\b[^>]*rel="canonical"[^>]*href=")[^"]*/,'$1'+origin+route).replace(/(<meta (?:property="og:url") content=")[^"]*/g,'$1'+origin+route);
 html=html.replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*/g,'$1'+esc(description)).replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*/g,'$1'+esc(title));
 html=html.replace(/<script\b[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/g,'<script type="application/ld+json">'+JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:title,url:origin+route,description,inLanguage:'ko-KR',dateModified:'2026-11-04',isPartOf:{'@type':'WebSite',name:'4050가이드',url:origin+'/'}})+'</script>');
