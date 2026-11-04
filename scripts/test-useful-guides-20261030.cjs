@@ -47,7 +47,7 @@ async function run(){
   const policyScripts=await page.locator('script').evaluateAll(ns=>ns.map(n=>n.getAttribute('src')));
   // The CDN may inject its disclosed analytics beacon after serving script-free HTML.
   for(const src of policyScripts){assert.ok(src,'no inline policy scripts');const u=new URL(src,origin);assert.equal(u.hostname,'static.cloudflareinsights.com');assert.match(u.pathname,/^\/beacon\.min\.js(?:\/|$)/);}
-  const nojs=await browser.newContext({javaScriptEnabled:false});const policyNoJs=await nojs.newPage();await policyNoJs.goto(origin+'/개인정보처리방침/');assert.match(await policyNoJs.locator('main').innerText(),/solye1226@gmail.com/);assert.equal(await policyNoJs.locator('main a[href="mailto:solye1226@gmail.com"]').count(),1);await nojs.close();
+  const nojs=await browser.newContext({javaScriptEnabled:false});const policyNoJs=await nojs.newPage();await policyNoJs.goto(origin+'/개인정보처리방침/');assert.match(await policyNoJs.locator('main').innerText(),/hyehye2575@gmail.com/);assert.equal(await policyNoJs.locator('main a[href="mailto:hyehye2575@gmail.com"]').count(),1);await nojs.close();
   for(const slug of searchPaths){const r=await page.request.get(origin+slug);const h=await r.text();assert.ok(h.includes('data-search-editorial="20261030"'));assert.equal(applyAdPolicy(h),h,'ad policy idempotence');}
   assert.deepEqual(errors,[]);
   const result={pass:true,origin,guides:guides.length,csvDownloads:8,widths:[1280,390,320],adFreeSearchAndPolicyRoutes:10,homeAdsRetained:true,calculatorMemoryOnly:true,disclosedCdnPolicyBeacons:policyScripts.length,screenshots};

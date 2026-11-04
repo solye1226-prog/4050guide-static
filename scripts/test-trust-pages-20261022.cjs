@@ -40,7 +40,7 @@ async function run(){
     const response=await page.goto(origin+'/'+(slug?slug+'/':''));assert.equal(response.status(),200,slug);
     assert.equal(await page.locator('h1').count(),1);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,slug+' overflow '+width);
-    assert.equal(await page.locator('footer .footer-contact').getAttribute('href'),'mailto:solye1226@gmail.com');
+    assert.equal(await page.locator('footer .footer-contact').getAttribute('href'),'mailto:hyehye2575@gmail.com');
     assert.match(await page.locator('footer').innerText(),/정부기관의 공식 사이트가 아닙니다/);
     for(const name of ['소개','문의','개인정보처리방침','이용약관','정보 출처 및 면책 안내'])assert.equal(await page.locator('footer').getByRole('link',{name,exact:true}).count(),1);
     const ad=page.locator('script[src*="adsbygoogle.js"]');
