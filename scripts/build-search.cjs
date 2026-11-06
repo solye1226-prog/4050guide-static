@@ -6,7 +6,7 @@ const {applyAdPolicy}=require('./search-ad-policy.cjs');
 
 const root = path.resolve(__dirname, '..');
 const modes = { '복지서비스-검색': 'welfare', '공공혜택-검색': 'benefit', '국가자격-검색': 'license' };
-const ignored = new Set(['소개', '문의', '개인정보처리방침', '이용약관', '정보-출처-및-면책-안내', ...Object.keys(modes)]);
+const ignored = new Set(['소개', '문의', '개인정보처리방침', '이용약관', '정보-출처-및-면책-안내', '재취업-직무-비교', ...Object.keys(modes)]);
 
 async function build() {
   const browser = await chromium.launch({ headless: true });
