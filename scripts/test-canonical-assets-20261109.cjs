@@ -7,6 +7,7 @@ async function run(){const browser=await chromium.launch();try{const page=await 
  const assets=await page.evaluate(rows=>rows.flatMap(({url,html})=>{const d=new DOMParser().parseFromString(html,'text/html');return [...d.querySelectorAll('link[rel="stylesheet"][href],script[src],img[src]')].map(n=>({page:url,url:new URL(n.getAttribute('href')||n.getAttribute('src'),url).href}))}),pages);
  const missing=assets.filter(a=>{const u=new URL(a.url);return u.origin===origin&&!fs.existsSync(path.join(root,decodeURIComponent(u.pathname)))});
  assert.deepEqual(missing,[],'Missing canonical-page resources: '+JSON.stringify(missing));
+ assert.deepEqual(pages.filter(p=>/id="wp-emoji-settings"|sourceURL=.*wp-emoji-loader\.min\.js/.test(p.html)).map(p=>p.url),[],'Obsolete WordPress emoji fallback');
  const tools=pages.find(p=>p.url===origin+'/tools/');assert(tools);assert(!/\b(?:href|src)=["']wp-content\//.test(tools.html));
  console.log(JSON.stringify({pass:true,canonicalPages:urls.length,resourceReferences:assets.length,localResources:[...new Set(assets.filter(a=>new URL(a.url).origin===origin).map(a=>new URL(a.url).pathname))].length}));
  }finally{await browser.close()}}
