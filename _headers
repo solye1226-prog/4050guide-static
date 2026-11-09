@@ -4,6 +4,9 @@
 /robots.txt
   Content-Type: text/plain; charset=utf-8
 
+/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js_ver=2.5.1
+  Content-Type: text/javascript; charset=utf-8
+
 /assets/editorial.css
   Cache-Control: no-cache, must-revalidate
 

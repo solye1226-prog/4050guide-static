@@ -3,6 +3,8 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const file = path.join(root, 'tools', 'index.html');
 let html = fs.readFileSync(path.join(root,'index.html'), 'utf8');
+// The homepage shell is copied into a nested route, so shared assets must stay rooted.
+html=html.replace(/\b(href|src)=(["'])wp-content\//g,'$1=$2/wp-content/');
 html=html.replace(/<script\b[^>]*src="\/assets\/catalog\.js[^"]*"[^>]*><\/script>\s*/g,'');
 const evidence = require('../assets/comparison-evidence-20261030.json');
 const guides = require('./focus-editorial-20261030.cjs');
